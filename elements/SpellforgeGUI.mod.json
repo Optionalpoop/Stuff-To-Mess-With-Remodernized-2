@@ -205,6 +205,9 @@
           "name": "button_write",
           "text": "Write",
           "isUndecorated": false,
+          "onClick": {
+            "name": "WriteProcedure"
+          },
           "width": 51,
           "height": 20,
           "x": 233,

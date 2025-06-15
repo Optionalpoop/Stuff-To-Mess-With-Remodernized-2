@@ -11,6 +11,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.stmwr.world.inventory.WizardsSeaRecipeMenu;
 import net.mcreator.stmwr.world.inventory.TortillaRecipeMenu;
 import net.mcreator.stmwr.world.inventory.ToolsAndArmorMenu;
 import net.mcreator.stmwr.world.inventory.TacoShellRecipeMenu;
@@ -65,4 +66,5 @@ public class StmwrModMenus {
 	public static final RegistryObject<MenuType<SpellforgeGUIMenu>> SPELLFORGE_GUI = REGISTRY.register("spellforge_gui", () -> IForgeMenuType.create(SpellforgeGUIMenu::new));
 	public static final RegistryObject<MenuType<CodexHomePageMenu>> CODEX_HOME_PAGE = REGISTRY.register("codex_home_page", () -> IForgeMenuType.create(CodexHomePageMenu::new));
 	public static final RegistryObject<MenuType<SpellsP1Menu>> SPELLS_P_1 = REGISTRY.register("spells_p_1", () -> IForgeMenuType.create(SpellsP1Menu::new));
+	public static final RegistryObject<MenuType<WizardsSeaRecipeMenu>> WIZARDS_SEA_RECIPE = REGISTRY.register("wizards_sea_recipe", () -> IForgeMenuType.create(WizardsSeaRecipeMenu::new));
 }

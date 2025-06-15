@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      },
+      {
+        "value": "CUSTOM:BlazedIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlazedBlock"
+    },
+    "name": "blazed_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

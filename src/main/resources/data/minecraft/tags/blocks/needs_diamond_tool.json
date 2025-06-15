@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:blazed_block",
     "stmwr:storum_block"
   ]
 }

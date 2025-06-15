@@ -22,6 +22,8 @@ import net.mcreator.stmwr.block.MagiciteBlockBlock;
 import net.mcreator.stmwr.block.MagiciansWorkbenchBlock;
 import net.mcreator.stmwr.block.KitchenBlock;
 import net.mcreator.stmwr.block.ForgeBlock;
+import net.mcreator.stmwr.block.BlazedOreBlock;
+import net.mcreator.stmwr.block.BlazedBlockBlock;
 import net.mcreator.stmwr.StmwrMod;
 
 public class StmwrModBlocks {
@@ -38,6 +40,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> PLASTIC = REGISTRY.register("plastic", () -> new PlasticBlock());
 	public static final RegistryObject<Block> FORGE = REGISTRY.register("forge", () -> new ForgeBlock());
 	public static final RegistryObject<Block> SPELLFORGE = REGISTRY.register("spellforge", () -> new SpellforgeBlock());
+	public static final RegistryObject<Block> BLAZED_ORE = REGISTRY.register("blazed_ore", () -> new BlazedOreBlock());
+	public static final RegistryObject<Block> BLAZED_BLOCK = REGISTRY.register("blazed_block", () -> new BlazedBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

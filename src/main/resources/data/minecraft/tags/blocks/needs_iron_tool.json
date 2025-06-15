@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:blazed_ore",
     "stmwr:storum_ore",
     "stmwr:magicite_ore"
   ]

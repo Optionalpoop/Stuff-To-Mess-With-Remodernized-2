@@ -10,6 +10,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.stmwr.world.inventory.MagiciansWorkbenchGUIMenu;
+import net.mcreator.stmwr.network.MagiciansWorkbenchGUIButtonMessage;
+import net.mcreator.stmwr.StmwrMod;
 
 import java.util.HashMap;
 
@@ -73,6 +75,10 @@ public class MagiciansWorkbenchGUIScreen extends AbstractContainerScreen<Magicia
 	public void init() {
 		super.init();
 		button_enchant = Button.builder(Component.translatable("gui.stmwr.magicians_workbench_gui.button_enchant"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new MagiciansWorkbenchGUIButtonMessage(0, x, y, z));
+				MagiciansWorkbenchGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 104, this.topPos + 54, 61, 20).build();
 		guistate.put("button:button_enchant", button_enchant);
 		this.addRenderableWidget(button_enchant);

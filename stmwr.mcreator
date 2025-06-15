@@ -1998,6 +1998,7 @@
       "registry_name": "magicians_workbench_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/stmwr/network/MagiciansWorkbenchGUIButtonMessage.java",
           "src/main/java/net/mcreator/stmwr/world/inventory/MagiciansWorkbenchGUIMenu.java",
           "src/main/java/net/mcreator/stmwr/client/gui/MagiciansWorkbenchGUIScreen.java"
         ]
@@ -3080,8 +3081,9 @@
       "registry_name": "spellforge_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/client/gui/SpellforgeGUIScreen.java",
-          "src/main/java/net/mcreator/stmwr/world/inventory/SpellforgeGUIMenu.java"
+          "src/main/java/net/mcreator/stmwr/network/SpellforgeGUIButtonMessage.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/SpellforgeGUIMenu.java",
+          "src/main/java/net/mcreator/stmwr/client/gui/SpellforgeGUIScreen.java"
         ]
       },
       "path": "~/Pre-Trials Gameplay"
@@ -3226,19 +3228,327 @@
         ]
       },
       "path": "~/Pre-Trials Gameplay/Codex Pages"
+    },
+    {
+      "name": "WizardsSea",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizards_sea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/WizardsSeaItem.java",
+          "src/main/resources/assets/stmwr/models/item/wizards_sea.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "WriteProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "write_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/WriteProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "TravelingTheSevenSeas",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traveling_the_seven_seas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/traveling_the_seven_seas.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "MagiciansWorkbenchEnchantingProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicians_workbench_enchanting_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/MagiciansWorkbenchEnchantingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "WizardsSeaWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizards_sea_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/wizards_sea_wand.json",
+          "src/main/java/net/mcreator/stmwr/item/WizardsSeaWandItem.java"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "WizardsSeaWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizards_sea_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/WizardsSeaWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "WizardsSeaRecipe",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizards_sea_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/network/WizardsSeaRecipeButtonMessage.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/WizardsSeaRecipeMenu.java",
+          "src/main/java/net/mcreator/stmwr/client/gui/WizardsSeaRecipeScreen.java"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay/Codex Pages"
+    },
+    {
+      "name": "ToWizardsSeaRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_wizards_sea_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/ToWizardsSeaRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay/Codex Pages"
+    },
+    {
+      "name": "BlazedIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedIngotItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_ingot.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "BlazedOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/configured_feature/blazed_ore.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/BlazedOreBlock.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/blazed_ore_biome_modifier.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_ore.json",
+          "src/main/resources/assets/stmwr/models/block/blazed_ore.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/blazed_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/blazed_ore.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "BlazedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/block/BlazedBlockBlock.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_block.json",
+          "src/main/resources/assets/stmwr/blockstates/blazed_block.json",
+          "src/main/resources/assets/stmwr/models/block/blazed_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_block.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "BlazedOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "BlazedBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "BlazedOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_ore_smelting.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "RawBlazedChunk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_blazed_chunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/RawBlazedChunkItem.java",
+          "src/main/resources/assets/stmwr/models/item/raw_blazed_chunk.json"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BlazedOre",
       "~CUSTOM:StorumOre",
       "~CUSTOM:MagiciteOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:BlazedBlock",
       "~CUSTOM:StorumBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlazedBlock",
+      "~CUSTOM:BlazedOre",
       "~CUSTOM:StorageCube",
       "~CUSTOM:StorumBlock",
       "~CUSTOM:StorumOre",
@@ -3270,8 +3580,8 @@
     "en_us": {
       "gui.stmwr.chocolate_recipe.button_next_page": "Next Page",
       "item_group.stmwr.stuff_to_mess_with_remodernized": "Stuff To Mess With: Remodernized",
-      "advancements.we_need_to_cook.descr": "A kitchen will be your main way to make fancy meals!",
       "advancements.totems.title": "Totems",
+      "advancements.we_need_to_cook.descr": "A kitchen will be your main way to make fancy meals!",
       "advancements.wet_bread.title": "Wet Bread",
       "gui.stmwr.spells_p_1.button_empty1": "---\u003e",
       "item.stmwr.cheese_wheel": "Cheese Wheel",
@@ -3283,6 +3593,7 @@
       "painting.stmwr.cold.author": "OptionalPoop",
       "advancements.mystical_agriculture.descr": "You can mix magicite and carrots to make a magic carrot! Delicious!",
       "gui.stmwr.home_page.label_recipes_for_the_forge_in_a_nice": "recipes for the forge in a nice",
+      "advancements.traveling_the_seven_seas.title": "Traveling The Seven Seas",
       "advancements.paintings.descr": "There are a lot of new paintings!",
       "advancements.a_wheel.descr": "9 buckets of milk makes an entire cheese wheel!",
       "gui.stmwr.kitchen_gui.button_cook": "Cook!",
@@ -3290,6 +3601,7 @@
       "painting.stmwr.totem.author": "OptionalPoop",
       "advancements.look_at_my_peanuts.title": "Look At My Peanuts",
       "gui.stmwr.sausage_recipe.label_ingredients": "Ingredients:",
+      "gui.stmwr.wizards_sea_recipe.label_you_fast_movement_through": "you fast movement through the",
       "advancements.vanilla_plus.title": "Vanilla+",
       "gui.stmwr.taco_recipe.label_cheese": "Cheese",
       "item.stmwr.wooden_forging_hammer": "Wooden Forging Hammer",
@@ -3299,18 +3611,20 @@
       "gui.stmwr.home_page.label_all_forge_recipes_require_a": "All forge recipes require a",
       "gui.stmwr.cook_book_home_page.button_next_page": "Next Page",
       "advancements.delicious.title": "Delicious",
-      "advancements.the_best_thing.title": "The Best Thing",
       "gui.stmwr.sausage_recipe.label_porkchops": "Porkchops",
+      "advancements.the_best_thing.title": "The Best Thing",
       "advancements.peppa_pig.descr": "Pepperoni is super easy! 1 cooked porkchop and a knife is all it takes!",
       "gui.stmwr.pizza_recipe.label_ingredients": "Ingredients:",
-      "gui.stmwr.blocks_page.label_1": "1",
       "gui.stmwr.pizza_slice_recipe.button_next_page": "Next Page",
-      "gui.stmwr.magicians_workbench_gui.label_empty": "+",
+      "gui.stmwr.blocks_page.label_1": "1",
+      "block.stmwr.blazed_block": "Block of Blazed",
       "advancements.a_helpful_guide.descr": "The Forger\u0027s Guide is a necessary recipe book for anyone using the forge!",
+      "gui.stmwr.magicians_workbench_gui.label_empty": "+",
       "advancements.creatures_in_the_sea.title": "Creatures In The Sea",
       "gui.stmwr.pizza_recipe.label_pepperoni": "Pepperoni",
       "item.stmwr.stone_forging_hammer": "Stone Forging Hammer",
       "gui.stmwr.cook_book_home_page.label_fortunately_these_foods_are": "Fortunately, these foods are",
+      "item.stmwr.raw_blazed_chunk": "Raw Blazed Chunk",
       "gui.stmwr.home_page.label_made_up_of_many_different_things": "made up of many different",
       "advancements.learning_the_arts.descr": "A codex tells you about all the spell books and how to get them!",
       "advancements.yes_chef.descr": "A kitchen can work as a station for a new villager! This villager only accepts trial coins.",
@@ -3319,12 +3633,15 @@
       "gui.stmwr.categories.button_home_page": "Home Page",
       "item.stmwr.forgers_guide": "Forger\u0027s Guide",
       "gui.stmwr.pizza_recipe.label_pizza": "PIZZA",
+      "block.stmwr.blazed_ore": "Blazed Ore",
       "gui.stmwr.sausage_recipe.label_sausage": "SAUSAGE",
       "advancements.magical.title": "Magical",
       "gui.stmwr.taco_recipe.label_ground_beef": "Ground Beef",
       "advancements.tortillas.title": "Tortillas",
       "gui.stmwr.cheese_stick_recipe.label_ingredients": "Ingredients:",
+      "item.stmwr.blazed_ingot": "Blazed",
       "painting.stmwr.aether.title": "Aether",
+      "item.stmwr.wizards_sea_wand": "Wizard\u0027s Sea Wand",
       "item.stmwr.magicite_dust": "Magicite",
       "entity.minecraft.villager.stmwr.chef": "Chef",
       "gui.stmwr.chocolate_recipe.label_ingredients": "Ingredients:",
@@ -3345,6 +3662,8 @@
       "gui.stmwr.cook_book_home_page.label_most_modded_foods": "most modded foods.",
       "gui.stmwr.taco_recipe.button_next_page": "Next Page",
       "gui.stmwr.pizza_slice_recipe.label_ingredients": "Ingredients:",
+      "gui.stmwr.spells_p_1.button_wizards_sea": "Wizard\u0027s Sea",
+      "item.stmwr.wizards_sea": "Wizard\u0027s Sea",
       "gui.stmwr.tortilla_recipe.button_next_page": "Next Page",
       "block.stmwr.storum_block": "Block of Storum",
       "advancements.healthy.title": "Healthy",
@@ -3376,7 +3695,9 @@
       "advancements.stuff_to_food_with.title": "Stuff To Food With",
       "gui.stmwr.tortilla_recipe.label_dough": "Dough",
       "advancements.creatures_in_the_sea.descr": "Alligators spawn in swamps and mangrove swamps.",
+      "gui.stmwr.wizards_sea_recipe.label_that_replaces_a_block_you_are": "that replaces a block you are",
       "item.stmwr.potato_chips": "Potato Chips",
+      "gui.stmwr.wizards_sea_recipe.label_looking_at_with_water_and_grant": "on top of with water, and gives",
       "item.stmwr.almighty_trial_coin": "Almighty Trial Coin",
       "item.stmwr.iron_forging_hammer": "Iron Forging Hammer",
       "gui.stmwr.pepperoni_recipe.label_pepperoni": "PEPPERONI",
@@ -3388,9 +3709,11 @@
       "gui.stmwr.forge_gui.label_forge": "Forge",
       "gui.stmwr.chicken_nugget_recipe.label_ingredients": "Ingredients:",
       "item.stmwr.taco": "Taco",
+      "gui.stmwr.wizards_sea_recipe.button_back": "Back",
       "gui.stmwr.ground_beef_recipe.button_next_page": "Next Page",
       "gui.stmwr.alligator_knife_recipe.label_ingredients": "Ingredients:",
       "gui.stmwr.magicians_workbench_gui.label_wand": "Wand",
+      "gui.stmwr.wizards_sea_recipe.label_seas_simply_surround_a_book": "seas. Simply surround a book",
       "item.stmwr.sliced_bread": "Sliced Bread",
       "painting.stmwr.king.author": "OptionalPoop",
       "painting.stmwr.math.title": "Math",
@@ -3407,6 +3730,7 @@
       "gui.stmwr.tools_and_armor.label_1": "1",
       "advancements.wet_bread.descr": "Make some dough with wheat and water!",
       "gui.stmwr.codex_home_page.label_contains_all_of_the_spell_books": "contains all of the spell books",
+      "gui.stmwr.wizards_sea_recipe.label_wizards_sea_is_a_powerful_spell": "Wizard\u0027s Sea is a mediocre spell",
       "gui.stmwr.kitchen_gui.label_kitchen": "Kitchen",
       "advancements.stab.descr": "A wooden knife is a very fast attacking weapon! Not great for damage though. I wonder if there\u0027s another use...",
       "gui.stmwr.chocolate_recipe.label_cocoa_beans": "Cocoa Beans",
@@ -3510,6 +3834,7 @@
       "gui.stmwr.cook_book_home_page.label_welcome_to_your_grandmas_cook_b": "Welcome to your grandma\u0027s cook",
       "gui.stmwr.pizza_slice_recipe.label_pizza": "Pizza",
       "gui.stmwr.chocolate_recipe.label_sugar": "Sugar",
+      "advancements.traveling_the_seven_seas.descr": "Using the scales of alligators, you can make a spell book for traversal of water when on a wand!",
       "item.stmwr.alligator_knife": "Alligator Knife",
       "gui.stmwr.potato_chips_recipe.label_potato_chips": "POTATO CHIPS",
       "advancements.stab.title": "Stab!",
@@ -3528,6 +3853,7 @@
       "gui.stmwr.cheese_stick_recipe.label_string_cheese": "STRING CHEESE",
       "advancements.grounded_up.descr": "Knife up some beef in the kitchen to ground it!",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
+      "gui.stmwr.wizards_sea_recipe.label_with_8_alligator_scales": "with 8 alligator scales.",
       "gui.stmwr.chicken_nugget_recipe.label_24_rotten_flesh": "24 Rotten Flesh",
       "painting.stmwr.pikachu.title": "Pikachu",
       "gui.stmwr.alligator_knife_recipe.label_alligator_tooth_x3": "Alligator Tooth (x3)",

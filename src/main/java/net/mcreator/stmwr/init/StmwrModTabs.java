@@ -74,6 +74,12 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.ALLIGATOR_KNIFE.get());
 				tabData.accept(StmwrModBlocks.SPELLFORGE.get().asItem());
 				tabData.accept(StmwrModItems.CODEX.get());
+				tabData.accept(StmwrModItems.WIZARDS_SEA.get());
+				tabData.accept(StmwrModItems.WIZARDS_SEA_WAND.get());
+				tabData.accept(StmwrModItems.BLAZED_INGOT.get());
+				tabData.accept(StmwrModBlocks.BLAZED_ORE.get().asItem());
+				tabData.accept(StmwrModBlocks.BLAZED_BLOCK.get().asItem());
+				tabData.accept(StmwrModItems.RAW_BLAZED_CHUNK.get());
 			})
 
 					.build());

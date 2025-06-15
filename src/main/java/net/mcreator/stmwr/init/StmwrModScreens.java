@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.stmwr.client.gui.WizardsSeaRecipeScreen;
 import net.mcreator.stmwr.client.gui.TortillaRecipeScreen;
 import net.mcreator.stmwr.client.gui.ToolsAndArmorScreen;
 import net.mcreator.stmwr.client.gui.TacoShellRecipeScreen;
@@ -67,6 +68,7 @@ public class StmwrModScreens {
 			MenuScreens.register(StmwrModMenus.SPELLFORGE_GUI.get(), SpellforgeGUIScreen::new);
 			MenuScreens.register(StmwrModMenus.CODEX_HOME_PAGE.get(), CodexHomePageScreen::new);
 			MenuScreens.register(StmwrModMenus.SPELLS_P_1.get(), SpellsP1Screen::new);
+			MenuScreens.register(StmwrModMenus.WIZARDS_SEA_RECIPE.get(), WizardsSeaRecipeScreen::new);
 		});
 	}
 }

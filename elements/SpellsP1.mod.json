@@ -51,6 +51,21 @@
           "x": 209,
           "y": 199
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wizards_sea",
+          "text": "Wizard's Sea",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToWizardsSeaRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 130,
+          "y": 24
+        }
       }
     ],
     "gridSettings": {

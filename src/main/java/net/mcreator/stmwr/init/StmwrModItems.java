@@ -16,6 +16,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.stmwr.item.WoodenKnifeItem;
 import net.mcreator.stmwr.item.WoodenForgingHammerItem;
+import net.mcreator.stmwr.item.WizardsSeaWandItem;
+import net.mcreator.stmwr.item.WizardsSeaItem;
 import net.mcreator.stmwr.item.UnspelledWandItem;
 import net.mcreator.stmwr.item.TotemBaseItem;
 import net.mcreator.stmwr.item.TortillaItem;
@@ -29,6 +31,7 @@ import net.mcreator.stmwr.item.StoneForgingHammerItem;
 import net.mcreator.stmwr.item.SlicedBreadItem;
 import net.mcreator.stmwr.item.SausageItem;
 import net.mcreator.stmwr.item.RawStorumItem;
+import net.mcreator.stmwr.item.RawBlazedChunkItem;
 import net.mcreator.stmwr.item.PotatoChipsItem;
 import net.mcreator.stmwr.item.PlasticChunkItem;
 import net.mcreator.stmwr.item.PizzaSliceItem;
@@ -54,6 +57,7 @@ import net.mcreator.stmwr.item.ChocolateItem;
 import net.mcreator.stmwr.item.ChickenNuggetItem;
 import net.mcreator.stmwr.item.CheeseWheelItem;
 import net.mcreator.stmwr.item.CheeseItem;
+import net.mcreator.stmwr.item.BlazedIngotItem;
 import net.mcreator.stmwr.item.AlmightyTrialCoinItem;
 import net.mcreator.stmwr.item.AlligatorToothItem;
 import net.mcreator.stmwr.item.AlligatorScaleItem;
@@ -119,6 +123,12 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> ALLIGATOR_KNIFE = REGISTRY.register("alligator_knife", () -> new AlligatorKnifeItem());
 	public static final RegistryObject<Item> SPELLFORGE = block(StmwrModBlocks.SPELLFORGE);
 	public static final RegistryObject<Item> CODEX = REGISTRY.register("codex", () -> new CodexItem());
+	public static final RegistryObject<Item> WIZARDS_SEA = REGISTRY.register("wizards_sea", () -> new WizardsSeaItem());
+	public static final RegistryObject<Item> WIZARDS_SEA_WAND = REGISTRY.register("wizards_sea_wand", () -> new WizardsSeaWandItem());
+	public static final RegistryObject<Item> BLAZED_INGOT = REGISTRY.register("blazed_ingot", () -> new BlazedIngotItem());
+	public static final RegistryObject<Item> BLAZED_ORE = block(StmwrModBlocks.BLAZED_ORE);
+	public static final RegistryObject<Item> BLAZED_BLOCK = block(StmwrModBlocks.BLAZED_BLOCK);
+	public static final RegistryObject<Item> RAW_BLAZED_CHUNK = REGISTRY.register("raw_blazed_chunk", () -> new RawBlazedChunkItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

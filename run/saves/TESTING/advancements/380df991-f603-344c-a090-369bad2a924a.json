@@ -9429,5 +9429,11 @@
     },
     "done": true
   },
+  "stmwr:traveling_the_seven_seas": {
+    "criteria": {
+      "traveling_the_seven_seas_0": "2025-06-15 13:08:52 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -10,6 +10,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.stmwr.world.inventory.SpellforgeGUIMenu;
+import net.mcreator.stmwr.network.SpellforgeGUIButtonMessage;
+import net.mcreator.stmwr.StmwrMod;
 
 import java.util.HashMap;
 
@@ -70,6 +72,10 @@ public class SpellforgeGUIScreen extends AbstractContainerScreen<SpellforgeGUIMe
 	public void init() {
 		super.init();
 		button_write = Button.builder(Component.translatable("gui.stmwr.spellforge_gui.button_write"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new SpellforgeGUIButtonMessage(0, x, y, z));
+				SpellforgeGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 107, this.topPos + 66, 51, 20).build();
 		guistate.put("button:button_write", button_write);
 		this.addRenderableWidget(button_write);
