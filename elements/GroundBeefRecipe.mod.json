@@ -1,0 +1,91 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ground_beef",
+          "text": {
+            "fixedValue": "GROUND BEEF"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 23
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next_page",
+          "text": "Next Page",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToPizzaSlice"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 225,
+          "y": 194
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-06-12_11-40-34.png",
+          "use1Xscale": true,
+          "x": 126,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ingredients",
+          "text": {
+            "fixedValue": "Ingredients:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_beef",
+          "text": {
+            "fixedValue": "Beef"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 180,
+          "y": 43
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

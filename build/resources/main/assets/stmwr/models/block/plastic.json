@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/plastic",
+    "up": "stmwr:block/plastic",
+    "north": "stmwr:block/plastic",
+    "east": "stmwr:block/plastic",
+    "south": "stmwr:block/plastic",
+    "west": "stmwr:block/plastic",
+    "particle": "stmwr:block/plastic"
+  },
+  "render_type": "solid"
+}

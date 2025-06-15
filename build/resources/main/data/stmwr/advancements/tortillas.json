@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:tortilla"
+    },
+    "title": {
+      "translate": "advancements.tortillas.title"
+    },
+    "description": {
+      "translate": "advancements.tortillas.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tortillas_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:tortilla"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:wet_bread"
+}

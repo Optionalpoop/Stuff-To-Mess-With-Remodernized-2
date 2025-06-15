@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CheeseWheel"
+    },
+    "name": "cheese_wheel_recipe",
+    "namespace": "mod"
+  }
+}

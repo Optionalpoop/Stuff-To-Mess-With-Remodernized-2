@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/peanutplant",
+    "particle": "stmwr:block/peanutplant"
+  },
+  "render_type": "cutout"
+}

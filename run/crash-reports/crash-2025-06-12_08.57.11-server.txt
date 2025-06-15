@@ -1,0 +1,96 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 2025-06-12 08:57:11
+Description: Exception in server tick loop
+
+java.lang.NoSuchMethodError: 'java.util.UUID net.minecraft.world.entity.player.Player.m_20148_()'
+	at squeek.appleskin.network.SyncHandler.onPlayerLoggedIn(SyncHandler.java:75) ~[appleskin-forge-mc1.20.1-2.5.1.jar%23181!/:2.5.1+mc1.20.1] {re:classloading}
+	at squeek.appleskin.network.__SyncHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic) ~[appleskin-forge-mc1.20.1-2.5.1.jar%23181!/:2.5.1+mc1.20.1] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%23102!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23102!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23102!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerLoggedIn(ForgeEventFactory.java:875) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23182%23189!/:?] {re:classloading}
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:261) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:139) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:126) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:70) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.tick(Connection.java:263) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:142) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:907) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.14.9-300.fc42.x86_64
+	Java Version: 17.0.11, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1685008616 bytes (1606 MiB) / 2516582400 bytes (2400 MiB) up to 25098715136 bytes (23936 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 7800X3D 8-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: Navi 31 [Radeon RX 7900 XT/7900 XTX/7900 GRE/7900M]
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #0 VRAM (MB): 16640.00
+	Graphics card #0 deviceId: 0x744c
+	Graphics card #0 versionInfo: unknown
+	Graphics card #1 name: Raphael
+	Graphics card #1 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #1 VRAM (MB): 258.00
+	Graphics card #1 deviceId: 0x164e
+	Graphics card #1 versionInfo: unknown
+	Virtual memory max (MB): 56033.07
+	Virtual memory used (MB): 20827.26
+	Swap memory total (MB): 8192.00
+	Swap memory used (MB): 5.68
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/138, l='ServerLevel[3]', x=166.50, y=71.00, z=2.50]]
+	Data Packs: vanilla, mod:forge, mod:appleskin (incompatible), mod:stmwr
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.|Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |47.3.0              |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		main                                              |Stuff To Mess With: Remoderniz|stmwr                         |1.0.0               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: dfc0dac2-f989-4e34-a68f-b24f4609f7c1
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.0

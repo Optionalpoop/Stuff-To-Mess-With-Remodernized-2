@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stmwr:block/storum_ore_block",
+    "particle": "stmwr:block/storum_ore_block"
+  },
+  "render_type": "solid"
+}

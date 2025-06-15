@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:storum_block"
+    }
+  ],
+  "result": {
+    "item": "stmwr:storum",
+    "count": 9
+  }
+}

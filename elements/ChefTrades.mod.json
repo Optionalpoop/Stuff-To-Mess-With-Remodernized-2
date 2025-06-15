@@ -1,0 +1,519 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Chef"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BREAD"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.WHEAT"
+            },
+            "countOffer": 16,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SUSPICIOUS_STEW"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Kitchen"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SUGAR"
+            },
+            "countOffer": 32,
+            "level": 4,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.ROTTEN_FLESH"
+            },
+            "countOffer": 64,
+            "level": 4,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.CAKE"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GOLDEN_CARROT"
+            },
+            "countOffer": 4,
+            "level": 5,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Cheese"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CheeseWheel"
+            },
+            "countOffer": 4,
+            "level": 3,
+            "maxTrades": 12,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:StringCheese"
+            },
+            "countOffer": 8,
+            "level": 4,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SlicedBread"
+            },
+            "countOffer": 12,
+            "level": 2,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Peanut"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Tomato"
+            },
+            "countOffer": 8,
+            "level": 2,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WoodenKnife"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 4,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ChickenNugget"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 4,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CookBook"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pepperoni"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pizza"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Dough"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Tortilla"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 12,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PizzaSlice"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:GroundBeef"
+            },
+            "countOffer": 8,
+            "level": 3,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Sausage"
+            },
+            "countOffer": 8,
+            "level": 2,
+            "maxTrades": 12,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Chocolate"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Taco"
+            },
+            "countOffer": 2,
+            "level": 4,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TacoShell"
+            },
+            "countOffer": 6,
+            "level": 3,
+            "maxTrades": 12,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PotatoChips"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

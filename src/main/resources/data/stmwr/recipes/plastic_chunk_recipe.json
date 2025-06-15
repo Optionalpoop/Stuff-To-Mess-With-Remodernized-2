@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:plastic"
+    }
+  ],
+  "result": {
+    "item": "stmwr:plastic_chunk",
+    "count": 4
+  }
+}

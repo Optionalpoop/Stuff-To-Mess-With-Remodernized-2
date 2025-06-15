@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:storage_cube",
+    "stmwr:storum_block",
+    "stmwr:storum_ore",
+    "stmwr:magicite_block",
+    "stmwr:magicite_ore"
+  ]
+}

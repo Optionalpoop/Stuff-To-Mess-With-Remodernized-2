@@ -1,0 +1,97 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome_to_the_codex_this",
+          "text": {
+            "fixedValue": "Welcome to the Codex! This book"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_contains_all_of_the_spell_books",
+          "text": {
+            "fixedValue": "contains all of the spell books"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_the_ways_to_create_them_in",
+          "text": {
+            "fixedValue": "and the ways to create them in"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_spellforge",
+          "text": {
+            "fixedValue": "the spellforge!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_spell_books",
+          "text": "Spell Books",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToSpellsP1"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 176,
+          "y": 195
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

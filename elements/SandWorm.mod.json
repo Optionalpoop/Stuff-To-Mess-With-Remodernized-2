@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "sandworm",
+    "width": 64,
+    "height": 32,
+    "title": "Sand Worm",
+    "author": "OptionalPoop"
+  }
+}

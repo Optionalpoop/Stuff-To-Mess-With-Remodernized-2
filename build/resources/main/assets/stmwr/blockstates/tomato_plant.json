@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "stmwr:block/tomato_plant"
+    },
+    "half=lower": {
+      "model": "stmwr:block/tomato_plant_bottom"
+    }
+  }
+}

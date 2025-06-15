@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "advancements.craftable_xp.title"
+    },
+    "description": {
+      "translate": "advancements.craftable_xp.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craftable_xp_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:experience_bottle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:vanilla_plus"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/spellforgebottom",
+    "up": "stmwr:block/spellforgetop",
+    "north": "stmwr:block/spellforgefront",
+    "east": "stmwr:block/spellforgeside",
+    "south": "stmwr:block/spellforgeside",
+    "west": "stmwr:block/spellforgeside",
+    "particle": "stmwr:block/spellforgebottom"
+  },
+  "render_type": "solid"
+}

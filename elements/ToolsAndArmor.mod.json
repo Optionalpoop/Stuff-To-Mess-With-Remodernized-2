@@ -1,0 +1,79 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<---",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToCategories"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 131,
+          "y": 194
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "--->",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 250,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 209,
+          "y": 199
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_alligator_knife",
+          "text": "Alligator Knife",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToAlligatorKnifeRecipe"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 130,
+          "y": 25
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

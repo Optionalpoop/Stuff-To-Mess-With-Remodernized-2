@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:unspelled_wand"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "item": "stmwr:codex",
+    "count": 1
+  }
+}

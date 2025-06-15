@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/tomatoplant",
+    "particle": "stmwr:block/tomatoplant"
+  },
+  "render_type": "cutout"
+}

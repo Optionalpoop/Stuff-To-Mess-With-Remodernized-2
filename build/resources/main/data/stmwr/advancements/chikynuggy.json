@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:chicken_nugget"
+    },
+    "title": {
+      "translate": "advancements.chikynuggy.title"
+    },
+    "description": {
+      "translate": "advancements.chikynuggy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chikynuggy_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:chicken_nugget"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:we_need_to_cook"
+}

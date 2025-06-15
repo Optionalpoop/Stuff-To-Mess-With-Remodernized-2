@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:magicians_workbench"
+    },
+    "title": {
+      "translate": "advancements.wand_making.title"
+    },
+    "description": {
+      "translate": "advancements.wand_making.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wand_making_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:magicians_workbench"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:magical"
+}

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
+      }
+    ]
+  }
+}

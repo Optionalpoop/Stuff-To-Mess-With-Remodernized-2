@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stmwr:blocks/plastic",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stmwr:plastic_chunk",
+          "functions": [
+            {
+              "count": 4,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:cheese"
+    },
+    "title": {
+      "translate": "advancements.cheesy.title"
+    },
+    "description": {
+      "translate": "advancements.cheesy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheesy_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:cheese"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:a_wheel"
+}

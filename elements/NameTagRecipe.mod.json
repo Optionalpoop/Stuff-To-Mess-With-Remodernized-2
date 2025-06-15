@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.NAME_TAG"
+    },
+    "name": "name_tag_recipe",
+    "namespace": "mod"
+  }
+}

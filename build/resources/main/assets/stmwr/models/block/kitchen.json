@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/kitchenbottom",
+    "up": "stmwr:block/kitchentop",
+    "north": "stmwr:block/kitchenfront",
+    "east": "stmwr:block/kitchensides",
+    "south": "stmwr:block/kitchensides",
+    "west": "stmwr:block/kitchensides",
+    "particle": "stmwr:block/kitchenbottom"
+  },
+  "render_type": "solid"
+}

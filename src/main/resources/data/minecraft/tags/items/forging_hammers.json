@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:wooden_forging_hammer",
+    "stmwr:stone_forging_hammer",
+    "stmwr:iron_forging_hammer",
+    "stmwr:gold_forging_hammer",
+    "stmwr:diamond_forging_hammer",
+    "stmwr:magicite_forging_hammer",
+    "stmwr:storum_forging_hammer"
+  ]
+}

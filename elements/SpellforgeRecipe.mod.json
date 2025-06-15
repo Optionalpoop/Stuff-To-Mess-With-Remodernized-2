@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:UnspelledWand"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "Blocks.BOOKSHELF"
+      },
+      {
+        "value": "Blocks.BOOKSHELF"
+      },
+      {
+        "value": "Blocks.BOOKSHELF"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Spellforge"
+    },
+    "name": "spellforge_recipe",
+    "namespace": "mod"
+  }
+}

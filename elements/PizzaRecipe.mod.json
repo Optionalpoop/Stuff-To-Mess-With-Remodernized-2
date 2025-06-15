@@ -1,0 +1,121 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pizza",
+          "text": {
+            "fixedValue": "PIZZA"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 200,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next_page",
+          "text": "Next Page",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToPepperoni"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 225,
+          "y": 195
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-06-12_11-39-23.png",
+          "use1Xscale": true,
+          "x": 126,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ingredients",
+          "text": {
+            "fixedValue": "Ingredients:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cheese",
+          "text": {
+            "fixedValue": "Cheese"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tortilla",
+          "text": {
+            "fixedValue": "Tortilla"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 175,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pepperoni",
+          "text": {
+            "fixedValue": "Pepperoni"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 63
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

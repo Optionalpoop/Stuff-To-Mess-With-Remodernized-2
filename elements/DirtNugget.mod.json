@@ -1,0 +1,58 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "dirtnugget",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Dirt Nugget",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 1,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "The Classic"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "isFood": true,
+    "nutritionalValue": 20,
+    "saturation": 20.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": true,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

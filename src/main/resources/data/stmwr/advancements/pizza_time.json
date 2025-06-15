@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:pizza"
+    },
+    "title": {
+      "translate": "advancements.pizza_time.title"
+    },
+    "description": {
+      "translate": "advancements.pizza_time.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pizza_time_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:pizza"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:tortillas"
+}

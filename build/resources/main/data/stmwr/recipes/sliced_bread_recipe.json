@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:wooden_knife"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "stmwr:sliced_bread",
+    "count": 16
+  }
+}

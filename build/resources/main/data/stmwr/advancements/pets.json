@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "advancements.pets.title"
+    },
+    "description": {
+      "translate": "advancements.pets.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pets_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:saddle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "pets_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:name_tag"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:vanilla_plus"
+}

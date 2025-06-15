@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PlasticChunk"
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": "CUSTOM:PlasticChunk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TotemBase"
+    },
+    "name": "totem_base_recipe",
+    "namespace": "mod"
+  }
+}

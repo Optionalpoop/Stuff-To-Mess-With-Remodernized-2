@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "stmwr:dough",
+    "count": 8
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/storagecube",
+    "up": "stmwr:block/storagecube",
+    "north": "stmwr:block/storagecube",
+    "east": "stmwr:block/storagecube",
+    "south": "stmwr:block/storagecube",
+    "west": "stmwr:block/storagecube",
+    "particle": "stmwr:block/storagecube"
+  },
+  "render_type": "solid"
+}

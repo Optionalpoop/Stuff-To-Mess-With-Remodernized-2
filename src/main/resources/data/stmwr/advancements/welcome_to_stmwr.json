@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_stmwr.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_stmwr.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_stmwr_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

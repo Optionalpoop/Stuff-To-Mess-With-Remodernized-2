@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stmwr:block/kitchen"
+    },
+    "facing=east": {
+      "model": "stmwr:block/kitchen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stmwr:block/kitchen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stmwr:block/kitchen",
+      "y": 270
+    }
+  }
+}

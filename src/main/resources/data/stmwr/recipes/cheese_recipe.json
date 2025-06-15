@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:cheese_wheel"
+    },
+    {
+      "item": "stmwr:wooden_knife"
+    }
+  ],
+  "result": {
+    "item": "stmwr:cheese",
+    "count": 8
+  }
+}

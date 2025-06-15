@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "stmwr:alligator",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

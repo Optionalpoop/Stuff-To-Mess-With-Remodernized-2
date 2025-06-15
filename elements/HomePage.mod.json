@@ -1,0 +1,157 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome_to_the_forgers_guide",
+          "text": {
+            "fixedValue": "Welcome to the Forger's Guide!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_book_contains_all_of_the_re",
+          "text": {
+            "fixedValue": "This book contains all of the"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipes_for_the_forge_in_a_nice",
+          "text": {
+            "fixedValue": "recipes for the forge in a nice"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_easy_to_read_fashion",
+          "text": {
+            "fixedValue": "and easy to read fashion!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_all_forge_recipes_require_a",
+          "text": {
+            "fixedValue": "All forge recipes require a"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 68
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_forging_hammer_which_can_be",
+          "text": {
+            "fixedValue": "forging hammer, which can be"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_made_up_of_many_different_things",
+          "text": {
+            "fixedValue": "made up of many different"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 86
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_materials",
+          "text": {
+            "fixedValue": "materials!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_categories",
+          "text": "Categories",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToCategories"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 219,
+          "y": 194
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

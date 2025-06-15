@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:unspelled_wand"
+    },
+    "c": {
+      "item": "minecraft:anvil"
+    },
+    "d": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "stmwr:spellforge",
+    "count": 1
+  }
+}

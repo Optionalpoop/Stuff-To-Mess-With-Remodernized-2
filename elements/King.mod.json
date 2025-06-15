@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "king",
+    "width": 16,
+    "height": 16,
+    "title": "King",
+    "author": "OptionalPoop"
+  }
+}

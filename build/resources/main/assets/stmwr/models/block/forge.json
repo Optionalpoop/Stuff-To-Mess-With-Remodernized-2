@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/forgebottom",
+    "up": "stmwr:block/forgetop",
+    "north": "stmwr:block/forgefront",
+    "east": "stmwr:block/forgeside",
+    "south": "stmwr:block/forgeside",
+    "west": "stmwr:block/forgeside",
+    "particle": "stmwr:block/forgebottom"
+  },
+  "render_type": "solid"
+}

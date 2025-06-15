@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/magiciansworkbenchbottom",
+    "up": "stmwr:block/magiciansworkbenchtop",
+    "north": "stmwr:block/magiciansworkbenchfront",
+    "east": "stmwr:block/magiciansworkbenchside",
+    "south": "stmwr:block/magiciansworkbenchside",
+    "west": "stmwr:block/magiciansworkbenchside",
+    "particle": "stmwr:block/magiciansworkbenchbottom"
+  },
+  "render_type": "solid"
+}

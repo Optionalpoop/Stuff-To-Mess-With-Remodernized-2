@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    }
+  },
+  "result": {
+    "item": "stmwr:magicite_block",
+    "count": 1
+  }
+}

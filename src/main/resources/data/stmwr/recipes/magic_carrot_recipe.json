@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "stmwr:magic_carrot",
+    "count": 1
+  }
+}

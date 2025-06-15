@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "stmwr:magicians_workbench",
+    "count": 1
+  }
+}

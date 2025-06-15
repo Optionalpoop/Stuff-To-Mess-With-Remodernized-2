@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Chef",
+    "pointOfInterest": {
+      "value": "CUSTOM:Kitchen"
+    },
+    "actionSound": {
+      "value": "entity.villager.celebrate"
+    },
+    "hat": "None",
+    "professionTextureFile": "chef.png",
+    "zombifiedProfessionTextureFile": "chef.png"
+  }
+}
