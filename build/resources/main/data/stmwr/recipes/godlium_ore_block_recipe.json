@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:godlium_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:godlium_block",
+    "count": 1
+  }
+}

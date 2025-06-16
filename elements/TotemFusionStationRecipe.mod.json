@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:TotemBase"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "Blocks.ENCHANTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TotemFusionStation"
+    },
+    "name": "totem_fusion_station_recipe",
+    "namespace": "mod"
+  }
+}

@@ -6,6 +6,7 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.entity.player.Player;
@@ -16,6 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.init.StmwrModItems;
+import net.mcreator.stmwr.init.StmwrModBlocks;
 
 import java.util.function.Supplier;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -254,6 +256,5938 @@ public class ForgeProcedureProcedure {
 																	if (_ent != null) {
 																		final int _slotid = 14;
 																		final ItemStack _setstack = new ItemStack(StmwrModItems.ALLIGATOR_KNIFE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT
+							.get()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_CHESTPLATE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_ARMOR_CHESTPLATE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT
+							.get()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_LEGGINGS) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_ARMOR_LEGGINGS.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_HELMET) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_ARMOR_HELMET.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_BOOTS) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_ARMOR_BOOTS.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_SWORD) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_SWORD.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_PICKAXE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_PICKAXE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_AXE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_AXE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_SHOVEL) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_SHOVEL.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.IRON_HOE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.BLAZED_HOE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == StmwrModBlocks.PLASTIC.get().asItem()) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModBlocks.BLAZING_PLASTIC.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 4));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.STORUM.get()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.STORUM.get()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.STORUM
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.STORUM.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.STORUM.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.STORUM.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.STORUM.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.BLAZED_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.STORUM.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == StmwrModBlocks.STORAGE_CUBE.get().asItem()) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModBlocks.FLAMING_STORAGE_CUBE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+							.get()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_CHESTPLATE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_ARMOR_CHESTPLATE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+							.get()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_LEGGINGS) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_ARMOR_LEGGINGS.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_HELMET) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_ARMOR_HELMET.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_BOOTS) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_ARMOR_BOOTS.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_SWORD) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_SWORD.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_PICKAXE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_PICKAXE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_AXE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_AXE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_SHOVEL) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_SHOVEL.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+										.asItem()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Blocks.AIR
+											.asItem()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Blocks.AIR.asItem()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Blocks.AIR.asItem()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Blocks.AIR.asItem()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == Items.DIAMOND_HOE) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_HOE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 1));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Items.ROTTEN_FLESH) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Items.ROTTEN_FLESH) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Items.ROTTEN_FLESH) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == Items.ROTTEN_FLESH) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == Items.ROTTEN_FLESH) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Items.ROTTEN_FLESH) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Items.ROTTEN_FLESH) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Items.ROTTEN_FLESH) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == StmwrModBlocks.PLASTIC.get().asItem()) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModBlocks.STOPSTONE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 8));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Items.SUGAR) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Items.SUGAR) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == Items.SUGAR) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY).getItem() == Items.SUGAR) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY).getItem() == Items.SUGAR) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == Items.SUGAR) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == Items.SUGAR) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == Items.SUGAR) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == StmwrModBlocks.PLASTIC.get().asItem()) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModBlocks.SPEEDSTONE.get()).copy();
+																		_setstack.setCount((int) (new Object() {
+																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+																				AtomicInteger _retval = new AtomicInteger(0);
+																				BlockEntity _ent = world.getBlockEntity(pos);
+																				if (_ent != null)
+																					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+																				return _retval.get();
+																			}
+																		}.getAmount(world, BlockPos.containing(x, y, z), 14) + 16));
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable)
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+																		});
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(12)).getItem() : ItemStack.EMPTY)
+				.is(ItemTags.create(new ResourceLocation("minecraft:forging_hammers")))) {
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.STORUM.get()) {
+				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.GODLIUM_INGOT
+						.get()) {
+					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.STORUM.get()) {
+						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.STORUM
+								.get()) {
+							if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
+									.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
+										.getItem() == StmwrModItems.STORUM.get()) {
+									if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
+											.getItem() == StmwrModItems.STORUM.get()) {
+										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
+												.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+											if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
+													.getItem() == StmwrModItems.STORUM.get()) {
+												if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(9)).getItem() : ItemStack.EMPTY)
+														.getItem() == StmwrModItems.STORUM.get()) {
+													if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(10)).getItem() : ItemStack.EMPTY)
+															.getItem() == StmwrModItems.GODLIUM_INGOT.get()) {
+														if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(11)).getItem() : ItemStack.EMPTY)
+																.getItem() == StmwrModItems.STORUM.get()) {
+															if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(13)).getItem() : ItemStack.EMPTY)
+																	.getItem() == StmwrModBlocks.PLASTIC.get().asItem()) {
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 12;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				if (_stk.hurt(_amount, RandomSource.create(), null)) {
+																					_stk.shrink(1);
+																					_stk.setDamageValue(0);
+																				}
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 0;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 1;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 2;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 3;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 4;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 5;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 6;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 7;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 8;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 9;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 10;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 11;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 13;
+																		final int _amount = 1;
+																		_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+																			if (capability instanceof IItemHandlerModifiable) {
+																				ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+																				_stk.shrink(_amount);
+																				((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+																			}
+																		});
+																	}
+																}
+																{
+																	BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+																	if (_ent != null) {
+																		final int _slotid = 14;
+																		final ItemStack _setstack = new ItemStack(StmwrModBlocks.DUPESTONE.get()).copy();
 																		_setstack.setCount((int) (new Object() {
 																			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 																				AtomicInteger _retval = new AtomicInteger(0);

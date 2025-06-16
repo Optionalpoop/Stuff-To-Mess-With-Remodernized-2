@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/totemfusionstationbottom",
+    "up": "stmwr:block/totemfusionstationtop",
+    "north": "stmwr:block/totemfusionstationfront",
+    "east": "stmwr:block/totemfusionstationside",
+    "south": "stmwr:block/totemfusionstationside",
+    "west": "stmwr:block/totemfusionstationside",
+    "particle": "stmwr:block/totemfusionstationbottom"
+  },
+  "render_type": "solid"
+}

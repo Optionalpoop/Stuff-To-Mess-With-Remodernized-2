@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_block"
+    },
+    "b": {
+      "item": "minecraft:grindstone"
+    },
+    "c": {
+      "item": "stmwr:storum"
+    },
+    "d": {
+      "tag": "minecraft:anvil"
+    },
+    "e": {
+      "item": "stmwr:godlium_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:alloy_fuse",
+    "count": 1
+  }
+}

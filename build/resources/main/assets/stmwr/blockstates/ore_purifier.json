@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stmwr:block/ore_purifier"
+    },
+    "facing=east": {
+      "model": "stmwr:block/ore_purifier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stmwr:block/ore_purifier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stmwr:block/ore_purifier",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "stmwr:block/ore_purifier",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "stmwr:block/ore_purifier",
+      "x": 90
+    }
+  }
+}

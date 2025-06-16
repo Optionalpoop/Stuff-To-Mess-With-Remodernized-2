@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/dupestone",
+    "up": "stmwr:block/dupestone",
+    "north": "stmwr:block/dupestone",
+    "east": "stmwr:block/dupestone",
+    "south": "stmwr:block/dupestone",
+    "west": "stmwr:block/dupestone",
+    "particle": "stmwr:block/dupestone"
+  },
+  "render_type": "solid"
+}

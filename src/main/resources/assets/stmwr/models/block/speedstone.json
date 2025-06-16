@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/speedstone",
+    "up": "stmwr:block/speedstone",
+    "north": "stmwr:block/speedstone",
+    "east": "stmwr:block/speedstone",
+    "south": "stmwr:block/speedstone",
+    "west": "stmwr:block/speedstone",
+    "particle": "stmwr:block/speedstone"
+  },
+  "render_type": "solid"
+}

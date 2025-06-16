@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/alloyfusebottom",
+    "up": "stmwr:block/alloyfusetop",
+    "north": "stmwr:block/alloyfusefront",
+    "east": "stmwr:block/alloyfuseside",
+    "south": "stmwr:block/alloyfuseside",
+    "west": "stmwr:block/alloyfuseside",
+    "particle": "stmwr:block/alloyfusebottom"
+  },
+  "render_type": "solid"
+}

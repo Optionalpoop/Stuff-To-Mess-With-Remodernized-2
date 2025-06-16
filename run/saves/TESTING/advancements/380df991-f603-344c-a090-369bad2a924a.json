@@ -9435,5 +9435,101 @@
     },
     "done": true
   },
+  "stmwr:blazing": {
+    "criteria": {
+      "blazing_0": "2025-06-16 08:30:00 -0400"
+    },
+    "done": true
+  },
+  "stmwr:fireproof": {
+    "criteria": {
+      "fireproof_2": "2025-06-16 08:30:15 -0400",
+      "fireproof_1": "2025-06-16 08:30:15 -0400",
+      "fireproof_3": "2025-06-16 08:30:16 -0400",
+      "fireproof_0": "2025-06-16 08:30:14 -0400"
+    },
+    "done": true
+  },
+  "stmwr:error": {
+    "criteria": {
+      "error_0": "2025-06-16 09:34:55 -0400"
+    },
+    "done": true
+  },
+  "stmwr:bigger_is_better": {
+    "criteria": {
+      "bigger_is_better_0": "2025-06-16 09:52:17 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ore_purification": {
+    "criteria": {
+      "ore_purification_0": "2025-06-16 10:36:17 -0400"
+    },
+    "done": true
+  },
+  "stmwr:godlike": {
+    "criteria": {
+      "godlike_0": "2025-06-16 11:06:26 -0400"
+    },
+    "done": true
+  },
+  "stmwr:new_gear": {
+    "criteria": {
+      "new_gear_0": "2025-06-16 11:10:09 -0400",
+      "new_gear_3": "2025-06-16 11:10:34 -0400",
+      "new_gear_1": "2025-06-16 11:09:44 -0400",
+      "new_gear_2": "2025-06-16 11:09:59 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stop": {
+    "criteria": {
+      "stop_0": "2025-06-16 11:44:21 -0400"
+    },
+    "done": true
+  },
+  "stmwr:go": {
+    "criteria": {
+      "go_0": "2025-06-16 11:44:22 -0400"
+    },
+    "done": true
+  },
+  "stmwr:again": {
+    "criteria": {
+      "again_0": "2025-06-16 11:44:22 -0400"
+    },
+    "done": true
+  },
+  "stmwr:alloying": {
+    "criteria": {
+      "alloying_0": "2025-06-16 12:38:51 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ultra": {
+    "criteria": {
+      "ultra_0": "2025-06-16 12:39:08 -0400"
+    },
+    "done": true
+  },
+  "stmwr:super_storage": {
+    "criteria": {
+      "super_storage_0": "2025-06-16 12:39:12 -0400"
+    },
+    "done": true
+  },
+  "stmwr:totemic": {
+    "criteria": {
+      "totemic_0": "2025-06-16 13:00:05 -0400"
+    },
+    "done": true
+  },
+  "stmwr:making_totems": {
+    "criteria": {
+      "making_totems_0": "2025-06-16 13:00:06 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

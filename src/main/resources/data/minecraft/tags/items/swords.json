@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:godlium_sword",
+    "stmwr:blazed_sword",
     "stmwr:alligator_knife",
     "stmwr:wooden_knife"
   ]

@@ -24,6 +24,11 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 	private final Player entity;
 	Button button_empty;
 	Button button_empty1;
+	Button button_blazing_plastic;
+	Button button_flaming_storage_cube;
+	Button button_stopstone;
+	Button button_speedstone;
+	Button button_dupestone;
 
 	public BlocksPageScreen(BlocksPageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -83,5 +88,45 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 		}).bounds(this.leftPos + 124, this.topPos + 174, 46, 20).build();
 		guistate.put("button:button_empty1", button_empty1);
 		this.addRenderableWidget(button_empty1);
+		button_blazing_plastic = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_blazing_plastic"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(2, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 5, 103, 20).build();
+		guistate.put("button:button_blazing_plastic", button_blazing_plastic);
+		this.addRenderableWidget(button_blazing_plastic);
+		button_flaming_storage_cube = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_flaming_storage_cube"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(3, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 26, 129, 20).build();
+		guistate.put("button:button_flaming_storage_cube", button_flaming_storage_cube);
+		this.addRenderableWidget(button_flaming_storage_cube);
+		button_stopstone = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_stopstone"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(4, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 47, 72, 20).build();
+		guistate.put("button:button_stopstone", button_stopstone);
+		this.addRenderableWidget(button_stopstone);
+		button_speedstone = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_speedstone"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(5, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}).bounds(this.leftPos + 78, this.topPos + 47, 77, 20).build();
+		guistate.put("button:button_speedstone", button_speedstone);
+		this.addRenderableWidget(button_speedstone);
+		button_dupestone = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_dupestone"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(6, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 68, 72, 20).build();
+		guistate.put("button:button_dupestone", button_dupestone);
+		this.addRenderableWidget(button_dupestone);
 	}
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GodliumBlock"
+    },
+    "name": "godlium_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

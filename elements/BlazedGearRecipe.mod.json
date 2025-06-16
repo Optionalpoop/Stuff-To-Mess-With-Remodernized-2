@@ -1,0 +1,172 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToToolsAndArmor"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 189,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_helmet",
+          "text": "Helmet",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedHelmetRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 129,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chestplate",
+          "text": "Chestplate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedChestplateRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 188,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_leggings",
+          "text": "Leggings",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedLeggingsRecipe"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 129,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_boots",
+          "text": "Boots",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedBootsRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 200,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sword",
+          "text": "Sword",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedSwordRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 129,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_axe",
+          "text": "Axe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedAxeRecipe"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 182,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pickaxe",
+          "text": "Pickaxe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedPickaxeRecipe"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 224,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shovel",
+          "text": "Shovel",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedShovelRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 129,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hoe",
+          "text": "Hoe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedHoeRecipe"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 188,
+          "y": 92
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -51,6 +51,81 @@
           "x": 211,
           "y": 199
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_blazing_plastic",
+          "text": "Blazing Plastic",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazingPlasticRecipe"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 131,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_flaming_storage_cube",
+          "text": "Flaming Storage Cube",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToFlamingStorageCubeRecipe"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 131,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stopstone",
+          "text": "Stopstone",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToStopstoneRecipe"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 131,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_speedstone",
+          "text": "Speedstone",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToSpeedstoneRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 204,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dupestone",
+          "text": "Dupestone",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToDupestoneRecipe"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 131,
+          "y": 88
+        }
       }
     ],
     "gridSettings": {

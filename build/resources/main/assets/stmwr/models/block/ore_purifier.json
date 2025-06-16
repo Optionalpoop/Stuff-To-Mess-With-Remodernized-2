@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/orepurifierbottom",
+    "up": "stmwr:block/orepurifiertop",
+    "north": "stmwr:block/orepurifierfront",
+    "east": "stmwr:block/orepurifierside",
+    "south": "stmwr:block/orepurifierside",
+    "west": "stmwr:block/orepurifierside",
+    "particle": "stmwr:block/orepurifierbottom"
+  },
+  "render_type": "solid"
+}

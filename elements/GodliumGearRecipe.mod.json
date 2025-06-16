@@ -1,0 +1,172 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToToolsAndArmor"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 189,
+          "y": 194
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_helmet",
+          "text": "Helmet",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumHelmetRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 130,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chestplate",
+          "text": "Chestplate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumChestplateRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 187,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_leggings",
+          "text": "Leggings",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumLeggingsRecipe"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 130,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_boots",
+          "text": "Boots",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumBootsRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 198,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sword",
+          "text": "Sword",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumSwordRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 130,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pickaxe",
+          "text": "Pickaxe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumPickaxeRecipe"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 183,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shovel",
+          "text": "Shovel",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumShovelRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 130,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hoe",
+          "text": "Hoe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumHoeRecipe"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 188,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_axe",
+          "text": "Axe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumAxeRecipe"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 246,
+          "y": 68
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

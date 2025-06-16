@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/flamingstoragecube",
+    "up": "stmwr:block/flamingstoragecube",
+    "north": "stmwr:block/flamingstoragecube",
+    "east": "stmwr:block/flamingstoragecube",
+    "south": "stmwr:block/flamingstoragecube",
+    "west": "stmwr:block/flamingstoragecube",
+    "particle": "stmwr:block/flamingstoragecube"
+  },
+  "render_type": "solid"
+}

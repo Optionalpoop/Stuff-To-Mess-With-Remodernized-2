@@ -25,6 +25,8 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 	Button button_empty;
 	Button button_empty1;
 	Button button_alligator_knife;
+	Button button_blazed_gear;
+	Button button_godlium_gear;
 
 	public ToolsAndArmorScreen(ToolsAndArmorMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -92,5 +94,21 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 		}).bounds(this.leftPos + 4, this.topPos + 5, 103, 20).build();
 		guistate.put("button:button_alligator_knife", button_alligator_knife);
 		this.addRenderableWidget(button_alligator_knife);
+		button_blazed_gear = Button.builder(Component.translatable("gui.stmwr.tools_and_armor.button_blazed_gear"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ToolsAndArmorButtonMessage(3, x, y, z));
+				ToolsAndArmorButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 26, 82, 20).build();
+		guistate.put("button:button_blazed_gear", button_blazed_gear);
+		this.addRenderableWidget(button_blazed_gear);
+		button_godlium_gear = Button.builder(Component.translatable("gui.stmwr.tools_and_armor.button_godlium_gear"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ToolsAndArmorButtonMessage(4, x, y, z));
+				ToolsAndArmorButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 47, 87, 20).build();
+		guistate.put("button:button_godlium_gear", button_godlium_gear);
+		this.addRenderableWidget(button_godlium_gear);
 	}
 }

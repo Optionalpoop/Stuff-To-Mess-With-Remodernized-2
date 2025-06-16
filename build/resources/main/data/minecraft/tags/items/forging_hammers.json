@@ -7,6 +7,9 @@
     "stmwr:gold_forging_hammer",
     "stmwr:diamond_forging_hammer",
     "stmwr:magicite_forging_hammer",
-    "stmwr:storum_forging_hammer"
+    "stmwr:storum_forging_hammer",
+    "stmwr:blazed_forging_hammer",
+    "stmwr:netherite_forging_hammer",
+    "stmwr:godlium_forging_hammer"
   ]
 }

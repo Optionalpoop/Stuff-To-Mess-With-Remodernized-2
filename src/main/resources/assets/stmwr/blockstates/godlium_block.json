@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stmwr:block/godlium_block"
+    }
+  }
+}

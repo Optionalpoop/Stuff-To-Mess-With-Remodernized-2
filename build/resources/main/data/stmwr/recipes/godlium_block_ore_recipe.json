@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:godlium_block"
+    }
+  ],
+  "result": {
+    "item": "stmwr:godlium_ingot",
+    "count": 9
+  }
+}

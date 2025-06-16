@@ -66,6 +66,36 @@
           "x": 130,
           "y": 25
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_blazed_gear",
+          "text": "Blazed Gear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlazedGearRecipe"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 130,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_godlium_gear",
+          "text": "Godlium Gear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumGearRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 130,
+          "y": 67
+        }
       }
     ],
     "gridSettings": {

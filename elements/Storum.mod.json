@@ -9,7 +9,11 @@
     "states": [],
     "name": "Storum",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

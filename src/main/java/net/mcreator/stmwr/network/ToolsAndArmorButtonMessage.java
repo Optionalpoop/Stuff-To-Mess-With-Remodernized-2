@@ -12,7 +12,9 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.ToolsAndArmorMenu;
+import net.mcreator.stmwr.procedures.ToGodliumGearRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
+import net.mcreator.stmwr.procedures.ToBlazedGearRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToAlligatorKnifeRecipeProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -70,6 +72,14 @@ public class ToolsAndArmorButtonMessage {
 		if (buttonID == 2) {
 
 			ToAlligatorKnifeRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToBlazedGearRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToGodliumGearRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

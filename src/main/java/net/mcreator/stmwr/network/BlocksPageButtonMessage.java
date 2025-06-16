@@ -12,7 +12,12 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.BlocksPageMenu;
+import net.mcreator.stmwr.procedures.ToStopstoneRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToSpeedstoneRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToFlamingStorageCubeRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToDupestoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
+import net.mcreator.stmwr.procedures.ToBlazingPlasticRecipeProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
 import java.util.function.Supplier;
@@ -65,6 +70,26 @@ public class BlocksPageButtonMessage {
 		if (buttonID == 0) {
 
 			ToCategoriesProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			ToBlazingPlasticRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToFlamingStorageCubeRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToStopstoneRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			ToSpeedstoneRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			ToDupestoneRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

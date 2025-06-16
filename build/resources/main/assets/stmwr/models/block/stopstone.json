@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/stopstone",
+    "up": "stmwr:block/stopstone",
+    "north": "stmwr:block/stopstone",
+    "east": "stmwr:block/stopstone",
+    "south": "stmwr:block/stopstone",
+    "west": "stmwr:block/stopstone",
+    "particle": "stmwr:block/stopstone"
+  },
+  "render_type": "solid"
+}

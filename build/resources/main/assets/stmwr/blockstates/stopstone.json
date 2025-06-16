@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stmwr:block/stopstone"
+    },
+    "facing=east": {
+      "model": "stmwr:block/stopstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stmwr:block/stopstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stmwr:block/stopstone",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "stmwr:block/stopstone",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "stmwr:block/stopstone",
+      "x": 90
+    }
+  }
+}

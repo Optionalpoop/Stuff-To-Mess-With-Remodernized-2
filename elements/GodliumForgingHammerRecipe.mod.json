@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagiciteHandle"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GodliumForgingHammer"
+    },
+    "name": "godlium_forging_hammer_recipe",
+    "namespace": "mod"
+  }
+}

@@ -46,7 +46,7 @@
         "value": "CUSTOM:StuffToMessWithRemodernized"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -102,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "ForgeGUI",

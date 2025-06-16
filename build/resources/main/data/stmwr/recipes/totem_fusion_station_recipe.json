@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "minecraft:anvil"
+    },
+    "c": {
+      "item": "stmwr:magicite_dust"
+    },
+    "d": {
+      "item": "stmwr:totem_base"
+    },
+    "e": {
+      "item": "stmwr:magicite_block"
+    },
+    "f": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "stmwr:totem_fusion_station",
+    "count": 1
+  }
+}

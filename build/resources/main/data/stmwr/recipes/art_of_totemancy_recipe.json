@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:totem_base"
+    },
+    "c": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "stmwr:art_of_totemancy",
+    "count": 1
+  }
+}

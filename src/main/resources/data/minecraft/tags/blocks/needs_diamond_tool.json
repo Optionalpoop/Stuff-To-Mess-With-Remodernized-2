@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:godlium_block",
+    "stmwr:godlium_ore",
     "stmwr:blazed_block",
     "stmwr:storum_block"
   ]
