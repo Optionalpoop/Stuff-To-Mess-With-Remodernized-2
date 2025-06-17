@@ -1,0 +1,9 @@
+{
+  "asset_name": "godlium_trim",
+  "description": {
+    "color": "#33FFFF",
+    "translate": "trim_material.stmwr.godlium_trim"
+  },
+  "ingredient": "stmwr:godlium_ingot",
+  "item_model_index": 0.0
+}

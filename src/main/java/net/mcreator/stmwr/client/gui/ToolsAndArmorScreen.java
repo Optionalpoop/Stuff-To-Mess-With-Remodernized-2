@@ -27,6 +27,7 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 	Button button_alligator_knife;
 	Button button_blazed_gear;
 	Button button_godlium_gear;
+	Button button_godlium_knife;
 
 	public ToolsAndArmorScreen(ToolsAndArmorMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -110,5 +111,13 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 		}).bounds(this.leftPos + 4, this.topPos + 47, 87, 20).build();
 		guistate.put("button:button_godlium_gear", button_godlium_gear);
 		this.addRenderableWidget(button_godlium_gear);
+		button_godlium_knife = Button.builder(Component.translatable("gui.stmwr.tools_and_armor.button_godlium_knife"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ToolsAndArmorButtonMessage(5, x, y, z));
+				ToolsAndArmorButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 68, 93, 20).build();
+		guistate.put("button:button_godlium_knife", button_godlium_knife);
+		this.addRenderableWidget(button_godlium_knife);
 	}
 }

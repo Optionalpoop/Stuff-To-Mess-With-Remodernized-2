@@ -126,6 +126,21 @@
           "x": 131,
           "y": 88
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_godly_storage_cube",
+          "text": "Godly Storage Cube",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodlyStorageCubeRecipe"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 131,
+          "y": 109
+        }
       }
     ],
     "gridSettings": {

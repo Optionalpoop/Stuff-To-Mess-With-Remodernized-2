@@ -51,6 +51,186 @@
           "x": 210,
           "y": 198
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fire_resistance",
+          "text": "Fire Resistance",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfFireResistanceRecipe"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 132,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_water_breathing",
+          "text": "Water Breathing",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfWaterBreathingRecipe"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 132,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_speed",
+          "text": "Speed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfSpeedRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 236,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_health_boost",
+          "text": "Health Boost",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfHealthBoostRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_jump_boost",
+          "text": "Jump Boost",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfJumpBoostRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 220,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_night_vision",
+          "text": "Night Vision",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfNightVisionRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 132,
+          "y": 93
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_haste",
+          "text": "Haste",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfHasteRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 236,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_strength",
+          "text": "Strength",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfStrengthRecipe"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 220,
+          "y": 93
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dolphins_grace",
+          "text": "Dolphin's Grace",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfDolphinsGraceRecipe"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 132,
+          "y": 115
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_levitation",
+          "text": "Levitation",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfLevitationRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 132,
+          "y": 137
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_regeneration",
+          "text": "Regeneration",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfRegenerationRecipe"
+          },
+          "width": 88,
+          "height": 20,
+          "x": 210,
+          "y": 137
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gambling",
+          "text": "Gambling",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfGamblingRecipe"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 132,
+          "y": 158
+        }
       }
     ],
     "gridSettings": {

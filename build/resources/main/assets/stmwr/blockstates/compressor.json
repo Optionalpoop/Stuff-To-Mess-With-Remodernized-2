@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stmwr:block/compressor"
+    },
+    "facing=east": {
+      "model": "stmwr:block/compressor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stmwr:block/compressor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stmwr:block/compressor",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "stmwr:block/compressor",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "stmwr:block/compressor",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "storum_trim",
+  "description": {
+    "color": "#33FF33",
+    "translate": "trim_material.stmwr.storum_trim"
+  },
+  "ingredient": "stmwr:storum",
+  "item_model_index": 0.0
+}

@@ -9531,5 +9531,107 @@
     },
     "done": true
   },
+  "stmwr:stronk": {
+    "criteria": {
+      "stronk_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:chonky": {
+    "criteria": {
+      "chonky_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:gambling": {
+    "criteria": {
+      "gambling_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:boing": {
+    "criteria": {
+      "boing_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:dolphins_are_so_nice": {
+    "criteria": {
+      "dolphins_are_so_nice_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:fireproof_powers": {
+    "criteria": {
+      "fireproof_powers_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:healing_quickly": {
+    "criteria": {
+      "healing_quickly_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:i_am_a_fish": {
+    "criteria": {
+      "i_am_a_fish_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:i_believe_i_can_fly": {
+    "criteria": {
+      "i_believe_i_can_fly_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:the_flash": {
+    "criteria": {
+      "the_flash_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:speed_mining": {
+    "criteria": {
+      "speed_mining_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:i_spy": {
+    "criteria": {
+      "i_spy_0": "2025-06-16 16:40:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:consumeeverything": {
+    "criteria": {
+      "consumeeverything_0": "2025-06-16 20:35:39 -0400"
+    },
+    "done": true
+  },
+  "stmwr:a_guide_to_money": {
+    "criteria": {
+      "a_guide_to_money_0": "2025-06-16 20:35:40 -0400"
+    },
+    "done": true
+  },
+  "stmwr:zip_bomb": {
+    "criteria": {
+      "zip_bomb_0": "2025-06-16 21:57:42 -0400"
+    },
+    "done": true
+  },
+  "stmwr:super_stabby": {
+    "criteria": {
+      "super_stabby_0": "2025-06-16 22:08:17 -0400"
+    },
+    "done": true
+  },
+  "stmwr:godlike_storage": {
+    "criteria": {
+      "godlike_storage_0": "2025-06-16 22:21:32 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

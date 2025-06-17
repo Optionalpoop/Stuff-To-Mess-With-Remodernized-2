@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "minecraft:composter"
+    },
+    "d": {
+      "item": "stmwr:godlium_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:consumer",
+    "count": 1
+  }
+}

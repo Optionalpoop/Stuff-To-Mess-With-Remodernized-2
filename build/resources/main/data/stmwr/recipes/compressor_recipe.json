@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "b": {
+      "tag": "minecraft:anvil"
+    },
+    "c": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:compressor",
+    "count": 1
+  }
+}

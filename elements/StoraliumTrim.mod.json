@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "trimmaterial",
+  "definition": {
+    "name": "StoraliumTrim",
+    "item": {
+      "value": "CUSTOM:Storalium"
+    },
+    "color1": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "color2": {
+      "value": -10027009,
+      "falpha": 0.0
+    },
+    "color3": {
+      "value": -10027264,
+      "falpha": 0.0
+    },
+    "color4": {
+      "value": -16724788,
+      "falpha": 0.0
+    },
+    "color5": {
+      "value": -13382656,
+      "falpha": 0.0
+    },
+    "color6": {
+      "value": -16737895,
+      "falpha": 0.0
+    },
+    "color7": {
+      "value": -16751104,
+      "falpha": 0.0
+    },
+    "color8": {
+      "value": -16751002,
+      "falpha": 0.0
+    }
+  }
+}

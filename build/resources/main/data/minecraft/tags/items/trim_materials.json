@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:magicite_dust",
+    "stmwr:storum",
+    "stmwr:storalium",
+    "stmwr:blazed_ingot",
+    "stmwr:godlium_ingot",
+    "stmwr:ultrite"
+  ]
+}

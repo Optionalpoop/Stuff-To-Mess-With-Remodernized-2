@@ -1,0 +1,9 @@
+{
+  "asset_name": "storalium_trim",
+  "description": {
+    "color": "#00CCCC",
+    "translate": "trim_material.stmwr.storalium_trim"
+  },
+  "ingredient": "stmwr:storalium",
+  "item_model_index": 0.0
+}

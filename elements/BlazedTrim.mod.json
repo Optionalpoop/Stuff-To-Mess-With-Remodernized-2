@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "trimmaterial",
+  "definition": {
+    "name": "BlazedTrim",
+    "item": {
+      "value": "CUSTOM:BlazedIngot"
+    },
+    "color1": {
+      "value": -52378,
+      "falpha": 0.0
+    },
+    "color2": {
+      "value": -52480,
+      "falpha": 0.0
+    },
+    "color3": {
+      "value": -39424,
+      "falpha": 0.0
+    },
+    "color4": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "color5": {
+      "value": -52429,
+      "falpha": 0.0
+    },
+    "color6": {
+      "value": -39322,
+      "falpha": 0.0
+    },
+    "color7": {
+      "value": -154,
+      "falpha": 0.0
+    },
+    "color8": {
+      "value": -3368704,
+      "falpha": 0.0
+    }
+  }
+}

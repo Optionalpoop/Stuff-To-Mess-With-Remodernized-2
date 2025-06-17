@@ -29,6 +29,7 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 	Button button_stopstone;
 	Button button_speedstone;
 	Button button_dupestone;
+	Button button_godly_storage_cube;
 
 	public BlocksPageScreen(BlocksPageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -128,5 +129,13 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 		}).bounds(this.leftPos + 5, this.topPos + 68, 72, 20).build();
 		guistate.put("button:button_dupestone", button_dupestone);
 		this.addRenderableWidget(button_dupestone);
+		button_godly_storage_cube = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_godly_storage_cube"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(7, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 89, 119, 20).build();
+		guistate.put("button:button_godly_storage_cube", button_godly_storage_cube);
+		this.addRenderableWidget(button_godly_storage_cube);
 	}
 }

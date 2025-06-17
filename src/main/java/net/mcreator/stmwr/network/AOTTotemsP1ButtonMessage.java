@@ -12,6 +12,18 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.AOTTotemsP1Menu;
+import net.mcreator.stmwr.procedures.ToTotemOfWaterBreathingRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfStrengthRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfSpeedRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfRegenerationRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfNightVisionRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfLevitationRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfJumpBoostRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfHealthBoostRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfHasteRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfGamblingRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfFireResistanceRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfDolphinsGraceRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToAOTHomePageProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -65,6 +77,54 @@ public class AOTTotemsP1ButtonMessage {
 		if (buttonID == 1) {
 
 			ToAOTHomePageProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			ToTotemOfFireResistanceRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToTotemOfWaterBreathingRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToTotemOfSpeedRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			ToTotemOfHealthBoostRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			ToTotemOfJumpBoostRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			ToTotemOfNightVisionRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			ToTotemOfHasteRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			ToTotemOfStrengthRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			ToTotemOfDolphinsGraceRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 11) {
+
+			ToTotemOfLevitationRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 12) {
+
+			ToTotemOfRegenerationRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 13) {
+
+			ToTotemOfGamblingRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

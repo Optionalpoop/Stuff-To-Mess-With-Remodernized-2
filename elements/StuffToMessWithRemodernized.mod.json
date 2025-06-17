@@ -4,7 +4,7 @@
   "definition": {
     "name": "Stuff To Mess With: Remodernized",
     "icon": {
-      "value": "Blocks.AMETHYST_BLOCK"
+      "value": "CUSTOM:GodliumArmor.body"
     },
     "showSearch": false
   }

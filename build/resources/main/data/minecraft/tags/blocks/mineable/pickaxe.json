@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:compressor",
+    "stmwr:consumer",
     "stmwr:totem_fusion_station",
     "stmwr:alloy_fuse",
     "stmwr:dupestone",

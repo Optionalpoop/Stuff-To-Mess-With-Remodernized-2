@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/compressorbottom",
+    "up": "stmwr:block/compressortop",
+    "north": "stmwr:block/compressorfront",
+    "east": "stmwr:block/compressorside",
+    "south": "stmwr:block/compressorside",
+    "west": "stmwr:block/compressorside",
+    "particle": "stmwr:block/compressorbottom"
+  },
+  "render_type": "solid"
+}

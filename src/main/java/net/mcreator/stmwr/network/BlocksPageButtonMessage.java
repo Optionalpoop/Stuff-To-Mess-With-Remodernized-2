@@ -14,6 +14,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.stmwr.world.inventory.BlocksPageMenu;
 import net.mcreator.stmwr.procedures.ToStopstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToSpeedstoneRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToGodlyStorageCubeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToFlamingStorageCubeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToDupestoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
@@ -90,6 +91,10 @@ public class BlocksPageButtonMessage {
 		if (buttonID == 6) {
 
 			ToDupestoneRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			ToGodlyStorageCubeRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

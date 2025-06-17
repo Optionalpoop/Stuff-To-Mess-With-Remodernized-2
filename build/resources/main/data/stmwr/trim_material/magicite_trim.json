@@ -1,0 +1,9 @@
+{
+  "asset_name": "magicite_trim",
+  "description": {
+    "color": "#CC0099",
+    "translate": "trim_material.stmwr.magicite_trim"
+  },
+  "ingredient": "stmwr:magicite_dust",
+  "item_model_index": 0.0
+}

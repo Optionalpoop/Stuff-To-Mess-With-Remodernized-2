@@ -96,6 +96,21 @@
           "x": 130,
           "y": 67
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_godlium_knife",
+          "text": "Godlium Knife",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGodliumKnifeRecipe"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 130,
+          "y": 88
+        }
       }
     ],
     "gridSettings": {

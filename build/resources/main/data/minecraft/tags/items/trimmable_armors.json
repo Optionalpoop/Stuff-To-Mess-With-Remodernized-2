@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:blazed_armor_helmet",
+    "stmwr:blazed_armor_chestplate",
+    "stmwr:blazed_armor_leggings",
+    "stmwr:blazed_armor_boots",
+    "stmwr:godlium_armor_helmet",
+    "stmwr:godlium_armor_chestplate",
+    "stmwr:godlium_armor_leggings",
+    "stmwr:godlium_armor_boots"
+  ]
+}

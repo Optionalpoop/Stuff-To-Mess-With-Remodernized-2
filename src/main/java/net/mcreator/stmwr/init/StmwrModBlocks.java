@@ -25,11 +25,14 @@ import net.mcreator.stmwr.block.MagiciteOreBlock;
 import net.mcreator.stmwr.block.MagiciteBlockBlock;
 import net.mcreator.stmwr.block.MagiciansWorkbenchBlock;
 import net.mcreator.stmwr.block.KitchenBlock;
+import net.mcreator.stmwr.block.GodlyStorageCubeBlock;
 import net.mcreator.stmwr.block.GodliumOreBlock;
 import net.mcreator.stmwr.block.GodliumBlockBlock;
 import net.mcreator.stmwr.block.ForgeBlock;
 import net.mcreator.stmwr.block.FlamingStorageCubeBlock;
 import net.mcreator.stmwr.block.DupestoneBlock;
+import net.mcreator.stmwr.block.ConsumerBlock;
+import net.mcreator.stmwr.block.CompressorBlock;
 import net.mcreator.stmwr.block.BlazingPlasticBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
@@ -62,6 +65,9 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> DUPESTONE = REGISTRY.register("dupestone", () -> new DupestoneBlock());
 	public static final RegistryObject<Block> ALLOY_FUSE = REGISTRY.register("alloy_fuse", () -> new AlloyFuseBlock());
 	public static final RegistryObject<Block> TOTEM_FUSION_STATION = REGISTRY.register("totem_fusion_station", () -> new TotemFusionStationBlock());
+	public static final RegistryObject<Block> CONSUMER = REGISTRY.register("consumer", () -> new ConsumerBlock());
+	public static final RegistryObject<Block> COMPRESSOR = REGISTRY.register("compressor", () -> new CompressorBlock());
+	public static final RegistryObject<Block> GODLY_STORAGE_CUBE = REGISTRY.register("godly_storage_cube", () -> new GodlyStorageCubeBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
