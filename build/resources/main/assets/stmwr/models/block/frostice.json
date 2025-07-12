@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/frostice",
+    "up": "stmwr:block/frostice",
+    "north": "stmwr:block/frostice",
+    "east": "stmwr:block/frostice",
+    "south": "stmwr:block/frostice",
+    "west": "stmwr:block/frostice",
+    "particle": "stmwr:block/frostice"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stmwr:block/heartstone_ore",
+    "particle": "stmwr:block/heartstone_ore"
+  },
+  "render_type": "solid"
+}

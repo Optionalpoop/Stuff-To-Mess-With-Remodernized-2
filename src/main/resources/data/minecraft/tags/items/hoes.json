@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coldsteel_hoe",
+    "stmwr:cobblesnowed_hoe",
+    "stmwr:frosty_hoe",
+    "stmwr:stevum_hoe",
     "stmwr:godlium_hoe",
     "stmwr:blazed_hoe"
   ]

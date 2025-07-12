@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "stmwr:frozen_forge",
+    "stmwr:magicite_clump",
+    "stmwr:heartstone_block",
+    "stmwr:heartstone_ore",
+    "stmwr:key_anvil",
+    "stmwr:trial_brick",
     "stmwr:blazed_ore",
     "stmwr:storum_ore",
     "stmwr:magicite_ore"

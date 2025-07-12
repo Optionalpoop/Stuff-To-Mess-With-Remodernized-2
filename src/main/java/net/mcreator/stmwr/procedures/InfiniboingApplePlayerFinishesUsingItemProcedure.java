@@ -1,0 +1,17 @@
+package net.mcreator.stmwr.procedures;
+
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
+
+public class InfiniboingApplePlayerFinishesUsingItemProcedure {
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 200, 99));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 400, 1));
+	}
+}

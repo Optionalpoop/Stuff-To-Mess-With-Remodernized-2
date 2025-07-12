@@ -1,0 +1,217 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToToolsAndArmor"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 188,
+          "y": 195
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_helmet",
+          "text": "Helmet",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelHelmetRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 130,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chestplate",
+          "text": "Chestplate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelChestplateRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 187,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_leggings",
+          "text": "Leggings",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelLeggingsRecipe"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 130,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_boots",
+          "text": "Boots",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelBootsRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 198,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sword",
+          "text": "Sword",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelSwordRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 130,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pickaxe",
+          "text": "Pickaxe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelPickaxeRecipe"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 182,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_axe",
+          "text": "Axe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelAxeRecipe"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 244,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shovel",
+          "text": "Shovel",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelShovelRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 130,
+          "y": 87
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hoe",
+          "text": "Hoe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelHoeRecipe"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 187,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_all_of_these_items_are_made",
+          "text": {
+            "fixedValue": "All of these items are made"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 142,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_within_the_frozen_forge",
+          "text": {
+            "fixedValue": "within the Frozen Forge,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 148,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_not_the_standard_forge",
+          "text": {
+            "fixedValue": "NOT the standard forge!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 135
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

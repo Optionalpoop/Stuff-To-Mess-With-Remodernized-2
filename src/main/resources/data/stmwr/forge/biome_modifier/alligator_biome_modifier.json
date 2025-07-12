@@ -6,7 +6,7 @@
   ],
   "spawners": {
     "type": "stmwr:alligator",
-    "weight": 10,
+    "weight": 20,
     "minCount": 1,
     "maxCount": 1
   }

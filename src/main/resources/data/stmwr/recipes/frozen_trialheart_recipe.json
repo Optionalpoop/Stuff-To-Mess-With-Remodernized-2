@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:snow"
+    },
+    "b": {
+      "item": "minecraft:snowball"
+    },
+    "c": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "d": {
+      "item": "minecraft:blue_ice"
+    },
+    "e": {
+      "item": "stmwr:heartstone_block"
+    },
+    "f": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "g": {
+      "item": "minecraft:snow_block"
+    },
+    "h": {
+      "item": "minecraft:ice"
+    },
+    "i": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "stmwr:frozen_trialheart",
+    "count": 1
+  }
+}

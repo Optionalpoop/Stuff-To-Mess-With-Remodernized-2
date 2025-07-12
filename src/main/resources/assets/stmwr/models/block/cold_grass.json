@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "stmwr:block/snowgrassbottom",
+    "top": "stmwr:block/coldgrasstop",
+    "side": "stmwr:block/snowgrassside",
+    "overlay": "stmwr:block/snowgrassside",
+    "particle": "stmwr:block/snowgrassbottom"
+  },
+  "render_type": "solid"
+}

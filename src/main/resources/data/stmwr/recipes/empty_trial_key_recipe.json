@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_handle"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:empty_trial_key",
+    "count": 1
+  }
+}

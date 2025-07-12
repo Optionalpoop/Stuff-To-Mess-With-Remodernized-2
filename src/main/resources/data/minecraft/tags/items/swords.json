@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coldsteel_sword",
+    "stmwr:cobblesnowed_sword",
+    "stmwr:frosty_sword",
+    "stmwr:stevum_sword",
     "stmwr:godlium_knife",
     "stmwr:godlium_sword",
     "stmwr:blazed_sword",

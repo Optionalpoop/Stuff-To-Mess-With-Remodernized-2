@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:steve_cow_land"
+    },
+    "title": {
+      "translate": "advancements.brrr.title"
+    },
+    "description": {
+      "translate": "advancements.brrr.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brrr_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "stmwr:steve_cow_land"
+      }
+    }
+  },
+  "parent": "stmwr:ice_cold"
+}

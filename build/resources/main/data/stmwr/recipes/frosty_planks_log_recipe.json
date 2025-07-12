@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stmwr:frosty_log"
+    }
+  ],
+  "result": {
+    "item": "stmwr:frosty_planks",
+    "count": 4
+  }
+}

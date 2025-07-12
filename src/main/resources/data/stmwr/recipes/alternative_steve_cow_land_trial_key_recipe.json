@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:frosty_log"
+    },
+    "b": {
+      "item": "stmwr:stevum_block"
+    }
+  },
+  "result": {
+    "item": "stmwr:steve_cow_land",
+    "count": 1
+  }
+}

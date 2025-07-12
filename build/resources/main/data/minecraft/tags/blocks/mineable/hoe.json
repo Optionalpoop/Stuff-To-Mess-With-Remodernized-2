@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:applevine",
+    "stmwr:frosty_leaves",
     "stmwr:plastic"
   ]
 }

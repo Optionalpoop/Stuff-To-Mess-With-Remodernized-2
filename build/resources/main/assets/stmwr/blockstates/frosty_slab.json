@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/frosty_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/frosty_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/frosty_slab_full"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "stmwr:frosted_peaks",
+    "stmwr:frozen_forest",
+    "stmwr:snowy_sands"
+  ],
+  "spawners": {
+    "type": "stmwr:steve_cow",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 6
+  }
+}

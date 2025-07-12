@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coldsteel_shovel",
+    "stmwr:cobblesnowed_shovel",
+    "stmwr:frosty_shovel",
+    "stmwr:stevum_shovel",
     "stmwr:godlium_shovel",
     "stmwr:blazed_shovel"
   ]

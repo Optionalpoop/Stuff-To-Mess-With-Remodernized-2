@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coldsteel_axe",
+    "stmwr:cobblesnowed_axe",
+    "stmwr:frosty_axe",
+    "stmwr:stevum_axe",
     "stmwr:godlium_axe",
     "stmwr:blazed_axe"
   ]

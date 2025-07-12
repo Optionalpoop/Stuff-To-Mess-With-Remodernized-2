@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ColdsteelIngot"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:ColdsteelIngot"
+      },
+      {
+        "value": "CUSTOM:ColdsteelIngot"
+      },
+      {
+        "value": "Blocks.ANVIL"
+      },
+      {
+        "value": "CUSTOM:ColdsteelIngot"
+      },
+      {
+        "value": "CUSTOM:ColdsteelIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:ColdsteelIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FrozenForge"
+    },
+    "name": "frozen_forge_recipe",
+    "namespace": "mod"
+  }
+}

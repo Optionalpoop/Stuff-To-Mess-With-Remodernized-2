@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:steve_cow_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.steve_cows.title"
+    },
+    "description": {
+      "translate": "advancements.steve_cows.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steve_cows_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 10000
+          },
+          "source_entity": {
+            "type": "stmwr:steve_cow"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "stmwr:new_wildlife"
+}

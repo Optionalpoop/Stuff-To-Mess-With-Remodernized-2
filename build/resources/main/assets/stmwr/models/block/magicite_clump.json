@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/magiciteclump",
+    "up": "stmwr:block/magiciteclump",
+    "north": "stmwr:block/magiciteclump",
+    "east": "stmwr:block/magiciteclump",
+    "south": "stmwr:block/magiciteclump",
+    "west": "stmwr:block/magiciteclump",
+    "particle": "stmwr:block/magiciteclump"
+  },
+  "render_type": "solid"
+}

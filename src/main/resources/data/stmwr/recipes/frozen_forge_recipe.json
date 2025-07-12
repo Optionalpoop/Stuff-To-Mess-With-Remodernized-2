@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:coldsteel_ingot"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "tag": "minecraft:anvil"
+    },
+    "d": {
+      "item": "stmwr:godlium_block"
+    }
+  },
+  "result": {
+    "item": "stmwr:frozen_forge",
+    "count": 1
+  }
+}

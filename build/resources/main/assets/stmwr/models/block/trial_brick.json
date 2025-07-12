@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/trialbrick",
+    "up": "stmwr:block/trialbrick",
+    "north": "stmwr:block/trialbrick",
+    "east": "stmwr:block/trialbrick",
+    "south": "stmwr:block/trialbrick",
+    "west": "stmwr:block/trialbrick",
+    "particle": "stmwr:block/trialbrick"
+  },
+  "render_type": "solid"
+}

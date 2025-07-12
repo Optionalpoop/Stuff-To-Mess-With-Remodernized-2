@@ -111,6 +111,21 @@
           "x": 130,
           "y": 88
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_coldsteel_gear",
+          "text": "Coldsteel Gear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToColdsteelGearRecipe"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 130,
+          "y": 109
+        }
       }
     ],
     "gridSettings": {

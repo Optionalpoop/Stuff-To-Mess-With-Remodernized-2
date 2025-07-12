@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/frostysapling",
+    "particle": "stmwr:block/frostysapling"
+  },
+  "render_type": "cutout"
+}

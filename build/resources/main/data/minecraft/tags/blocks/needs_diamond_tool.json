@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coldsteel_block",
+    "stmwr:coldsteel_ore",
+    "stmwr:stevum_block",
+    "stmwr:stevum_ore",
     "stmwr:godlium_block",
     "stmwr:godlium_ore",
     "stmwr:blazed_block",

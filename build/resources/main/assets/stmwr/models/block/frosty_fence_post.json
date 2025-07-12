@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "stmwr:block/frosty_planks",
+    "particle": "stmwr:block/frosty_planks"
+  },
+  "render_type": "solid"
+}

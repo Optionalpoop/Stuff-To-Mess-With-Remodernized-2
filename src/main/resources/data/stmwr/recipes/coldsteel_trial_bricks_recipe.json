@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:cobblesnow"
+    },
+    "b": {
+      "item": "stmwr:stevum_ingot"
+    },
+    "c": {
+      "item": "stmwr:magic_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:trial_brick",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:heartstone_block"
+    }
+  ],
+  "result": {
+    "item": "stmwr:heartstone",
+    "count": 9
+  }
+}

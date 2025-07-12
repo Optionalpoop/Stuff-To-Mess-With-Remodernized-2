@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:frosty_log"
+    }
+  },
+  "result": {
+    "item": "stmwr:frosty_wood",
+    "count": 3
+  }
+}

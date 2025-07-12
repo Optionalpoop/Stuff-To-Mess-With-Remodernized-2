@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coldsteel_pickaxe",
+    "stmwr:cobblesnowed_pickaxe",
+    "stmwr:frosty_pickaxe",
+    "stmwr:stevum_pickaxe",
     "stmwr:godlium_pickaxe",
     "stmwr:blazed_pickaxe"
   ]

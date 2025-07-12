@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.BlocksPageMenu;
+import net.mcreator.stmwr.procedures.ToTrialBricksRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToStopstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToSpeedstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodlyStorageCubeRecipeProcedure;
@@ -95,6 +96,10 @@ public class BlocksPageButtonMessage {
 		if (buttonID == 7) {
 
 			ToGodlyStorageCubeRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			ToTrialBricksRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:cheese"
+    },
+    "b": {
+      "item": "stmwr:magic_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:boing_apple",
+    "count": 4
+  }
+}

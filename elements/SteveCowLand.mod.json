@@ -1,0 +1,65 @@
+{
+  "_fv": 66,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:FrostedPeaks"
+      },
+      {
+        "value": "CUSTOM:FrozenSea"
+      },
+      {
+        "value": "CUSTOM:Icelands"
+      },
+      {
+        "value": "CUSTOM:FrozenForest"
+      },
+      {
+        "value": "CUSTOM:SnowySands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Snapstone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Frostice"
+    },
+    "airColor": {
+      "value": -6684724,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:TrialBrick"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Key of the SteveCow",
+    "igniterRarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "texture": "keyofthestevecow",
+    "portalTexture": "stevecowlandportalblock",
+    "enablePortal": true
+  }
+}

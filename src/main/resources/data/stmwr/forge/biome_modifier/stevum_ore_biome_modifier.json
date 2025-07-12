@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stmwr:frosted_peaks",
+    "stmwr:frozen_forest",
+    "stmwr:frozen_sea",
+    "stmwr:icelands",
+    "stmwr:snowy_sands"
+  ],
+  "features": "stmwr:stevum_ore",
+  "step": "underground_ores"
+}

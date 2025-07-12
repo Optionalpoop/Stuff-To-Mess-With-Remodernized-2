@@ -17,7 +17,9 @@ import net.mcreator.stmwr.block.entity.SpellforgeBlockEntity;
 import net.mcreator.stmwr.block.entity.OrePurifierBlockEntity;
 import net.mcreator.stmwr.block.entity.MagiciansWorkbenchBlockEntity;
 import net.mcreator.stmwr.block.entity.KitchenBlockEntity;
+import net.mcreator.stmwr.block.entity.KeyAnvilBlockEntity;
 import net.mcreator.stmwr.block.entity.GodlyStorageCubeBlockEntity;
+import net.mcreator.stmwr.block.entity.FrozenForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.ForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.FlamingStorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.ConsumerBlockEntity;
@@ -39,6 +41,8 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> CONSUMER = register("consumer", StmwrModBlocks.CONSUMER, ConsumerBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> COMPRESSOR = register("compressor", StmwrModBlocks.COMPRESSOR, CompressorBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> GODLY_STORAGE_CUBE = register("godly_storage_cube", StmwrModBlocks.GODLY_STORAGE_CUBE, GodlyStorageCubeBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> KEY_ANVIL = register("key_anvil", StmwrModBlocks.KEY_ANVIL, KeyAnvilBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> FROZEN_FORGE = register("frozen_forge", StmwrModBlocks.FROZEN_FORGE, FrozenForgeBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

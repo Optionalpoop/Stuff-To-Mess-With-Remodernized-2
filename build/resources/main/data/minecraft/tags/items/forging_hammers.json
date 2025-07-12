@@ -10,6 +10,10 @@
     "stmwr:storum_forging_hammer",
     "stmwr:blazed_forging_hammer",
     "stmwr:netherite_forging_hammer",
-    "stmwr:godlium_forging_hammer"
+    "stmwr:godlium_forging_hammer",
+    "stmwr:stevum_forging_hammer",
+    "stmwr:cobblesnow_forging_hammer",
+    "stmwr:frosty_forging_hammer",
+    "stmwr:coldsteel_forging_hammer"
   ]
 }

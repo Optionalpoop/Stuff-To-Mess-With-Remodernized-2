@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "c": {
+      "item": "stmwr:magic_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:durable_apple",
+    "count": 2
+  }
+}

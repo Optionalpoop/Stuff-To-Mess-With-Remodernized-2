@@ -14,6 +14,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.stmwr.world.inventory.ToolsAndArmorMenu;
 import net.mcreator.stmwr.procedures.ToGodliumKnifeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodliumGearRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToColdsteelGearRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
 import net.mcreator.stmwr.procedures.ToBlazedGearRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToAlligatorKnifeRecipeProcedure;
@@ -85,6 +86,10 @@ public class ToolsAndArmorButtonMessage {
 		if (buttonID == 5) {
 
 			ToGodliumKnifeRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			ToColdsteelGearRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -141,6 +141,21 @@
           "x": 131,
           "y": 109
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_trial_brick",
+          "text": "Trial Brick",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTrialBricksRecipe"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 204,
+          "y": 88
+        }
       }
     ],
     "gridSettings": {

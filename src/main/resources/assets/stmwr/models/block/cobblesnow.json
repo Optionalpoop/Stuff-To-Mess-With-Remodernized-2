@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/cobblesnow",
+    "up": "stmwr:block/cobblesnow",
+    "north": "stmwr:block/cobblesnow",
+    "east": "stmwr:block/cobblesnow",
+    "south": "stmwr:block/cobblesnow",
+    "west": "stmwr:block/cobblesnow",
+    "particle": "stmwr:block/cobblesnow"
+  },
+  "render_type": "solid"
+}

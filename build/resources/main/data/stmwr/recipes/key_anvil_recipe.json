@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:heartstone"
+    },
+    "b": {
+      "tag": "minecraft:anvil"
+    },
+    "c": {
+      "item": "stmwr:empty_trial_key"
+    },
+    "d": {
+      "item": "stmwr:trial_brick"
+    }
+  },
+  "result": {
+    "item": "stmwr:key_anvil",
+    "count": 1
+  }
+}

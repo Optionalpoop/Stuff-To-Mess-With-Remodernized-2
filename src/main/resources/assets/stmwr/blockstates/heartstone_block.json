@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stmwr:block/heartstone_block"
+    }
+  }
+}

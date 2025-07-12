@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/keyanvilbottom",
+    "up": "stmwr:block/keyanviltop",
+    "north": "stmwr:block/keyanvilfront",
+    "east": "stmwr:block/keyanvilside",
+    "south": "stmwr:block/keyanvilside",
+    "west": "stmwr:block/keyanvilside",
+    "particle": "stmwr:block/keyanvilbottom"
+  },
+  "render_type": "solid"
+}

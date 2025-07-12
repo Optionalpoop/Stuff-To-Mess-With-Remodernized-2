@@ -9633,5 +9633,83 @@
     },
     "done": true
   },
+  "stmwr:trials": {
+    "criteria": {
+      "trials_0": "2025-07-10 10:37:01 -0400"
+    },
+    "done": true
+  },
+  "stmwr:preparing": {
+    "criteria": {
+      "preparing_0": "2025-07-10 10:53:05 -0400"
+    },
+    "done": true
+  },
+  "stmwr:heartstone_forging": {
+    "criteria": {
+      "heartstone_forging_0": "2025-07-10 11:11:23 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ice_cold": {
+    "criteria": {
+      "ice_cold_0": "2025-07-10 11:33:18 -0400"
+    },
+    "done": true
+  },
+  "stmwr:yummy": {
+    "criteria": {
+      "yummy_0": "2025-07-11 15:15:47 -0400"
+    },
+    "done": true
+  },
+  "stmwr:frosty_the_snowman": {
+    "criteria": {
+      "frosty_the_snowman_0": "2025-07-11 15:15:49 -0400"
+    },
+    "done": true
+  },
+  "stmwr:superman": {
+    "criteria": {
+      "superman_0": "2025-07-11 15:15:52 -0400"
+    },
+    "done": true
+  },
+  "stmwr:gotta_go_fast": {
+    "criteria": {
+      "gotta_go_fast_0": "2025-07-11 15:15:52 -0400"
+    },
+    "done": true
+  },
+  "stmwr:mind_the_gap": {
+    "criteria": {
+      "mind_the_gap_0": "2025-07-11 15:15:52 -0400"
+    },
+    "done": true
+  },
+  "stmwr:iron_golem": {
+    "criteria": {
+      "iron_golem_0": "2025-07-11 15:15:53 -0400"
+    },
+    "done": true
+  },
+  "stmwr:unlimited_health": {
+    "criteria": {
+      "unlimited_health_0": "2025-07-11 15:15:53 -0400"
+    },
+    "done": true
+  },
+  "stmwr:mining_away": {
+    "criteria": {
+      "mining_away_0": "2025-07-11 15:15:54 -0400"
+    },
+    "done": true
+  },
+  "stmwr:a_new_forge": {
+    "criteria": {
+      "a_new_forge_0": "2025-07-12 17:39:58 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

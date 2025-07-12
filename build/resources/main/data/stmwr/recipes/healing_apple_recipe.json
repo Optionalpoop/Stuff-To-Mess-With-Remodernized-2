@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "stmwr:magic_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:healing_apple",
+    "count": 2
+  }
+}

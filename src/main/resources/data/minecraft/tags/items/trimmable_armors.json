@@ -8,6 +8,14 @@
     "stmwr:godlium_armor_helmet",
     "stmwr:godlium_armor_chestplate",
     "stmwr:godlium_armor_leggings",
-    "stmwr:godlium_armor_boots"
+    "stmwr:godlium_armor_boots",
+    "stmwr:stevum_armor_helmet",
+    "stmwr:stevum_armor_chestplate",
+    "stmwr:stevum_armor_leggings",
+    "stmwr:stevum_armor_boots",
+    "stmwr:coldsteel_armor_helmet",
+    "stmwr:coldsteel_armor_chestplate",
+    "stmwr:coldsteel_armor_leggings",
+    "stmwr:coldsteel_armor_boots"
   ]
 }

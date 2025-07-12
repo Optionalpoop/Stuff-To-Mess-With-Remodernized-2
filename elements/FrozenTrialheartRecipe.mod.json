@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SNOW_LAYER"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "Items.POWDER_SNOW_BUCKET"
+      },
+      {
+        "value": "Blocks.BLUE_ICE"
+      },
+      {
+        "value": "CUSTOM:HeartstoneBlock"
+      },
+      {
+        "value": "Blocks.CARVED_PUMPKIN"
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FrozenTrialheart"
+    },
+    "name": "frozen_trialheart_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Heartstone"
+      },
+      {
+        "value": "Blocks.ANVIL"
+      },
+      {
+        "value": "CUSTOM:Heartstone"
+      },
+      {
+        "value": "CUSTOM:Heartstone"
+      },
+      {
+        "value": "CUSTOM:EmptyTrialKey"
+      },
+      {
+        "value": "CUSTOM:Heartstone"
+      },
+      {
+        "value": "CUSTOM:Heartstone"
+      },
+      {
+        "value": "CUSTOM:TrialBrick"
+      },
+      {
+        "value": "CUSTOM:Heartstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KeyAnvil"
+    },
+    "name": "key_anvil_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:stevum_block"
+    }
+  ],
+  "result": {
+    "item": "stmwr:stevum_ingot",
+    "count": 9
+  }
+}

@@ -275,5 +275,77 @@ public class OrePurifierProcedureProcedure {
 				}
 			}
 		}
+		while ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.RAW_STEVUM.get()) {
+			{
+				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+				if (_ent != null) {
+					final int _slotid = 0;
+					final int _amount = 1;
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+						if (capability instanceof IItemHandlerModifiable) {
+							ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+							_stk.shrink(_amount);
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+						}
+					});
+				}
+			}
+			{
+				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+				if (_ent != null) {
+					final int _slotid = 1;
+					final ItemStack _setstack = new ItemStack(StmwrModItems.STEVUM_INGOT.get()).copy();
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+							AtomicInteger _retval = new AtomicInteger(0);
+							BlockEntity _ent = world.getBlockEntity(pos);
+							if (_ent != null)
+								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+							return _retval.get();
+						}
+					}.getAmount(world, BlockPos.containing(x, y, z), 1) + 1));
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+						if (capability instanceof IItemHandlerModifiable)
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+					});
+				}
+			}
+		}
+		while ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == StmwrModItems.RAW_COLDSTEEL.get()) {
+			{
+				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+				if (_ent != null) {
+					final int _slotid = 0;
+					final int _amount = 1;
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+						if (capability instanceof IItemHandlerModifiable) {
+							ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+							_stk.shrink(_amount);
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+						}
+					});
+				}
+			}
+			{
+				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+				if (_ent != null) {
+					final int _slotid = 1;
+					final ItemStack _setstack = new ItemStack(StmwrModItems.COLDSTEEL_INGOT.get()).copy();
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+							AtomicInteger _retval = new AtomicInteger(0);
+							BlockEntity _ent = world.getBlockEntity(pos);
+							if (_ent != null)
+								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+							return _retval.get();
+						}
+					}.getAmount(world, BlockPos.containing(x, y, z), 1) + 1));
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+						if (capability instanceof IItemHandlerModifiable)
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+					});
+				}
+			}
+		}
 	}
 }
