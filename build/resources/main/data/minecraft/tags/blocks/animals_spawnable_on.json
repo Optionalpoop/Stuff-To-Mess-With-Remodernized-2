@@ -1,9 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stmwr:snapstone",
     "stmwr:snowdirt",
-    "stmwr:cobblesnow",
     "stmwr:cold_grass"
   ]
 }

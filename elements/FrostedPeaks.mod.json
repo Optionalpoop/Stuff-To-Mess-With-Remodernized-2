@@ -99,6 +99,34 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Frombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 9,
+        "weight": 2,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:SteveCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Pikachu"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 2,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

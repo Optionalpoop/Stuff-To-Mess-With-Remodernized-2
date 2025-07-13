@@ -11126,11 +11126,47 @@
         ]
       },
       "path": "~/Trials/SteveCow Land"
+    },
+    {
+      "name": "HealProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
+    },
+    {
+      "name": "Heal",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/HealCommand.java"
+        ]
+      },
+      "path": "~/Pre-Trials Gameplay"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:forge:dirt": [
+      "CUSTOM:Snowdirt",
+      "CUSTOM:ColdGrass"
+    ],
     "ITEMS:minecraft:trimmable_armors": [
       "CUSTOM:BlazedArmor.helmet",
       "CUSTOM:BlazedArmor.body",
@@ -11148,62 +11184,6 @@
       "CUSTOM:ColdsteelArmor.body",
       "CUSTOM:ColdsteelArmor.legs",
       "CUSTOM:ColdsteelArmor.boots"
-    ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:Applevine",
-      "~CUSTOM:FrostyLeaves",
-      "~CUSTOM:Plastic"
-    ],
-    "BLOCKS:minecraft:valid_spawn": [
-      "CUSTOM:Snapstone",
-      "CUSTOM:Snowdirt",
-      "CUSTOM:Cobblesnow",
-      "CUSTOM:ColdGrass"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:ColdsteelHoe",
-      "~CUSTOM:CobblesnowedHoe",
-      "~CUSTOM:FrostyHoe",
-      "~CUSTOM:StevumHoe",
-      "~CUSTOM:GodliumHoe",
-      "~CUSTOM:BlazedHoe"
-    ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:FrostySlab"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:MagiciteBlock"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:ColdsteelAxe",
-      "~CUSTOM:CobblesnowedAxe",
-      "~CUSTOM:FrostyAxe",
-      "~CUSTOM:StevumAxe",
-      "~CUSTOM:GodliumAxe",
-      "~CUSTOM:BlazedAxe"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:FrostyStairs"
-    ],
-    "ITEMS:minecraft:knives": [
-      "CUSTOM:WoodenKnife",
-      "CUSTOM:AlligatorKnife",
-      "CUSTOM:GodliumKnife"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:ColdsteelSword",
-      "~CUSTOM:CobblesnowedSword",
-      "~CUSTOM:FrostySword",
-      "~CUSTOM:StevumSword",
-      "~CUSTOM:GodliumKnife",
-      "~CUSTOM:GodliumSword",
-      "~CUSTOM:BlazedSword",
-      "~CUSTOM:AlligatorKnife",
-      "~CUSTOM:WoodenKnife"
-    ],
-    "BLOCKS:forge:dirt": [
-      "CUSTOM:Snowdirt",
-      "CUSTOM:ColdGrass"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:FrozenForge",
@@ -11226,6 +11206,15 @@
       "~CUSTOM:BlazedBlock",
       "~CUSTOM:StorumBlock"
     ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Applevine",
+      "~CUSTOM:FrostyLeaves",
+      "~CUSTOM:Plastic"
+    ],
+    "BLOCKS:minecraft:valid_spawn": [
+      "CUSTOM:Snowdirt",
+      "CUSTOM:ColdGrass"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:ColdsteelPickaxe",
       "~CUSTOM:CobblesnowedPickaxe",
@@ -11233,6 +11222,14 @@
       "~CUSTOM:StevumPickaxe",
       "~CUSTOM:GodliumPickaxe",
       "~CUSTOM:BlazedPickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:ColdsteelHoe",
+      "~CUSTOM:CobblesnowedHoe",
+      "~CUSTOM:FrostyHoe",
+      "~CUSTOM:StevumHoe",
+      "~CUSTOM:GodliumHoe",
+      "~CUSTOM:BlazedHoe"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:Frostice",
@@ -11243,6 +11240,9 @@
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:Snowdirt",
       "CUSTOM:ColdGrass"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:FrostySlab"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:FrozenForge",
@@ -11284,6 +11284,9 @@
       "~CUSTOM:FrostyLog",
       "~CUSTOM:FrostyWood"
     ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MagiciteBlock"
+    ],
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:FrostyFence"
     ],
@@ -11307,10 +11310,35 @@
       "~CUSTOM:ColdGrass",
       "~CUSTOM:Snowdirt"
     ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ColdsteelAxe",
+      "~CUSTOM:CobblesnowedAxe",
+      "~CUSTOM:FrostyAxe",
+      "~CUSTOM:StevumAxe",
+      "~CUSTOM:GodliumAxe",
+      "~CUSTOM:BlazedAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:FrostyStairs"
+    ],
+    "ITEMS:minecraft:knives": [
+      "CUSTOM:WoodenKnife",
+      "CUSTOM:AlligatorKnife",
+      "CUSTOM:GodliumKnife"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ColdsteelSword",
+      "~CUSTOM:CobblesnowedSword",
+      "~CUSTOM:FrostySword",
+      "~CUSTOM:StevumSword",
+      "~CUSTOM:GodliumKnife",
+      "~CUSTOM:GodliumSword",
+      "~CUSTOM:BlazedSword",
+      "~CUSTOM:AlligatorKnife",
+      "~CUSTOM:WoodenKnife"
+    ],
     "BLOCKS:minecraft:animals_spawnable_on": [
-      "CUSTOM:Snapstone",
       "CUSTOM:Snowdirt",
-      "CUSTOM:Cobblesnow",
       "CUSTOM:ColdGrass"
     ],
     "ITEMS:minecraft:shovels": [

@@ -1,0 +1,113 @@
+{
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "stmwr:new_wildlife": {
+    "criteria": {
+      "new_wildlife_0": "2025-07-13 16:04:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-13 16:03:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuck": {
+    "criteria": {
+      "stuck_1": "2025-07-13 16:03:57 -0400",
+      "stuck_2": "2025-07-13 16:04:03 -0400",
+      "stuck_0": "2025-07-13 16:03:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_beach": "2025-07-13 16:03:10 -0400"
+    },
+    "done": false
+  },
+  "stmwr:trials": {
+    "criteria": {
+      "trials_0": "2025-07-13 16:03:57 -0400"
+    },
+    "done": true
+  },
+  "stmwr:welcome_to_stmwr": {
+    "criteria": {
+      "welcome_to_stmwr_0": "2025-07-13 16:03:09 -0400"
+    },
+    "done": true
+  },
+  "stmwr:brrr": {
+    "criteria": {
+      "brrr_0": "2025-07-13 16:04:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_food_with": {
+    "criteria": {
+      "stuff_to_food_with_0": "2025-07-13 16:03:09 -0400"
+    },
+    "done": true
+  },
+  "stmwr:vanilla_plus": {
+    "criteria": {
+      "vanilla_plus_0": "2025-07-13 16:03:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-13 16:05:23 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

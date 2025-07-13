@@ -12,7 +12,26 @@
   },
   "spawners": {
     "monster": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "stmwr:pikachu",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "stmwr:steve_cow",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 6
+      },
+      {
+        "type": "stmwr:frombie",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 9
+      }
+    ],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
