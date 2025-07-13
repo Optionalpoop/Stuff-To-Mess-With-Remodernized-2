@@ -212,6 +212,10 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.COLDSTEEL_FORGING_HAMMER.get());
 				tabData.accept(StmwrModBlocks.FROZEN_FORGE.get().asItem());
 				tabData.accept(StmwrModItems.STEVE_COW_MEAT.get());
+				tabData.accept(StmwrModItems.PIKACHU_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.UGLUM.get());
+				tabData.accept(StmwrModItems.FROMBIE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.ICE_SHARD.get());
 			})
 
 					.build());

@@ -35,6 +35,6 @@ public class FrostySwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModBlocks.FROSTY_PLANKS.get()));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 }

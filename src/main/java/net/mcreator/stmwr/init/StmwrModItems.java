@@ -21,6 +21,7 @@ import net.mcreator.stmwr.item.WizardsSeaWandItem;
 import net.mcreator.stmwr.item.WizardsSeaItem;
 import net.mcreator.stmwr.item.UnspelledWandItem;
 import net.mcreator.stmwr.item.UltriteItem;
+import net.mcreator.stmwr.item.UglumItem;
 import net.mcreator.stmwr.item.TotemOfWaterBreathingItem;
 import net.mcreator.stmwr.item.TotemOfStrengthItem;
 import net.mcreator.stmwr.item.TotemOfSpeedItem;
@@ -77,6 +78,7 @@ import net.mcreator.stmwr.item.MagicCarrotItem;
 import net.mcreator.stmwr.item.MagicAppleItem;
 import net.mcreator.stmwr.item.IronForgingHammerItem;
 import net.mcreator.stmwr.item.InfiniboingAppleItem;
+import net.mcreator.stmwr.item.IceShardItem;
 import net.mcreator.stmwr.item.HeartstoneItem;
 import net.mcreator.stmwr.item.HealingAppleItem;
 import net.mcreator.stmwr.item.HappyTrialCoinItem;
@@ -338,6 +340,10 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> COLDSTEEL_FORGING_HAMMER = REGISTRY.register("coldsteel_forging_hammer", () -> new ColdsteelForgingHammerItem());
 	public static final RegistryObject<Item> FROZEN_FORGE = block(StmwrModBlocks.FROZEN_FORGE);
 	public static final RegistryObject<Item> STEVE_COW_MEAT = REGISTRY.register("steve_cow_meat", () -> new SteveCowMeatItem());
+	public static final RegistryObject<Item> PIKACHU_SPAWN_EGG = REGISTRY.register("pikachu_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.PIKACHU, -205, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> UGLUM = REGISTRY.register("uglum", () -> new UglumItem());
+	public static final RegistryObject<Item> FROMBIE_SPAWN_EGG = REGISTRY.register("frombie_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.FROMBIE, -16777063, -16751002, new Item.Properties()));
+	public static final RegistryObject<Item> ICE_SHARD = REGISTRY.register("ice_shard", () -> new IceShardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

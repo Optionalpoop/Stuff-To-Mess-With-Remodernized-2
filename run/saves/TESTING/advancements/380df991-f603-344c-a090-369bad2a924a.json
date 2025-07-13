@@ -9711,5 +9711,32 @@
     },
     "done": true
   },
+  "stmwr:steel_isnt_an_ore": {
+    "criteria": {
+      "steel_isnt_an_ore_1": "2025-07-13 08:41:13 -0400",
+      "steel_isnt_an_ore_0": "2025-07-13 08:41:15 -0400",
+      "steel_isnt_an_ore_3": "2025-07-13 08:41:12 -0400",
+      "steel_isnt_an_ore_2": "2025-07-13 08:41:14 -0400"
+    },
+    "done": true
+  },
+  "stmwr:horns": {
+    "criteria": {
+      "horns_0": "2025-07-13 08:43:24 -0400"
+    },
+    "done": true
+  },
+  "stmwr:a_new_food_source": {
+    "criteria": {
+      "a_new_food_source_0": "2025-07-13 08:43:41 -0400"
+    },
+    "done": true
+  },
+  "stmwr:steve_cows": {
+    "criteria": {
+      "steve_cows_0": "2025-07-13 08:43:16 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

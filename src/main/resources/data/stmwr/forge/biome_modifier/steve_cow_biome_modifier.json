@@ -3,11 +3,13 @@
   "biomes": [
     "stmwr:frosted_peaks",
     "stmwr:frozen_forest",
+    "stmwr:frozen_sea",
+    "stmwr:icelands",
     "stmwr:snowy_sands"
   ],
   "spawners": {
     "type": "stmwr:steve_cow",
-    "weight": 30,
+    "weight": 35,
     "minCount": 1,
     "maxCount": 6
   }

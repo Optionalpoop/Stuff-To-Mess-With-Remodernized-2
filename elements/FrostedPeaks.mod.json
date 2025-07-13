@@ -61,19 +61,19 @@
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:FrostyLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:FrostyLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [
       "Caves",

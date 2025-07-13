@@ -35,6 +35,6 @@ public class GodliumAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModItems.GODLIUM_INGOT.get()));
 			}
-		}, 1, -2f, new Item.Properties());
+		}, 1, -3.1f, new Item.Properties());
 	}
 }

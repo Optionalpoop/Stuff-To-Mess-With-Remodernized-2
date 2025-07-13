@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.SteveCowEntity;
+import net.mcreator.stmwr.entity.PikachuEntity;
+import net.mcreator.stmwr.entity.FrombieEntity;
 import net.mcreator.stmwr.entity.AlligatorEntity;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -31,6 +33,12 @@ public class StmwrModEntities {
 			EntityType.Builder.<SteveCowEntity>of(SteveCowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SteveCowEntity::new)
 
 					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<PikachuEntity>> PIKACHU = register("pikachu",
+			EntityType.Builder.<PikachuEntity>of(PikachuEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PikachuEntity::new).fireImmune().sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<FrombieEntity>> FROMBIE = register("frombie",
+			EntityType.Builder.<FrombieEntity>of(FrombieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FrombieEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,6 +49,8 @@ public class StmwrModEntities {
 		event.enqueueWork(() -> {
 			AlligatorEntity.init();
 			SteveCowEntity.init();
+			PikachuEntity.init();
+			FrombieEntity.init();
 		});
 	}
 
@@ -48,5 +58,7 @@ public class StmwrModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ALLIGATOR.get(), AlligatorEntity.createAttributes().build());
 		event.put(STEVE_COW.get(), SteveCowEntity.createAttributes().build());
+		event.put(PIKACHU.get(), PikachuEntity.createAttributes().build());
+		event.put(FROMBIE.get(), FrombieEntity.createAttributes().build());
 	}
 }

@@ -1,12 +1,9 @@
 {
   "replace": false,
   "values": [
-    "minecraft:snow",
-    "minecraft:powder_snow",
     "stmwr:frostice",
-    "stmwr:snowdirt",
-    "stmwr:cold_grass",
     "stmwr:snapstone",
-    "minecraft:stone"
+    "stmwr:snowdirt",
+    "stmwr:cold_grass"
   ]
 }

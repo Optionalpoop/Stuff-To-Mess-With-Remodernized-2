@@ -35,6 +35,6 @@ public class ColdsteelAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModItems.COLDSTEEL_INGOT.get()));
 			}
-		}, 1, 0f, new Item.Properties());
+		}, 1, -3.1f, new Item.Properties());
 	}
 }

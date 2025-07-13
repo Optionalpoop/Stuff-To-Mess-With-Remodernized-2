@@ -34,7 +34,7 @@
     "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "portalFrame": {

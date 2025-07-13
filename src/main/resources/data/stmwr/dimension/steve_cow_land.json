@@ -90,11 +90,11 @@
           "biome": "stmwr:frozen_forest",
           "parameters": {
             "temperature": [
-              -0.4917,
+              -0.6,
               0.5155
             ],
             "humidity": [
-              -0.2982,
+              -0.5,
               0.199
             ],
             "continentalness": [
@@ -117,15 +117,15 @@
           "biome": "stmwr:snowy_sands",
           "parameters": {
             "temperature": [
-              -0.3,
-              0.5
+              0,
+              0.4
             ],
             "humidity": [
-              -0.5,
-              0.4998
+              -0.1,
+              0.1998
             ],
             "continentalness": [
-              0.2993,
+              0.5,
               1
             ],
             "weirdness": [
@@ -825,10 +825,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:snow",
-                              "Properties": {
-                                "layers": "1"
-                              }
+                              "Name": "stmwr:snowdirt"
                             }
                           }
                         },

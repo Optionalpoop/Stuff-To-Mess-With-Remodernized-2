@@ -35,6 +35,6 @@ public class FrostyAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModBlocks.FROSTY_PLANKS.get()));
 			}
-		}, 1, -4f, new Item.Properties());
+		}, 1, -3.1f, new Item.Properties());
 	}
 }

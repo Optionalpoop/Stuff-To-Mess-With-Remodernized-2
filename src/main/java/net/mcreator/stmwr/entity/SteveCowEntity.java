@@ -47,7 +47,7 @@ public class SteveCowEntity extends PathfinderMob {
 	public SteveCowEntity(EntityType<SteveCowEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(1f);
-		xpReward = 0;
+		xpReward = 8;
 		setNoAi(false);
 	}
 
@@ -104,7 +104,7 @@ public class SteveCowEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
 		builder = builder.add(Attributes.MAX_HEALTH, 50);
 		builder = builder.add(Attributes.ARMOR, 2);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 15);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 12);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1);
 		return builder;

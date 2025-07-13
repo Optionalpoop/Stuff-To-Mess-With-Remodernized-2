@@ -63,7 +63,7 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 15,
+    "attackStrength": 12,
     "attackKnockback": 1.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.5,
@@ -72,7 +72,7 @@
     "trackingRange": 64,
     "followRange": 16,
     "health": 50,
-    "xpAmount": 0,
+    "xpAmount": 8,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -138,7 +138,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 30,
+    "spawningProbability": 35,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 6,
@@ -148,6 +148,12 @@
       },
       {
         "value": "CUSTOM:FrozenForest"
+      },
+      {
+        "value": "CUSTOM:FrozenSea"
+      },
+      {
+        "value": "CUSTOM:Icelands"
       },
       {
         "value": "CUSTOM:SnowySands"

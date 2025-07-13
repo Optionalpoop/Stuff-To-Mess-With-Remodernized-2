@@ -35,6 +35,6 @@ public class ColdsteelSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModItems.COLDSTEEL_INGOT.get()));
 			}
-		}, 3, 4f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 }

@@ -35,6 +35,6 @@ public class GodliumSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModItems.GODLIUM_INGOT.get()));
 			}
-		}, 3, 0f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 }

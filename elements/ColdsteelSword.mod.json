@@ -18,7 +18,7 @@
       }
     ],
     "efficiency": 30.0,
-    "attackSpeed": 8.0,
+    "attackSpeed": 1.6,
     "enchantability": 80,
     "damageVsEntity": 30.0,
     "usageCount": 8000,

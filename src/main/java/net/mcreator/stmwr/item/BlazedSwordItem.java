@@ -37,7 +37,7 @@ public class BlazedSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModItems.BLAZED_INGOT.get()));
 			}
-		}, 3, -1f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 
 	@Override

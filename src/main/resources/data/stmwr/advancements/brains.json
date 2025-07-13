@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:frombie_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.brains.title"
+    },
+    "description": {
+      "translate": "advancements.brains.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brains_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 5
+          },
+          "source_entity": {
+            "type": "stmwr:frombie"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "stmwr:new_wildlife"
+}

@@ -35,6 +35,6 @@ public class CobblesnowedAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StmwrModBlocks.COBBLESNOW.get()));
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3.1f, new Item.Properties());
 	}
 }

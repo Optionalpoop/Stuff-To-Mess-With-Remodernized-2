@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:pikachu_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.mistakes_were_made.title"
+    },
+    "description": {
+      "translate": "advancements.mistakes_were_made.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mistakes_were_made_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 5
+          },
+          "source_entity": {
+            "type": "stmwr:pikachu"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "stmwr:new_wildlife"
+}

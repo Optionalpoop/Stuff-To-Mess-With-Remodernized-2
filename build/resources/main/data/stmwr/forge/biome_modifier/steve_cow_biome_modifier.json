@@ -7,7 +7,7 @@
   ],
   "spawners": {
     "type": "stmwr:steve_cow",
-    "weight": 30,
+    "weight": 35,
     "minCount": 1,
     "maxCount": 6
   }
