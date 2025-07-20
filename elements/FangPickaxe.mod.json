@@ -1,0 +1,41 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "fangpickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Fang Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "SuPeR fAsT!11!!"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "efficiency": 60.0,
+    "attackSpeed": 1.6,
+    "enchantability": 30,
+    "damageVsEntity": 14.0,
+    "usageCount": 128,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CrusherFang"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

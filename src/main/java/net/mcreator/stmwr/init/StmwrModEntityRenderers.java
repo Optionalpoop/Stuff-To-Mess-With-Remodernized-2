@@ -11,7 +11,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.PikachuRenderer;
+import net.mcreator.stmwr.client.renderer.LesserWizardRenderer;
+import net.mcreator.stmwr.client.renderer.HordebeastRenderer;
 import net.mcreator.stmwr.client.renderer.FrombieRenderer;
+import net.mcreator.stmwr.client.renderer.CrusherRenderer;
 import net.mcreator.stmwr.client.renderer.AlligatorRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -22,5 +25,8 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.STEVE_COW.get(), SteveCowRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.PIKACHU.get(), PikachuRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.FROMBIE.get(), FrombieRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.CRUSHER.get(), CrusherRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.HORDEBEAST.get(), HordebeastRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.LESSER_WIZARD.get(), LesserWizardRenderer::new);
 	}
 }

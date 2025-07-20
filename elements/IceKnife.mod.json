@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "iceknife",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Ice Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 5.0,
+    "enchantability": 50,
+    "damageVsEntity": 16.0,
+    "usageCount": 32,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:IceShard"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:forging_hammers"
+    },
+    {
+      "item": "stmwr:lesser_magicians_soul"
+    }
+  ],
+  "result": {
+    "item": "stmwr:soul_shard",
+    "count": 1
+  }
+}

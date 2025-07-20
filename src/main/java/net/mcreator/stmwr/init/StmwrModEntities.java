@@ -18,7 +18,10 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
+import net.mcreator.stmwr.entity.LesserWizardEntity;
+import net.mcreator.stmwr.entity.HordebeastEntity;
 import net.mcreator.stmwr.entity.FrombieEntity;
+import net.mcreator.stmwr.entity.CrusherEntity;
 import net.mcreator.stmwr.entity.AlligatorEntity;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -30,13 +33,25 @@ public class StmwrModEntities {
 
 					.sized(0.4f, 0.3f));
 	public static final RegistryObject<EntityType<SteveCowEntity>> STEVE_COW = register("steve_cow",
-			EntityType.Builder.<SteveCowEntity>of(SteveCowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SteveCowEntity::new)
+			EntityType.Builder.<SteveCowEntity>of(SteveCowEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SteveCowEntity::new)
 
 					.sized(0.9f, 1.4f));
 	public static final RegistryObject<EntityType<PikachuEntity>> PIKACHU = register("pikachu",
-			EntityType.Builder.<PikachuEntity>of(PikachuEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PikachuEntity::new).fireImmune().sized(0.9f, 0.9f));
+			EntityType.Builder.<PikachuEntity>of(PikachuEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PikachuEntity::new).fireImmune().sized(0.9f, 0.9f));
 	public static final RegistryObject<EntityType<FrombieEntity>> FROMBIE = register("frombie",
-			EntityType.Builder.<FrombieEntity>of(FrombieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FrombieEntity::new)
+			EntityType.Builder.<FrombieEntity>of(FrombieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FrombieEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CrusherEntity>> CRUSHER = register("crusher",
+			EntityType.Builder.<CrusherEntity>of(CrusherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrusherEntity::new)
+
+					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<HordebeastEntity>> HORDEBEAST = register("hordebeast",
+			EntityType.Builder.<HordebeastEntity>of(HordebeastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HordebeastEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LesserWizardEntity>> LESSER_WIZARD = register("lesser_wizard",
+			EntityType.Builder.<LesserWizardEntity>of(LesserWizardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(LesserWizardEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -51,6 +66,9 @@ public class StmwrModEntities {
 			SteveCowEntity.init();
 			PikachuEntity.init();
 			FrombieEntity.init();
+			CrusherEntity.init();
+			HordebeastEntity.init();
+			LesserWizardEntity.init();
 		});
 	}
 
@@ -60,5 +78,8 @@ public class StmwrModEntities {
 		event.put(STEVE_COW.get(), SteveCowEntity.createAttributes().build());
 		event.put(PIKACHU.get(), PikachuEntity.createAttributes().build());
 		event.put(FROMBIE.get(), FrombieEntity.createAttributes().build());
+		event.put(CRUSHER.get(), CrusherEntity.createAttributes().build());
+		event.put(HORDEBEAST.get(), HordebeastEntity.createAttributes().build());
+		event.put(LESSER_WIZARD.get(), LesserWizardEntity.createAttributes().build());
 	}
 }

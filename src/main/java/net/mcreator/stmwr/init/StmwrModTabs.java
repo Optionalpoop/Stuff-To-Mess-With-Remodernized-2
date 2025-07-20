@@ -216,6 +216,15 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.UGLUM.get());
 				tabData.accept(StmwrModItems.FROMBIE_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.ICE_SHARD.get());
+				tabData.accept(StmwrModItems.CRUSHER_FANG.get());
+				tabData.accept(StmwrModItems.CRUSHER_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.HORDEBEAST_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.FANG_PICKAXE.get());
+				tabData.accept(StmwrModItems.ICE_KNIFE.get());
+				tabData.accept(StmwrModBlocks.ICICLE.get().asItem());
+				tabData.accept(StmwrModItems.LESSER_MAGICIANS_SOUL.get());
+				tabData.accept(StmwrModItems.LESSER_WIZARD_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.SOUL_SHARD.get());
 			})
 
 					.build());

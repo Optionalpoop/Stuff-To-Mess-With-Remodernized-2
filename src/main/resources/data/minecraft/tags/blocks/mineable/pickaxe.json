@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:icicle",
     "stmwr:frozen_forge",
     "stmwr:coldsteel_block",
     "stmwr:coldsteel_ore",

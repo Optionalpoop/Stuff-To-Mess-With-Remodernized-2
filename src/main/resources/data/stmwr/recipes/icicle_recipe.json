@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ice_shard"
+    },
+    "b": {
+      "item": "stmwr:frostice"
+    }
+  },
+  "result": {
+    "item": "stmwr:icicle",
+    "count": 1
+  }
+}

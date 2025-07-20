@@ -21,7 +21,7 @@ public class SteveCowLandDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.6, 1, 0.8);
+					return color;
 				}
 
 				@Override

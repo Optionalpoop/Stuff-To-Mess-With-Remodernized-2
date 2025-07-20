@@ -9720,6 +9720,12 @@
     },
     "done": true
   },
+  "stmwr:steve_cows": {
+    "criteria": {
+      "steve_cows_0": "2025-07-13 08:43:16 -0400"
+    },
+    "done": true
+  },
   "stmwr:horns": {
     "criteria": {
       "horns_0": "2025-07-13 08:43:24 -0400"
@@ -9732,9 +9738,15 @@
     },
     "done": true
   },
-  "stmwr:steve_cows": {
+  "stmwr:souls_of_the_dead": {
     "criteria": {
-      "steve_cows_0": "2025-07-13 08:43:16 -0400"
+      "souls_of_the_dead_0": "2025-07-20 14:31:36 -0400"
+    },
+    "done": true
+  },
+  "stmwr:soul_smashing": {
+    "criteria": {
+      "soul_smashing_0": "2025-07-20 14:31:42 -0400"
     },
     "done": true
   },

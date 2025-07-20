@@ -11,23 +11,36 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "stmwr:hordebeast",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 12
+      },
+      {
+        "type": "stmwr:crusher",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
     "creature": [
       {
         "type": "stmwr:frombie",
-        "weight": 2,
+        "weight": 4,
         "minCount": 1,
         "maxCount": 9
       },
       {
         "type": "stmwr:steve_cow",
-        "weight": 6,
+        "weight": 12,
         "minCount": 1,
         "maxCount": 6
       },
       {
         "type": "stmwr:pikachu",
-        "weight": 2,
+        "weight": 4,
         "minCount": 1,
         "maxCount": 4
       }

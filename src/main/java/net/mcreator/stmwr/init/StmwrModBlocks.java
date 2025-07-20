@@ -33,6 +33,7 @@ import net.mcreator.stmwr.block.MagiciteBlockBlock;
 import net.mcreator.stmwr.block.MagiciansWorkbenchBlock;
 import net.mcreator.stmwr.block.KitchenBlock;
 import net.mcreator.stmwr.block.KeyAnvilBlock;
+import net.mcreator.stmwr.block.IcicleBlock;
 import net.mcreator.stmwr.block.HeartstoneOreBlock;
 import net.mcreator.stmwr.block.HeartstoneBlockBlock;
 import net.mcreator.stmwr.block.GodlyStorageCubeBlock;
@@ -124,6 +125,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> COLDSTEEL_ORE = REGISTRY.register("coldsteel_ore", () -> new ColdsteelOreBlock());
 	public static final RegistryObject<Block> COLDSTEEL_BLOCK = REGISTRY.register("coldsteel_block", () -> new ColdsteelBlockBlock());
 	public static final RegistryObject<Block> FROZEN_FORGE = REGISTRY.register("frozen_forge", () -> new FrozenForgeBlock());
+	public static final RegistryObject<Block> ICICLE = REGISTRY.register("icicle", () -> new IcicleBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

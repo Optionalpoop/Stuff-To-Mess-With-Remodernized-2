@@ -106,7 +106,7 @@
         },
         "minGroup": 1,
         "maxGroup": 4,
-        "weight": 2,
+        "weight": 4,
         "spawnType": "creature"
       },
       {
@@ -115,7 +115,7 @@
         },
         "minGroup": 1,
         "maxGroup": 6,
-        "weight": 6,
+        "weight": 12,
         "spawnType": "creature"
       },
       {
@@ -124,8 +124,26 @@
         },
         "minGroup": 1,
         "maxGroup": 9,
-        "weight": 2,
+        "weight": 4,
         "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Hordebeast"
+        },
+        "minGroup": 3,
+        "maxGroup": 12,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Crusher"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 20,
+        "spawnType": "monster"
       }
     ]
   }
