@@ -63,7 +63,7 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 50,
+    "attackStrength": 25,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.5,
     "movementSpeed": 0.4,
@@ -71,7 +71,7 @@
     "armorBaseValue": 8.0,
     "trackingRange": 128,
     "followRange": 64,
-    "health": 1000,
+    "health": 300,
     "xpAmount": 100,
     "waterMob": false,
     "breatheUnderwater": {

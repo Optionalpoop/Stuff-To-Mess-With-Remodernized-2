@@ -129,9 +129,9 @@ public class GiantSteveCowEntity extends Monster {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
-		builder = builder.add(Attributes.MAX_HEALTH, 1000);
+		builder = builder.add(Attributes.MAX_HEALTH, 600);
 		builder = builder.add(Attributes.ARMOR, 20);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 60);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 30);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 128);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 25);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 2);
