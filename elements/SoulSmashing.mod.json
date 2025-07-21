@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Soul Smashing",
-    "achievementDescription": "Crafting a soul with your hammer can create soul shards! A soul only has 8 durability, use it wisely.",
+    "achievementDescription": "Crafting a soul with your hammer can create soul shards in the frozen forge! A soul only has 8 durability, use it wisely.",
     "achievementIcon": {
       "value": "CUSTOM:SoulShard"
     },

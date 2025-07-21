@@ -231,6 +231,21 @@
           "x": 132,
           "y": 158
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_the_cow",
+          "text": "The Cow",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfTheSteveCowRecipe"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 236,
+          "y": 115
+        }
       }
     ],
     "gridSettings": {

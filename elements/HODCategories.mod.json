@@ -63,7 +63,22 @@
           },
           "width": 72,
           "height": 20,
-          "x": 132,
+          "x": 130,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stevecow_land",
+          "text": "SteveCow Land",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODSteveCowLand"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 204,
           "y": 26
         }
       }

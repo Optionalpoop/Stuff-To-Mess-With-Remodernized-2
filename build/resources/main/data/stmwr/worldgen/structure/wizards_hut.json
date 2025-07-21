@@ -10,6 +10,9 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "stmwr:frozen_forest",
+  "biomes": [
+    "stmwr:frozen_forest",
+    "stmwr:frosted_peaks"
+  ],
   "use_expansion_hack": false
 }

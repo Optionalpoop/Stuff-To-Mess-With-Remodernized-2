@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:LightningBlast"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.lightning.impact"
+    },
+    "igniteFire": true,
+    "power": 10.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "LightningBlastLivingEntityIsHitWithItem"
+    },
+    "onHitsPlayer": {
+      "name": "LightningBlastLivingEntityIsHitWithItem"
+    }
+  }
+}

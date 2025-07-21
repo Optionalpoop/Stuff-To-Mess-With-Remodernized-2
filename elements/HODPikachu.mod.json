@@ -1,0 +1,82 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODSteveCowLand"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 190,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_just_one_uglum_from_a_pikachu",
+          "text": {
+            "fixedValue": "Just one uglum from a Pikachu"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_earns_you_two_noobish_trial",
+          "text": {
+            "fixedValue": "earns you TWO noobish trial"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coins_when_consumed",
+          "text": {
+            "fixedValue": "coins when consumed."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 43
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

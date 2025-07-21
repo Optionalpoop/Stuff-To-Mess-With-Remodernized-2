@@ -1,0 +1,67 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODSteveCowLand"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 190,
+          "y": 195
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_five_crusher_fangs_gets_you_a",
+          "text": {
+            "fixedValue": "Five crusher fangs gets you a"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_noobish_trial_coin_not_terrible",
+          "text": {
+            "fixedValue": "noobish trial coin. Not bad."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 33
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

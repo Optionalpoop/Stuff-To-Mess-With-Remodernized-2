@@ -1,0 +1,82 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODSteveCowLand"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 192,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_five_ice_shards_from_a_frombie",
+          "text": {
+            "fixedValue": "Five ice shards from a frombie"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 25
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_will_get_you_a_noobish_trial_coi",
+          "text": {
+            "fixedValue": "will get you a noobish trial"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coin",
+          "text": {
+            "fixedValue": "coin."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 45
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

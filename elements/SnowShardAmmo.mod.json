@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:SnowShard"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 1.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "SnowShardLivingEntityIsHitWithItem"
+    }
+  }
+}

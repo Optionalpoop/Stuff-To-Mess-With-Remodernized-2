@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.CategoriesMenu;
 import net.mcreator.stmwr.procedures.ToToolsAndArmorProcedure;
+import net.mcreator.stmwr.procedures.ToItemsForgePageProcedure;
 import net.mcreator.stmwr.procedures.ToForgeHomePageProcedure;
 import net.mcreator.stmwr.procedures.ToBlocksPageProcedure;
 import net.mcreator.stmwr.StmwrMod;
@@ -75,6 +76,10 @@ public class CategoriesButtonMessage {
 		if (buttonID == 2) {
 
 			ToForgeHomePageProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToItemsForgePageProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

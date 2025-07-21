@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:lightning_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 20,
+    "salt": 1520779091
+  }
+}

@@ -25,6 +25,7 @@ public class SpellsP1Screen extends AbstractContainerScreen<SpellsP1Menu> {
 	Button button_empty;
 	Button button_empty1;
 	Button button_wizards_sea;
+	Button button_snowy_shrapnel;
 
 	public SpellsP1Screen(SpellsP1Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -92,5 +93,13 @@ public class SpellsP1Screen extends AbstractContainerScreen<SpellsP1Menu> {
 		}).bounds(this.leftPos + 4, this.topPos + 4, 87, 20).build();
 		guistate.put("button:button_wizards_sea", button_wizards_sea);
 		this.addRenderableWidget(button_wizards_sea);
+		button_snowy_shrapnel = Button.builder(Component.translatable("gui.stmwr.spells_p_1.button_snowy_shrapnel"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new SpellsP1ButtonMessage(3, x, y, z));
+				SpellsP1ButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 25, 98, 20).build();
+		guistate.put("button:button_snowy_shrapnel", button_snowy_shrapnel);
+		this.addRenderableWidget(button_snowy_shrapnel);
 	}
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:frosty_planks"
+    },
+    "b": {
+      "item": "stmwr:magic_apple"
+    },
+    "c": {
+      "item": "stmwr:lightning_fragment"
+    },
+    "d": {
+      "item": "stmwr:coldsteel_block"
+    }
+  },
+  "result": {
+    "item": "stmwr:call_of_the_cow",
+    "count": 1
+  }
+}

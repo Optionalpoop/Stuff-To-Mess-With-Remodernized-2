@@ -66,6 +66,21 @@
           "x": 130,
           "y": 24
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_snowy_shrapnel",
+          "text": "Snowy Shrapnel",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToSnowyShrapnelRecipe"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 130,
+          "y": 45
+        }
       }
     ],
     "gridSettings": {

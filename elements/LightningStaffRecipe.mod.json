@@ -1,0 +1,136 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToToolsAndArmor"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 188,
+          "y": 196
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lightning_staff",
+          "text": {
+            "fixedValue": "Lightning Staff"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 174,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_made_in_frozen_forge",
+          "text": {
+            "fixedValue": "Made in Frozen Forge!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 185
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ingredients",
+          "text": {
+            "fixedValue": "Ingredients:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_stevum_sword",
+          "text": {
+            "fixedValue": "Stevum Sword"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_magicite_handle",
+          "text": {
+            "fixedValue": "Magicite Handle"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lightning_in_a_bottle",
+          "text": {
+            "fixedValue": "Lightning in a Bottle"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-07-21_11-46-36.png",
+          "use1Xscale": true,
+          "x": 128,
+          "y": 75
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

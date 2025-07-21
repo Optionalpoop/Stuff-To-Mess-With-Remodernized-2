@@ -9,12 +9,18 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.PikachuRenderer;
+import net.mcreator.stmwr.client.renderer.LightningWizardRenderer;
+import net.mcreator.stmwr.client.renderer.LightningCultistRenderer;
 import net.mcreator.stmwr.client.renderer.LesserWizardRenderer;
 import net.mcreator.stmwr.client.renderer.HordebeastRenderer;
+import net.mcreator.stmwr.client.renderer.GiantSteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.FrombieRenderer;
 import net.mcreator.stmwr.client.renderer.CrusherRenderer;
+import net.mcreator.stmwr.client.renderer.CamperRenderer;
 import net.mcreator.stmwr.client.renderer.AlligatorRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -28,5 +34,12 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.CRUSHER.get(), CrusherRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.HORDEBEAST.get(), HordebeastRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.LESSER_WIZARD.get(), LesserWizardRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.SNOWSHOT_AMMO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.SNOW_SHARD_AMMO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.LIGHTNING_CULTIST.get(), LightningCultistRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.LIGHTNING_WIZARD.get(), LightningWizardRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.LIGHTNING_BLAST_AMMO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.CAMPER.get(), CamperRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.GIANT_STEVE_COW.get(), GiantSteveCowRenderer::new);
 	}
 }

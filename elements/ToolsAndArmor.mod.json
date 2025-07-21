@@ -126,6 +126,36 @@
           "x": 130,
           "y": 109
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_frostwatch",
+          "text": "Frostwatch",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToFrostwatchRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 213,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lightning_staff",
+          "text": "Lightning Staff",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToLightningStaffRecipe"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 130,
+          "y": 130
+        }
       }
     ],
     "gridSettings": {

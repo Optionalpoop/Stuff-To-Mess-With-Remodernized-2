@@ -25,6 +25,7 @@ public class HODCategoriesScreen extends AbstractContainerScreen<HODCategoriesMe
 	Button button_empty;
 	Button button_empty1;
 	Button button_overworld;
+	Button button_stevecow_land;
 
 	public HODCategoriesScreen(HODCategoriesMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -89,8 +90,16 @@ public class HODCategoriesScreen extends AbstractContainerScreen<HODCategoriesMe
 				StmwrMod.PACKET_HANDLER.sendToServer(new HODCategoriesButtonMessage(2, x, y, z));
 				HODCategoriesButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 6, 72, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 6, 72, 20).build();
 		guistate.put("button:button_overworld", button_overworld);
 		this.addRenderableWidget(button_overworld);
+		button_stevecow_land = Button.builder(Component.translatable("gui.stmwr.hod_categories.button_stevecow_land"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new HODCategoriesButtonMessage(3, x, y, z));
+				HODCategoriesButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 78, this.topPos + 6, 93, 20).build();
+		guistate.put("button:button_stevecow_land", button_stevecow_land);
+		this.addRenderableWidget(button_stevecow_land);
 	}
 }

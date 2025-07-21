@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.AOTTotemsP1Menu;
 import net.mcreator.stmwr.procedures.ToTotemOfWaterBreathingRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfTheSteveCowRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfStrengthRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfSpeedRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfRegenerationRecipeProcedure;
@@ -125,6 +126,10 @@ public class AOTTotemsP1ButtonMessage {
 		if (buttonID == 13) {
 
 			ToTotemOfGamblingRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 14) {
+
+			ToTotemOfTheSteveCowRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

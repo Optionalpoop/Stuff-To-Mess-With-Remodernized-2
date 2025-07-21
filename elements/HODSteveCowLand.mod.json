@@ -1,0 +1,184 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<---",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODCategories"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 133,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 213,
+          "y": 199
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "--->",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 250,
+          "y": 195
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stevecow",
+          "text": "SteveCow",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODSteveCow"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 131,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_frombie",
+          "text": "Frombie",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODFrombie"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 200,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pikachu",
+          "text": "Pikachu",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODPikachu"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 131,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_crusher",
+          "text": "Crusher",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODCrusher"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 131,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lesser_wizard",
+          "text": "Lesser Wizard",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODLesserWizard"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 194,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lightning_cultist",
+          "text": "Lightning Cultist",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODLightningCultist"
+          },
+          "width": 114,
+          "height": 20,
+          "x": 131,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lightning_wizard",
+          "text": "Lightning Wizard",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODLightningWizard"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 131,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_giant_stevecow",
+          "text": "Giant SteveCow",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODGiantSteveCow"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 194,
+          "y": 67
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

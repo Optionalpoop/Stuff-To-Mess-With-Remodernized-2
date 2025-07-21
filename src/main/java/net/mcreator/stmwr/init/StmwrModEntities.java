@@ -17,11 +17,18 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.SteveCowEntity;
+import net.mcreator.stmwr.entity.SnowshotAmmoEntity;
+import net.mcreator.stmwr.entity.SnowShardAmmoEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
+import net.mcreator.stmwr.entity.LightningWizardEntity;
+import net.mcreator.stmwr.entity.LightningCultistEntity;
+import net.mcreator.stmwr.entity.LightningBlastAmmoEntity;
 import net.mcreator.stmwr.entity.LesserWizardEntity;
 import net.mcreator.stmwr.entity.HordebeastEntity;
+import net.mcreator.stmwr.entity.GiantSteveCowEntity;
 import net.mcreator.stmwr.entity.FrombieEntity;
 import net.mcreator.stmwr.entity.CrusherEntity;
+import net.mcreator.stmwr.entity.CamperEntity;
 import net.mcreator.stmwr.entity.AlligatorEntity;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -54,6 +61,24 @@ public class StmwrModEntities {
 			EntityType.Builder.<LesserWizardEntity>of(LesserWizardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(LesserWizardEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SnowshotAmmoEntity>> SNOWSHOT_AMMO = register("snowshot_ammo",
+			EntityType.Builder.<SnowshotAmmoEntity>of(SnowshotAmmoEntity::new, MobCategory.MISC).setCustomClientFactory(SnowshotAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SnowShardAmmoEntity>> SNOW_SHARD_AMMO = register("snow_shard_ammo",
+			EntityType.Builder.<SnowShardAmmoEntity>of(SnowShardAmmoEntity::new, MobCategory.MISC).setCustomClientFactory(SnowShardAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<LightningCultistEntity>> LIGHTNING_CULTIST = register("lightning_cultist", EntityType.Builder.<LightningCultistEntity>of(LightningCultistEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LightningCultistEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LightningWizardEntity>> LIGHTNING_WIZARD = register("lightning_wizard", EntityType.Builder.<LightningWizardEntity>of(LightningWizardEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(LightningWizardEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LightningBlastAmmoEntity>> LIGHTNING_BLAST_AMMO = register("lightning_blast_ammo", EntityType.Builder.<LightningBlastAmmoEntity>of(LightningBlastAmmoEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(LightningBlastAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<CamperEntity>> CAMPER = register("camper",
+			EntityType.Builder.<CamperEntity>of(CamperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CamperEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiantSteveCowEntity>> GIANT_STEVE_COW = register("giant_steve_cow",
+			EntityType.Builder.<GiantSteveCowEntity>of(GiantSteveCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(GiantSteveCowEntity::new)
+
+					.sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -69,6 +94,10 @@ public class StmwrModEntities {
 			CrusherEntity.init();
 			HordebeastEntity.init();
 			LesserWizardEntity.init();
+			LightningCultistEntity.init();
+			LightningWizardEntity.init();
+			CamperEntity.init();
+			GiantSteveCowEntity.init();
 		});
 	}
 
@@ -81,5 +110,9 @@ public class StmwrModEntities {
 		event.put(CRUSHER.get(), CrusherEntity.createAttributes().build());
 		event.put(HORDEBEAST.get(), HordebeastEntity.createAttributes().build());
 		event.put(LESSER_WIZARD.get(), LesserWizardEntity.createAttributes().build());
+		event.put(LIGHTNING_CULTIST.get(), LightningCultistEntity.createAttributes().build());
+		event.put(LIGHTNING_WIZARD.get(), LightningWizardEntity.createAttributes().build());
+		event.put(CAMPER.get(), CamperEntity.createAttributes().build());
+		event.put(GIANT_STEVE_COW.get(), GiantSteveCowEntity.createAttributes().build());
 	}
 }

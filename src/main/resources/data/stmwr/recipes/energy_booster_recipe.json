@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:lightning_in_a_bottle"
+    },
+    {
+      "item": "stmwr:lightning_fragment"
+    }
+  ],
+  "result": {
+    "item": "stmwr:energy_booster",
+    "count": 1
+  }
+}

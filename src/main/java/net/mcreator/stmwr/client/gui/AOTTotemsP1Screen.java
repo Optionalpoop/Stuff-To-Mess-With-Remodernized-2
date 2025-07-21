@@ -36,6 +36,7 @@ public class AOTTotemsP1Screen extends AbstractContainerScreen<AOTTotemsP1Menu> 
 	Button button_levitation;
 	Button button_regeneration;
 	Button button_gambling;
+	Button button_the_cow;
 
 	public AOTTotemsP1Screen(AOTTotemsP1Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -191,5 +192,13 @@ public class AOTTotemsP1Screen extends AbstractContainerScreen<AOTTotemsP1Menu> 
 		}).bounds(this.leftPos + 6, this.topPos + 138, 67, 20).build();
 		guistate.put("button:button_gambling", button_gambling);
 		this.addRenderableWidget(button_gambling);
+		button_the_cow = Button.builder(Component.translatable("gui.stmwr.aot_totems_p_1.button_the_cow"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new AOTTotemsP1ButtonMessage(14, x, y, z));
+				AOTTotemsP1ButtonMessage.handleButtonAction(entity, 14, x, y, z);
+			}
+		}).bounds(this.leftPos + 110, this.topPos + 95, 61, 20).build();
+		guistate.put("button:button_the_cow", button_the_cow);
+		this.addRenderableWidget(button_the_cow);
 	}
 }

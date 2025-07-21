@@ -25,6 +25,7 @@ public class CategoriesScreen extends AbstractContainerScreen<CategoriesMenu> {
 	Button button_tools_and_armor;
 	Button button_blocks;
 	Button button_home_page;
+	Button button_items;
 
 	public CategoriesScreen(CategoriesMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -95,5 +96,13 @@ public class CategoriesScreen extends AbstractContainerScreen<CategoriesMenu> {
 		}).bounds(this.leftPos + 52, this.topPos + 175, 72, 20).build();
 		guistate.put("button:button_home_page", button_home_page);
 		this.addRenderableWidget(button_home_page);
+		button_items = Button.builder(Component.translatable("gui.stmwr.categories.button_items"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new CategoriesButtonMessage(3, x, y, z));
+				CategoriesButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 26, 51, 20).build();
+		guistate.put("button:button_items", button_items);
+		this.addRenderableWidget(button_items);
 	}
 }

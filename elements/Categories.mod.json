@@ -54,6 +54,21 @@
           "x": 178,
           "y": 195
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_items",
+          "text": "Items",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToItemsForgePage"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 132,
+          "y": 46
+        }
       }
     ],
     "gridSettings": {

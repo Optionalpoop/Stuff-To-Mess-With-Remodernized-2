@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Snowshot"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "igniteFire": false,
+    "power": 1.5,
+    "damage": 30.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

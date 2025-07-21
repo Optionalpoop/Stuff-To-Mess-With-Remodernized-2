@@ -1,0 +1,82 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODSteveCowLand"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 192,
+          "y": 195
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_lightning_of_a_lightning",
+          "text": {
+            "fixedValue": "The lightning of a lightning"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cultist_gives_you_two_noobish",
+          "text": {
+            "fixedValue": "cultist gives you two noobish"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trial_coins",
+          "text": {
+            "fixedValue": "trial coins."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 50
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

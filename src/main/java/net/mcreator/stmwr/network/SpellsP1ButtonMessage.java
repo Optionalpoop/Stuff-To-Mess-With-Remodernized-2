@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.SpellsP1Menu;
 import net.mcreator.stmwr.procedures.ToWizardsSeaRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToSnowyShrapnelRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCodexHomePageProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -70,6 +71,10 @@ public class SpellsP1ButtonMessage {
 		if (buttonID == 2) {
 
 			ToWizardsSeaRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToSnowyShrapnelRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

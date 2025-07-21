@@ -1,0 +1,56 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "frostwatch",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Frostwatch",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 25,
+    "useDuration": 72000,
+    "toolType": 1.0,
+    "damageCount": 256,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:SnowshotAmmo"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

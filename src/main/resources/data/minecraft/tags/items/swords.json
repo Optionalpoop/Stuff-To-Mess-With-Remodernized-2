@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:lightning_staff",
     "stmwr:ice_knife",
     "stmwr:coldsteel_sword",
     "stmwr:cobblesnowed_sword",

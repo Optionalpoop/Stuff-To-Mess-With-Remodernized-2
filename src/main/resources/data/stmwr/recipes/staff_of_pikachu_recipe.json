@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:heart_of_the_steve_cow"
+    },
+    "b": {
+      "item": "stmwr:uglum"
+    },
+    "c": {
+      "item": "stmwr:magicite_handle"
+    }
+  },
+  "result": {
+    "item": "stmwr:staff_of_pikachu",
+    "count": 1
+  }
+}
