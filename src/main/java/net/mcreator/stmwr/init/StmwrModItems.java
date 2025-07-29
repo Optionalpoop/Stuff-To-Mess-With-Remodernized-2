@@ -89,6 +89,7 @@ import net.mcreator.stmwr.item.LightningInABottleItem;
 import net.mcreator.stmwr.item.LightningFragmentItem;
 import net.mcreator.stmwr.item.LightningBlastItem;
 import net.mcreator.stmwr.item.LesserMagiciansSoulItem;
+import net.mcreator.stmwr.item.IronSpikeItem;
 import net.mcreator.stmwr.item.IronForgingHammerItem;
 import net.mcreator.stmwr.item.InfiniboingAppleItem;
 import net.mcreator.stmwr.item.IceShardItem;
@@ -122,6 +123,13 @@ import net.mcreator.stmwr.item.ForgersGuideItem;
 import net.mcreator.stmwr.item.FangPickaxeItem;
 import net.mcreator.stmwr.item.EnergyBoosterItem;
 import net.mcreator.stmwr.item.EmptyTrialKeyItem;
+import net.mcreator.stmwr.item.EmeraldForgingHammerItem;
+import net.mcreator.stmwr.item.EmbroideredSwordItem;
+import net.mcreator.stmwr.item.EmbroideredShovelItem;
+import net.mcreator.stmwr.item.EmbroideredPickaxeItem;
+import net.mcreator.stmwr.item.EmbroideredHoeItem;
+import net.mcreator.stmwr.item.EmbroideredAxeItem;
+import net.mcreator.stmwr.item.EmbroideredArmorItem;
 import net.mcreator.stmwr.item.DurableAppleItem;
 import net.mcreator.stmwr.item.DoughItem;
 import net.mcreator.stmwr.item.DirtNuggetItem;
@@ -392,6 +400,19 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> GIANT_STEVE_COW_SPAWN_EGG = REGISTRY.register("giant_steve_cow_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.GIANT_STEVE_COW, -16777012, -6750055, new Item.Properties()));
 	public static final RegistryObject<Item> STAFF_OF_PIKACHU = REGISTRY.register("staff_of_pikachu", () -> new StaffOfPikachuItem());
 	public static final RegistryObject<Item> TOTEM_OF_THE_COW = REGISTRY.register("totem_of_the_cow", () -> new TotemOfTheCowItem());
+	public static final RegistryObject<Item> IRON_SPIKE = REGISTRY.register("iron_spike", () -> new IronSpikeItem());
+	public static final RegistryObject<Item> SMOOTH_SNAPSTONE = block(StmwrModBlocks.SMOOTH_SNAPSTONE);
+	public static final RegistryObject<Item> SNAPSTONE_SLAB = block(StmwrModBlocks.SNAPSTONE_SLAB);
+	public static final RegistryObject<Item> EMBROIDERED_ARMOR_HELMET = REGISTRY.register("embroidered_armor_helmet", () -> new EmbroideredArmorItem.Helmet());
+	public static final RegistryObject<Item> EMBROIDERED_ARMOR_CHESTPLATE = REGISTRY.register("embroidered_armor_chestplate", () -> new EmbroideredArmorItem.Chestplate());
+	public static final RegistryObject<Item> EMBROIDERED_ARMOR_LEGGINGS = REGISTRY.register("embroidered_armor_leggings", () -> new EmbroideredArmorItem.Leggings());
+	public static final RegistryObject<Item> EMBROIDERED_ARMOR_BOOTS = REGISTRY.register("embroidered_armor_boots", () -> new EmbroideredArmorItem.Boots());
+	public static final RegistryObject<Item> EMBROIDERED_PICKAXE = REGISTRY.register("embroidered_pickaxe", () -> new EmbroideredPickaxeItem());
+	public static final RegistryObject<Item> EMBROIDERED_AXE = REGISTRY.register("embroidered_axe", () -> new EmbroideredAxeItem());
+	public static final RegistryObject<Item> EMBROIDERED_SWORD = REGISTRY.register("embroidered_sword", () -> new EmbroideredSwordItem());
+	public static final RegistryObject<Item> EMBROIDERED_SHOVEL = REGISTRY.register("embroidered_shovel", () -> new EmbroideredShovelItem());
+	public static final RegistryObject<Item> EMBROIDERED_HOE = REGISTRY.register("embroidered_hoe", () -> new EmbroideredHoeItem());
+	public static final RegistryObject<Item> EMERALD_FORGING_HAMMER = REGISTRY.register("emerald_forging_hammer", () -> new EmeraldForgingHammerItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

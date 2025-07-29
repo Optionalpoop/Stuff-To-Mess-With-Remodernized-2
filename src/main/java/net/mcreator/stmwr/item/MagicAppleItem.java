@@ -9,6 +9,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
+import net.mcreator.stmwr.procedures.MagicApplePlayerFinishesUsingItemProcedure;
 import net.mcreator.stmwr.init.StmwrModItems;
 
 public class MagicAppleItem extends Item {
@@ -20,6 +21,10 @@ public class MagicAppleItem extends Item {
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = new ItemStack(StmwrModItems.MAGICITE_DUST.get());
 		super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		MagicApplePlayerFinishesUsingItemProcedure.execute(entity);
 		if (itemstack.isEmpty()) {
 			return retval;
 		} else {

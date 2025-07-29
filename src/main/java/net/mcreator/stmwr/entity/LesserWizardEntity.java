@@ -102,7 +102,7 @@ public class LesserWizardEntity extends Monster {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.35);
 		builder = builder.add(Attributes.MAX_HEALTH, 200);
 		builder = builder.add(Attributes.ARMOR, 6);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 20);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 40);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 64);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 2);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 2);

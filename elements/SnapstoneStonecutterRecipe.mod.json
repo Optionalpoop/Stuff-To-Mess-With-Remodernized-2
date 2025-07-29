@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Snapstone"
+      },
+      {
+        "value": "CUSTOM:Snapstone"
+      },
+      {
+        "value": "CUSTOM:Snapstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.STONECUTTER"
+    },
+    "name": "snapstone_stonecutter_recipe",
+    "namespace": "mod"
+  }
+}

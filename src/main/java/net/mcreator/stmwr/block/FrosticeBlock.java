@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 
 public class FrosticeBlock extends Block {
 	public FrosticeBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).sound(SoundType.GLASS).strength(0.25f, 9f).requiresCorrectToolForDrops().friction(0.7f).speedFactor(1.2f).jumpFactor(1.5f).noOcclusion()
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).sound(SoundType.GLASS).strength(0.5f).requiresCorrectToolForDrops().friction(0.7f).speedFactor(1.2f).jumpFactor(1.5f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 

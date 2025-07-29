@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 11,
-    "separation": 10,
+    "spacing": 40,
+    "separation": 20,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:FrozenForest"

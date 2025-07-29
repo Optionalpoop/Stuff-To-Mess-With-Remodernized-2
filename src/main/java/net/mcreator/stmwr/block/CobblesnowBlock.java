@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CobblesnowBlock extends Block {
 	public CobblesnowBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.95f, 9f).speedFactor(0.9f).jumpFactor(0.9f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 9f).speedFactor(0.9f).jumpFactor(0.9f));
 	}
 
 	@Override

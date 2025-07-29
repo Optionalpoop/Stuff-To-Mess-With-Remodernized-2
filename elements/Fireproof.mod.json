@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Fireproof",
-    "achievementDescription": "Blazed gear makes you immune to fire has great defense! Make a set of armor in the forge!",
+    "achievementDescription": "Blazed gear makes you immune to fire and has great defense! Make a set of armor in the forge!",
     "achievementIcon": {
       "value": "CUSTOM:BlazedArmor.body"
     },

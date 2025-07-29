@@ -28,7 +28,7 @@ public abstract class BlazedArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{3, 6, 7, 3}[type.getSlot().getIndex()];
+				return new int[]{2, 5, 6, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override

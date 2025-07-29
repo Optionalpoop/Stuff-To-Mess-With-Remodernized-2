@@ -15,7 +15,7 @@ public class BlazedShovelItem extends ShovelItem {
 	public BlazedShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 660;
+				return 1000;
 			}
 
 			public float getSpeed() {

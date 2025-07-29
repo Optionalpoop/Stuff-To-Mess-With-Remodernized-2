@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Totemic",
-    "achievementDescription": "The totem fusion station is your key to new and powerful totems!",
+    "achievementDescription": "The totem fusion station is your key to powerful totems! It does require godlium to craft.",
     "achievementIcon": {
       "value": "CUSTOM:TotemFusionStation"
     },

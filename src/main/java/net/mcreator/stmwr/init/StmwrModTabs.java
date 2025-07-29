@@ -244,6 +244,19 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.GIANT_STEVE_COW_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.LESSER_WIZARD_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.ALLIGATOR_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.IRON_SPIKE.get());
+				tabData.accept(StmwrModBlocks.SMOOTH_SNAPSTONE.get().asItem());
+				tabData.accept(StmwrModBlocks.SNAPSTONE_SLAB.get().asItem());
+				tabData.accept(StmwrModItems.EMBROIDERED_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_PICKAXE.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_AXE.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_SWORD.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_SHOVEL.get());
+				tabData.accept(StmwrModItems.EMBROIDERED_HOE.get());
+				tabData.accept(StmwrModItems.EMERALD_FORGING_HAMMER.get());
 			})
 
 					.build());

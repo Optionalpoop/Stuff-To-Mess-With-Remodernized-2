@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:snapstone_slab",
     "stmwr:frosty_slab"
   ]
 }

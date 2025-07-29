@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": "CUSTOM:SmoothSnapstone"
+      },
+      {
+        "value": "CUSTOM:SmoothSnapstone"
+      },
+      {
+        "value": "CUSTOM:SmoothSnapstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BLAST_FURNACE"
+    },
+    "name": "smooth_snapstone_blast_furnace_recipe",
+    "namespace": "mod"
+  }
+}

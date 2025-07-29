@@ -15,7 +15,7 @@ public class BlazedHoeItem extends HoeItem {
 	public BlazedHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2000;
+				return 1000;
 			}
 
 			public float getSpeed() {

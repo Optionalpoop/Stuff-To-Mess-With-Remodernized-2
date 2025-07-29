@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 15,
-    "separation": 6,
+    "spacing": 30,
+    "separation": 12,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:FrostedPeaks"

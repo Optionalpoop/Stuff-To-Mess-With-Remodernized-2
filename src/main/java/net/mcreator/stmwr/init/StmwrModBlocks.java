@@ -23,7 +23,9 @@ import net.mcreator.stmwr.block.SteveCowLandPortalBlock;
 import net.mcreator.stmwr.block.SpellforgeBlock;
 import net.mcreator.stmwr.block.SpeedstoneBlock;
 import net.mcreator.stmwr.block.SnowdirtBlock;
+import net.mcreator.stmwr.block.SnapstoneSlabBlock;
 import net.mcreator.stmwr.block.SnapstoneBlock;
+import net.mcreator.stmwr.block.SmoothSnapstoneBlock;
 import net.mcreator.stmwr.block.PlasticBlock;
 import net.mcreator.stmwr.block.PeanutPlantBlock;
 import net.mcreator.stmwr.block.OrePurifierBlock;
@@ -126,6 +128,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> COLDSTEEL_BLOCK = REGISTRY.register("coldsteel_block", () -> new ColdsteelBlockBlock());
 	public static final RegistryObject<Block> FROZEN_FORGE = REGISTRY.register("frozen_forge", () -> new FrozenForgeBlock());
 	public static final RegistryObject<Block> ICICLE = REGISTRY.register("icicle", () -> new IcicleBlock());
+	public static final RegistryObject<Block> SMOOTH_SNAPSTONE = REGISTRY.register("smooth_snapstone", () -> new SmoothSnapstoneBlock());
+	public static final RegistryObject<Block> SNAPSTONE_SLAB = REGISTRY.register("snapstone_slab", () -> new SnapstoneSlabBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

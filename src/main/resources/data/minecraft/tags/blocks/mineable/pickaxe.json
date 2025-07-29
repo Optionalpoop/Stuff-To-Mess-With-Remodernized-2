@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:snapstone_slab",
+    "stmwr:cobblesnow",
     "stmwr:icicle",
     "stmwr:frozen_forge",
     "stmwr:coldsteel_block",

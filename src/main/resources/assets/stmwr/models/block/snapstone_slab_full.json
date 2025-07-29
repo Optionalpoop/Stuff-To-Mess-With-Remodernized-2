@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "stmwr:block/snapstone",
+    "bottom": "stmwr:block/snapstone",
+    "top": "stmwr:block/snapstone",
+    "side": "stmwr:block/snapstone"
+  },
+  "render_type": "solid"
+}

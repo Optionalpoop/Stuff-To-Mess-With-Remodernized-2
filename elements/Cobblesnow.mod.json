@@ -37,7 +37,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.95,
+    "hardness": 2.0,
     "resistance": 9.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -46,7 +46,7 @@
         "value": "CUSTOM:StuffToMessWithRemodernized"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -102,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

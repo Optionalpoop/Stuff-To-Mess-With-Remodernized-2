@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class SnowdirtBlock extends Block {
 	public SnowdirtBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.SNARE).sound(SoundType.GRAVEL).strength(1f, 5.5f).speedFactor(1.5f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.SNARE).sound(SoundType.GRAVEL).strength(0.5f).speedFactor(1.5f));
 	}
 
 	@Override

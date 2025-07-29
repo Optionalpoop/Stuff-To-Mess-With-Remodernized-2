@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class ColdGrassBlock extends Block {
 	public ColdGrassBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.SNARE).sound(SoundType.GRAVEL).strength(0.65f, 6f).speedFactor(1.3f).jumpFactor(1.4f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.SNARE).sound(SoundType.GRAVEL).strength(0.6f, 0f).speedFactor(1.3f).jumpFactor(1.4f));
 	}
 
 	@Override

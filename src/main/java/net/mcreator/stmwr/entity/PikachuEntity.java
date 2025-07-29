@@ -59,7 +59,7 @@ public class PikachuEntity extends PathfinderMob {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.4));
-		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 	}
@@ -170,7 +170,7 @@ public class PikachuEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 1);
 		builder = builder.add(Attributes.MAX_HEALTH, 100);
 		builder = builder.add(Attributes.ARMOR, 20);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 50);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 1000);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 64);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 50);
 		return builder;

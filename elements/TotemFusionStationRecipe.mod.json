@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "CUSTOM:GodliumIngot"
       },
       {
         "value": "Blocks.ANVIL#0"
       },
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "CUSTOM:GodliumIngot"
       },
       {
         "value": "CUSTOM:MagiciteDust"

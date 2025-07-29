@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/snapstone_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/snapstone_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/snapstone_slab_full"
+    }
+  }
+}

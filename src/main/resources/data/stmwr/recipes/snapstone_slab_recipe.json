@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:snapstone"
+    }
+  },
+  "result": {
+    "item": "stmwr:snapstone_slab",
+    "count": 6
+  }
+}

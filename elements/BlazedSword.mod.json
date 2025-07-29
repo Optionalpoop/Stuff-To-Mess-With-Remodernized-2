@@ -21,7 +21,7 @@
     "attackSpeed": 1.6,
     "enchantability": 28,
     "damageVsEntity": 10.0,
-    "usageCount": 2000,
+    "usageCount": 1000,
     "glowCondition": {
       "fixedValue": false
     },

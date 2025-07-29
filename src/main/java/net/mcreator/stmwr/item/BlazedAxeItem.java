@@ -15,7 +15,7 @@ public class BlazedAxeItem extends AxeItem {
 	public BlazedAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2000;
+				return 1000;
 			}
 
 			public float getSpeed() {

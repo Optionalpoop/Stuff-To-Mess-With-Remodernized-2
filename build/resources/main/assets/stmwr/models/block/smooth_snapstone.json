@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/smothsnapstone",
+    "up": "stmwr:block/smothsnapstone",
+    "north": "stmwr:block/smothsnapstone",
+    "east": "stmwr:block/smothsnapstone",
+    "south": "stmwr:block/smothsnapstone",
+    "west": "stmwr:block/smothsnapstone",
+    "particle": "stmwr:block/smothsnapstone"
+  },
+  "render_type": "solid"
+}
