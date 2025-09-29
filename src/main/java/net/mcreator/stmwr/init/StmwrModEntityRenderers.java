@@ -11,16 +11,25 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.stmwr.client.renderer.UndeadSoulRenderer;
+import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
+import net.mcreator.stmwr.client.renderer.SoldierRenderer;
 import net.mcreator.stmwr.client.renderer.PikachuRenderer;
 import net.mcreator.stmwr.client.renderer.LightningWizardRenderer;
 import net.mcreator.stmwr.client.renderer.LightningCultistRenderer;
 import net.mcreator.stmwr.client.renderer.LesserWizardRenderer;
+import net.mcreator.stmwr.client.renderer.InfectedPigRenderer;
+import net.mcreator.stmwr.client.renderer.InfectedCowRenderer;
+import net.mcreator.stmwr.client.renderer.InfectedChickenRenderer;
 import net.mcreator.stmwr.client.renderer.HordebeastRenderer;
+import net.mcreator.stmwr.client.renderer.GoolingRenderer;
 import net.mcreator.stmwr.client.renderer.GiantSteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.FrombieRenderer;
 import net.mcreator.stmwr.client.renderer.CrusherRenderer;
+import net.mcreator.stmwr.client.renderer.CorpsepuppetRenderer;
 import net.mcreator.stmwr.client.renderer.CamperRenderer;
+import net.mcreator.stmwr.client.renderer.AncientWizardRenderer;
 import net.mcreator.stmwr.client.renderer.AlligatorRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -41,5 +50,17 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.LIGHTNING_BLAST_AMMO.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.CAMPER.get(), CamperRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.GIANT_STEVE_COW.get(), GiantSteveCowRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.INFECTED_PIG.get(), InfectedPigRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.INFECTED_COW.get(), InfectedCowRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.INFECTED_CHICKEN.get(), InfectedChickenRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.GOOLING.get(), GoolingRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.SURVIVOR.get(), SurvivorRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.SOLDIER.get(), SoldierRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.HANDGUN_ROUND_AMMO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.IRRADIATED_EGG_AMMO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.UNDEAD_SOUL.get(), UndeadSoulRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.CORPSEPUPPET.get(), CorpsepuppetRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.ANCIENT_WIZARD.get(), AncientWizardRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.POISON_DART_AMMO.get(), ThrownItemRenderer::new);
 	}
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:shard_of_the_past"
+    },
+    {
+      "item": "stmwr:shard_of_the_future"
+    },
+    {
+      "item": "stmwr:shard_of_the_present"
+    }
+  ],
+  "result": {
+    "item": "stmwr:time_crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/doomglass",
+    "up": "stmwr:block/doomglass",
+    "north": "stmwr:block/doomglass",
+    "east": "stmwr:block/doomglass",
+    "south": "stmwr:block/doomglass",
+    "west": "stmwr:block/doomglass",
+    "particle": "stmwr:block/doomglass"
+  },
+  "render_type": "cutout"
+}

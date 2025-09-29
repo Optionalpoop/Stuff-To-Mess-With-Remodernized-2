@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:uranium_dust"
+    },
+    "b": {
+      "item": "stmwr:deadiron_casing"
+    },
+    "c": {
+      "item": "stmwr:uranium_fuel_rod"
+    },
+    "d": {
+      "item": "stmwr:uranium_block"
+    },
+    "e": {
+      "item": "stmwr:irradiated_stone"
+    }
+  },
+  "result": {
+    "item": "stmwr:radiation_removal_plant_access_point",
+    "count": 1
+  }
+}

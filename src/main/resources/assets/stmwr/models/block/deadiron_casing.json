@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/deadironcasing",
+    "up": "stmwr:block/deadironcasing",
+    "north": "stmwr:block/deadironcasing",
+    "east": "stmwr:block/deadironcasing",
+    "south": "stmwr:block/deadironcasing",
+    "west": "stmwr:block/deadironcasing",
+    "particle": "stmwr:block/deadironcasing"
+  },
+  "render_type": "solid"
+}

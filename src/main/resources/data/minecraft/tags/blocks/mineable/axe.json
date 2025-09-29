@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:dead_planks",
+    "stmwr:dead_log",
+    "stmwr:dead_wood",
     "stmwr:frosty_planks",
     "stmwr:frosty_log",
     "stmwr:frosty_wood"

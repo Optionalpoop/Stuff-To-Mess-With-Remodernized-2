@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/ash",
+    "up": "stmwr:block/ash",
+    "north": "stmwr:block/ash",
+    "east": "stmwr:block/ash",
+    "south": "stmwr:block/ash",
+    "west": "stmwr:block/ash",
+    "particle": "stmwr:block/ash"
+  },
+  "render_type": "solid"
+}

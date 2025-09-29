@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:undead_hoe",
+    "stmwr:deadiron_hoe",
+    "stmwr:irradiated_hoe",
     "stmwr:embroidered_hoe",
     "stmwr:coldsteel_hoe",
     "stmwr:cobblesnowed_hoe",

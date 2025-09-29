@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:dead_stairs",
     "stmwr:frosty_stairs"
   ]
 }

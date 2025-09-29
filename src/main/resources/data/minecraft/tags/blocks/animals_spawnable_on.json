@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "stmwr:snowdirt",
-    "stmwr:cold_grass"
+    "stmwr:cold_grass",
+    "stmwr:untouched_soil",
+    "stmwr:dead_grass"
   ]
 }

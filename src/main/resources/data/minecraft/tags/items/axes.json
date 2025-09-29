@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:ancient_staff",
+    "stmwr:undead_axe",
+    "stmwr:deadiron_axe",
+    "stmwr:irradiated_axe",
     "stmwr:embroidered_axe",
     "stmwr:coldsteel_axe",
     "stmwr:cobblesnowed_axe",

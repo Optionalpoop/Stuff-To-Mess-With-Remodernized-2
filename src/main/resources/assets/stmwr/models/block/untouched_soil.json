@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/untouchedsoil",
+    "up": "stmwr:block/untouchedsoil",
+    "north": "stmwr:block/untouchedsoil",
+    "east": "stmwr:block/untouchedsoil",
+    "south": "stmwr:block/untouchedsoil",
+    "west": "stmwr:block/untouchedsoil",
+    "particle": "stmwr:block/untouchedsoil"
+  },
+  "render_type": "solid"
+}

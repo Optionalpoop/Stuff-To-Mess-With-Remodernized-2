@@ -1,6 +1,17 @@
 {
   "replace": false,
   "values": [
+    "stmwr:soul_manipulator_access_point",
+    "stmwr:magical_casing",
+    "stmwr:manufacturing_plant_access_point",
+    "stmwr:radiation_removal_plant_access_point",
+    "stmwr:doomforge_access_point",
+    "stmwr:purifier_mk_2",
+    "stmwr:deadiron_casing",
+    "stmwr:impure_copper",
+    "stmwr:uranium_block",
+    "stmwr:uranium_ore",
+    "stmwr:deadiron_ore",
     "stmwr:frozen_forge",
     "stmwr:magicite_clump",
     "stmwr:heartstone_block",

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:doomsand",
+    "stmwr:dead_grass",
+    "stmwr:untouched_soil",
     "stmwr:cold_grass",
     "stmwr:snowdirt"
   ]

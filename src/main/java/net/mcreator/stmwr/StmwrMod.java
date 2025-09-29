@@ -22,6 +22,8 @@ import net.mcreator.stmwr.init.StmwrModTabs;
 import net.mcreator.stmwr.init.StmwrModPaintings;
 import net.mcreator.stmwr.init.StmwrModMenus;
 import net.mcreator.stmwr.init.StmwrModItems;
+import net.mcreator.stmwr.init.StmwrModFluids;
+import net.mcreator.stmwr.init.StmwrModFluidTypes;
 import net.mcreator.stmwr.init.StmwrModEntities;
 import net.mcreator.stmwr.init.StmwrModBlocks;
 import net.mcreator.stmwr.init.StmwrModBlockEntities;
@@ -57,6 +59,8 @@ public class StmwrMod {
 
 		StmwrModVillagerProfessions.PROFESSIONS.register(bus);
 		StmwrModMenus.REGISTRY.register(bus);
+		StmwrModFluids.REGISTRY.register(bus);
+		StmwrModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

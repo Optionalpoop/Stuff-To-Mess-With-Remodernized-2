@@ -16,6 +16,7 @@ import net.mcreator.stmwr.procedures.ToTotemOfWaterBreathingRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfTheSteveCowRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfStrengthRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfSpeedRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToTotemOfSpeedIIRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfRegenerationRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfNightVisionRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfLevitationRecipeProcedure;
@@ -25,6 +26,7 @@ import net.mcreator.stmwr.procedures.ToTotemOfHasteRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfGamblingRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfFireResistanceRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTotemOfDolphinsGraceRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToAOTTotemsP2Procedure;
 import net.mcreator.stmwr.procedures.ToAOTHomePageProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -75,6 +77,10 @@ public class AOTTotemsP1ButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			ToAOTTotemsP2Procedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 1) {
 
 			ToAOTHomePageProcedure.execute(world, x, y, z, entity);
@@ -130,6 +136,10 @@ public class AOTTotemsP1ButtonMessage {
 		if (buttonID == 14) {
 
 			ToTotemOfTheSteveCowRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 15) {
+
+			ToTotemOfSpeedIIRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/coffin",
+    "up": "stmwr:block/coffintop",
+    "north": "stmwr:block/coffin",
+    "east": "stmwr:block/coffin",
+    "south": "stmwr:block/coffin",
+    "west": "stmwr:block/coffin",
+    "particle": "stmwr:block/coffin"
+  },
+  "render_type": "solid"
+}

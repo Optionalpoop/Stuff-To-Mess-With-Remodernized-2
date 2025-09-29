@@ -42,6 +42,53 @@
         "state": {
           "Name": "stmwr:plastic"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:untouched_soil"
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:irradiated_stone"
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:doomsand"
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:irradiated_water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "stmwr:plastic"
+        }
       }
     ]
   }

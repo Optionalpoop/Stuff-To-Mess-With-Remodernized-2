@@ -17,6 +17,7 @@ import net.mcreator.stmwr.procedures.ToGodliumKnifeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodliumGearRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToFrostwatchRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToColdsteelGearRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToChickenGunRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
 import net.mcreator.stmwr.procedures.ToBlazedGearRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToAlligatorKnifeRecipeProcedure;
@@ -100,6 +101,10 @@ public class ToolsAndArmorButtonMessage {
 		if (buttonID == 8) {
 
 			ToLightningStaffRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			ToChickenGunRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

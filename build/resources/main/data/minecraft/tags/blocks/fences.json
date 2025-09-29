@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:dead_fence",
     "stmwr:frosty_fence"
   ]
 }

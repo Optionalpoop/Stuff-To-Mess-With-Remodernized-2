@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:IrradiatedEgg"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 30.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

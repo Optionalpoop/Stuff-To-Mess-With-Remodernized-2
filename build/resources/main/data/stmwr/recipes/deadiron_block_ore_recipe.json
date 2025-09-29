@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:deadiron_block"
+    }
+  ],
+  "result": {
+    "item": "stmwr:deadiron_ingot",
+    "count": 9
+  }
+}

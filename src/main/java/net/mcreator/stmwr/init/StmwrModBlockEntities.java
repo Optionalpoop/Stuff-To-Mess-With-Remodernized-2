@@ -14,7 +14,11 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.stmwr.block.entity.TotemFusionStationBlockEntity;
 import net.mcreator.stmwr.block.entity.StorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.SpellforgeBlockEntity;
+import net.mcreator.stmwr.block.entity.SoulManipulatorAccessPointBlockEntity;
+import net.mcreator.stmwr.block.entity.RadiationRemovalPlantAccessPointBlockEntity;
+import net.mcreator.stmwr.block.entity.PurifierMK2BlockEntity;
 import net.mcreator.stmwr.block.entity.OrePurifierBlockEntity;
+import net.mcreator.stmwr.block.entity.ManufacturingPlantAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.MagiciansWorkbenchBlockEntity;
 import net.mcreator.stmwr.block.entity.KitchenBlockEntity;
 import net.mcreator.stmwr.block.entity.KeyAnvilBlockEntity;
@@ -22,6 +26,7 @@ import net.mcreator.stmwr.block.entity.GodlyStorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.FrozenForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.ForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.FlamingStorageCubeBlockEntity;
+import net.mcreator.stmwr.block.entity.DoomforgeAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.ConsumerBlockEntity;
 import net.mcreator.stmwr.block.entity.CompressorBlockEntity;
 import net.mcreator.stmwr.block.entity.AlloyFuseBlockEntity;
@@ -43,6 +48,11 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> GODLY_STORAGE_CUBE = register("godly_storage_cube", StmwrModBlocks.GODLY_STORAGE_CUBE, GodlyStorageCubeBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> KEY_ANVIL = register("key_anvil", StmwrModBlocks.KEY_ANVIL, KeyAnvilBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> FROZEN_FORGE = register("frozen_forge", StmwrModBlocks.FROZEN_FORGE, FrozenForgeBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PURIFIER_MK_2 = register("purifier_mk_2", StmwrModBlocks.PURIFIER_MK_2, PurifierMK2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> DOOMFORGE_ACCESS_POINT = register("doomforge_access_point", StmwrModBlocks.DOOMFORGE_ACCESS_POINT, DoomforgeAccessPointBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> RADIATION_REMOVAL_PLANT_ACCESS_POINT = register("radiation_removal_plant_access_point", StmwrModBlocks.RADIATION_REMOVAL_PLANT_ACCESS_POINT, RadiationRemovalPlantAccessPointBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MANUFACTURING_PLANT_ACCESS_POINT = register("manufacturing_plant_access_point", StmwrModBlocks.MANUFACTURING_PLANT_ACCESS_POINT, ManufacturingPlantAccessPointBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SOUL_MANIPULATOR_ACCESS_POINT = register("soul_manipulator_access_point", StmwrModBlocks.SOUL_MANIPULATOR_ACCESS_POINT, SoulManipulatorAccessPointBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

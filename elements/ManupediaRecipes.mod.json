@@ -1,0 +1,139 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<---",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToManupediaHome"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 133,
+          "y": 194
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "--->",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 249,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 211,
+          "y": 198
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nails",
+          "text": "Nails",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToNailsRecipe"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 133,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rods",
+          "text": "Rods",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToRodsRecipe"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 186,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_plates",
+          "text": "Plates",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToPlatesRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 234,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cogs",
+          "text": "Cogs",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToCogsRecipe"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 133,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_springs",
+          "text": "Springs",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToSpringsRecipe"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 181,
+          "y": 48
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

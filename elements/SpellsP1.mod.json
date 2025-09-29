@@ -81,6 +81,21 @@
           "x": 130,
           "y": 45
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_bubble",
+          "text": "Bubble",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBubbleRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 219,
+          "y": 24
+        }
       }
     ],
     "gridSettings": {

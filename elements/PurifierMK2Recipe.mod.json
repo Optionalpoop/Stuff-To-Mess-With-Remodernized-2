@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:OrePurifier"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "CUSTOM:BlazingPlastic"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PurifierMK2"
+    },
+    "name": "purifier_mk_2_recipe",
+    "namespace": "mod"
+  }
+}

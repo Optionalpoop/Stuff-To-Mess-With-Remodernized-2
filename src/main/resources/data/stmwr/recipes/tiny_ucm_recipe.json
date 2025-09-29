@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:unclear_compound_material"
+    }
+  ],
+  "result": {
+    "item": "stmwr:tiny_unclear_compound_material",
+    "count": 6
+  }
+}

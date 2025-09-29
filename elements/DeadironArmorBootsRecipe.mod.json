@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeadironArmor.boots"
+    },
+    "name": "deadiron_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

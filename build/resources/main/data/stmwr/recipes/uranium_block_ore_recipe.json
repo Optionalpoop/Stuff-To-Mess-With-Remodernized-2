@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:uranium_block"
+    }
+  ],
+  "result": {
+    "item": "stmwr:uranium_dust",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/survivorsmarketbottom",
+    "up": "stmwr:block/survivorsmarkettop",
+    "north": "stmwr:block/survivorsmarketfront",
+    "east": "stmwr:block/survivorsmarketside",
+    "south": "stmwr:block/survivorsmarketside",
+    "west": "stmwr:block/survivorsmarketside",
+    "particle": "stmwr:block/survivorsmarketbottom"
+  },
+  "render_type": "solid"
+}

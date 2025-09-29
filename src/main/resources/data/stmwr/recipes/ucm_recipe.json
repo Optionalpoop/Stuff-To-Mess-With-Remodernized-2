@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:tiny_unclear_compound_material"
+    },
+    {
+      "item": "stmwr:tiny_unclear_compound_material"
+    },
+    {
+      "item": "stmwr:tiny_unclear_compound_material"
+    },
+    {
+      "item": "stmwr:goop"
+    },
+    {
+      "item": "stmwr:tiny_unclear_compound_material"
+    },
+    {
+      "item": "stmwr:tiny_unclear_compound_material"
+    },
+    {
+      "item": "stmwr:tiny_unclear_compound_material"
+    }
+  ],
+  "result": {
+    "item": "stmwr:unclear_compound_material",
+    "count": 1
+  }
+}

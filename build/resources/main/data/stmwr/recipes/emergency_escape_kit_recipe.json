@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "stmwr:deadiron_casing"
+    },
+    "c": {
+      "item": "stmwr:uranium_fuel_rod"
+    }
+  },
+  "result": {
+    "item": "stmwr:emergency_escape_kit",
+    "count": 1
+  }
+}

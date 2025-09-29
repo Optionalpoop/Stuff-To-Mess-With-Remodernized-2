@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/deadgrassbottom",
+    "up": "stmwr:block/deadgrasstop",
+    "north": "stmwr:block/deadgrassside",
+    "east": "stmwr:block/deadgrassside",
+    "south": "stmwr:block/deadgrassside",
+    "west": "stmwr:block/deadgrassside",
+    "particle": "stmwr:block/deadgrassbottom"
+  },
+  "render_type": "cutout_mipped"
+}

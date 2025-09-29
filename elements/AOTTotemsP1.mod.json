@@ -16,6 +16,9 @@
           "name": "button_empty",
           "text": "---->",
           "isUndecorated": false,
+          "onClick": {
+            "name": "ToAOTTotemsP2"
+          },
           "width": 51,
           "height": 20,
           "x": 244,
@@ -245,6 +248,21 @@
           "height": 20,
           "x": 236,
           "y": 115
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_speed_ii",
+          "text": "Speed II",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTotemOfSpeedIIRecipe"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 200,
+          "y": 158
         }
       }
     ],

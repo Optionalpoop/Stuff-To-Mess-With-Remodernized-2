@@ -12,7 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.SoulShardRecipeMenu;
-import net.mcreator.stmwr.procedures.ToItemsForgePageProcedure;
+import net.mcreator.stmwr.procedures.ToItemsPageProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
 import java.util.function.Supplier;
@@ -64,7 +64,7 @@ public class SoulShardRecipeButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			ToItemsForgePageProcedure.execute(world, x, y, z, entity);
+			ToItemsPageProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

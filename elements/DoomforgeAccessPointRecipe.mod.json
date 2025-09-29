@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UnclearCompoundMaterial"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "CUSTOM:UnclearCompoundMaterial"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:Forge"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DoomforgeAccessPoint"
+    },
+    "name": "doomforge_access_point_recipe",
+    "namespace": "mod"
+  }
+}

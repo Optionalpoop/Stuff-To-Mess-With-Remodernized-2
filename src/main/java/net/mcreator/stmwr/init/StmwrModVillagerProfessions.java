@@ -34,6 +34,8 @@ public class StmwrModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, StmwrMod.MODID);
 	public static final RegistryObject<VillagerProfession> CHEF = registerProfession("chef", () -> StmwrModBlocks.KITCHEN.get(), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.celebrate")));
+	public static final RegistryObject<VillagerProfession> APOCALYPTIC_ENTREPRENEUR = registerProfession("apocalyptic_entrepreneur", () -> StmwrModBlocks.SURVIVORS_MARKET.get(),
+			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));

@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Apocalyptic Entrepreneur",
+    "pointOfInterest": {
+      "value": "CUSTOM:SurvivorsMarket"
+    },
+    "actionSound": {
+      "value": "ambient.cave"
+    },
+    "hat": "None",
+    "professionTextureFile": "apocalypse-librarian.png",
+    "zombifiedProfessionTextureFile": "apocalypse-librarian.png"
+  }
+}

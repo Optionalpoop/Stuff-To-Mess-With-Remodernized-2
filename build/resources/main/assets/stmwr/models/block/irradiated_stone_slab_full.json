@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "stmwr:block/irradiatedstone",
+    "bottom": "stmwr:block/irradiatedstone",
+    "top": "stmwr:block/irradiatedstone",
+    "side": "stmwr:block/irradiatedstone"
+  },
+  "render_type": "solid"
+}

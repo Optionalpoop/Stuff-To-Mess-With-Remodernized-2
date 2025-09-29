@@ -1,0 +1,15 @@
+{
+  "_fv": 66,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:UraniumBlock"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 43200.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

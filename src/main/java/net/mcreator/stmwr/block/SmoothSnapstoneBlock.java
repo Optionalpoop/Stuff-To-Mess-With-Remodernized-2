@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class SmoothSnapstoneBlock extends Block {
 	public SmoothSnapstoneBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 6f).friction(0.2f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 6f).requiresCorrectToolForDrops().friction(0.2f));
 	}
 
 	@Override

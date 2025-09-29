@@ -21,5 +21,13 @@ public class StmwrModFuels {
 			event.setBurnTime(600);
 		else if (itemstack.getItem() == StmwrModBlocks.FROSTY_PLANKS.get().asItem())
 			event.setBurnTime(600);
+		else if (itemstack.getItem() == StmwrModBlocks.ASH.get().asItem())
+			event.setBurnTime(20);
+		else if (itemstack.getItem() == StmwrModItems.URANIUM_DUST.get())
+			event.setBurnTime(4800);
+		else if (itemstack.getItem() == StmwrModBlocks.URANIUM_BLOCK.get().asItem())
+			event.setBurnTime(43200);
+		else if (itemstack.getItem() == StmwrModItems.URANIUM_FUEL_ROD.get())
+			event.setBurnTime(129600);
 	}
 }

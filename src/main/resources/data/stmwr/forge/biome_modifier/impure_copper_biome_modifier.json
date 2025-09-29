@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stmwr:ashy_wasteland",
+    "stmwr:dead_forest",
+    "stmwr:nuclear_desert"
+  ],
+  "features": "stmwr:impure_copper",
+  "step": "underground_ores"
+}

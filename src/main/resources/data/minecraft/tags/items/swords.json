@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:undead_sword",
+    "stmwr:deadiron_sword",
+    "stmwr:irradiated_sword",
     "stmwr:embroidered_sword",
     "stmwr:lightning_staff",
     "stmwr:ice_knife",

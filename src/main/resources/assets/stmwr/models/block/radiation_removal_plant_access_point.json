@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/radiationremovalplantaccesspointside",
+    "up": "stmwr:block/radiationremovalplantaccesspointside",
+    "north": "stmwr:block/radiationremovalplantaccesspoint",
+    "east": "stmwr:block/radiationremovalplantaccesspointside",
+    "south": "stmwr:block/radiationremovalplantaccesspointside",
+    "west": "stmwr:block/radiationremovalplantaccesspointside",
+    "particle": "stmwr:block/radiationremovalplantaccesspointside"
+  },
+  "render_type": "solid"
+}

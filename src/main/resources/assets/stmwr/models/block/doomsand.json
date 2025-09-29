@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/doomsand",
+    "up": "stmwr:block/doomsand",
+    "north": "stmwr:block/doomsand",
+    "east": "stmwr:block/doomsand",
+    "south": "stmwr:block/doomsand",
+    "west": "stmwr:block/doomsand",
+    "particle": "stmwr:block/doomsand"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "stmwr:dead_grass",
+    "stmwr:ash",
+    "stmwr:untouched_soil",
+    "stmwr:irradiated_stone",
+    "stmwr:doomsand",
     "stmwr:frostice",
     "stmwr:snapstone",
     "stmwr:snowdirt",

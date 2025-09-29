@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/manufacturingplantside",
+    "up": "stmwr:block/manufacturingplantside",
+    "north": "stmwr:block/manufacturingplantfront",
+    "east": "stmwr:block/manufacturingplantside",
+    "south": "stmwr:block/manufacturingplantside",
+    "west": "stmwr:block/manufacturingplantside",
+    "particle": "stmwr:block/manufacturingplantside"
+  },
+  "render_type": "solid"
+}

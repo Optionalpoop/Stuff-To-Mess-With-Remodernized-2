@@ -62,7 +62,7 @@
           "text": "Back",
           "isUndecorated": false,
           "onClick": {
-            "name": "ToItemsForgePage"
+            "name": "ToItemsPage"
           },
           "width": 46,
           "height": 20,

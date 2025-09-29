@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class CobblesnowForgingHammerItem extends Item {
 	public CobblesnowForgingHammerItem() {
-		super(new Item.Properties().durability(128).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(8).rarity(Rarity.COMMON));
 	}
 
 	@Override

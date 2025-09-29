@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:deadiron_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:deadiron_block",
+    "count": 1
+  }
+}

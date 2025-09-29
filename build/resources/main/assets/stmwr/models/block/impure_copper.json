@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/impurecopper",
+    "up": "stmwr:block/impurecopper",
+    "north": "stmwr:block/impurecopper",
+    "east": "stmwr:block/impurecopper",
+    "south": "stmwr:block/impurecopper",
+    "west": "stmwr:block/impurecopper",
+    "particle": "stmwr:block/impurecopper"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumFuelRod"
+      },
+      {
+        "value": "CUSTOM:UraniumBlock"
+      },
+      {
+        "value": "CUSTOM:UraniumFuelRod"
+      },
+      {
+        "value": "CUSTOM:IrradiatedStone"
+      },
+      {
+        "value": "CUSTOM:DeadironCasing"
+      },
+      {
+        "value": "CUSTOM:IrradiatedStone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RadiationRemovalPlantAccessPoint"
+    },
+    "name": "radiation_removal_plant_access_point_recipe",
+    "namespace": "mod"
+  }
+}

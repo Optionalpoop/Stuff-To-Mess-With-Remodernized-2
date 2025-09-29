@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/doomforgeaccesspointside",
+    "up": "stmwr:block/doomforgeaccesspointside",
+    "north": "stmwr:block/doomforgeaccesspointfront",
+    "east": "stmwr:block/doomforgeaccesspointside",
+    "south": "stmwr:block/doomforgeaccesspointside",
+    "west": "stmwr:block/doomforgeaccesspointside",
+    "particle": "stmwr:block/doomforgeaccesspointside"
+  },
+  "render_type": "solid"
+}

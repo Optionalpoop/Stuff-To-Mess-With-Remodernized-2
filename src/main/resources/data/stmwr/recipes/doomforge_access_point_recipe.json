@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:unclear_compound_material"
+    },
+    "b": {
+      "item": "stmwr:deadiron_casing"
+    },
+    "c": {
+      "item": "stmwr:uranium_dust"
+    },
+    "d": {
+      "item": "stmwr:forge"
+    },
+    "e": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:doomforge_access_point",
+    "count": 1
+  }
+}

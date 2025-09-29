@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:undead_pickaxe",
+    "stmwr:deadiron_pickaxe",
+    "stmwr:irradiated_pickaxe",
     "stmwr:embroidered_pickaxe",
     "stmwr:fang_pickaxe",
     "stmwr:coldsteel_pickaxe",

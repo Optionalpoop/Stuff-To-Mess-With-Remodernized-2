@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "CUSTOM:DeadironIngot"
+      },
+      {
+        "value": "CUSTOM:SmoothIrradiatedStone"
+      },
+      {
+        "value": "CUSTOM:SmoothIrradiatedStone"
+      },
+      {
+        "value": "CUSTOM:SmoothIrradiatedStone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BLAST_FURNACE"
+    },
+    "name": "irradiated_blast_furnace_recipe",
+    "namespace": "mod"
+  }
+}

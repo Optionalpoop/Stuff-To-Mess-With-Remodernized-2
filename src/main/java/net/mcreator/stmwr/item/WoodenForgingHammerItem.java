@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class WoodenForgingHammerItem extends Item {
 	public WoodenForgingHammerItem() {
-		super(new Item.Properties().durability(16).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

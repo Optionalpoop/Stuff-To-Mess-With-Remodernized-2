@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_block"
+    },
+    "b": {
+      "item": "stmwr:soul_shard"
+    },
+    "c": {
+      "item": "stmwr:magicians_soul"
+    }
+  },
+  "result": {
+    "item": "stmwr:magical_casing",
+    "count": 1
+  }
+}

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:undead_shovel",
+    "stmwr:deadiron_shovel",
+    "stmwr:irradiated_shovel",
     "stmwr:embroidered_shovel",
     "stmwr:coldsteel_shovel",
     "stmwr:cobblesnowed_shovel",

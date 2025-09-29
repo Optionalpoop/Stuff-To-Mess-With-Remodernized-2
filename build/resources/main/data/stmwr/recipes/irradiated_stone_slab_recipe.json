@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:irradiated_stone"
+    }
+  },
+  "result": {
+    "item": "stmwr:irradiated_stone_slab",
+    "count": 6
+  }
+}

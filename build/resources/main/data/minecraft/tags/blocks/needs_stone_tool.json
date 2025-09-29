@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:block_of_scrap",
+    "stmwr:gold_rocks",
+    "stmwr:irradiated_cobblestone",
     "stmwr:snapstone_slab",
     "stmwr:magicite_block"
   ]

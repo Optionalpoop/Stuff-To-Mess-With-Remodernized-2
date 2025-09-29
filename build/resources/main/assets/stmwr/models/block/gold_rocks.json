@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/goldrocks",
+    "up": "stmwr:block/goldrocks",
+    "north": "stmwr:block/goldrocks",
+    "east": "stmwr:block/goldrocks",
+    "south": "stmwr:block/goldrocks",
+    "west": "stmwr:block/goldrocks",
+    "particle": "stmwr:block/goldrocks"
+  },
+  "render_type": "solid"
+}

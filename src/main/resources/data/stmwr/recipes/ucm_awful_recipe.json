@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:block_of_scrap"
+    },
+    {
+      "item": "stmwr:deadiron_block"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    }
+  ],
+  "result": {
+    "item": "stmwr:tiny_unclear_compound_material",
+    "count": 1
+  }
+}

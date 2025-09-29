@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ucm_plastic"
+    },
+    "b": {
+      "item": "stmwr:uglum"
+    },
+    "c": {
+      "item": "stmwr:pure_soul_shard"
+    },
+    "d": {
+      "item": "stmwr:totem_base"
+    },
+    "e": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:advanced_totem_base",
+    "count": 1
+  }
+}

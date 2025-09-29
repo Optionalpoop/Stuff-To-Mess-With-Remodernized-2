@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/magicalcasing",
+    "up": "stmwr:block/magicalcasing",
+    "north": "stmwr:block/magicalcasing",
+    "east": "stmwr:block/magicalcasing",
+    "south": "stmwr:block/magicalcasing",
+    "west": "stmwr:block/magicalcasing",
+    "particle": "stmwr:block/magicalcasing"
+  },
+  "render_type": "solid"
+}

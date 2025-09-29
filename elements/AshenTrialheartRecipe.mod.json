@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SoulShard"
+      },
+      {
+        "value": "CUSTOM:HeartOfTheSteveCow"
+      },
+      {
+        "value": "CUSTOM:SoulShard"
+      },
+      {
+        "value": "CUSTOM:BlazedBlock"
+      },
+      {
+        "value": "CUSTOM:HeartstoneBlock"
+      },
+      {
+        "value": "CUSTOM:BlazedBlock"
+      },
+      {
+        "value": "CUSTOM:LightningFragment"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "CUSTOM:LightningFragment"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AshenTrialheart"
+    },
+    "name": "ashen_trialheart_recipe",
+    "namespace": "mod"
+  }
+}

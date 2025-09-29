@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "particle": "stmwr:block/dead_planks",
+    "texture": "stmwr:block/dead_planks"
+  },
+  "render_type": "solid"
+}

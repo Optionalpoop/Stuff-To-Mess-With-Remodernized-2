@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "ancientstaff",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Ancient Staff",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "efficiency": 50.0,
+    "attackSpeed": 0.9,
+    "enchantability": 50,
+    "damageVsEntity": 45.0,
+    "usageCount": 1000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AncientStaffRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "AncientStaffLivingEntityIsHitWithTool"
+    }
+  }
+}

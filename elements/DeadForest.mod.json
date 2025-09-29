@@ -1,0 +1,100 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "Dead Forest",
+    "groundBlock": {
+      "value": "CUSTOM:DeadGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:UntouchedSoil"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Doomsand"
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.1,
+    "temperature": 1.4,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.4,
+      "max": 0.5009
+    },
+    "genHumidity": {
+      "min": -0.5015999999999999,
+      "max": 0.5019
+    },
+    "genContinentalness": {
+      "min": 0.295,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.4993,
+      "max": 0.4989
+    },
+    "genWeirdness": {
+      "min": -1.0013,
+      "max": 1.0022
+    },
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:DeadLog"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:DeadButton"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

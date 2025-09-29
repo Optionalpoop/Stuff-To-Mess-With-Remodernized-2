@@ -31,6 +31,7 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 	Button button_coldsteel_gear;
 	Button button_frostwatch;
 	Button button_lightning_staff;
+	Button button_chicken_gun;
 
 	public ToolsAndArmorScreen(ToolsAndArmorMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -135,7 +136,7 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 				StmwrMod.PACKET_HANDLER.sendToServer(new ToolsAndArmorButtonMessage(7, x, y, z));
 				ToolsAndArmorButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
-		}).bounds(this.leftPos + 87, this.topPos + 26, 77, 20).build();
+		}).bounds(this.leftPos + 92, this.topPos + 47, 77, 20).build();
 		guistate.put("button:button_frostwatch", button_frostwatch);
 		this.addRenderableWidget(button_frostwatch);
 		button_lightning_staff = Button.builder(Component.translatable("gui.stmwr.tools_and_armor.button_lightning_staff"), e -> {
@@ -146,5 +147,13 @@ public class ToolsAndArmorScreen extends AbstractContainerScreen<ToolsAndArmorMe
 		}).bounds(this.leftPos + 4, this.topPos + 110, 103, 20).build();
 		guistate.put("button:button_lightning_staff", button_lightning_staff);
 		this.addRenderableWidget(button_lightning_staff);
+		button_chicken_gun = Button.builder(Component.translatable("gui.stmwr.tools_and_armor.button_chicken_gun"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ToolsAndArmorButtonMessage(9, x, y, z));
+				ToolsAndArmorButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		}).bounds(this.leftPos + 87, this.topPos + 26, 82, 20).build();
+		guistate.put("button:button_chicken_gun", button_chicken_gun);
+		this.addRenderableWidget(button_chicken_gun);
 	}
 }

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:deadiron_casing"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "stmwr:uranium_dust"
+    },
+    "d": {
+      "item": "stmwr:ore_purifier"
+    },
+    "e": {
+      "item": "stmwr:blazing_plastic"
+    }
+  },
+  "result": {
+    "item": "stmwr:purifier_mk_2",
+    "count": 1
+  }
+}

@@ -138,8 +138,8 @@
           },
           "width": 77,
           "height": 20,
-          "x": 213,
-          "y": 46
+          "x": 218,
+          "y": 67
         }
       },
       {
@@ -155,6 +155,21 @@
           "height": 20,
           "x": 130,
           "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chicken_gun",
+          "text": "Chicken Gun",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToChickenGunRecipe"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 213,
+          "y": 46
         }
       }
     ],

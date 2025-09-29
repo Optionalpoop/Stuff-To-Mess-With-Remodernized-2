@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TinyUnclearCompoundMaterial"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TinyUnclearCompoundMaterial"
+      },
+      {
+        "value": "CUSTOM:TinyUnclearCompoundMaterial"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:TinyUnclearCompoundMaterial"
+      },
+      {
+        "value": "CUSTOM:TinyUnclearCompoundMaterial"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TinyUnclearCompoundMaterial"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnclearCompoundMaterial"
+    },
+    "name": "ucm_recipe",
+    "namespace": "mod"
+  }
+}

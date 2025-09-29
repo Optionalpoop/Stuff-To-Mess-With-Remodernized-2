@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:dead_forest",
+  "spawners": {
+    "type": "stmwr:infected_cow",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 6
+  }
+}

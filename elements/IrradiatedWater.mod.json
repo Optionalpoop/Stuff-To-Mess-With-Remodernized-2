@@ -1,0 +1,50 @@
+{
+  "_fv": 66,
+  "_type": "fluid",
+  "definition": {
+    "name": "Irradiated Water",
+    "bucketName": "Irradiated Water Bucket",
+    "textureStill": "irradiatedwater",
+    "textureFlowing": "irradiatedwateflowing",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 6,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "SMOKE_NORMAL"
+    },
+    "flowStrength": -0.2,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "onEntityCollides": {
+      "name": "IrradiatedWaterMobplayerCollidesBlock"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:apocalyptic_market",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 5,
+    "salt": 513055329
+  }
+}

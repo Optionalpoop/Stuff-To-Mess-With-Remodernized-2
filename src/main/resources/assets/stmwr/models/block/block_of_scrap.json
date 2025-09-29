@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/blockofscrap",
+    "up": "stmwr:block/blockofscrap",
+    "north": "stmwr:block/blockofscrap",
+    "east": "stmwr:block/blockofscrap",
+    "south": "stmwr:block/blockofscrap",
+    "west": "stmwr:block/blockofscrap",
+    "particle": "stmwr:block/blockofscrap"
+  },
+  "render_type": "solid"
+}

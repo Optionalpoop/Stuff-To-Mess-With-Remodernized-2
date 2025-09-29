@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/irradiated_stone_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/irradiated_stone_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/irradiated_stone_slab_full"
+    }
+  }
+}

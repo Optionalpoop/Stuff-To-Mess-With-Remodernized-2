@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:deadiron_ingot"
+    },
+    "b": {
+      "item": "stmwr:unclear_compound_material"
+    }
+  },
+  "result": {
+    "item": "stmwr:deadiron_casing",
+    "count": 1
+  }
+}

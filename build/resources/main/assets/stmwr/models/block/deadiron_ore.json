@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stmwr:block/deadiron_ore",
+    "particle": "stmwr:block/deadiron_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "stmwr:ashy_wasteland",
+    "stmwr:dead_forest",
+    "stmwr:nuclear_desert"
+  ],
+  "spawners": {
+    "type": "stmwr:survivor",
+    "weight": 18,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

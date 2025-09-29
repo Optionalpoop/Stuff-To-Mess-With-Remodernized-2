@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "stmwr:block/militaria_portal_ew"
+    },
+    "axis=x": {
+      "model": "stmwr:block/militaria_portal_ns"
+    }
+  }
+}

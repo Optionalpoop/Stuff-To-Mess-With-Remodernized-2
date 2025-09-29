@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/soulmanipulatoraccesspointside",
+    "up": "stmwr:block/soulmanipulatoraccesspointside",
+    "north": "stmwr:block/soulmanipulatoraccesspointfront",
+    "east": "stmwr:block/soulmanipulatoraccesspointside",
+    "south": "stmwr:block/soulmanipulatoraccesspointside",
+    "west": "stmwr:block/soulmanipulatoraccesspointside",
+    "particle": "stmwr:block/soulmanipulatoraccesspointside"
+  },
+  "render_type": "solid"
+}

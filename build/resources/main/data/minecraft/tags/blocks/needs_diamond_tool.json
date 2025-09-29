@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:survivors_market",
+    "stmwr:deadiron_block",
     "stmwr:coldsteel_block",
     "stmwr:coldsteel_ore",
     "stmwr:stevum_block",

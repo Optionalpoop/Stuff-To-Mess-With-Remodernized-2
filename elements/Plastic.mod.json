@@ -132,6 +132,18 @@
       },
       {
         "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "CUSTOM:UntouchedSoil"
+      },
+      {
+        "value": "CUSTOM:IrradiatedStone"
+      },
+      {
+        "value": "CUSTOM:Doomsand"
+      },
+      {
+        "value": "CUSTOM:IrradiatedWater"
       }
     ],
     "generationShape": "UNIFORM",

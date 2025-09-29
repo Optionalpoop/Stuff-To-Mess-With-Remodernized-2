@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:uranium_dust"
+    }
+  },
+  "result": {
+    "item": "stmwr:uranium_block",
+    "count": 1
+  }
+}

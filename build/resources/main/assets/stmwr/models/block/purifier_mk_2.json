@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/purifiermk2bottom",
+    "up": "stmwr:block/purifiermk2top",
+    "north": "stmwr:block/purifiermk2front",
+    "east": "stmwr:block/purifiermk2side",
+    "south": "stmwr:block/purifiermk2side",
+    "west": "stmwr:block/purifiermk2side",
+    "particle": "stmwr:block/purifiermk2bottom"
+  },
+  "render_type": "solid"
+}

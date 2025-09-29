@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/irradiatedcobblestone",
+    "up": "stmwr:block/irradiatedcobblestone",
+    "north": "stmwr:block/irradiatedcobblestone",
+    "east": "stmwr:block/irradiatedcobblestone",
+    "south": "stmwr:block/irradiatedcobblestone",
+    "west": "stmwr:block/irradiatedcobblestone",
+    "particle": "stmwr:block/irradiatedcobblestone"
+  },
+  "render_type": "solid"
+}

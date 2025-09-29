@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "stmwr:block/dead_planks",
+    "bottom": "stmwr:block/dead_planks",
+    "top": "stmwr:block/dead_planks",
+    "side": "stmwr:block/dead_planks"
+  },
+  "render_type": "solid"
+}

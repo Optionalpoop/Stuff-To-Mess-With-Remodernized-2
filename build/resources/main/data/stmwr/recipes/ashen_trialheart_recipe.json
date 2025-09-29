@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:soul_shard"
+    },
+    "b": {
+      "item": "stmwr:heart_of_the_steve_cow"
+    },
+    "c": {
+      "item": "stmwr:blazed_block"
+    },
+    "d": {
+      "item": "stmwr:heartstone_block"
+    },
+    "e": {
+      "item": "stmwr:lightning_fragment"
+    },
+    "f": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "stmwr:ashen_trialheart",
+    "count": 1
+  }
+}
