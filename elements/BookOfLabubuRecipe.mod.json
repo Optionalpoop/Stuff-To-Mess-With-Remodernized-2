@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ColdsteelPlate"
+      },
+      {
+        "value": "CUSTOM:TotemBase"
+      },
+      {
+        "value": "CUSTOM:ColdsteelPlate"
+      },
+      {
+        "value": "CUSTOM:ColdsteelSpring"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "CUSTOM:ColdsteelSpring"
+      },
+      {
+        "value": "CUSTOM:ColdsteelPlate"
+      },
+      {
+        "value": "CUSTOM:TotemBase"
+      },
+      {
+        "value": "CUSTOM:ColdsteelPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BookOfLabubu"
+    },
+    "name": "book_of_labubu_recipe",
+    "namespace": "mod"
+  }
+}

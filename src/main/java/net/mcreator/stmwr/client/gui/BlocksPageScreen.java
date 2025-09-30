@@ -31,6 +31,7 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 	Button button_dupestone;
 	Button button_godly_storage_cube;
 	Button button_trial_brick;
+	Button button_ritual_stone;
 
 	public BlocksPageScreen(BlocksPageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -146,5 +147,13 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 		}).bounds(this.leftPos + 78, this.topPos + 68, 82, 20).build();
 		guistate.put("button:button_trial_brick", button_trial_brick);
 		this.addRenderableWidget(button_trial_brick);
+		button_ritual_stone = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_ritual_stone"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(9, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 110, 87, 20).build();
+		guistate.put("button:button_ritual_stone", button_ritual_stone);
+		this.addRenderableWidget(button_ritual_stone);
 	}
 }

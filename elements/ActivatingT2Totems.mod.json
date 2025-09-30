@@ -1,0 +1,106 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBOLPage1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 190,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_activating_tier_ii_totems",
+          "text": {
+            "fixedValue": "Activating Tier II Totems"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 145,
+          "y": 25
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_relatively_simple_procedure",
+          "text": {
+            "fixedValue": "A relatively simple procedure,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_just_surround_a_soulless_totem",
+          "text": {
+            "fixedValue": "just surround a soulless totem"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_with_magicite_blocks_and_commenc",
+          "text": {
+            "fixedValue": "with magicite blocks. Easy!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-09-29_19-16-53.png",
+          "use1Xscale": true,
+          "x": 127,
+          "y": 82
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

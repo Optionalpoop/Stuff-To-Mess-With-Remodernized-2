@@ -1,0 +1,127 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_close",
+          "text": "Close",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 184,
+          "y": 192
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome_to_the_book_of_labubu",
+          "text": {
+            "fixedValue": "Welcome to the Book of Labubu..."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 25
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_here_you_may_view_the_recipes",
+          "text": {
+            "fixedValue": "Here, you may view the recipes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 36
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_used_in_the_ritual_stone",
+          "text": {
+            "fixedValue": "used in the ritual stone."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_spawning_donald_trump_and_satan",
+          "text": {
+            "fixedValue": "*summoning Donald Trump and"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 163
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_not_included",
+          "text": {
+            "fixedValue": "Satan NOT included!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_continue_onward",
+          "text": "Continue Onward",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBOLPage1"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 160,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -404,6 +404,15 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.SOULLESS_TOTEM_OF_HASTE_II.get());
 				tabData.accept(StmwrModItems.SOULLESS_TOTEM_OF_STRENGTH_II.get());
 				tabData.accept(StmwrModItems.SOULLESS_TOTEM_OF_REGENERATION_II.get());
+				tabData.accept(StmwrModBlocks.RITUAL_STONE.get().asItem());
+				tabData.accept(StmwrModItems.BOOK_OF_LABUBU.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_SPEED_II.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_HEALTH_BOOST_II.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_JUMP_BOOST_II.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_HASTE_II.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_STRENGTH_II.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_REGENERATION_II.get());
+				tabData.accept(StmwrModItems.CREATION_ORB.get());
 			})
 
 					.build());

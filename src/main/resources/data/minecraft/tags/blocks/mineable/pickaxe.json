@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:ritual_stone",
     "stmwr:soul_manipulator_access_point",
     "stmwr:magical_casing",
     "stmwr:manufacturing_plant_access_point",

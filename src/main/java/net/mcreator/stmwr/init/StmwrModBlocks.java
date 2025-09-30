@@ -32,6 +32,7 @@ import net.mcreator.stmwr.block.SnapstoneSlabBlock;
 import net.mcreator.stmwr.block.SnapstoneBlock;
 import net.mcreator.stmwr.block.SmoothSnapstoneBlock;
 import net.mcreator.stmwr.block.SmoothIrradiatedStoneBlock;
+import net.mcreator.stmwr.block.RitualStoneBlock;
 import net.mcreator.stmwr.block.RadiationRemovalPlantAccessPointBlock;
 import net.mcreator.stmwr.block.PurifierMK2Block;
 import net.mcreator.stmwr.block.PlasticBlock;
@@ -202,6 +203,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> COFFIN = REGISTRY.register("coffin", () -> new CoffinBlock());
 	public static final RegistryObject<Block> MAGICAL_CASING = REGISTRY.register("magical_casing", () -> new MagicalCasingBlock());
 	public static final RegistryObject<Block> SOUL_MANIPULATOR_ACCESS_POINT = REGISTRY.register("soul_manipulator_access_point", () -> new SoulManipulatorAccessPointBlock());
+	public static final RegistryObject<Block> RITUAL_STONE = REGISTRY.register("ritual_stone", () -> new RitualStoneBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

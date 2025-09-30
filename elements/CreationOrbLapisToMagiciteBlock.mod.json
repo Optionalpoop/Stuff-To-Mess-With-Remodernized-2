@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagiciteBlock"
+    },
+    "name": "creation_orb_lapis_to_magicite_block",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBOLPage1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 191,
+          "y": 193
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creation_orb",
+          "text": {
+            "fixedValue": "Creation Orb"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 182,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_an_expensive_recipe_the",
+          "text": {
+            "fixedValue": "An expensive recipe, the"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creation_orb_lets_you_create",
+          "text": {
+            "fixedValue": "creation orb lets you create"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_magicite_from_lapis_and_other",
+          "text": {
+            "fixedValue": "magicite from lapis, and other"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_powerful_conversions",
+          "text": {
+            "fixedValue": "powerful conversions..."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-09-30_16-27-51.png",
+          "use1Xscale": true,
+          "x": 129,
+          "y": 91
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

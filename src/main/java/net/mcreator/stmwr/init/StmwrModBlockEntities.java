@@ -15,6 +15,7 @@ import net.mcreator.stmwr.block.entity.TotemFusionStationBlockEntity;
 import net.mcreator.stmwr.block.entity.StorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.SpellforgeBlockEntity;
 import net.mcreator.stmwr.block.entity.SoulManipulatorAccessPointBlockEntity;
+import net.mcreator.stmwr.block.entity.RitualStoneBlockEntity;
 import net.mcreator.stmwr.block.entity.RadiationRemovalPlantAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.PurifierMK2BlockEntity;
 import net.mcreator.stmwr.block.entity.OrePurifierBlockEntity;
@@ -53,6 +54,7 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> RADIATION_REMOVAL_PLANT_ACCESS_POINT = register("radiation_removal_plant_access_point", StmwrModBlocks.RADIATION_REMOVAL_PLANT_ACCESS_POINT, RadiationRemovalPlantAccessPointBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MANUFACTURING_PLANT_ACCESS_POINT = register("manufacturing_plant_access_point", StmwrModBlocks.MANUFACTURING_PLANT_ACCESS_POINT, ManufacturingPlantAccessPointBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> SOUL_MANIPULATOR_ACCESS_POINT = register("soul_manipulator_access_point", StmwrModBlocks.SOUL_MANIPULATOR_ACCESS_POINT, SoulManipulatorAccessPointBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> RITUAL_STONE = register("ritual_stone", StmwrModBlocks.RITUAL_STONE, RitualStoneBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

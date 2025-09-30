@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:coldsteel_plate"
+    },
+    "b": {
+      "item": "stmwr:totem_base"
+    },
+    "c": {
+      "item": "stmwr:coldsteel_spring"
+    },
+    "d": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "stmwr:book_of_labubu",
+    "count": 1
+  }
+}

@@ -15,6 +15,7 @@ import net.mcreator.stmwr.world.inventory.BlocksPageMenu;
 import net.mcreator.stmwr.procedures.ToTrialBricksRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToStopstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToSpeedstoneRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToRitualStoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodlyStorageCubeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToFlamingStorageCubeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToDupestoneRecipeProcedure;
@@ -100,6 +101,10 @@ public class BlocksPageButtonMessage {
 		if (buttonID == 8) {
 
 			ToTrialBricksRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			ToRitualStoneRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

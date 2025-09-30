@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:ritual_stone",
     "stmwr:survivors_market",
     "stmwr:deadiron_block",
     "stmwr:coldsteel_block",

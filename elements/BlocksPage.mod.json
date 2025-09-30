@@ -156,6 +156,21 @@
           "x": 204,
           "y": 88
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ritual_stone",
+          "text": "Ritual Stone",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToRitualStoneRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 131,
+          "y": 130
+        }
       }
     ],
     "gridSettings": {

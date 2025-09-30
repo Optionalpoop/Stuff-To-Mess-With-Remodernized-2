@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/ritualstone",
+    "up": "stmwr:block/ritualstone",
+    "north": "stmwr:block/ritualstone",
+    "east": "stmwr:block/ritualstone",
+    "south": "stmwr:block/ritualstone",
+    "west": "stmwr:block/ritualstone",
+    "particle": "stmwr:block/ritualstone"
+  },
+  "render_type": "solid"
+}
