@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:bioblade",
+    "stmwr:bioharvester",
     "stmwr:undead_sword",
     "stmwr:deadiron_sword",
     "stmwr:irradiated_sword",

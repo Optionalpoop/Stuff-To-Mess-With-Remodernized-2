@@ -418,6 +418,19 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.ITEM_RESEACHER_ACCESS_POINT.get().asItem());
 				tabData.accept(StmwrModItems.RESEARCH_CELL.get());
 				tabData.accept(StmwrModItems.DATA_CARD.get());
+				tabData.accept(StmwrModItems.BIOHARVESTER.get());
+				tabData.accept(StmwrModItems.BIOBLADE.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_BOOK.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_CONCRETE_MIXER.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_GUNS.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_URANIUM_HYDROPONICS.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_POWERCELL.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_MODULAR_ARMOR.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_MODULAR_ARMOR_UPGRADES.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_POWER_TOOLS.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_REPAIR_PLANT.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_VORTEX_MANIPULATION.get());
+				tabData.accept(StmwrModItems.BLUEPRINT_PORTABLE_CRUCIBLE_OVEN.get());
 			})
 
 					.build());

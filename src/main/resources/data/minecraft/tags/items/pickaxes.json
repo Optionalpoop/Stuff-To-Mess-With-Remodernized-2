@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:bioharvester",
     "stmwr:undead_pickaxe",
     "stmwr:deadiron_pickaxe",
     "stmwr:irradiated_pickaxe",

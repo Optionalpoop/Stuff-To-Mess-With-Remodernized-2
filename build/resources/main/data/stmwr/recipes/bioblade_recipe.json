@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:mangrove_leaves"
+    },
+    "b": {
+      "item": "stmwr:deadiron_rod"
+    }
+  },
+  "result": {
+    "item": "stmwr:bioblade",
+    "count": 1
+  }
+}

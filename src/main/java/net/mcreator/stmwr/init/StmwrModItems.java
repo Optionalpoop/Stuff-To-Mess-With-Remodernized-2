@@ -264,6 +264,17 @@ import net.mcreator.stmwr.item.BubbleWandItem;
 import net.mcreator.stmwr.item.BubbleItem;
 import net.mcreator.stmwr.item.BookOfLabubuItem;
 import net.mcreator.stmwr.item.BoingAppleItem;
+import net.mcreator.stmwr.item.BlueprintVortexManipulationItem;
+import net.mcreator.stmwr.item.BlueprintUraniumHydroponicsItem;
+import net.mcreator.stmwr.item.BlueprintRepairPlantItem;
+import net.mcreator.stmwr.item.BlueprintPowercellItem;
+import net.mcreator.stmwr.item.BlueprintPowerToolsItem;
+import net.mcreator.stmwr.item.BlueprintPortableCrucibleOvenItem;
+import net.mcreator.stmwr.item.BlueprintModularArmorUpgradesItem;
+import net.mcreator.stmwr.item.BlueprintModularArmorItem;
+import net.mcreator.stmwr.item.BlueprintGunsItem;
+import net.mcreator.stmwr.item.BlueprintConcreteMixerItem;
+import net.mcreator.stmwr.item.BlueprintBookItem;
 import net.mcreator.stmwr.item.BlazedSwordItem;
 import net.mcreator.stmwr.item.BlazedShovelItem;
 import net.mcreator.stmwr.item.BlazedPickaxeItem;
@@ -272,6 +283,8 @@ import net.mcreator.stmwr.item.BlazedHoeItem;
 import net.mcreator.stmwr.item.BlazedForgingHammerItem;
 import net.mcreator.stmwr.item.BlazedAxeItem;
 import net.mcreator.stmwr.item.BlazedArmorItem;
+import net.mcreator.stmwr.item.BioharvesterItem;
+import net.mcreator.stmwr.item.BiobladeItem;
 import net.mcreator.stmwr.item.AshenTrialheartItem;
 import net.mcreator.stmwr.item.ArtOfTotemancyItem;
 import net.mcreator.stmwr.item.AncientStaffItem;
@@ -685,6 +698,19 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> ITEM_RESEACHER_ACCESS_POINT = block(StmwrModBlocks.ITEM_RESEACHER_ACCESS_POINT);
 	public static final RegistryObject<Item> RESEARCH_CELL = REGISTRY.register("research_cell", () -> new ResearchCellItem());
 	public static final RegistryObject<Item> DATA_CARD = REGISTRY.register("data_card", () -> new DataCardItem());
+	public static final RegistryObject<Item> BIOHARVESTER = REGISTRY.register("bioharvester", () -> new BioharvesterItem());
+	public static final RegistryObject<Item> BIOBLADE = REGISTRY.register("bioblade", () -> new BiobladeItem());
+	public static final RegistryObject<Item> BLUEPRINT_BOOK = REGISTRY.register("blueprint_book", () -> new BlueprintBookItem());
+	public static final RegistryObject<Item> BLUEPRINT_CONCRETE_MIXER = REGISTRY.register("blueprint_concrete_mixer", () -> new BlueprintConcreteMixerItem());
+	public static final RegistryObject<Item> BLUEPRINT_GUNS = REGISTRY.register("blueprint_guns", () -> new BlueprintGunsItem());
+	public static final RegistryObject<Item> BLUEPRINT_URANIUM_HYDROPONICS = REGISTRY.register("blueprint_uranium_hydroponics", () -> new BlueprintUraniumHydroponicsItem());
+	public static final RegistryObject<Item> BLUEPRINT_POWERCELL = REGISTRY.register("blueprint_powercell", () -> new BlueprintPowercellItem());
+	public static final RegistryObject<Item> BLUEPRINT_MODULAR_ARMOR = REGISTRY.register("blueprint_modular_armor", () -> new BlueprintModularArmorItem());
+	public static final RegistryObject<Item> BLUEPRINT_MODULAR_ARMOR_UPGRADES = REGISTRY.register("blueprint_modular_armor_upgrades", () -> new BlueprintModularArmorUpgradesItem());
+	public static final RegistryObject<Item> BLUEPRINT_POWER_TOOLS = REGISTRY.register("blueprint_power_tools", () -> new BlueprintPowerToolsItem());
+	public static final RegistryObject<Item> BLUEPRINT_REPAIR_PLANT = REGISTRY.register("blueprint_repair_plant", () -> new BlueprintRepairPlantItem());
+	public static final RegistryObject<Item> BLUEPRINT_VORTEX_MANIPULATION = REGISTRY.register("blueprint_vortex_manipulation", () -> new BlueprintVortexManipulationItem());
+	public static final RegistryObject<Item> BLUEPRINT_PORTABLE_CRUCIBLE_OVEN = REGISTRY.register("blueprint_portable_crucible_oven", () -> new BlueprintPortableCrucibleOvenItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

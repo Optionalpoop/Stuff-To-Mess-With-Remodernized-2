@@ -1,0 +1,125 @@
+
+package net.mcreator.stmwr.network;
+
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.stmwr.world.inventory.BlueprintBookP1Menu;
+import net.mcreator.stmwr.procedures.ToBlueprintBookHomePageProcedure;
+import net.mcreator.stmwr.procedures.ToBPVortexManipulatorRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPUraniumHydroponicsRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPRepairPlantRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPPowercellRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPPowerToolsRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPPortableCrucibleOvenRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPModularArmorUpgradesRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPModularArmorRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPGunsRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBPConcreteMixerRecipeProcedure;
+import net.mcreator.stmwr.StmwrMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public class BlueprintBookP1ButtonMessage {
+	private final int buttonID, x, y, z;
+
+	public BlueprintBookP1ButtonMessage(FriendlyByteBuf buffer) {
+		this.buttonID = buffer.readInt();
+		this.x = buffer.readInt();
+		this.y = buffer.readInt();
+		this.z = buffer.readInt();
+	}
+
+	public BlueprintBookP1ButtonMessage(int buttonID, int x, int y, int z) {
+		this.buttonID = buttonID;
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	public static void buffer(BlueprintBookP1ButtonMessage message, FriendlyByteBuf buffer) {
+		buffer.writeInt(message.buttonID);
+		buffer.writeInt(message.x);
+		buffer.writeInt(message.y);
+		buffer.writeInt(message.z);
+	}
+
+	public static void handler(BlueprintBookP1ButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+		NetworkEvent.Context context = contextSupplier.get();
+		context.enqueueWork(() -> {
+			Player entity = context.getSender();
+			int buttonID = message.buttonID;
+			int x = message.x;
+			int y = message.y;
+			int z = message.z;
+			handleButtonAction(entity, buttonID, x, y, z);
+		});
+		context.setPacketHandled(true);
+	}
+
+	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
+		Level world = entity.level();
+		HashMap guistate = BlueprintBookP1Menu.guistate;
+		// security measure to prevent arbitrary chunk generation
+		if (!world.hasChunkAt(new BlockPos(x, y, z)))
+			return;
+		if (buttonID == 0) {
+
+			ToBlueprintBookHomePageProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			ToBPConcreteMixerRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToBPUraniumHydroponicsRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToBPPowercellRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			ToBPModularArmorRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			ToBPModularArmorUpgradesRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			ToBPPowerToolsRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			ToBPRepairPlantRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			ToBPVortexManipulatorRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			ToBPGunsRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 11) {
+
+			ToBPPortableCrucibleOvenRecipeProcedure.execute(world, x, y, z, entity);
+		}
+	}
+
+	@SubscribeEvent
+	public static void registerMessage(FMLCommonSetupEvent event) {
+		StmwrMod.addNetworkMessage(BlueprintBookP1ButtonMessage.class, BlueprintBookP1ButtonMessage::buffer, BlueprintBookP1ButtonMessage::new, BlueprintBookP1ButtonMessage::handler);
+	}
+}

@@ -1,0 +1,214 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 211,
+          "y": 198
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<----",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlueprintBookHomePage"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 133,
+          "y": 193
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "---->",
+          "isUndecorated": false,
+          "width": 51,
+          "height": 20,
+          "x": 244,
+          "y": 193
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_concrete_mixer",
+          "text": "Concrete Mixer",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPConcreteMixerRecipe"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 131,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_uranium_hydroponics",
+          "text": "Uranium Hydroponics",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPUraniumHydroponicsRecipe"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 131,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_powercell",
+          "text": "Powercell",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPPowercellRecipe"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 131,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_modular_armor",
+          "text": "Modular Armor",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPModularArmorRecipe"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 204,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_modular_armor_upgrades",
+          "text": "Modular Armor Upgrades",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPModularArmorUpgradesRecipe"
+          },
+          "width": 140,
+          "height": 20,
+          "x": 131,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_powertools",
+          "text": "Power Tools",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPPowerToolsRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 131,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_repair_plant",
+          "text": "Repair Plant",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPRepairPlantRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 209,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_vortex_manipulator",
+          "text": "Vortex Manipulation",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPVortexManipulatorRecipe"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 131,
+          "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_guns",
+          "text": "Guns",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPGunsRecipe"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 230,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_portable_crucibleoven",
+          "text": "Portable Crucible/Oven",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBPPortableCrucibleOvenRecipe"
+          },
+          "width": 140,
+          "height": 20,
+          "x": 131,
+          "y": 151
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
