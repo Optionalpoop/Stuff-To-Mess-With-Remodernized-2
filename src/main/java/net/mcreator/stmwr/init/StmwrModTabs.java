@@ -413,6 +413,11 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TOTEM_OF_STRENGTH_II.get());
 				tabData.accept(StmwrModItems.TOTEM_OF_REGENERATION_II.get());
 				tabData.accept(StmwrModItems.CREATION_ORB.get());
+				tabData.accept(StmwrModBlocks.DESIGNER_ACCESS_POINT.get().asItem());
+				tabData.accept(StmwrModItems.EMPTY_BLUEPRINT.get());
+				tabData.accept(StmwrModBlocks.ITEM_RESEACHER_ACCESS_POINT.get().asItem());
+				tabData.accept(StmwrModItems.RESEARCH_CELL.get());
+				tabData.accept(StmwrModItems.DATA_CARD.get());
 			})
 
 					.build());

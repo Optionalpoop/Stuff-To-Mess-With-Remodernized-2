@@ -23,11 +23,13 @@ import net.mcreator.stmwr.block.entity.ManufacturingPlantAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.MagiciansWorkbenchBlockEntity;
 import net.mcreator.stmwr.block.entity.KitchenBlockEntity;
 import net.mcreator.stmwr.block.entity.KeyAnvilBlockEntity;
+import net.mcreator.stmwr.block.entity.ItemReseacherAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.GodlyStorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.FrozenForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.ForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.FlamingStorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.DoomforgeAccessPointBlockEntity;
+import net.mcreator.stmwr.block.entity.DesignerAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.ConsumerBlockEntity;
 import net.mcreator.stmwr.block.entity.CompressorBlockEntity;
 import net.mcreator.stmwr.block.entity.AlloyFuseBlockEntity;
@@ -55,6 +57,8 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MANUFACTURING_PLANT_ACCESS_POINT = register("manufacturing_plant_access_point", StmwrModBlocks.MANUFACTURING_PLANT_ACCESS_POINT, ManufacturingPlantAccessPointBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> SOUL_MANIPULATOR_ACCESS_POINT = register("soul_manipulator_access_point", StmwrModBlocks.SOUL_MANIPULATOR_ACCESS_POINT, SoulManipulatorAccessPointBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> RITUAL_STONE = register("ritual_stone", StmwrModBlocks.RITUAL_STONE, RitualStoneBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> DESIGNER_ACCESS_POINT = register("designer_access_point", StmwrModBlocks.DESIGNER_ACCESS_POINT, DesignerAccessPointBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ITEM_RESEACHER_ACCESS_POINT = register("item_reseacher_access_point", StmwrModBlocks.ITEM_RESEACHER_ACCESS_POINT, ItemReseacherAccessPointBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

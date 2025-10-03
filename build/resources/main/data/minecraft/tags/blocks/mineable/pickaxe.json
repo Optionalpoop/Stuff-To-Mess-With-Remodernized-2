@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:item_reseacher_access_point",
+    "stmwr:designer_access_point",
     "stmwr:ritual_stone",
     "stmwr:soul_manipulator_access_point",
     "stmwr:magical_casing",

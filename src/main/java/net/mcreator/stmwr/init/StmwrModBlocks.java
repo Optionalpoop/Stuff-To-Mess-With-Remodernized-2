@@ -47,6 +47,7 @@ import net.mcreator.stmwr.block.MagiciansWorkbenchBlock;
 import net.mcreator.stmwr.block.MagicalCasingBlock;
 import net.mcreator.stmwr.block.KitchenBlock;
 import net.mcreator.stmwr.block.KeyAnvilBlock;
+import net.mcreator.stmwr.block.ItemReseacherAccessPointBlock;
 import net.mcreator.stmwr.block.IrradiatedWaterBlock;
 import net.mcreator.stmwr.block.IrradiatedStoneSlabBlock;
 import net.mcreator.stmwr.block.IrradiatedStoneBlock;
@@ -78,6 +79,7 @@ import net.mcreator.stmwr.block.DupestoneBlock;
 import net.mcreator.stmwr.block.DoomsandBlock;
 import net.mcreator.stmwr.block.DoomglassBlock;
 import net.mcreator.stmwr.block.DoomforgeAccessPointBlock;
+import net.mcreator.stmwr.block.DesignerAccessPointBlock;
 import net.mcreator.stmwr.block.DeadironOreBlock;
 import net.mcreator.stmwr.block.DeadironCasingBlock;
 import net.mcreator.stmwr.block.DeadironBlockBlock;
@@ -204,6 +206,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> MAGICAL_CASING = REGISTRY.register("magical_casing", () -> new MagicalCasingBlock());
 	public static final RegistryObject<Block> SOUL_MANIPULATOR_ACCESS_POINT = REGISTRY.register("soul_manipulator_access_point", () -> new SoulManipulatorAccessPointBlock());
 	public static final RegistryObject<Block> RITUAL_STONE = REGISTRY.register("ritual_stone", () -> new RitualStoneBlock());
+	public static final RegistryObject<Block> DESIGNER_ACCESS_POINT = REGISTRY.register("designer_access_point", () -> new DesignerAccessPointBlock());
+	public static final RegistryObject<Block> ITEM_RESEACHER_ACCESS_POINT = REGISTRY.register("item_reseacher_access_point", () -> new ItemReseacherAccessPointBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -102,6 +102,7 @@ import net.mcreator.stmwr.item.ShardOfThePastItem;
 import net.mcreator.stmwr.item.ShardOfTheFutureItem;
 import net.mcreator.stmwr.item.ScrapItem;
 import net.mcreator.stmwr.item.SausageItem;
+import net.mcreator.stmwr.item.ResearchCellItem;
 import net.mcreator.stmwr.item.RawStorumItem;
 import net.mcreator.stmwr.item.RawStevumItem;
 import net.mcreator.stmwr.item.RawGodliumItem;
@@ -196,6 +197,7 @@ import net.mcreator.stmwr.item.ForgersGuideItem;
 import net.mcreator.stmwr.item.FangPickaxeItem;
 import net.mcreator.stmwr.item.EnergyBoosterItem;
 import net.mcreator.stmwr.item.EmptyTrialKeyItem;
+import net.mcreator.stmwr.item.EmptyBlueprintItem;
 import net.mcreator.stmwr.item.EmergencyEscapeKitItem;
 import net.mcreator.stmwr.item.EmeraldForgingHammerItem;
 import net.mcreator.stmwr.item.EmbroideredSwordItem;
@@ -220,6 +222,7 @@ import net.mcreator.stmwr.item.DeadironHoeItem;
 import net.mcreator.stmwr.item.DeadironCogItem;
 import net.mcreator.stmwr.item.DeadironAxeItem;
 import net.mcreator.stmwr.item.DeadironArmorItem;
+import net.mcreator.stmwr.item.DataCardItem;
 import net.mcreator.stmwr.item.CrusherFangItem;
 import net.mcreator.stmwr.item.CreationOrbItem;
 import net.mcreator.stmwr.item.CopperSpringItem;
@@ -677,6 +680,11 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> TOTEM_OF_STRENGTH_II = REGISTRY.register("totem_of_strength_ii", () -> new TotemOfStrengthIIItem());
 	public static final RegistryObject<Item> TOTEM_OF_REGENERATION_II = REGISTRY.register("totem_of_regeneration_ii", () -> new TotemOfRegenerationIIItem());
 	public static final RegistryObject<Item> CREATION_ORB = REGISTRY.register("creation_orb", () -> new CreationOrbItem());
+	public static final RegistryObject<Item> DESIGNER_ACCESS_POINT = block(StmwrModBlocks.DESIGNER_ACCESS_POINT);
+	public static final RegistryObject<Item> EMPTY_BLUEPRINT = REGISTRY.register("empty_blueprint", () -> new EmptyBlueprintItem());
+	public static final RegistryObject<Item> ITEM_RESEACHER_ACCESS_POINT = block(StmwrModBlocks.ITEM_RESEACHER_ACCESS_POINT);
+	public static final RegistryObject<Item> RESEARCH_CELL = REGISTRY.register("research_cell", () -> new ResearchCellItem());
+	public static final RegistryObject<Item> DATA_CARD = REGISTRY.register("data_card", () -> new DataCardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

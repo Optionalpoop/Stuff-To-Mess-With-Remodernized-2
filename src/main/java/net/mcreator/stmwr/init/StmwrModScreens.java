@@ -69,6 +69,7 @@ import net.mcreator.stmwr.client.gui.LightningStaffRecipeScreen;
 import net.mcreator.stmwr.client.gui.KitchenGUIScreen;
 import net.mcreator.stmwr.client.gui.KeyAnvilGUIScreen;
 import net.mcreator.stmwr.client.gui.ItemsPageScreen;
+import net.mcreator.stmwr.client.gui.ItemResearcherGUIScreen;
 import net.mcreator.stmwr.client.gui.HomePageScreen;
 import net.mcreator.stmwr.client.gui.HODTheWitherScreen;
 import net.mcreator.stmwr.client.gui.HODSteveCowScreen;
@@ -104,6 +105,7 @@ import net.mcreator.stmwr.client.gui.FlamingStorageCubeRecipeScreen;
 import net.mcreator.stmwr.client.gui.FlamingStorageCubeGUIScreen;
 import net.mcreator.stmwr.client.gui.DupestoneRecipeScreen;
 import net.mcreator.stmwr.client.gui.DoomforgeGUIScreen;
+import net.mcreator.stmwr.client.gui.DesignerGUIScreen;
 import net.mcreator.stmwr.client.gui.CreationOrbRecipeScreen;
 import net.mcreator.stmwr.client.gui.CookBookHomePageScreen;
 import net.mcreator.stmwr.client.gui.ConsumerGUIScreen;
@@ -287,6 +289,8 @@ public class StmwrModScreens {
 			MenuScreens.register(StmwrModMenus.BOL_PAGE_1.get(), BOLPage1Screen::new);
 			MenuScreens.register(StmwrModMenus.ACTIVATING_T_2_TOTEMS.get(), ActivatingT2TotemsScreen::new);
 			MenuScreens.register(StmwrModMenus.CREATION_ORB_RECIPE.get(), CreationOrbRecipeScreen::new);
+			MenuScreens.register(StmwrModMenus.DESIGNER_GUI.get(), DesignerGUIScreen::new);
+			MenuScreens.register(StmwrModMenus.ITEM_RESEARCHER_GUI.get(), ItemResearcherGUIScreen::new);
 		});
 	}
 }

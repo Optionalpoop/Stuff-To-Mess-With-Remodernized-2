@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_block"
+    },
+    "b": {
+      "item": "stmwr:creation_orb"
+    }
+  },
+  "result": {
+    "item": "stmwr:magicite_block",
+    "count": 8
+  }
+}

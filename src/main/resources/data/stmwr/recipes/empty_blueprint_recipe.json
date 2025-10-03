@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:irradiated_paper"
+    },
+    "b": {
+      "item": "stmwr:storum_cog"
+    }
+  },
+  "result": {
+    "item": "stmwr:empty_blueprint",
+    "count": 1
+  }
+}

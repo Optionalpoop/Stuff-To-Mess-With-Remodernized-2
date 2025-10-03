@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/designersides",
+    "up": "stmwr:block/designersides",
+    "north": "stmwr:block/designer",
+    "east": "stmwr:block/designersides",
+    "south": "stmwr:block/designersides",
+    "west": "stmwr:block/designersides",
+    "particle": "stmwr:block/designersides"
+  },
+  "render_type": "solid"
+}

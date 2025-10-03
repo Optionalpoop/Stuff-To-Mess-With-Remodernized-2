@@ -38,6 +38,9 @@ public class PurifierMK2OnBlockRightClickedProcedure {
 					}
 				}, _bpos);
 			}
+		} else {
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("This can only be used in Militaria."), true);
 		}
 	}
 }

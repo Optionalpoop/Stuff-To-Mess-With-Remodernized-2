@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "minecraft:diamond_block"
+    },
+    "c": {
+      "item": "stmwr:creation_orb"
+    }
+  },
+  "result": {
+    "item": "stmwr:godlium_block",
+    "count": 8
+  }
+}

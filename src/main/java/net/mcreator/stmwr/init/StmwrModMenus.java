@@ -69,6 +69,7 @@ import net.mcreator.stmwr.world.inventory.LightningStaffRecipeMenu;
 import net.mcreator.stmwr.world.inventory.KitchenGUIMenu;
 import net.mcreator.stmwr.world.inventory.KeyAnvilGUIMenu;
 import net.mcreator.stmwr.world.inventory.ItemsPageMenu;
+import net.mcreator.stmwr.world.inventory.ItemResearcherGUIMenu;
 import net.mcreator.stmwr.world.inventory.HomePageMenu;
 import net.mcreator.stmwr.world.inventory.HODTheWitherMenu;
 import net.mcreator.stmwr.world.inventory.HODSteveCowMenu;
@@ -104,6 +105,7 @@ import net.mcreator.stmwr.world.inventory.FlamingStorageCubeRecipeMenu;
 import net.mcreator.stmwr.world.inventory.FlamingStorageCubeGUIMenu;
 import net.mcreator.stmwr.world.inventory.DupestoneRecipeMenu;
 import net.mcreator.stmwr.world.inventory.DoomforgeGUIMenu;
+import net.mcreator.stmwr.world.inventory.DesignerGUIMenu;
 import net.mcreator.stmwr.world.inventory.CreationOrbRecipeMenu;
 import net.mcreator.stmwr.world.inventory.CookBookHomePageMenu;
 import net.mcreator.stmwr.world.inventory.ConsumerGUIMenu;
@@ -285,4 +287,6 @@ public class StmwrModMenus {
 	public static final RegistryObject<MenuType<BOLPage1Menu>> BOL_PAGE_1 = REGISTRY.register("bol_page_1", () -> IForgeMenuType.create(BOLPage1Menu::new));
 	public static final RegistryObject<MenuType<ActivatingT2TotemsMenu>> ACTIVATING_T_2_TOTEMS = REGISTRY.register("activating_t_2_totems", () -> IForgeMenuType.create(ActivatingT2TotemsMenu::new));
 	public static final RegistryObject<MenuType<CreationOrbRecipeMenu>> CREATION_ORB_RECIPE = REGISTRY.register("creation_orb_recipe", () -> IForgeMenuType.create(CreationOrbRecipeMenu::new));
+	public static final RegistryObject<MenuType<DesignerGUIMenu>> DESIGNER_GUI = REGISTRY.register("designer_gui", () -> IForgeMenuType.create(DesignerGUIMenu::new));
+	public static final RegistryObject<MenuType<ItemResearcherGUIMenu>> ITEM_RESEARCHER_GUI = REGISTRY.register("item_researcher_gui", () -> IForgeMenuType.create(ItemResearcherGUIMenu::new));
 }
