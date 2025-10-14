@@ -12,7 +12,7 @@
     "textureBoots": "wooden_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:StuffToMessWithRemodernized"
       }
     ],
     "armorTextureFile": "wooden",

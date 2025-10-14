@@ -1,0 +1,136 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-10-14_13-35-22.png",
+          "use1Xscale": true,
+          "x": 21,
+          "y": 2
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToMMMultiblocksP1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 204,
+          "y": 195
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ingredients",
+          "text": {
+            "fixedValue": "Ingredients:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 202,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4x_tardis_plating",
+          "text": {
+            "fixedValue": "4x TARDIS Plating"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4x_tardis_windows",
+          "text": {
+            "fixedValue": "4x TARDIS Windows"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tardis_phone",
+          "text": {
+            "fixedValue": "TARDIS Phone"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tardis_handle",
+          "text": {
+            "fixedValue": "TARDIS Handle"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4x_tardis_top_text",
+          "text": {
+            "fixedValue": "4x TARDIS Top Text"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 82
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

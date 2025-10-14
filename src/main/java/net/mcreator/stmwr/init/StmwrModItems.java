@@ -128,6 +128,7 @@ import net.mcreator.stmwr.item.PepperoniItem;
 import net.mcreator.stmwr.item.PeanutItem;
 import net.mcreator.stmwr.item.NoobishTrialCoinItem;
 import net.mcreator.stmwr.item.NetheriteForgingHammerItem;
+import net.mcreator.stmwr.item.MultiblockMasteryItem;
 import net.mcreator.stmwr.item.ModuledArmorItem;
 import net.mcreator.stmwr.item.ModularArmorItem;
 import net.mcreator.stmwr.item.MinerAppleItem;
@@ -239,11 +240,17 @@ import net.mcreator.stmwr.item.DeadironArmorItem;
 import net.mcreator.stmwr.item.DataCardItem;
 import net.mcreator.stmwr.item.CrusherFangItem;
 import net.mcreator.stmwr.item.CreationOrbItem;
+import net.mcreator.stmwr.item.CopperSwordItem;
 import net.mcreator.stmwr.item.CopperSpringItem;
+import net.mcreator.stmwr.item.CopperShovelItem;
 import net.mcreator.stmwr.item.CopperRodItem;
 import net.mcreator.stmwr.item.CopperPlateItem;
+import net.mcreator.stmwr.item.CopperPickaxeItem;
 import net.mcreator.stmwr.item.CopperNailItem;
+import net.mcreator.stmwr.item.CopperHoeItem;
 import net.mcreator.stmwr.item.CopperCogItem;
+import net.mcreator.stmwr.item.CopperAxeItem;
+import net.mcreator.stmwr.item.CopperArmorItem;
 import net.mcreator.stmwr.item.CookedIrradiatedPorkItem;
 import net.mcreator.stmwr.item.CookedIrradiatedChickenItem;
 import net.mcreator.stmwr.item.CookedIrradiatedBeefItem;
@@ -763,6 +770,18 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> WOODEN_ARMOR_CHESTPLATE = REGISTRY.register("wooden_armor_chestplate", () -> new WoodenArmorItem.Chestplate());
 	public static final RegistryObject<Item> WOODEN_ARMOR_LEGGINGS = REGISTRY.register("wooden_armor_leggings", () -> new WoodenArmorItem.Leggings());
 	public static final RegistryObject<Item> WOODEN_ARMOR_BOOTS = REGISTRY.register("wooden_armor_boots", () -> new WoodenArmorItem.Boots());
+	public static final RegistryObject<Item> URANIUM_CASING = block(StmwrModBlocks.URANIUM_CASING);
+	public static final RegistryObject<Item> URANIUM_PROCESSING_PLANT = block(StmwrModBlocks.URANIUM_PROCESSING_PLANT);
+	public static final RegistryObject<Item> MULTIBLOCK_MASTERY = REGISTRY.register("multiblock_mastery", () -> new MultiblockMasteryItem());
+	public static final RegistryObject<Item> COPPER_ARMOR_HELMET = REGISTRY.register("copper_armor_helmet", () -> new CopperArmorItem.Helmet());
+	public static final RegistryObject<Item> COPPER_ARMOR_CHESTPLATE = REGISTRY.register("copper_armor_chestplate", () -> new CopperArmorItem.Chestplate());
+	public static final RegistryObject<Item> COPPER_ARMOR_LEGGINGS = REGISTRY.register("copper_armor_leggings", () -> new CopperArmorItem.Leggings());
+	public static final RegistryObject<Item> COPPER_ARMOR_BOOTS = REGISTRY.register("copper_armor_boots", () -> new CopperArmorItem.Boots());
+	public static final RegistryObject<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", () -> new CopperPickaxeItem());
+	public static final RegistryObject<Item> COPPER_AXE = REGISTRY.register("copper_axe", () -> new CopperAxeItem());
+	public static final RegistryObject<Item> COPPER_SWORD = REGISTRY.register("copper_sword", () -> new CopperSwordItem());
+	public static final RegistryObject<Item> COPPER_SHOVEL = REGISTRY.register("copper_shovel", () -> new CopperShovelItem());
+	public static final RegistryObject<Item> COPPER_HOE = REGISTRY.register("copper_hoe", () -> new CopperHoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

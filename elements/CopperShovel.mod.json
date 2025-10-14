@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "copper_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Copper Shovel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StuffToMessWithRemodernized"
+      }
+    ],
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 11,
+    "damageVsEntity": 4.0,
+    "usageCount": 183,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.COPPER_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

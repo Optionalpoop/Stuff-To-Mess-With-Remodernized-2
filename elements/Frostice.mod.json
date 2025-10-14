@@ -18,9 +18,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "hasTransparency": false,
+    "connectedSides": true,
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -43,7 +43,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:StuffToMessWithRemodernized"
+        "value": "CUSTOM:STMWRSteveCowLand"
       }
     ],
     "destroyTool": "pickaxe",

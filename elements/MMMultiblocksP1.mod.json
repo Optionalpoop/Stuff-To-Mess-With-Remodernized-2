@@ -1,0 +1,214 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<---",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToMMHomePage"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 131,
+          "y": 193
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "--->",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 250,
+          "y": 193
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 209,
+          "y": 198
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_doomforge",
+          "text": "Doomforge",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToDoomforgeMultiblockRecipe"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 131,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_laboratory",
+          "text": "Laboratory",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToLaboratoryMultiblockRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 204,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_manufacturing_plant",
+          "text": "Manufacturing Plant",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToManufacturingPlantMultiblockRecipe"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 131,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ritual_circle",
+          "text": "Ritual Circle",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToRitualCircleMultiblockRecipe"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 131,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_concrete_mixer",
+          "text": "Concrete Mixer",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToConcreteMixerMultiblockRecipe"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 131,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_tardis",
+          "text": "TARDIS",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToTARDISMultiblockRecipe"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 230,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_uranium_processing_plant",
+          "text": "Uranium Processing Plant",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToUraniumProcessingPlantMultiblockRecipe"
+          },
+          "width": 150,
+          "height": 20,
+          "x": 131,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_radiation_removal_plant",
+          "text": "Radiation Removal Plant",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToRadiationRemovalPlantMultiblockRecipe"
+          },
+          "width": 145,
+          "height": 20,
+          "x": 131,
+          "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_uranium_hydroponics",
+          "text": "Uranium Hydroponics",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToUraniumHydroponicsMultiblockRecipe"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 131,
+          "y": 151
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_soul_manipulator",
+          "text": "Soul Manipulator",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToSoulManipulatorMultiblockRecipe"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 131,
+          "y": 172
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

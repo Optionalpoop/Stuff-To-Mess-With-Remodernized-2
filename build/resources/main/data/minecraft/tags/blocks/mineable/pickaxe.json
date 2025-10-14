@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:uranium_casing",
     "stmwr:tardis_top_text",
     "stmwr:tardis_handle",
     "stmwr:tardis_phone",

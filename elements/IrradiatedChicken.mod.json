@@ -9,7 +9,11 @@
     "states": [],
     "name": "Irradiated Chicken",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMWRMilitaria"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,

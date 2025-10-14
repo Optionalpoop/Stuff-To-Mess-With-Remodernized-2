@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:uranium_casing"
+    },
+    "c": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "item": "stmwr:uranium_processing_plant",
+    "count": 1
+  }
+}

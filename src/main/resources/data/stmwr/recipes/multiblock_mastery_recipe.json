@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "stmwr:deadiron_ingot"
+    },
+    "c": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "stmwr:multiblock_mastery",
+    "count": 1
+  }
+}

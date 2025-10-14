@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:copper_shovel",
     "stmwr:undead_shovel",
     "stmwr:deadiron_shovel",
     "stmwr:irradiated_shovel",

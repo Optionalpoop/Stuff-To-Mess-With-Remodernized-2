@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:copper_hoe",
     "stmwr:undead_hoe",
     "stmwr:deadiron_hoe",
     "stmwr:irradiated_hoe",

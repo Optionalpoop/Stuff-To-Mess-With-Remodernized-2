@@ -1,0 +1,100 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToMMMultiblocksP1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 192,
+          "y": 196
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ingredients",
+          "text": {
+            "fixedValue": "Ingredients:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 220,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_uranium_casing",
+          "text": {
+            "fixedValue": "Uranium Casing"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_uranium_processing_plant",
+          "text": {
+            "fixedValue": "Uranium Processing Plant"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 173,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-10-14_13-36-23.png",
+          "use1Xscale": true,
+          "x": -36,
+          "y": -17
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_from_2025-10-14_13-37-10.png",
+          "use1Xscale": true,
+          "x": 245,
+          "y": 70
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

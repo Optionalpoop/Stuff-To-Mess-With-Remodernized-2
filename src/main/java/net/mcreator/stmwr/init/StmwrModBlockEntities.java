@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stmwr.block.entity.WarpBrickBlockEntity;
+import net.mcreator.stmwr.block.entity.UraniumProcessingPlantBlockEntity;
 import net.mcreator.stmwr.block.entity.UraniumHydroponicsUtilityHatchBlockEntity;
 import net.mcreator.stmwr.block.entity.TotemFusionStationBlockEntity;
 import net.mcreator.stmwr.block.entity.StorageCubeBlockEntity;
@@ -67,6 +68,7 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> URANIUM_HYDROPONICS_UTILITY_HATCH = register("uranium_hydroponics_utility_hatch", StmwrModBlocks.URANIUM_HYDROPONICS_UTILITY_HATCH, UraniumHydroponicsUtilityHatchBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> REPAIR_PLANT = register("repair_plant", StmwrModBlocks.REPAIR_PLANT, RepairPlantBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> WARP_BRICK = register("warp_brick", StmwrModBlocks.WARP_BRICK, WarpBrickBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> URANIUM_PROCESSING_PLANT = register("uranium_processing_plant", StmwrModBlocks.URANIUM_PROCESSING_PLANT, UraniumProcessingPlantBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

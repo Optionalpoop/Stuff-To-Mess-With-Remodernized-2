@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/uraniumprocessingplantside",
+    "up": "stmwr:block/uraniumprocessingplantside",
+    "north": "stmwr:block/uraniumprocessingplantfront",
+    "east": "stmwr:block/uraniumprocessingplantside",
+    "south": "stmwr:block/uraniumprocessingplantside",
+    "west": "stmwr:block/uraniumprocessingplantside",
+    "particle": "stmwr:block/uraniumprocessingplantside"
+  },
+  "render_type": "solid"
+}

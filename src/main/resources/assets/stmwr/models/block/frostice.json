@@ -9,5 +9,5 @@
     "west": "stmwr:block/frostice",
     "particle": "stmwr:block/frostice"
   },
-  "render_type": "translucent"
+  "render_type": "cutout_mipped"
 }

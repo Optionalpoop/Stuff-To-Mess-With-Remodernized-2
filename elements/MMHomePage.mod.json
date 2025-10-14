@@ -1,0 +1,172 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome_to_multiblock_mastery",
+          "text": {
+            "fixedValue": "Welcome to Multiblock Mastery,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_worst_yet_most_handy",
+          "text": {
+            "fixedValue": "the worst (yet most handy)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_guide_in_stmwr_2x_this_is_whe",
+          "text": {
+            "fixedValue": "guide in STMW:R 2.x! This is"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_temporary_way_to_find_out",
+          "text": {
+            "fixedValue": "the TEMPORARY way to find out"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_how_multiblocks_are_constructed",
+          "text": {
+            "fixedValue": "how multiblocks are constructed."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_do_not_worry_this_will_be",
+          "text": {
+            "fixedValue": "DO NOT WORRY. THIS WILL BE"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_removed_when_the_guide",
+          "text": {
+            "fixedValue": "REMOVED WHEN THE GUIDE IS"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_implemented",
+          "text": {
+            "fixedValue": "IMPLEMENTED! :)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_close",
+          "text": "Close",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 139,
+          "y": 193
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_multiblocks",
+          "text": "Multiblocks",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToMMMultiblocksP1"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 207,
+          "y": 193
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

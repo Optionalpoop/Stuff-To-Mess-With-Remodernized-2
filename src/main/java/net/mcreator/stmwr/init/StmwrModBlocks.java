@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stmwr.block.WarpBrickBlock;
+import net.mcreator.stmwr.block.UraniumProcessingPlantBlock;
 import net.mcreator.stmwr.block.UraniumOreBlock;
 import net.mcreator.stmwr.block.UraniumHydroponicsUtilityHatchBlock;
 import net.mcreator.stmwr.block.UraniumHydroponicsBlock;
+import net.mcreator.stmwr.block.UraniumCasingBlock;
 import net.mcreator.stmwr.block.UraniumBlockBlock;
 import net.mcreator.stmwr.block.UntouchedSoilBlock;
 import net.mcreator.stmwr.block.TrialBrickBlock;
@@ -228,6 +230,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> TARDIS_PHONE = REGISTRY.register("tardis_phone", () -> new TARDISPhoneBlock());
 	public static final RegistryObject<Block> TARDIS_HANDLE = REGISTRY.register("tardis_handle", () -> new TARDISHandleBlock());
 	public static final RegistryObject<Block> TARDIS_TOP_TEXT = REGISTRY.register("tardis_top_text", () -> new TARDISTopTextBlock());
+	public static final RegistryObject<Block> URANIUM_CASING = REGISTRY.register("uranium_casing", () -> new UraniumCasingBlock());
+	public static final RegistryObject<Block> URANIUM_PROCESSING_PLANT = REGISTRY.register("uranium_processing_plant", () -> new UraniumProcessingPlantBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

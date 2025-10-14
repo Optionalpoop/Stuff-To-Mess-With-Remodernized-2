@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/uraniumcasing",
+    "up": "stmwr:block/uraniumcasing",
+    "north": "stmwr:block/uraniumcasing",
+    "east": "stmwr:block/uraniumcasing",
+    "south": "stmwr:block/uraniumcasing",
+    "west": "stmwr:block/uraniumcasing",
+    "particle": "stmwr:block/uraniumcasing"
+  },
+  "render_type": "solid"
+}

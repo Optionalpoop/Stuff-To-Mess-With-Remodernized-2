@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:copper_sword",
     "stmwr:bioblade",
     "stmwr:bioharvester",
     "stmwr:undead_sword",

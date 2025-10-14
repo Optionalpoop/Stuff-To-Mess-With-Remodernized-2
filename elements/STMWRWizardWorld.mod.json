@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "STMW:R - Wizard World",
+    "icon": {
+      "value": "CUSTOM:MagiciteBlock"
+    },
+    "showSearch": false
+  }
+}

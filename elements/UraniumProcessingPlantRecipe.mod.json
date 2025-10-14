@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:UraniumCasing"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:UraniumCasing"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      },
+      {
+        "value": "CUSTOM:UraniumCasing"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:UraniumCasing"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UraniumProcessingPlant"
+    },
+    "name": "uranium_processing_plant_recipe",
+    "namespace": "mod"
+  }
+}
