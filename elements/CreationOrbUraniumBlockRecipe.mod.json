@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UraniumBlock"
+    },
+    "name": "creation_orb_uranium_block_recipe",
+    "namespace": "mod"
+  }
+}

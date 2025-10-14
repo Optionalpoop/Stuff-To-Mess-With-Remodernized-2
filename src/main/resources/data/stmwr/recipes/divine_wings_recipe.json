@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "stmwr:scar_in_time"
+    },
+    "c": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "item": "stmwr:scarred_armor_chestplate",
+    "count": 1
+  }
+}

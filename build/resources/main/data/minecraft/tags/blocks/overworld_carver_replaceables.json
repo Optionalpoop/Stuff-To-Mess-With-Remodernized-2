@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "minecraft:stone",
+    "minecraft:air",
     "stmwr:dead_grass",
     "stmwr:ash",
     "stmwr:untouched_soil",

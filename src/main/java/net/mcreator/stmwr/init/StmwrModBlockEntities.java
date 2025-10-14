@@ -11,11 +11,14 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.stmwr.block.entity.WarpBrickBlockEntity;
+import net.mcreator.stmwr.block.entity.UraniumHydroponicsUtilityHatchBlockEntity;
 import net.mcreator.stmwr.block.entity.TotemFusionStationBlockEntity;
 import net.mcreator.stmwr.block.entity.StorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.SpellforgeBlockEntity;
 import net.mcreator.stmwr.block.entity.SoulManipulatorAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.RitualStoneBlockEntity;
+import net.mcreator.stmwr.block.entity.RepairPlantBlockEntity;
 import net.mcreator.stmwr.block.entity.RadiationRemovalPlantAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.PurifierMK2BlockEntity;
 import net.mcreator.stmwr.block.entity.OrePurifierBlockEntity;
@@ -31,6 +34,7 @@ import net.mcreator.stmwr.block.entity.FlamingStorageCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.DoomforgeAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.DesignerAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.ConsumerBlockEntity;
+import net.mcreator.stmwr.block.entity.ConcreteMixerBlockEntity;
 import net.mcreator.stmwr.block.entity.CompressorBlockEntity;
 import net.mcreator.stmwr.block.entity.AlloyFuseBlockEntity;
 import net.mcreator.stmwr.StmwrMod;
@@ -59,6 +63,10 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> RITUAL_STONE = register("ritual_stone", StmwrModBlocks.RITUAL_STONE, RitualStoneBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> DESIGNER_ACCESS_POINT = register("designer_access_point", StmwrModBlocks.DESIGNER_ACCESS_POINT, DesignerAccessPointBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ITEM_RESEACHER_ACCESS_POINT = register("item_reseacher_access_point", StmwrModBlocks.ITEM_RESEACHER_ACCESS_POINT, ItemReseacherAccessPointBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CONCRETE_MIXER = register("concrete_mixer", StmwrModBlocks.CONCRETE_MIXER, ConcreteMixerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> URANIUM_HYDROPONICS_UTILITY_HATCH = register("uranium_hydroponics_utility_hatch", StmwrModBlocks.URANIUM_HYDROPONICS_UTILITY_HATCH, UraniumHydroponicsUtilityHatchBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> REPAIR_PLANT = register("repair_plant", StmwrModBlocks.REPAIR_PLANT, RepairPlantBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> WARP_BRICK = register("warp_brick", StmwrModBlocks.WARP_BRICK, WarpBrickBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

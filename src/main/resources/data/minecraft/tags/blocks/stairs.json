@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:tardis_top_text",
     "stmwr:dead_stairs",
     "stmwr:frosty_stairs"
   ]

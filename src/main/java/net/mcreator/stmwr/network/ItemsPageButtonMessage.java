@@ -12,8 +12,12 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.ItemsPageMenu;
+import net.mcreator.stmwr.procedures.ToVortexManipulatorRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToUraniumFuelRodRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToSoulShardRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToPowercellRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToPortableOvenRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToPortableCrucibleRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -75,6 +79,22 @@ public class ItemsPageButtonMessage {
 		if (buttonID == 3) {
 
 			ToSoulShardRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToPowercellRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			ToVortexManipulatorRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			ToPortableCrucibleRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			ToPortableOvenRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

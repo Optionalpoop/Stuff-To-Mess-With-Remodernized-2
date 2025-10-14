@@ -1,0 +1,109 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2",
+          "text": {
+            "fixedValue": "2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 212,
+          "y": 199
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "--->",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 249,
+          "y": 195
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "<---",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlocksPage"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 132,
+          "y": 195
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_uranium_hydroponics",
+          "text": "Uranium Hydroponics",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToUraniumHydroponicsRecipe"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 130,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hydroponics_utility_hatch",
+          "text": "Hydroponics Utility Hatch",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToUraniumHydroponicsUtilityHatchRecipe"
+          },
+          "width": 155,
+          "height": 20,
+          "x": 130,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_repair_plant",
+          "text": "Repair Plant",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToRepairPlantRecipe"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 130,
+          "y": 66
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

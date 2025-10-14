@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "abc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:block_of_scrap"
+    },
+    "b": {
+      "item": "stmwr:tardis_plating"
+    },
+    "c": {
+      "item": "stmwr:dead_wood"
+    }
+  },
+  "result": {
+    "item": "stmwr:tardis_handle",
+    "count": 1
+  }
+}

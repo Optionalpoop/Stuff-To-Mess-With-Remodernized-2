@@ -81,6 +81,36 @@
           "x": 131,
           "y": 46
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_eye_of_the_stevecow",
+          "text": "Eye of the SteveCow",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToEyeOfTheSteveCowRecipe"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 131,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_eye_of_time",
+          "text": "Eye of Time",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToEyeOfTimeRecipe"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 131,
+          "y": 88
+        }
       }
     ],
     "gridSettings": {

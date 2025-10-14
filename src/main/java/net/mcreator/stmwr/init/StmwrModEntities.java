@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.UndeadSoulEntity;
+import net.mcreator.stmwr.entity.TheTimelessEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
@@ -121,6 +122,10 @@ public class StmwrModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AncientWizardEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PoisonDartAmmoEntity>> POISON_DART_AMMO = register("poison_dart_ammo",
 			EntityType.Builder.<PoisonDartAmmoEntity>of(PoisonDartAmmoEntity::new, MobCategory.MISC).setCustomClientFactory(PoisonDartAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TheTimelessEntity>> THE_TIMELESS = register("the_timeless",
+			EntityType.Builder.<TheTimelessEntity>of(TheTimelessEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(512).setUpdateInterval(3).setCustomClientFactory(TheTimelessEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -149,6 +154,7 @@ public class StmwrModEntities {
 			UndeadSoulEntity.init();
 			CorpsepuppetEntity.init();
 			AncientWizardEntity.init();
+			TheTimelessEntity.init();
 		});
 	}
 
@@ -174,5 +180,6 @@ public class StmwrModEntities {
 		event.put(UNDEAD_SOUL.get(), UndeadSoulEntity.createAttributes().build());
 		event.put(CORPSEPUPPET.get(), CorpsepuppetEntity.createAttributes().build());
 		event.put(ANCIENT_WIZARD.get(), AncientWizardEntity.createAttributes().build());
+		event.put(THE_TIMELESS.get(), TheTimelessEntity.createAttributes().build());
 	}
 }

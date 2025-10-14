@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:portable_oven"
+    },
+    "b": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "minecraft:cooked_cod",
+    "count": 1
+  }
+}

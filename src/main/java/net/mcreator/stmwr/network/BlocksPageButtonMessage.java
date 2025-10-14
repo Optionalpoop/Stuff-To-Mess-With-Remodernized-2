@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.BlocksPageMenu;
+import net.mcreator.stmwr.procedures.ToWarpBrickRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToTrialBricksRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToStopstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToSpeedstoneRecipeProcedure;
@@ -19,7 +20,9 @@ import net.mcreator.stmwr.procedures.ToRitualStoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodlyStorageCubeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToFlamingStorageCubeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToDupestoneRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToConcreteMixerRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
+import net.mcreator.stmwr.procedures.ToBlocksPage2Procedure;
 import net.mcreator.stmwr.procedures.ToBlazingPlasticRecipeProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -74,6 +77,10 @@ public class BlocksPageButtonMessage {
 
 			ToCategoriesProcedure.execute(world, x, y, z, entity);
 		}
+		if (buttonID == 1) {
+
+			ToBlocksPage2Procedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 2) {
 
 			ToBlazingPlasticRecipeProcedure.execute(world, x, y, z, entity);
@@ -105,6 +112,14 @@ public class BlocksPageButtonMessage {
 		if (buttonID == 9) {
 
 			ToRitualStoneRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			ToConcreteMixerRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 11) {
+
+			ToWarpBrickRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

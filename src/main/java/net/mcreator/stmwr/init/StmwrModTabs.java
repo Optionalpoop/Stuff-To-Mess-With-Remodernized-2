@@ -6,14 +6,19 @@ package net.mcreator.stmwr.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.stmwr.StmwrMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class StmwrModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, StmwrMod.MODID);
 	public static final RegistryObject<CreativeModeTab> STUFF_TO_MESS_WITH_REMODERNIZED = REGISTRY.register("stuff_to_mess_with_remodernized",
@@ -422,16 +427,61 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.BIOBLADE.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_BOOK.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_CONCRETE_MIXER.get());
-				tabData.accept(StmwrModItems.BLUEPRINT_GUNS.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_URANIUM_HYDROPONICS.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_POWERCELL.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_MODULAR_ARMOR.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_MODULAR_ARMOR_UPGRADES.get());
-				tabData.accept(StmwrModItems.BLUEPRINT_POWER_TOOLS.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_REPAIR_PLANT.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_VORTEX_MANIPULATION.get());
 				tabData.accept(StmwrModItems.BLUEPRINT_PORTABLE_CRUCIBLE_OVEN.get());
+				tabData.accept(StmwrModBlocks.CONCRETE_MIXER.get().asItem());
+				tabData.accept(StmwrModBlocks.URANIUM_HYDROPONICS.get().asItem());
+				tabData.accept(StmwrModBlocks.URANIUM_HYDROPONICS_UTILITY_HATCH.get().asItem());
+				tabData.accept(StmwrModItems.POWERCELL.get());
+				tabData.accept(StmwrModItems.MODULAR_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.MODULAR_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.MODULAR_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.MODULAR_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.MODULED_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.MODULED_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.MODULED_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.MODULED_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModBlocks.REPAIR_PLANT.get().asItem());
+				tabData.accept(StmwrModBlocks.WARP_BRICK.get().asItem());
+				tabData.accept(StmwrModItems.VORTEX_MANIPULATOR.get());
+				tabData.accept(StmwrModItems.PORTABLE_OVEN.get());
+				tabData.accept(StmwrModItems.PORTABLE_CRUCIBLE.get());
+				tabData.accept(StmwrModItems.EYE_OF_THE_STEVE_COW.get());
+				tabData.accept(StmwrModItems.EYE_OF_TIME.get());
+				tabData.accept(StmwrModItems.SCAR_IN_TIME.get());
+				tabData.accept(StmwrModItems.SCARRED_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.SCARRED_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.SCARRED_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.SCARRED_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.TARDIS_KEY.get());
+				tabData.accept(StmwrModBlocks.TARDIS_WINDOWS.get().asItem());
+				tabData.accept(StmwrModBlocks.TARDIS_PLATING.get().asItem());
+				tabData.accept(StmwrModBlocks.TARDIS_PHONE.get().asItem());
+				tabData.accept(StmwrModBlocks.TARDIS_HANDLE.get().asItem());
+				tabData.accept(StmwrModBlocks.TARDIS_TOP_TEXT.get().asItem());
+				tabData.accept(StmwrModItems.REWIND.get());
+				tabData.accept(StmwrModItems.THE_TIMELESS_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.DEADIRON_FORGING_HAMMER.get());
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(StmwrModItems.COBBLESTONE_ARMOR_HELMET.get());
+			tabData.accept(StmwrModItems.COBBLESTONE_ARMOR_CHESTPLATE.get());
+			tabData.accept(StmwrModItems.COBBLESTONE_ARMOR_LEGGINGS.get());
+			tabData.accept(StmwrModItems.COBBLESTONE_ARMOR_BOOTS.get());
+			tabData.accept(StmwrModItems.WOODEN_ARMOR_HELMET.get());
+			tabData.accept(StmwrModItems.WOODEN_ARMOR_CHESTPLATE.get());
+			tabData.accept(StmwrModItems.WOODEN_ARMOR_LEGGINGS.get());
+			tabData.accept(StmwrModItems.WOODEN_ARMOR_BOOTS.get());
+		}
+	}
 }

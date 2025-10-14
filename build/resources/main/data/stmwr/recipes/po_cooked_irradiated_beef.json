@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:portable_oven"
+    },
+    "b": {
+      "item": "stmwr:irradiated_beef"
+    }
+  },
+  "result": {
+    "item": "stmwr:cooked_irradiated_beef",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " cc"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:gold_rod"
+    },
+    "b": {
+      "item": "stmwr:eye_of_time"
+    },
+    "c": {
+      "item": "stmwr:gold_nail"
+    }
+  },
+  "result": {
+    "item": "stmwr:tardis_key",
+    "count": 1
+  }
+}

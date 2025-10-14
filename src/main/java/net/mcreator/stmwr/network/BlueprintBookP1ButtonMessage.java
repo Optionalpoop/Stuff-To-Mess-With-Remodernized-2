@@ -17,11 +17,9 @@ import net.mcreator.stmwr.procedures.ToBPVortexManipulatorRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPUraniumHydroponicsRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPRepairPlantRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPPowercellRecipeProcedure;
-import net.mcreator.stmwr.procedures.ToBPPowerToolsRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPPortableCrucibleOvenRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPModularArmorUpgradesRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPModularArmorRecipeProcedure;
-import net.mcreator.stmwr.procedures.ToBPGunsRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBPConcreteMixerRecipeProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -98,21 +96,13 @@ public class BlueprintBookP1ButtonMessage {
 		}
 		if (buttonID == 7) {
 
-			ToBPPowerToolsRecipeProcedure.execute(world, x, y, z, entity);
+			ToBPRepairPlantRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 8) {
 
-			ToBPRepairPlantRecipeProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 9) {
-
 			ToBPVortexManipulatorRecipeProcedure.execute(world, x, y, z, entity);
 		}
-		if (buttonID == 10) {
-
-			ToBPGunsRecipeProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 11) {
+		if (buttonID == 9) {
 
 			ToBPPortableCrucibleOvenRecipeProcedure.execute(world, x, y, z, entity);
 		}

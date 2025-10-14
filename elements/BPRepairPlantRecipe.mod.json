@@ -60,7 +60,7 @@
         "data": {
           "name": "label_a_multiblock_that_repairs_gear",
           "text": {
-            "fixedValue": "a multiblock that repairs gear!"
+            "fixedValue": "a machine that repairs gear!"
           },
           "color": {
             "value": -12829636,

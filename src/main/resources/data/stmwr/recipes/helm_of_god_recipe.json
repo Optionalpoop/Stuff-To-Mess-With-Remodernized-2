@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "stmwr:scar_in_time"
+    }
+  },
+  "result": {
+    "item": "stmwr:scarred_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:doomglass"
+    },
+    "b": {
+      "item": "stmwr:tardis_plating"
+    }
+  },
+  "result": {
+    "item": "stmwr:tardis_windows",
+    "count": 1
+  }
+}

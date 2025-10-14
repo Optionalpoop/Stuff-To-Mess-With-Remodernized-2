@@ -12,6 +12,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.BOLPage1Menu;
+import net.mcreator.stmwr.procedures.ToEyeOfTimeRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToEyeOfTheSteveCowRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCreationOrbRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToBOLHomePageProcedure;
 import net.mcreator.stmwr.procedures.ToActivatingT2TotemsProcedure;
@@ -75,6 +77,14 @@ public class BOLPage1ButtonMessage {
 		if (buttonID == 3) {
 
 			ToCreationOrbRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToEyeOfTheSteveCowRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			ToEyeOfTimeRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.ToolsAndArmorMenu;
+import net.mcreator.stmwr.procedures.ToModularGearRecipesProcedure;
 import net.mcreator.stmwr.procedures.ToLightningStaffRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodliumKnifeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToGodliumGearRecipeProcedure;
@@ -105,6 +106,10 @@ public class ToolsAndArmorButtonMessage {
 		if (buttonID == 9) {
 
 			ToChickenGunRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			ToModularGearRecipesProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

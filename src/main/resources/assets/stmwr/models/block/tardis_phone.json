@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/tardissidepanel",
+    "up": "stmwr:block/tardissidepanel",
+    "north": "stmwr:block/tardisphonefront",
+    "east": "stmwr:block/tardissidepanel",
+    "south": "stmwr:block/tardissidepanel",
+    "west": "stmwr:block/tardissidepanel",
+    "particle": "stmwr:block/tardissidepanel"
+  },
+  "render_type": "solid"
+}

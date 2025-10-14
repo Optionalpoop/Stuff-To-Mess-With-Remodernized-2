@@ -1,0 +1,127 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODCategories"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 190,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_irradiated_pig",
+          "text": "Irradiated Pig",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODIrradiatedPig"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 130,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_irradiated_cow",
+          "text": "Irradiated Cow",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODIrradiatedCow"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 130,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_irradiated_chicken",
+          "text": "Irradiated Chicken",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODIrradiatedChicken"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 130,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ancient_wizard",
+          "text": "Ancient Wizard",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODAncientWizard"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 130,
+          "y": 87
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_the_timeless",
+          "text": "The Timeless",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODTheTimeless"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 130,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gooling",
+          "text": "Gooling",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHODGooling"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 229,
+          "y": 24
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

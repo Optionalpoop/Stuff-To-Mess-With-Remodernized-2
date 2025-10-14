@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/uraniumhydroponicsutilityhatchsides",
+    "up": "stmwr:block/uraniumhydroponicsutilityhatchsides",
+    "north": "stmwr:block/uraniumhydroponicsutilityhatchfront",
+    "east": "stmwr:block/uraniumhydroponicsutilityhatchsides",
+    "south": "stmwr:block/uraniumhydroponicsutilityhatchsides",
+    "west": "stmwr:block/uraniumhydroponicsutilityhatchsides",
+    "particle": "stmwr:block/uraniumhydroponicsutilityhatchsides"
+  },
+  "render_type": "solid"
+}

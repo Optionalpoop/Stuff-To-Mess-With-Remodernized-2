@@ -171,6 +171,21 @@
           "x": 213,
           "y": 46
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_modular_gear",
+          "text": "Modular Gear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToModularGearRecipes"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 131,
+          "y": 151
+        }
       }
     ],
     "gridSettings": {

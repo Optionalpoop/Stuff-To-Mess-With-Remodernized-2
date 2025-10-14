@@ -1,0 +1,90 @@
+
+package net.mcreator.stmwr.network;
+
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.stmwr.world.inventory.BlocksPage2Menu;
+import net.mcreator.stmwr.procedures.ToUraniumHydroponicsUtilityHatchRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToUraniumHydroponicsRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToRepairPlantRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToBlocksPageProcedure;
+import net.mcreator.stmwr.StmwrMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public class BlocksPage2ButtonMessage {
+	private final int buttonID, x, y, z;
+
+	public BlocksPage2ButtonMessage(FriendlyByteBuf buffer) {
+		this.buttonID = buffer.readInt();
+		this.x = buffer.readInt();
+		this.y = buffer.readInt();
+		this.z = buffer.readInt();
+	}
+
+	public BlocksPage2ButtonMessage(int buttonID, int x, int y, int z) {
+		this.buttonID = buttonID;
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	public static void buffer(BlocksPage2ButtonMessage message, FriendlyByteBuf buffer) {
+		buffer.writeInt(message.buttonID);
+		buffer.writeInt(message.x);
+		buffer.writeInt(message.y);
+		buffer.writeInt(message.z);
+	}
+
+	public static void handler(BlocksPage2ButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+		NetworkEvent.Context context = contextSupplier.get();
+		context.enqueueWork(() -> {
+			Player entity = context.getSender();
+			int buttonID = message.buttonID;
+			int x = message.x;
+			int y = message.y;
+			int z = message.z;
+			handleButtonAction(entity, buttonID, x, y, z);
+		});
+		context.setPacketHandled(true);
+	}
+
+	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
+		Level world = entity.level();
+		HashMap guistate = BlocksPage2Menu.guistate;
+		// security measure to prevent arbitrary chunk generation
+		if (!world.hasChunkAt(new BlockPos(x, y, z)))
+			return;
+		if (buttonID == 1) {
+
+			ToBlocksPageProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			ToUraniumHydroponicsRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ToUraniumHydroponicsUtilityHatchRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToRepairPlantRecipeProcedure.execute(world, x, y, z, entity);
+		}
+	}
+
+	@SubscribeEvent
+	public static void registerMessage(FMLCommonSetupEvent event) {
+		StmwrMod.addNetworkMessage(BlocksPage2ButtonMessage.class, BlocksPage2ButtonMessage::buffer, BlocksPage2ButtonMessage::new, BlocksPage2ButtonMessage::handler);
+	}
+}

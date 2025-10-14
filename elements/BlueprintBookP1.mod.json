@@ -130,21 +130,6 @@
       {
         "type": "button",
         "data": {
-          "name": "button_powertools",
-          "text": "Power Tools",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToBPPowerToolsRecipe"
-          },
-          "width": 77,
-          "height": 20,
-          "x": 131,
-          "y": 109
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "name": "button_repair_plant",
           "text": "Repair Plant",
           "isUndecorated": false,
@@ -153,7 +138,7 @@
           },
           "width": 87,
           "height": 20,
-          "x": 209,
+          "x": 131,
           "y": 109
         }
       },
@@ -170,21 +155,6 @@
           "height": 20,
           "x": 131,
           "y": 130
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_guns",
-          "text": "Guns",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToBPGunsRecipe"
-          },
-          "width": 46,
-          "height": 20,
-          "x": 230,
-          "y": 25
         }
       },
       {

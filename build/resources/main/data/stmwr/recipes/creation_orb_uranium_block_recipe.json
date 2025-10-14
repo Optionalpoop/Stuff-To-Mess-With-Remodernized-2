@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:creation_orb"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    },
+    {
+      "item": "stmwr:uranium_dust"
+    }
+  ],
+  "result": {
+    "item": "stmwr:uranium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stmwr:block/tardis_handle"
+    },
+    "facing=east": {
+      "model": "stmwr:block/tardis_handle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stmwr:block/tardis_handle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stmwr:block/tardis_handle",
+      "y": 270
+    }
+  }
+}

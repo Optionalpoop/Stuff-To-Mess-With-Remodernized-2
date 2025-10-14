@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.stmwr.client.renderer.UndeadSoulRenderer;
+import net.mcreator.stmwr.client.renderer.TheTimelessRenderer;
 import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
@@ -62,5 +63,6 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.CORPSEPUPPET.get(), CorpsepuppetRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.ANCIENT_WIZARD.get(), AncientWizardRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.POISON_DART_AMMO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.THE_TIMELESS.get(), TheTimelessRenderer::new);
 	}
 }

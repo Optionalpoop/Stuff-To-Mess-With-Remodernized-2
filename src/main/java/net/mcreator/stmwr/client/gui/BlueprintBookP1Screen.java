@@ -29,10 +29,8 @@ public class BlueprintBookP1Screen extends AbstractContainerScreen<BlueprintBook
 	Button button_powercell;
 	Button button_modular_armor;
 	Button button_modular_armor_upgrades;
-	Button button_powertools;
 	Button button_repair_plant;
 	Button button_vortex_manipulator;
-	Button button_guns;
 	Button button_portable_crucibleoven;
 
 	public BlueprintBookP1Screen(BlueprintBookP1Menu container, Inventory inventory, Component text) {
@@ -133,42 +131,26 @@ public class BlueprintBookP1Screen extends AbstractContainerScreen<BlueprintBook
 		}).bounds(this.leftPos + 5, this.topPos + 68, 140, 20).build();
 		guistate.put("button:button_modular_armor_upgrades", button_modular_armor_upgrades);
 		this.addRenderableWidget(button_modular_armor_upgrades);
-		button_powertools = Button.builder(Component.translatable("gui.stmwr.blueprint_book_p_1.button_powertools"), e -> {
+		button_repair_plant = Button.builder(Component.translatable("gui.stmwr.blueprint_book_p_1.button_repair_plant"), e -> {
 			if (true) {
 				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(7, x, y, z));
 				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
-		}).bounds(this.leftPos + 5, this.topPos + 89, 77, 20).build();
-		guistate.put("button:button_powertools", button_powertools);
-		this.addRenderableWidget(button_powertools);
-		button_repair_plant = Button.builder(Component.translatable("gui.stmwr.blueprint_book_p_1.button_repair_plant"), e -> {
-			if (true) {
-				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(8, x, y, z));
-				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 8, x, y, z);
-			}
-		}).bounds(this.leftPos + 83, this.topPos + 89, 87, 20).build();
+		}).bounds(this.leftPos + 5, this.topPos + 89, 87, 20).build();
 		guistate.put("button:button_repair_plant", button_repair_plant);
 		this.addRenderableWidget(button_repair_plant);
 		button_vortex_manipulator = Button.builder(Component.translatable("gui.stmwr.blueprint_book_p_1.button_vortex_manipulator"), e -> {
 			if (true) {
-				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(9, x, y, z));
-				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 9, x, y, z);
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(8, x, y, z));
+				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 8, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 110, 119, 20).build();
 		guistate.put("button:button_vortex_manipulator", button_vortex_manipulator);
 		this.addRenderableWidget(button_vortex_manipulator);
-		button_guns = Button.builder(Component.translatable("gui.stmwr.blueprint_book_p_1.button_guns"), e -> {
-			if (true) {
-				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(10, x, y, z));
-				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 10, x, y, z);
-			}
-		}).bounds(this.leftPos + 104, this.topPos + 5, 46, 20).build();
-		guistate.put("button:button_guns", button_guns);
-		this.addRenderableWidget(button_guns);
 		button_portable_crucibleoven = Button.builder(Component.translatable("gui.stmwr.blueprint_book_p_1.button_portable_crucibleoven"), e -> {
 			if (true) {
-				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(11, x, y, z));
-				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 11, x, y, z);
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlueprintBookP1ButtonMessage(9, x, y, z));
+				BlueprintBookP1ButtonMessage.handleButtonAction(entity, 9, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 131, 140, 20).build();
 		guistate.put("button:button_portable_crucibleoven", button_portable_crucibleoven);

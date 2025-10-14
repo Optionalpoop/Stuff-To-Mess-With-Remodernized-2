@@ -14,6 +14,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.stmwr.world.inventory.HODCategoriesMenu;
 import net.mcreator.stmwr.procedures.ToHODSteveCowLandProcedure;
 import net.mcreator.stmwr.procedures.ToHODOverworldProcedure;
+import net.mcreator.stmwr.procedures.ToHODMilitariaProcedure;
 import net.mcreator.stmwr.procedures.ToHODHomePageProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -75,6 +76,10 @@ public class HODCategoriesButtonMessage {
 		if (buttonID == 3) {
 
 			ToHODSteveCowLandProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			ToHODMilitariaProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

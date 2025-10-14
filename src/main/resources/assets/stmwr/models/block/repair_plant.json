@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/repairplantside",
+    "up": "stmwr:block/repairplantside",
+    "north": "stmwr:block/repairplantfront",
+    "east": "stmwr:block/repairplantside",
+    "south": "stmwr:block/repairplantside",
+    "west": "stmwr:block/repairplantside",
+    "particle": "stmwr:block/repairplantside"
+  },
+  "render_type": "solid"
+}

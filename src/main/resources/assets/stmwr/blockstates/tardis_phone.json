@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stmwr:block/tardis_phone"
+    },
+    "facing=east": {
+      "model": "stmwr:block/tardis_phone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stmwr:block/tardis_phone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stmwr:block/tardis_phone",
+      "y": 270
+    }
+  }
+}

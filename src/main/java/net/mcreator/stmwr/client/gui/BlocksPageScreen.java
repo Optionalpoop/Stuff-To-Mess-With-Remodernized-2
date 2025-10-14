@@ -32,6 +32,8 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 	Button button_godly_storage_cube;
 	Button button_trial_brick;
 	Button button_ritual_stone;
+	Button button_concrete_mixer;
+	Button button_warp_brick;
 
 	public BlocksPageScreen(BlocksPageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -88,6 +90,10 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 		guistate.put("button:button_empty", button_empty);
 		this.addRenderableWidget(button_empty);
 		button_empty1 = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_empty1"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(1, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}).bounds(this.leftPos + 124, this.topPos + 174, 46, 20).build();
 		guistate.put("button:button_empty1", button_empty1);
 		this.addRenderableWidget(button_empty1);
@@ -152,8 +158,24 @@ public class BlocksPageScreen extends AbstractContainerScreen<BlocksPageMenu> {
 				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(9, x, y, z));
 				BlocksPageButtonMessage.handleButtonAction(entity, 9, x, y, z);
 			}
-		}).bounds(this.leftPos + 5, this.topPos + 110, 87, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 110, 87, 20).build();
 		guistate.put("button:button_ritual_stone", button_ritual_stone);
 		this.addRenderableWidget(button_ritual_stone);
+		button_concrete_mixer = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_concrete_mixer"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(10, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 10, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 131, 98, 20).build();
+		guistate.put("button:button_concrete_mixer", button_concrete_mixer);
+		this.addRenderableWidget(button_concrete_mixer);
+		button_warp_brick = Button.builder(Component.translatable("gui.stmwr.blocks_page.button_warp_brick"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BlocksPageButtonMessage(11, x, y, z));
+				BlocksPageButtonMessage.handleButtonAction(entity, 11, x, y, z);
+			}
+		}).bounds(this.leftPos + 92, this.topPos + 110, 77, 20).build();
+		guistate.put("button:button_warp_brick", button_warp_brick);
+		this.addRenderableWidget(button_warp_brick);
 	}
 }

@@ -18,7 +18,7 @@
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 25,
+    "damageCount": 69420,
     "recipeRemainder": {
       "value": ""
     },
@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Only for the most wealthy of individuals..."
+      ]
     },
     "glowCondition": {
       "fixedValue": false

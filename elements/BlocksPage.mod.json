@@ -31,6 +31,9 @@
           "name": "button_empty1",
           "text": "--->",
           "isUndecorated": false,
+          "onClick": {
+            "name": "ToBlocksPage2"
+          },
           "width": 46,
           "height": 20,
           "x": 250,
@@ -168,7 +171,37 @@
           },
           "width": 87,
           "height": 20,
-          "x": 131,
+          "x": 130,
+          "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_concrete_mixer",
+          "text": "Concrete Mixer",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToConcreteMixerRecipe"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 130,
+          "y": 151
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_warp_brick",
+          "text": "Warp Brick",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToWarpBrickRecipe"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 218,
           "y": 130
         }
       }

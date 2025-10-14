@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:mutton"
+    },
+    "b": {
+      "item": "stmwr:portable_oven"
+    }
+  },
+  "result": {
+    "item": "minecraft:cooked_mutton",
+    "count": 1
+  }
+}

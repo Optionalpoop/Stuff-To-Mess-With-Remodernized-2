@@ -81,6 +81,66 @@
           "x": 132,
           "y": 47
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_powercell",
+          "text": "Powercell",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToPowercellRecipe"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 210,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_vortex_manipulator",
+          "text": "Vortex Manipulator",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToVortexManipulatorRecipe"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 132,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_portable_crucible",
+          "text": "Portable Crucible",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToPortableCrucibleRecipe"
+          },
+          "width": 114,
+          "height": 20,
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_portable_oven",
+          "text": "Portable Oven",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToPortableOvenRecipe"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 132,
+          "y": 110
+        }
       }
     ],
     "gridSettings": {

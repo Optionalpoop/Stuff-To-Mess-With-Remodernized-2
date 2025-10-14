@@ -10,12 +10,20 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.stmwr.block.WarpBrickBlock;
 import net.mcreator.stmwr.block.UraniumOreBlock;
+import net.mcreator.stmwr.block.UraniumHydroponicsUtilityHatchBlock;
+import net.mcreator.stmwr.block.UraniumHydroponicsBlock;
 import net.mcreator.stmwr.block.UraniumBlockBlock;
 import net.mcreator.stmwr.block.UntouchedSoilBlock;
 import net.mcreator.stmwr.block.TrialBrickBlock;
 import net.mcreator.stmwr.block.TotemFusionStationBlock;
 import net.mcreator.stmwr.block.TomatoPlantBlock;
+import net.mcreator.stmwr.block.TARDISWindowsBlock;
+import net.mcreator.stmwr.block.TARDISTopTextBlock;
+import net.mcreator.stmwr.block.TARDISPlatingBlock;
+import net.mcreator.stmwr.block.TARDISPhoneBlock;
+import net.mcreator.stmwr.block.TARDISHandleBlock;
 import net.mcreator.stmwr.block.SurvivorsMarketBlock;
 import net.mcreator.stmwr.block.StorumOreBlock;
 import net.mcreator.stmwr.block.StorumBlockBlock;
@@ -33,6 +41,7 @@ import net.mcreator.stmwr.block.SnapstoneBlock;
 import net.mcreator.stmwr.block.SmoothSnapstoneBlock;
 import net.mcreator.stmwr.block.SmoothIrradiatedStoneBlock;
 import net.mcreator.stmwr.block.RitualStoneBlock;
+import net.mcreator.stmwr.block.RepairPlantBlock;
 import net.mcreator.stmwr.block.RadiationRemovalPlantAccessPointBlock;
 import net.mcreator.stmwr.block.PurifierMK2Block;
 import net.mcreator.stmwr.block.PlasticBlock;
@@ -94,6 +103,7 @@ import net.mcreator.stmwr.block.DeadFenceGateBlock;
 import net.mcreator.stmwr.block.DeadFenceBlock;
 import net.mcreator.stmwr.block.DeadButtonBlock;
 import net.mcreator.stmwr.block.ConsumerBlock;
+import net.mcreator.stmwr.block.ConcreteMixerBlock;
 import net.mcreator.stmwr.block.CompressorBlock;
 import net.mcreator.stmwr.block.ColdsteelOreBlock;
 import net.mcreator.stmwr.block.ColdsteelBlockBlock;
@@ -208,6 +218,16 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> RITUAL_STONE = REGISTRY.register("ritual_stone", () -> new RitualStoneBlock());
 	public static final RegistryObject<Block> DESIGNER_ACCESS_POINT = REGISTRY.register("designer_access_point", () -> new DesignerAccessPointBlock());
 	public static final RegistryObject<Block> ITEM_RESEACHER_ACCESS_POINT = REGISTRY.register("item_reseacher_access_point", () -> new ItemReseacherAccessPointBlock());
+	public static final RegistryObject<Block> CONCRETE_MIXER = REGISTRY.register("concrete_mixer", () -> new ConcreteMixerBlock());
+	public static final RegistryObject<Block> URANIUM_HYDROPONICS = REGISTRY.register("uranium_hydroponics", () -> new UraniumHydroponicsBlock());
+	public static final RegistryObject<Block> URANIUM_HYDROPONICS_UTILITY_HATCH = REGISTRY.register("uranium_hydroponics_utility_hatch", () -> new UraniumHydroponicsUtilityHatchBlock());
+	public static final RegistryObject<Block> REPAIR_PLANT = REGISTRY.register("repair_plant", () -> new RepairPlantBlock());
+	public static final RegistryObject<Block> WARP_BRICK = REGISTRY.register("warp_brick", () -> new WarpBrickBlock());
+	public static final RegistryObject<Block> TARDIS_WINDOWS = REGISTRY.register("tardis_windows", () -> new TARDISWindowsBlock());
+	public static final RegistryObject<Block> TARDIS_PLATING = REGISTRY.register("tardis_plating", () -> new TARDISPlatingBlock());
+	public static final RegistryObject<Block> TARDIS_PHONE = REGISTRY.register("tardis_phone", () -> new TARDISPhoneBlock());
+	public static final RegistryObject<Block> TARDIS_HANDLE = REGISTRY.register("tardis_handle", () -> new TARDISHandleBlock());
+	public static final RegistryObject<Block> TARDIS_TOP_TEXT = REGISTRY.register("tardis_top_text", () -> new TARDISTopTextBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

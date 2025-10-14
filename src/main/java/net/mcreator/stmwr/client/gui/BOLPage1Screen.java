@@ -26,6 +26,8 @@ public class BOLPage1Screen extends AbstractContainerScreen<BOLPage1Menu> {
 	Button button_empty1;
 	Button button_activating_tier_ii_totems;
 	Button button_creation_orbs;
+	Button button_eye_of_the_stevecow;
+	Button button_eye_of_time;
 
 	public BOLPage1Screen(BOLPage1Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -101,5 +103,21 @@ public class BOLPage1Screen extends AbstractContainerScreen<BOLPage1Menu> {
 		}).bounds(this.leftPos + 5, this.topPos + 26, 93, 20).build();
 		guistate.put("button:button_creation_orbs", button_creation_orbs);
 		this.addRenderableWidget(button_creation_orbs);
+		button_eye_of_the_stevecow = Button.builder(Component.translatable("gui.stmwr.bol_page_1.button_eye_of_the_stevecow"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BOLPage1ButtonMessage(4, x, y, z));
+				BOLPage1ButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 47, 124, 20).build();
+		guistate.put("button:button_eye_of_the_stevecow", button_eye_of_the_stevecow);
+		this.addRenderableWidget(button_eye_of_the_stevecow);
+		button_eye_of_time = Button.builder(Component.translatable("gui.stmwr.bol_page_1.button_eye_of_time"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new BOLPage1ButtonMessage(5, x, y, z));
+				BOLPage1ButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 68, 82, 20).build();
+		guistate.put("button:button_eye_of_time", button_eye_of_time);
+		this.addRenderableWidget(button_eye_of_time);
 	}
 }

@@ -1,0 +1,7 @@
+Java Launcher: /home/optionalpoop/.mcreator/gradle/jdks/eclipse_adoptium-17-amd64-linux/jdk-17.0.11+9/bin/java
+Arguments: '--inJar, /home/optionalpoop/Documents/GitHub/Stuff-To-Mess-With-Remodernized-2/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-injected.jar, --outJar, /home/optionalpoop/Documents/GitHub/Stuff-To-Mess-With-Remodernized-2/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, /home/optionalpoop/Documents/GitHub/Stuff-To-Mess-With-Remodernized-2/src/main/resources/META-INF/accesstransformer.cfg, --atFile, /home/optionalpoop/Documents/GitHub/Stuff-To-Mess-With-Remodernized-2/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /home/optionalpoop/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.1/accesstransformers-8.2.1-fatjar.jar
+Working directory: /home/optionalpoop/Documents/GitHub/Stuff-To-Mess-With-Remodernized-2/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

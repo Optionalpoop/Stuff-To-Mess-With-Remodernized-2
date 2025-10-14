@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+    "stmwr:tardis_top_text",
+    "stmwr:tardis_handle",
+    "stmwr:tardis_phone",
+    "stmwr:tardis_plating",
+    "stmwr:tardis_windows",
+    "stmwr:warp_brick",
+    "stmwr:repair_plant",
+    "stmwr:uranium_hydroponics_utility_hatch",
+    "stmwr:uranium_hydroponics",
+    "stmwr:concrete_mixer",
     "stmwr:item_reseacher_access_point",
     "stmwr:designer_access_point",
     "stmwr:ritual_stone",

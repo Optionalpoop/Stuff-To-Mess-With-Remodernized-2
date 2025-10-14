@@ -26,6 +26,10 @@ public class ItemsPageScreen extends AbstractContainerScreen<ItemsPageMenu> {
 	Button button_empty1;
 	Button button_uranium_fuel_rod;
 	Button button_soul_shard;
+	Button button_powercell;
+	Button button_vortex_manipulator;
+	Button button_portable_crucible;
+	Button button_portable_oven;
 
 	public ItemsPageScreen(ItemsPageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -101,5 +105,37 @@ public class ItemsPageScreen extends AbstractContainerScreen<ItemsPageMenu> {
 		}).bounds(this.leftPos + 6, this.topPos + 27, 77, 20).build();
 		guistate.put("button:button_soul_shard", button_soul_shard);
 		this.addRenderableWidget(button_soul_shard);
+		button_powercell = Button.builder(Component.translatable("gui.stmwr.items_page.button_powercell"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ItemsPageButtonMessage(4, x, y, z));
+				ItemsPageButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 84, this.topPos + 27, 72, 20).build();
+		guistate.put("button:button_powercell", button_powercell);
+		this.addRenderableWidget(button_powercell);
+		button_vortex_manipulator = Button.builder(Component.translatable("gui.stmwr.items_page.button_vortex_manipulator"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ItemsPageButtonMessage(5, x, y, z));
+				ItemsPageButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 48, 119, 20).build();
+		guistate.put("button:button_vortex_manipulator", button_vortex_manipulator);
+		this.addRenderableWidget(button_vortex_manipulator);
+		button_portable_crucible = Button.builder(Component.translatable("gui.stmwr.items_page.button_portable_crucible"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ItemsPageButtonMessage(6, x, y, z));
+				ItemsPageButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 69, 114, 20).build();
+		guistate.put("button:button_portable_crucible", button_portable_crucible);
+		this.addRenderableWidget(button_portable_crucible);
+		button_portable_oven = Button.builder(Component.translatable("gui.stmwr.items_page.button_portable_oven"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ItemsPageButtonMessage(7, x, y, z));
+				ItemsPageButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 90, 93, 20).build();
+		guistate.put("button:button_portable_oven", button_portable_oven);
+		this.addRenderableWidget(button_portable_oven);
 	}
 }
