@@ -1,136 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToTacoShell"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 226,
-          "y": 196
-        }
+        "value": ""
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-42-47.png",
-          "use1Xscale": true,
-          "x": 126,
-          "y": 85
-        }
+        "value": "CUSTOM:Cheese"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_taco",
-          "text": {
-            "fixedValue": "TACO"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 203,
-          "y": 25
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 131,
-          "y": 35
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_cheese",
-          "text": {
-            "fixedValue": "Cheese"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 168,
-          "y": 45
-        }
+        "value": "CUSTOM:Tomato"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_tomatoes",
-          "text": {
-            "fixedValue": "Tomatoes"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 168,
-          "y": 54
-        }
+        "value": "CUSTOM:GroundBeef"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_taco_shells",
-          "text": {
-            "fixedValue": "Taco Shells"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 168,
-          "y": 63
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ground_beef",
-          "text": {
-            "fixedValue": "Ground Beef"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 168,
-          "y": 72
-        }
+        "value": "CUSTOM:TacoShell"
+      },
+      {
+        "value": ""
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:Taco"
+    },
+    "name": "taco_recipe",
+    "namespace": "mod"
   }
 }

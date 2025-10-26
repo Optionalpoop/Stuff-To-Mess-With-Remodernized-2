@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StevumIngot"
+      },
+      {
+        "value": "CUSTOM:FrostyPlanks"
+      },
+      {
+        "value": "CUSTOM:ImprovedCell"
+      },
+      {
+        "value": "CUSTOM:FrostyPlanks"
+      },
+      {
+        "value": "CUSTOM:FrostyPlanks"
+      },
+      {
+        "value": "CUSTOM:LightningFragment"
+      },
+      {
+        "value": "CUSTOM:FrostyPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PocketCell"
+    },
+    "name": "pocket_cell_recipe",
+    "namespace": "mod"
+  }
+}

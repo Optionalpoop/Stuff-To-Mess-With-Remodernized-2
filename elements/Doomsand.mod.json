@@ -121,17 +121,36 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AshyWasteland"
+      },
+      {
+        "value": "CUSTOM:BurialGrounds"
+      },
+      {
+        "value": "CUSTOM:DeadForest"
+      },
+      {
+        "value": "CUSTOM:NuclearDesert"
+      },
+      {
+        "value": "CUSTOM:Oasis"
+      },
+      {
+        "value": "CUSTOM:WarTornMountains"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "CUSTOM:IrradiatedStone"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 15,
+    "frequencyOnChunk": 40,
+    "minGenerateHeight": -55,
+    "maxGenerateHeight": 255
   }
 }

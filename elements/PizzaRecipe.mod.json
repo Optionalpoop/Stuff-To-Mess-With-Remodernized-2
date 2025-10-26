@@ -1,121 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
       {
-        "type": "label",
-        "data": {
-          "name": "label_pizza",
-          "text": {
-            "fixedValue": "PIZZA"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 200,
-          "y": 24
-        }
+        "value": "CUSTOM:Cheese"
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToPepperoni"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 225,
-          "y": 195
-        }
+        "value": "CUSTOM:Tomato"
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-39-23.png",
-          "use1Xscale": true,
-          "x": 126,
-          "y": 92
-        }
+        "value": "CUSTOM:Cheese"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 130,
-          "y": 35
-        }
+        "value": "CUSTOM:Pepperoni"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_cheese",
-          "text": {
-            "fixedValue": "Cheese"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 176,
-          "y": 44
-        }
+        "value": "CUSTOM:Tortilla"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_tortilla",
-          "text": {
-            "fixedValue": "Tortilla"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 175,
-          "y": 53
-        }
+        "value": "CUSTOM:Pepperoni"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_pepperoni",
-          "text": {
-            "fixedValue": "Pepperoni"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 176,
-          "y": 63
-        }
+        "value": "CUSTOM:Cheese"
+      },
+      {
+        "value": "CUSTOM:Tomato"
+      },
+      {
+        "value": "CUSTOM:Cheese"
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pizza"
+    },
+    "name": "pizza_recipe",
+    "namespace": "mod"
   }
 }

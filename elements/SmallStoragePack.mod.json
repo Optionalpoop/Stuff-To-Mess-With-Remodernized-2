@@ -35,7 +35,7 @@
       "fixedValue": false
     },
     "guiBoundTo": "SmallStoragePackGUI",
-    "inventorySize": 9,
+    "inventorySize": 5,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,

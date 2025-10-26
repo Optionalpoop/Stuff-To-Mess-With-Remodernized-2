@@ -28,6 +28,15 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.COBBLESNOW.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTICE.get().asItem());
 				tabData.accept(StmwrModBlocks.COLD_GRASS.get().asItem());
+				tabData.accept(StmwrModBlocks.ICEMITE.get().asItem());
+				tabData.accept(StmwrModBlocks.SNOWROCK.get().asItem());
+				tabData.accept(StmwrModBlocks.SPOR.get().asItem());
+				tabData.accept(StmwrModBlocks.FROZEN_GRASS.get().asItem());
+				tabData.accept(StmwrModBlocks.ICEDAISY.get().asItem());
+				tabData.accept(StmwrModBlocks.ICEFLAME.get().asItem());
+				tabData.accept(StmwrModBlocks.POINK.get().asItem());
+				tabData.accept(StmwrModBlocks.FIRELILY.get().asItem());
+				tabData.accept(StmwrModBlocks.SIGMARI.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTY_WOOD.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTY_LOG.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTY_PLANKS.get().asItem());
@@ -38,7 +47,18 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.FROSTY_FENCE_GATE.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTY_PRESSURE_PLATE.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTY_BUTTON.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_WOOD.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_LOG.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_PLANKS.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_LEAVES.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_STAIRS.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_SLAB.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_FENCE.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_FENCE_GATE.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_BUTTON.get().asItem());
 				tabData.accept(StmwrModBlocks.FROSTY_SAPLING.get().asItem());
+				tabData.accept(StmwrModBlocks.FIREWOOD_SAPLING.get().asItem());
 				tabData.accept(StmwrModBlocks.APPLEVINE.get().asItem());
 				tabData.accept(StmwrModItems.MAGIC_APPLE.get());
 				tabData.accept(StmwrModItems.BOING_APPLE.get());
@@ -67,6 +87,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.SNOW_SHARD.get());
 				tabData.accept(StmwrModItems.LIGHTNING_FRAGMENT.get());
 				tabData.accept(StmwrModItems.LIGHTNING_BLAST.get());
+				tabData.accept(StmwrModItems.POCKET_CELL.get());
 				tabData.accept(StmwrModItems.ENERGY_BOOSTER.get());
 				tabData.accept(StmwrModItems.HEART_OF_THE_STEVE_COW.get());
 				tabData.accept(StmwrModItems.FROZEN_TRIALHEART.get());
@@ -81,6 +102,11 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.SMALL_STORAGE_PACK.get());
 				tabData.accept(StmwrModItems.ICE_KNIFE.get());
 				tabData.accept(StmwrModItems.FANG_PICKAXE.get());
+				tabData.accept(StmwrModItems.FIREWOOD_SWORD.get());
+				tabData.accept(StmwrModItems.FIREWOOD_PICKAXE.get());
+				tabData.accept(StmwrModItems.FIREWOOD_AXE.get());
+				tabData.accept(StmwrModItems.FIREWOOD_SHOVEL.get());
+				tabData.accept(StmwrModItems.FIREWOOD_HOE.get());
 				tabData.accept(StmwrModItems.FROSTY_SWORD.get());
 				tabData.accept(StmwrModItems.FROSTY_PICKAXE.get());
 				tabData.accept(StmwrModItems.FROSTY_AXE.get());
@@ -125,7 +151,6 @@ public class StmwrModTabs {
 	public static final RegistryObject<CreativeModeTab> STMWR_MILITARIA = REGISTRY.register("stmwr_militaria",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.stmwr.stmwr_militaria")).icon(() -> new ItemStack(StmwrModItems.URANIUM_DUST.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(StmwrModItems.MILITARIA.get());
-				tabData.accept(StmwrModItems.MULTIBLOCK_MASTERY.get());
 				tabData.accept(StmwrModItems.BOOK_OF_LABUBU.get());
 				tabData.accept(StmwrModItems.MANUPEDIA.get());
 				tabData.accept(StmwrModItems.BUBBLE.get());
@@ -143,9 +168,11 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.URANIUM_PROCESSING_PLANT.get().asItem());
 				tabData.accept(StmwrModBlocks.DESIGNER_ACCESS_POINT.get().asItem());
 				tabData.accept(StmwrModBlocks.RADIATION_REMOVAL_PLANT_ACCESS_POINT.get().asItem());
+				tabData.accept(StmwrModBlocks.HYPERCELL.get().asItem());
 				tabData.accept(StmwrModBlocks.MAGICAL_CASING.get().asItem());
 				tabData.accept(StmwrModBlocks.DEADIRON_CASING.get().asItem());
 				tabData.accept(StmwrModBlocks.URANIUM_CASING.get().asItem());
+				tabData.accept(StmwrModBlocks.CELL_CASING.get().asItem());
 				tabData.accept(StmwrModBlocks.TARDIS_PLATING.get().asItem());
 				tabData.accept(StmwrModBlocks.TARDIS_PHONE.get().asItem());
 				tabData.accept(StmwrModBlocks.TARDIS_HANDLE.get().asItem());
@@ -163,6 +190,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.IRRADIATED_STONE.get().asItem());
 				tabData.accept(StmwrModBlocks.IRRADIATED_STONE_SLAB.get().asItem());
 				tabData.accept(StmwrModBlocks.SMOOTH_IRRADIATED_STONE.get().asItem());
+				tabData.accept(StmwrModBlocks.CORPSEROCK.get().asItem());
 				tabData.accept(StmwrModItems.DEADIRON_INGOT.get());
 				tabData.accept(StmwrModBlocks.DEADIRON_ORE.get().asItem());
 				tabData.accept(StmwrModBlocks.DEADIRON_BLOCK.get().asItem());
@@ -173,6 +201,12 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.GOLD_ROCKS.get().asItem());
 				tabData.accept(StmwrModBlocks.IMPURE_COPPER.get().asItem());
 				tabData.accept(StmwrModItems.IMPURE_COPPER_CHUNK.get());
+				tabData.accept(StmwrModBlocks.DEAD_PLANTS.get().asItem());
+				tabData.accept(StmwrModBlocks.RADIOACTIVE_ROYAL.get().asItem());
+				tabData.accept(StmwrModBlocks.DEAD_FLOWER.get().asItem());
+				tabData.accept(StmwrModBlocks.ZOMBIE_CHOMP.get().asItem());
+				tabData.accept(StmwrModBlocks.MEMORY_FLOWER.get().asItem());
+				tabData.accept(StmwrModBlocks.SWARM.get().asItem());
 				tabData.accept(StmwrModBlocks.DEAD_WOOD.get().asItem());
 				tabData.accept(StmwrModBlocks.DEAD_LOG.get().asItem());
 				tabData.accept(StmwrModBlocks.DEAD_PLANKS.get().asItem());
@@ -194,6 +228,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.IRRADIATED_CHICKEN.get());
 				tabData.accept(StmwrModItems.GOOP.get());
 				tabData.accept(StmwrModItems.IRRADIATED_PAPER.get());
+				tabData.accept(StmwrModItems.POISONED_BONE.get());
 				tabData.accept(StmwrModItems.HANDGUN.get());
 				tabData.accept(StmwrModItems.HANDGUN_ROUND.get());
 				tabData.accept(StmwrModItems.MRE.get());
@@ -210,6 +245,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TIME_CRYSTAL.get());
 				tabData.accept(StmwrModItems.MAGICIANS_SOUL.get());
 				tabData.accept(StmwrModItems.PURE_SOUL_SHARD.get());
+				tabData.accept(StmwrModItems.EXTREME_POCKET_CELL.get());
 				tabData.accept(StmwrModItems.UCM_PLASTIC.get());
 				tabData.accept(StmwrModItems.ADVANCED_TOTEM_BASE.get());
 				tabData.accept(StmwrModItems.RESEARCH_CELL.get());
@@ -239,10 +275,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.POISON_DART.get());
 				tabData.accept(StmwrModItems.BUBBLE_WAND.get());
 				tabData.accept(StmwrModItems.BIOHARVESTER.get());
-				tabData.accept(StmwrModItems.INFECTED_ARMOR_HELMET.get());
-				tabData.accept(StmwrModItems.INFECTED_ARMOR_CHESTPLATE.get());
-				tabData.accept(StmwrModItems.INFECTED_ARMOR_LEGGINGS.get());
-				tabData.accept(StmwrModItems.INFECTED_ARMOR_BOOTS.get());
 				tabData.accept(StmwrModItems.UNDEAD_SWORD.get());
 				tabData.accept(StmwrModItems.UNDEAD_PICKAXE.get());
 				tabData.accept(StmwrModItems.UNDEAD_AXE.get());
@@ -253,15 +285,16 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.IRRADIATED_AXE.get());
 				tabData.accept(StmwrModItems.IRRADIATED_SHOVEL.get());
 				tabData.accept(StmwrModItems.IRRADIATED_HOE.get());
-				tabData.accept(StmwrModItems.DEADIRON_ARMOR_HELMET.get());
-				tabData.accept(StmwrModItems.DEADIRON_ARMOR_CHESTPLATE.get());
-				tabData.accept(StmwrModItems.DEADIRON_ARMOR_LEGGINGS.get());
-				tabData.accept(StmwrModItems.DEADIRON_ARMOR_BOOTS.get());
 				tabData.accept(StmwrModItems.DEADIRON_SWORD.get());
 				tabData.accept(StmwrModItems.DEADIRON_PICKAXE.get());
 				tabData.accept(StmwrModItems.DEADIRON_AXE.get());
 				tabData.accept(StmwrModItems.DEADIRON_SHOVEL.get());
 				tabData.accept(StmwrModItems.DEADIRON_HOE.get());
+				tabData.accept(StmwrModItems.SKELETAL_SWORD.get());
+				tabData.accept(StmwrModItems.SKELETAL_PICKAXE.get());
+				tabData.accept(StmwrModItems.SKELETAL_AXE.get());
+				tabData.accept(StmwrModItems.SKELETAL_SHOVEL.get());
+				tabData.accept(StmwrModItems.SKELETAL_HOE.get());
 				tabData.accept(StmwrModItems.MODULAR_ARMOR_HELMET.get());
 				tabData.accept(StmwrModItems.MODULAR_ARMOR_CHESTPLATE.get());
 				tabData.accept(StmwrModItems.MODULAR_ARMOR_LEGGINGS.get());
@@ -274,6 +307,14 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.SCARRED_ARMOR_CHESTPLATE.get());
 				tabData.accept(StmwrModItems.SCARRED_ARMOR_LEGGINGS.get());
 				tabData.accept(StmwrModItems.SCARRED_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.INFECTED_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.INFECTED_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.INFECTED_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.INFECTED_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.DEADIRON_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.DEADIRON_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.DEADIRON_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.DEADIRON_ARMOR_BOOTS.get());
 				tabData.accept(StmwrModItems.THE_TIMELESS_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.INFECTED_CHICKEN_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.SURVIVOR_SPAWN_EGG.get());
@@ -284,6 +325,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.ANCIENT_WIZARD_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.INFECTED_PIG_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.INFECTED_COW_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.POISONED_SKELETON_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.COPPER_NAIL.get());
 				tabData.accept(StmwrModItems.GOLD_NAIL.get());
 				tabData.accept(StmwrModItems.IRON_NAIL.get());
@@ -325,7 +367,6 @@ public class StmwrModTabs {
 	public static final RegistryObject<CreativeModeTab> STUFF_TO_MESS_WITH_REMODERNIZED = REGISTRY.register("stuff_to_mess_with_remodernized",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.stmwr.stuff_to_mess_with_remodernized")).icon(() -> new ItemStack(StmwrModItems.GODLIUM_ARMOR_CHESTPLATE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(StmwrModItems.FORGERS_GUIDE.get());
-				tabData.accept(StmwrModItems.COOK_BOOK.get());
 				tabData.accept(StmwrModItems.CODEX.get());
 				tabData.accept(StmwrModItems.HANDBOOK_OF_DEATH.get());
 				tabData.accept(StmwrModItems.ART_OF_TOTEMANCY.get());
@@ -340,12 +381,11 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.ALLOY_FUSE.get().asItem());
 				tabData.accept(StmwrModBlocks.ORE_PURIFIER.get().asItem());
 				tabData.accept(StmwrModBlocks.CONSUMER.get().asItem());
-				tabData.accept(StmwrModBlocks.KITCHEN.get().asItem());
 				tabData.accept(StmwrModBlocks.COMPRESSOR.get().asItem());
 				tabData.accept(StmwrModBlocks.KEY_ANVIL.get().asItem());
-				tabData.accept(StmwrModBlocks.STORAGE_CUBE.get().asItem());
-				tabData.accept(StmwrModBlocks.FLAMING_STORAGE_CUBE.get().asItem());
-				tabData.accept(StmwrModBlocks.GODLY_STORAGE_CUBE.get().asItem());
+				tabData.accept(StmwrModBlocks.CELL.get().asItem());
+				tabData.accept(StmwrModBlocks.IMPROVED_CELL.get().asItem());
+				tabData.accept(StmwrModBlocks.KITCHEN.get().asItem());
 				tabData.accept(StmwrModBlocks.TRIAL_BRICK.get().asItem());
 				tabData.accept(StmwrModBlocks.PEANUT_PLANT.get().asItem());
 				tabData.accept(StmwrModItems.PEANUT.get());
@@ -387,6 +427,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.HEARTSTONE.get());
 				tabData.accept(StmwrModBlocks.HEARTSTONE_ORE.get().asItem());
 				tabData.accept(StmwrModBlocks.HEARTSTONE_BLOCK.get().asItem());
+				tabData.accept(StmwrModItems.ROLLER.get());
 				tabData.accept(StmwrModItems.WOODEN_KNIFE.get());
 				tabData.accept(StmwrModItems.ALLIGATOR_KNIFE.get());
 				tabData.accept(StmwrModItems.GODLIUM_KNIFE.get());
@@ -397,6 +438,9 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.BLAZING_PLASTIC.get().asItem());
 				tabData.accept(StmwrModBlocks.PLASTIC.get().asItem());
 				tabData.accept(StmwrModItems.PLASTIC_CHUNK.get());
+				tabData.accept(StmwrModItems.PLASTIC_JUG.get());
+				tabData.accept(StmwrModItems.MILK_JUG.get());
+				tabData.accept(StmwrModItems.WATER_JUG.get());
 				tabData.accept(StmwrModItems.WOODEN_FORGING_HAMMER.get());
 				tabData.accept(StmwrModItems.STONE_FORGING_HAMMER.get());
 				tabData.accept(StmwrModItems.IRON_FORGING_HAMMER.get());

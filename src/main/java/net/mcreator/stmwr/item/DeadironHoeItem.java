@@ -17,7 +17,7 @@ public class DeadironHoeItem extends HoeItem {
 			}
 
 			public float getSpeed() {
-				return 30f;
+				return 35f;
 			}
 
 			public float getAttackDamageBonus() {

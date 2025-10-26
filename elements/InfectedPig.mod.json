@@ -146,6 +146,21 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:DeadForest"
+      },
+      {
+        "value": "CUSTOM:AshyWasteland"
+      },
+      {
+        "value": "CUSTOM:BurialGrounds"
+      },
+      {
+        "value": "CUSTOM:NuclearDesert"
+      },
+      {
+        "value": "CUSTOM:Oasis"
+      },
+      {
+        "value": "CUSTOM:WarTornMountains"
       }
     ],
     "spawnInDungeons": false,

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "c": {
+      "item": "stmwr:roller"
+    }
+  },
+  "result": {
+    "item": "stmwr:chocolate",
+    "count": 4
+  }
+}

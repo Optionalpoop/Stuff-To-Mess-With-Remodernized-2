@@ -84,7 +84,11 @@
     "isBonemealable": true,
     "frequencyOnChunks": 4,
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
     "generationType": "Flower",
     "patchSize": 32,
     "generateAtAnyHeight": false

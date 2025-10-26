@@ -23,7 +23,8 @@ public class PurifierMK2OnBlockRightClickedProcedure {
 		if (entity == null)
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:ashy_wasteland")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:dead_forest"))
-				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:nuclear_desert"))) {
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:nuclear_desert")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:oasis"))
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:war_torn_mountains")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:burial_grounds"))) {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
 				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {

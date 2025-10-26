@@ -131,6 +131,15 @@
       },
       {
         "value": "CUSTOM:NuclearDesert"
+      },
+      {
+        "value": "CUSTOM:BurialGrounds"
+      },
+      {
+        "value": "CUSTOM:Oasis"
+      },
+      {
+        "value": "CUSTOM:WarTornMountains"
       }
     ],
     "blocksToReplace": [

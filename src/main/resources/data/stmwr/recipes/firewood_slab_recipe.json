@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:firewood_planks"
+    }
+  },
+  "result": {
+    "item": "stmwr:firewood_slab",
+    "count": 6
+  }
+}

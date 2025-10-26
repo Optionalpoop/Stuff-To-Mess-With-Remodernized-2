@@ -23,6 +23,7 @@ import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
 import net.mcreator.stmwr.entity.SnowshotAmmoEntity;
 import net.mcreator.stmwr.entity.SnowShardAmmoEntity;
+import net.mcreator.stmwr.entity.PoisonedSkeletonEntity;
 import net.mcreator.stmwr.entity.PoisonDartAmmoEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
 import net.mcreator.stmwr.entity.LightningWizardEntity;
@@ -126,6 +127,10 @@ public class StmwrModEntities {
 			EntityType.Builder.<TheTimelessEntity>of(TheTimelessEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(512).setUpdateInterval(3).setCustomClientFactory(TheTimelessEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PoisonedSkeletonEntity>> POISONED_SKELETON = register("poisoned_skeleton",
+			EntityType.Builder.<PoisonedSkeletonEntity>of(PoisonedSkeletonEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PoisonedSkeletonEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -155,6 +160,7 @@ public class StmwrModEntities {
 			CorpsepuppetEntity.init();
 			AncientWizardEntity.init();
 			TheTimelessEntity.init();
+			PoisonedSkeletonEntity.init();
 		});
 	}
 
@@ -181,5 +187,6 @@ public class StmwrModEntities {
 		event.put(CORPSEPUPPET.get(), CorpsepuppetEntity.createAttributes().build());
 		event.put(ANCIENT_WIZARD.get(), AncientWizardEntity.createAttributes().build());
 		event.put(THE_TIMELESS.get(), TheTimelessEntity.createAttributes().build());
+		event.put(POISONED_SKELETON.get(), PoisonedSkeletonEntity.createAttributes().build());
 	}
 }

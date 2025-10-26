@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:cell_casing",
+    "stmwr:improved_cell",
+    "stmwr:kitchen",
     "stmwr:tardis_top_text",
     "stmwr:tardis_handle",
     "stmwr:tardis_phone",

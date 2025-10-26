@@ -1,91 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToCheeseStick"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 226,
-          "y": 196
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_pepperoni",
-          "text": {
-            "fixedValue": "PEPPERONI"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 193,
-          "y": 24
-        }
+        "value": "Items.COOKED_PORKCHOP"
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-38-22.png",
-          "use1Xscale": true,
-          "x": 126,
-          "y": 93
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 130,
-          "y": 34
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_pork",
-          "text": {
-            "fixedValue": "Pork"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 175,
-          "y": 46
-        }
+        "value": "CUSTOM:WoodenKnife"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": ""
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pepperoni"
+    },
+    "name": "pepperoni_recipe",
+    "namespace": "mod"
   }
 }

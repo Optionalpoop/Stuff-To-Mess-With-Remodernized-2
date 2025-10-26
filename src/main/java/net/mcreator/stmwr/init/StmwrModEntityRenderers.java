@@ -16,6 +16,7 @@ import net.mcreator.stmwr.client.renderer.TheTimelessRenderer;
 import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
+import net.mcreator.stmwr.client.renderer.PoisonedSkeletonRenderer;
 import net.mcreator.stmwr.client.renderer.PikachuRenderer;
 import net.mcreator.stmwr.client.renderer.LightningWizardRenderer;
 import net.mcreator.stmwr.client.renderer.LightningCultistRenderer;
@@ -64,5 +65,6 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.ANCIENT_WIZARD.get(), AncientWizardRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.POISON_DART_AMMO.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.THE_TIMELESS.get(), TheTimelessRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.POISONED_SKELETON.get(), PoisonedSkeletonRenderer::new);
 	}
 }

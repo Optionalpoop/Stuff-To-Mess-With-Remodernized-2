@@ -42,7 +42,7 @@ public class SmallStoragePackGUIMenu extends AbstractContainerMenu implements Su
 		super(StmwrModMenus.SMALL_STORAGE_PACK_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(9);
+		this.internal = new ItemStackHandler(5);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,32 +77,20 @@ public class SmallStoragePackGUIMenu extends AbstractContainerMenu implements Su
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 32) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 32) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 32) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 32) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 32) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 32) {
 			private final int slot = 2;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 32) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 106, 32) {
 			private final int slot = 3;
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 32) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 133, 32) {
 			private final int slot = 4;
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 32) {
-			private final int slot = 5;
-		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 32) {
-			private final int slot = 6;
-		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 32) {
-			private final int slot = 7;
-		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 32) {
-			private final int slot = 8;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -131,16 +119,16 @@ public class SmallStoragePackGUIMenu extends AbstractContainerMenu implements Su
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 9) {
-				if (!this.moveItemStackTo(itemstack1, 9, this.slots.size(), true))
+			if (index < 5) {
+				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 9, false)) {
-				if (index < 9 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 9 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
+				if (index < 5 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 9, 9 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -246,14 +234,6 @@ public class SmallStoragePackGUIMenu extends AbstractContainerMenu implements Su
 						continue;
 					if (j == 4)
 						continue;
-					if (j == 5)
-						continue;
-					if (j == 6)
-						continue;
-					if (j == 7)
-						continue;
-					if (j == 8)
-						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
@@ -265,14 +245,6 @@ public class SmallStoragePackGUIMenu extends AbstractContainerMenu implements Su
 					if (i == 3)
 						continue;
 					if (i == 4)
-						continue;
-					if (i == 5)
-						continue;
-					if (i == 6)
-						continue;
-					if (i == 7)
-						continue;
-					if (i == 8)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

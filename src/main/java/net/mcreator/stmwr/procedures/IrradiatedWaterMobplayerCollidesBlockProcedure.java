@@ -10,6 +10,6 @@ public class IrradiatedWaterMobplayerCollidesBlockProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 20, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1));
 	}
 }

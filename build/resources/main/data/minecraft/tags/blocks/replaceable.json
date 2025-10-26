@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:dead_plants",
+    "stmwr:frozen_grass",
     "stmwr:irradiated_water"
   ]
 }

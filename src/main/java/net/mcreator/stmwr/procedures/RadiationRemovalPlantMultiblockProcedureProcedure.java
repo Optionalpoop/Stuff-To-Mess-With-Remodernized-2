@@ -29,7 +29,8 @@ public class RadiationRemovalPlantMultiblockProcedureProcedure {
 		double sz = 0;
 		double generator_distance = 0;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:ashy_wasteland")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:nuclear_desert"))
-				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:dead_forest"))) {
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:burial_grounds")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:oasis"))
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:war_torn_mountains")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:dead_forest"))) {
 			if ((world.getBlockState(BlockPos.containing(x + 0, y + -1, z + 0))).getBlock() == StmwrModBlocks.URANIUM_BLOCK.get()) {
 				if ((world.getBlockState(BlockPos.containing(x + 1, y + -1, z + 0))).getBlock() == StmwrModBlocks.DEADIRON_CASING.get()) {
 					if ((world.getBlockState(BlockPos.containing(x + -1, y + -1, z + 0))).getBlock() == StmwrModBlocks.DEADIRON_CASING.get()) {

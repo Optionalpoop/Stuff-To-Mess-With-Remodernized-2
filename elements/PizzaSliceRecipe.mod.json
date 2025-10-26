@@ -1,91 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 7,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToTortilla"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 226,
-          "y": 195
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_pizza_slice",
-          "text": {
-            "fixedValue": "PIZZA SLICE"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 186,
-          "y": 22
-        }
+        "value": "CUSTOM:Pizza"
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-40-09.png",
-          "use1Xscale": true,
-          "x": 127,
-          "y": 84
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 130,
-          "y": 31
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_pizza",
-          "text": {
-            "fixedValue": "Pizza"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 174,
-          "y": 40
-        }
+        "value": "CUSTOM:WoodenKnife"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:PizzaSlice"
+    },
+    "name": "pizza_slice_recipe",
+    "namespace": "mod"
   }
 }

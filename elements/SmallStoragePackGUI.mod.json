@@ -24,7 +24,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 132,
+          "x": 150,
           "y": 71
         }
       },
@@ -42,7 +42,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 150,
+          "x": 177,
           "y": 71
         }
       },
@@ -60,7 +60,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 168,
+          "x": 204,
           "y": 71
         }
       },
@@ -78,7 +78,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 186,
+          "x": 231,
           "y": 71
         }
       },
@@ -96,79 +96,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 204,
-          "y": 71
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 5,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": false,
-          "x": 222,
-          "y": 71
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 6,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": false,
-          "x": 240,
-          "y": 71
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 7,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": false,
           "x": 258,
-          "y": 71
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 8,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": false,
-          "x": 276,
           "y": 71
         }
       }

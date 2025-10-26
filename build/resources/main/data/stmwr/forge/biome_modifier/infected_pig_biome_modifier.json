@@ -1,6 +1,13 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "stmwr:dead_forest",
+  "biomes": [
+    "stmwr:dead_forest",
+    "stmwr:ashy_wasteland",
+    "stmwr:burial_grounds",
+    "stmwr:nuclear_desert",
+    "stmwr:oasis",
+    "stmwr:war_torn_mountains"
+  ],
   "spawners": {
     "type": "stmwr:infected_pig",
     "weight": 20,

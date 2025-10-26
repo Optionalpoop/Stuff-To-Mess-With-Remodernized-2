@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stmwr:firewood_forest",
+    "stmwr:frosted_peaks",
+    "stmwr:frozen_forest",
+    "stmwr:frozen_sea",
+    "stmwr:icelands",
+    "stmwr:snowy_desert",
+    "stmwr:snowy_sands"
+  ],
+  "features": "stmwr:spor",
+  "step": "underground_ores"
+}

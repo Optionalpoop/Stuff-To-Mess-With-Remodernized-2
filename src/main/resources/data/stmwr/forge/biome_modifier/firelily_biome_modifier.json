@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:frozen_forest",
+  "features": "stmwr:firelily",
+  "step": "vegetal_decoration"
+}

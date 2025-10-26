@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/improvedcellside",
+    "up": "stmwr:block/improvedcellside",
+    "north": "stmwr:block/improvedcellfront",
+    "east": "stmwr:block/improvedcellside",
+    "south": "stmwr:block/improvedcellside",
+    "west": "stmwr:block/improvedcellside",
+    "particle": "stmwr:block/improvedcellside"
+  },
+  "render_type": "solid"
+}

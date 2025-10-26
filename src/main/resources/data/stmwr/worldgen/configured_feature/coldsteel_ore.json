@@ -14,6 +14,39 @@
         "state": {
           "Name": "stmwr:coldsteel_ore"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:icemite"
+          }
+        },
+        "state": {
+          "Name": "stmwr:coldsteel_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:snowrock"
+          }
+        },
+        "state": {
+          "Name": "stmwr:coldsteel_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:spor"
+          }
+        },
+        "state": {
+          "Name": "stmwr:coldsteel_ore"
+        }
       }
     ]
   }

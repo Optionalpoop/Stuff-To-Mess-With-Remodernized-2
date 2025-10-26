@@ -157,6 +157,9 @@
       },
       {
         "value": "CUSTOM:SnowySands"
+      },
+      {
+        "value": "CUSTOM:FirewoodForest"
       }
     ],
     "spawnInDungeons": false,

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:skeletal_hoe",
+    "stmwr:firewood_hoe",
     "stmwr:copper_hoe",
     "stmwr:undead_hoe",
     "stmwr:deadiron_hoe",

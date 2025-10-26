@@ -31,29 +31,29 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.1,
-    "temperature": 1.8,
+    "temperature": 2.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.5059,
-      "max": 0.49670000000000003
+      "min": 0.0,
+      "max": 0.33
     },
     "genHumidity": {
-      "min": -0.5005,
-      "max": 0.5005
+      "min": -0.7,
+      "max": 0.0
     },
     "genContinentalness": {
-      "min": 0.3005,
-      "max": 0.9996
+      "min": -0.2,
+      "max": 0.3
     },
     "genErosion": {
-      "min": -0.4989,
-      "max": 0.4995
+      "min": -1.0,
+      "max": -0.5
     },
     "genWeirdness": {
-      "min": -1.0,
-      "max": 0.9991
+      "min": -0.5,
+      "max": -0.2
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",

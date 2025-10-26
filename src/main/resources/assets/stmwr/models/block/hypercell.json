@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/hypercellside",
+    "up": "stmwr:block/hypercellside",
+    "north": "stmwr:block/hypercellfront",
+    "east": "stmwr:block/hypercellside",
+    "south": "stmwr:block/hypercellside",
+    "west": "stmwr:block/hypercellside",
+    "particle": "stmwr:block/hypercellside"
+  },
+  "render_type": "solid"
+}

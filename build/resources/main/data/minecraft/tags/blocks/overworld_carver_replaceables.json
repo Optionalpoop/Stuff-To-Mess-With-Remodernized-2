@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:irradiated_cobblestone",
+    "minecraft:grass_block",
+    "minecraft:powder_snow",
+    "minecraft:snow_block",
     "minecraft:stone",
     "minecraft:air",
     "stmwr:dead_grass",

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stmwr:firewood_wood"
+    }
+  ],
+  "result": {
+    "item": "stmwr:firewood_planks",
+    "count": 4
+  }
+}

@@ -141,6 +141,21 @@
           "x": 132,
           "y": 110
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_extreme_pocket_cell",
+          "text": "Extreme Pocket Cell",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToExtremePocketCellRecipe"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 132,
+          "y": 131
+        }
       }
     ],
     "gridSettings": {

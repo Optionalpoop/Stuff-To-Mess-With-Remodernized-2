@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:corpserock",
+    "stmwr:spor",
+    "stmwr:snowrock",
+    "stmwr:icemite",
     "stmwr:block_of_scrap",
     "stmwr:gold_rocks",
     "stmwr:irradiated_cobblestone",

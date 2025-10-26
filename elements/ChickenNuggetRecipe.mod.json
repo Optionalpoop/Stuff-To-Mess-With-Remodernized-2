@@ -1,106 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-43-44.png",
-          "use1Xscale": true,
-          "x": 127,
-          "y": 70
-        }
+        "value": "Items.FISH#0"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_chicken_nugget",
-          "text": {
-            "fixedValue": "CHICKEN NUGGET"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 176,
-          "y": 24
-        }
+        "value": "Items.FISH#1"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 130,
-          "y": 38
-        }
+        "value": "Items.CHICKEN"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_1_raw_chicken",
-          "text": {
-            "fixedValue": "1 Raw Chicken"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 148,
-          "y": 47
-        }
+        "value": "Items.PORKCHOP"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_24_rotten_flesh",
-          "text": {
-            "fixedValue": "24 Rotten Flesh"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 147,
-          "y": 58
-        }
+        "value": "Items.BEEF"
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToPotatoChips"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 225,
-          "y": 194
-        }
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChickenNugget"
+    },
+    "name": "chicken_nugget_recipe",
+    "namespace": "mod"
   }
 }

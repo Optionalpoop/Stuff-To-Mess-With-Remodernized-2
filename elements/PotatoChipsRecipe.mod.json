@@ -1,91 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-43-16.png",
-          "use1Xscale": true,
-          "x": 126,
-          "y": 58
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_potato_chips",
-          "text": {
-            "fixedValue": "POTATO CHIPS"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 182,
-          "y": 23
-        }
+        "value": "Items.BAKED_POTATO"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 129,
-          "y": 34
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_potatoes",
-          "text": {
-            "fixedValue": "Potatoes"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 156,
-          "y": 43
-        }
+        "value": ""
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToTaco"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 225,
-          "y": 194
-        }
+        "value": "CUSTOM:WoodenKnife"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:PotatoChips"
+    },
+    "name": "potato_chips_recipe",
+    "namespace": "mod"
   }
 }

@@ -11,10 +11,10 @@
       "item": "minecraft:iron_ingot"
     },
     "b": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:flint_and_steel"
     },
     "c": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:bucket"
     }
   },
   "result": {

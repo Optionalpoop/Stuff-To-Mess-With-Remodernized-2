@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/deadflower",
+    "particle": "stmwr:block/deadflower"
+  },
+  "render_type": "cutout"
+}

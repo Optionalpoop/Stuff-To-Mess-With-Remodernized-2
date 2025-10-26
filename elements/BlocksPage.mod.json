@@ -73,21 +73,6 @@
       {
         "type": "button",
         "data": {
-          "name": "button_flaming_storage_cube",
-          "text": "Flaming Storage Cube",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToFlamingStorageCubeRecipe"
-          },
-          "width": 129,
-          "height": 20,
-          "x": 131,
-          "y": 46
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "name": "button_stopstone",
           "text": "Stopstone",
           "isUndecorated": false,
@@ -97,7 +82,7 @@
           "width": 72,
           "height": 20,
           "x": 131,
-          "y": 67
+          "y": 46
         }
       },
       {
@@ -112,7 +97,7 @@
           "width": 77,
           "height": 20,
           "x": 204,
-          "y": 67
+          "y": 46
         }
       },
       {
@@ -127,22 +112,7 @@
           "width": 72,
           "height": 20,
           "x": 131,
-          "y": 88
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_godly_storage_cube",
-          "text": "Godly Storage Cube",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToGodlyStorageCubeRecipe"
-          },
-          "width": 119,
-          "height": 20,
-          "x": 131,
-          "y": 109
+          "y": 67
         }
       },
       {
@@ -157,7 +127,7 @@
           "width": 82,
           "height": 20,
           "x": 204,
-          "y": 88
+          "y": 67
         }
       },
       {
@@ -171,8 +141,8 @@
           },
           "width": 87,
           "height": 20,
-          "x": 130,
-          "y": 130
+          "x": 131,
+          "y": 88
         }
       },
       {
@@ -186,8 +156,8 @@
           },
           "width": 98,
           "height": 20,
-          "x": 130,
-          "y": 151
+          "x": 131,
+          "y": 109
         }
       },
       {
@@ -201,7 +171,37 @@
           },
           "width": 77,
           "height": 20,
-          "x": 218,
+          "x": 219,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_improved_cell",
+          "text": "Improved Cell",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToImprovedCellRecipe"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 131,
+          "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hypercell",
+          "text": "Hypercell",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToHypercellRecipe"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 225,
           "y": 130
         }
       }

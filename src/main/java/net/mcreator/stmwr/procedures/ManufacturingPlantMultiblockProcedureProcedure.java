@@ -25,7 +25,8 @@ public class ManufacturingPlantMultiblockProcedureProcedure {
 		if (entity == null)
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:nuclear_desert")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:dead_forest"))
-				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:ashy_wasteland"))) {
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:burial_grounds")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:oasis"))
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:war_torn_mountains")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:ashy_wasteland"))) {
 			if ((world.getBlockState(BlockPos.containing(x + 0, y + -2, z + 1))).getBlock() == StmwrModBlocks.DEADIRON_CASING.get()) {
 				if ((world.getBlockState(BlockPos.containing(x + 0, y + -2, z + 2))).getBlock() == StmwrModBlocks.DEADIRON_CASING.get()) {
 					if ((world.getBlockState(BlockPos.containing(x + 0, y + -2, z + 3))).getBlock() == StmwrModBlocks.DEADIRON_CASING.get()) {

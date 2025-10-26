@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/firewood_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/firewood_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/firewood_slab_full"
+    }
+  }
+}

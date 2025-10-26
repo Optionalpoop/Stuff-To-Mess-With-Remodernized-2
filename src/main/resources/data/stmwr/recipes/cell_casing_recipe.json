@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:storum_plate"
+    },
+    "b": {
+      "item": "stmwr:deadiron_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:cell_casing",
+    "count": 1
+  }
+}

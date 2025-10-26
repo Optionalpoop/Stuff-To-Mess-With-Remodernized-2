@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/spor",
+    "up": "stmwr:block/spor",
+    "north": "stmwr:block/spor",
+    "east": "stmwr:block/spor",
+    "south": "stmwr:block/spor",
+    "west": "stmwr:block/spor",
+    "particle": "stmwr:block/spor"
+  },
+  "render_type": "solid"
+}

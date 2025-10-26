@@ -25,7 +25,8 @@ public class RitualStoneMultiblockProcedureProcedure {
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frozen_forest")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frozen_sea"))
 				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:icelands")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_sands"))
-				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frosted_peaks"))) {
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frosted_peaks")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:firewood_forest"))
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_desert"))) {
 			if ((world.getBlockState(BlockPos.containing(x + 2, y + 0, z + 2))).getBlock() == StmwrModBlocks.MAGICAL_CASING.get()) {
 				if ((world.getBlockState(BlockPos.containing(x + -2, y + 0, z + -2))).getBlock() == StmwrModBlocks.MAGICAL_CASING.get()) {
 					if ((world.getBlockState(BlockPos.containing(x + 2, y + 0, z + -2))).getBlock() == StmwrModBlocks.MAGICAL_CASING.get()) {

@@ -3,7 +3,10 @@
   "biomes": [
     "stmwr:ashy_wasteland",
     "stmwr:dead_forest",
-    "stmwr:nuclear_desert"
+    "stmwr:nuclear_desert",
+    "stmwr:burial_grounds",
+    "stmwr:oasis",
+    "stmwr:war_torn_mountains"
   ],
   "features": "stmwr:deadiron_ore",
   "step": "underground_ores"

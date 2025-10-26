@@ -17,10 +17,10 @@
         "value": "CUSTOM:STMWRMilitaria"
       }
     ],
-    "efficiency": 30.0,
+    "efficiency": 35.0,
     "attackSpeed": 1.6,
     "enchantability": 80,
-    "damageVsEntity": 30.0,
+    "damageVsEntity": 32.0,
     "usageCount": 6000,
     "glowCondition": {
       "fixedValue": false

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/firewood_log_top",
+    "up": "stmwr:block/firewood_log_top",
+    "north": "stmwr:block/firewood_log_side",
+    "east": "stmwr:block/firewood_log_side",
+    "south": "stmwr:block/firewood_log_side",
+    "west": "stmwr:block/firewood_log_side",
+    "particle": "stmwr:block/firewood_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:firewood_slab",
     "stmwr:dead_slab",
     "stmwr:irradiated_stone_slab",
     "stmwr:snapstone_slab",

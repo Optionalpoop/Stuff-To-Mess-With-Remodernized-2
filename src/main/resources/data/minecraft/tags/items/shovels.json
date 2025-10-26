@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:skeletal_shovel",
+    "stmwr:firewood_shovel",
     "stmwr:copper_shovel",
     "stmwr:undead_shovel",
     "stmwr:deadiron_shovel",

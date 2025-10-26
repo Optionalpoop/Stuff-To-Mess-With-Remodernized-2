@@ -17,8 +17,8 @@ import net.mcreator.stmwr.procedures.ToTrialBricksRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToStopstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToSpeedstoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToRitualStoneRecipeProcedure;
-import net.mcreator.stmwr.procedures.ToGodlyStorageCubeRecipeProcedure;
-import net.mcreator.stmwr.procedures.ToFlamingStorageCubeRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToImprovedCellRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToHypercellRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToDupestoneRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToConcreteMixerRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
@@ -87,39 +87,39 @@ public class BlocksPageButtonMessage {
 		}
 		if (buttonID == 3) {
 
-			ToFlamingStorageCubeRecipeProcedure.execute(world, x, y, z, entity);
+			ToStopstoneRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 
-			ToStopstoneRecipeProcedure.execute(world, x, y, z, entity);
+			ToSpeedstoneRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 5) {
 
-			ToSpeedstoneRecipeProcedure.execute(world, x, y, z, entity);
+			ToDupestoneRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 6) {
 
-			ToDupestoneRecipeProcedure.execute(world, x, y, z, entity);
+			ToTrialBricksRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 7) {
 
-			ToGodlyStorageCubeRecipeProcedure.execute(world, x, y, z, entity);
+			ToRitualStoneRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 8) {
 
-			ToTrialBricksRecipeProcedure.execute(world, x, y, z, entity);
+			ToConcreteMixerRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 9) {
 
-			ToRitualStoneRecipeProcedure.execute(world, x, y, z, entity);
+			ToWarpBrickRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 10) {
 
-			ToConcreteMixerRecipeProcedure.execute(world, x, y, z, entity);
+			ToImprovedCellRecipeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 11) {
 
-			ToWarpBrickRecipeProcedure.execute(world, x, y, z, entity);
+			ToHypercellRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -131,6 +131,15 @@
       },
       {
         "value": "CUSTOM:NuclearDesert"
+      },
+      {
+        "value": "CUSTOM:BurialGrounds"
+      },
+      {
+        "value": "CUSTOM:Oasis"
+      },
+      {
+        "value": "CUSTOM:WarTornMountains"
       }
     ],
     "blocksToReplace": [
@@ -139,8 +148,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 30,
-    "frequencyOnChunk": 13,
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 15,
     "minGenerateHeight": -32,
     "maxGenerateHeight": 256
   }

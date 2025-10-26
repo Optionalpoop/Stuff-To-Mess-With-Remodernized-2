@@ -66,24 +66,6 @@
             "price1": {
               "value": "CUSTOM:NoobishTrialCoin"
             },
-            "countPrice1": 2,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "CUSTOM:Kitchen"
-            },
-            "countOffer": 1,
-            "level": 2,
-            "maxTrades": 8,
-            "xp": 5,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "CUSTOM:NoobishTrialCoin"
-            },
             "countPrice1": 1,
             "price2": {
               "value": ""
@@ -293,24 +275,6 @@
             "countOffer": 1,
             "level": 5,
             "maxTrades": 4,
-            "xp": 5,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "CUSTOM:NoobishTrialCoin"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "CUSTOM:CookBook"
-            },
-            "countOffer": 1,
-            "level": 1,
-            "maxTrades": 16,
             "xp": 5,
             "priceMultiplier": 0.05
           },

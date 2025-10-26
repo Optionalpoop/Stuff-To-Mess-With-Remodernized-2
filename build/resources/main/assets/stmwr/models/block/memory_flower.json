@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/memoryflower",
+    "particle": "stmwr:block/memoryflower"
+  },
+  "render_type": "cutout"
+}

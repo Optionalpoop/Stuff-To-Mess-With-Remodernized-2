@@ -25,7 +25,8 @@ public class SoulManipulatorMultiblockProcedureProcedure {
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frosted_peaks")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frozen_forest"))
 				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frozen_sea")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:icelands"))
-				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_sands"))) {
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_sands")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:firewood_forest"))
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_desert"))) {
 			if ((world.getBlockState(BlockPos.containing(x + 0, y + -1, z + 0))).getBlock() == StmwrModBlocks.MAGICAL_CASING.get()) {
 				if ((world.getBlockState(BlockPos.containing(x + 1, y + -1, z + 0))).getBlock() == StmwrModBlocks.MAGICAL_CASING.get()) {
 					if ((world.getBlockState(BlockPos.containing(x + 0, y + -1, z + -1))).getBlock() == StmwrModBlocks.MAGICAL_CASING.get()) {

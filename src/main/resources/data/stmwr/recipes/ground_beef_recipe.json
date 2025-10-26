@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "stmwr:wooden_knife"
+    },
+    {
+      "item": "stmwr:roller"
+    }
+  ],
+  "result": {
+    "item": "stmwr:ground_beef",
+    "count": 1
+  }
+}

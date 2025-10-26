@@ -12,7 +12,8 @@
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": [
     "stmwr:frozen_forest",
-    "stmwr:frosted_peaks"
+    "stmwr:frosted_peaks",
+    "stmwr:firewood_forest"
   ],
   "use_expansion_hack": false
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:skeletal_pickaxe",
+    "stmwr:firewood_pickaxe",
     "stmwr:copper_pickaxe",
     "stmwr:bioharvester",
     "stmwr:undead_pickaxe",

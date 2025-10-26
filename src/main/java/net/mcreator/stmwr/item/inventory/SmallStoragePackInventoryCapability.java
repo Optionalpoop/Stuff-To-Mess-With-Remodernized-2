@@ -53,7 +53,7 @@ public class SmallStoragePackInventoryCapability implements ICapabilitySerializa
 	}
 
 	private ItemStackHandler createItemHandler() {
-		return new ItemStackHandler(9) {
+		return new ItemStackHandler(5) {
 			@Override
 			public int getSlotLimit(int slot) {
 				return 64;

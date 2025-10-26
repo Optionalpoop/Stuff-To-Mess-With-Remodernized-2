@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:firewood_fence",
     "stmwr:dead_fence",
     "stmwr:frosty_fence"
   ]

@@ -23,6 +23,9 @@
       },
       {
         "value": "CUSTOM:FrostedPeaks"
+      },
+      {
+        "value": "CUSTOM:FirewoodForest"
       }
     ],
     "terrainAdaptation": "beard_box",

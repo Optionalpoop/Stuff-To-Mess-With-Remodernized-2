@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:dough"
+    },
+    "b": {
+      "item": "stmwr:roller"
+    }
+  },
+  "result": {
+    "item": "stmwr:tortilla",
+    "count": 1
+  }
+}

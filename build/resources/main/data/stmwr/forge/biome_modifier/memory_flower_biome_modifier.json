@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:burial_grounds",
+  "features": "stmwr:memory_flower",
+  "step": "vegetal_decoration"
+}

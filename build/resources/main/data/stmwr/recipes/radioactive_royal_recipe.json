@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:radioactive_royal"
+    }
+  ],
+  "result": {
+    "item": "stmwr:uranium_dust",
+    "count": 3
+  }
+}

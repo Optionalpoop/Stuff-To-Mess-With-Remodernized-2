@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/icemite",
+    "up": "stmwr:block/icemite",
+    "north": "stmwr:block/icemite",
+    "east": "stmwr:block/icemite",
+    "south": "stmwr:block/icemite",
+    "west": "stmwr:block/icemite",
+    "particle": "stmwr:block/icemite"
+  },
+  "render_type": "solid"
+}

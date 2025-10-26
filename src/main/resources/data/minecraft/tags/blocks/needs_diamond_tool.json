@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:hypercell",
     "stmwr:uranium_casing",
     "stmwr:item_reseacher_access_point",
     "stmwr:designer_access_point",

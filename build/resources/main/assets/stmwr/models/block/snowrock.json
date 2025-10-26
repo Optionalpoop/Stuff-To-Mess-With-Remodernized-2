@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/snowrock",
+    "up": "stmwr:block/snowrock",
+    "north": "stmwr:block/snowrock",
+    "east": "stmwr:block/snowrock",
+    "south": "stmwr:block/snowrock",
+    "west": "stmwr:block/snowrock",
+    "particle": "stmwr:block/snowrock"
+  },
+  "render_type": "solid"
+}

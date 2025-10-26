@@ -10,6 +10,18 @@
     "textureLeggings": "deadiron_leggings",
     "enableBoots": true,
     "textureBoots": "deadiron_boots",
+    "onHelmetTick": {
+      "name": "Resistance"
+    },
+    "onBodyTick": {
+      "name": "Resistance"
+    },
+    "onLeggingsTick": {
+      "name": "Resistance"
+    },
+    "onBootsTick": {
+      "name": "Resistance"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:STMWRMilitaria"

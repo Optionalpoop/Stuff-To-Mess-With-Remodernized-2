@@ -14,7 +14,8 @@
     "stmwr:frozen_sea",
     "stmwr:icelands",
     "stmwr:snowy_sands",
-    "stmwr:frosted_peaks"
+    "stmwr:frosted_peaks",
+    "stmwr:firewood_forest"
   ],
   "use_expansion_hack": false
 }

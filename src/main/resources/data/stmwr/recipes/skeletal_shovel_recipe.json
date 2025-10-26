@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:stevum_ingot"
+    },
+    "b": {
+      "item": "stmwr:poisoned_bone"
+    }
+  },
+  "result": {
+    "item": "stmwr:skeletal_shovel",
+    "count": 1
+  }
+}

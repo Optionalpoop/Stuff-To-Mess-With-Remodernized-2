@@ -1,16 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aaa",
-    "aaa",
-    "aaa"
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:milk_bucket"
+  "ingredients": [
+    {
+      "item": "stmwr:roller"
+    },
+    {
+      "item": "stmwr:milk_jug"
     }
-  },
+  ],
   "result": {
     "item": "stmwr:cheese_wheel",
     "count": 1

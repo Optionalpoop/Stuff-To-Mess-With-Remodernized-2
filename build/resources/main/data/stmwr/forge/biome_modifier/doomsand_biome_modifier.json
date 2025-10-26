@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stmwr:ashy_wasteland",
+    "stmwr:burial_grounds",
+    "stmwr:dead_forest",
+    "stmwr:nuclear_desert",
+    "stmwr:oasis",
+    "stmwr:war_torn_mountains"
+  ],
+  "features": "stmwr:doomsand",
+  "step": "underground_ores"
+}

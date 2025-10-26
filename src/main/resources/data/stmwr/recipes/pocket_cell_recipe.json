@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:stevum_ingot"
+    },
+    "b": {
+      "item": "stmwr:frosty_planks"
+    },
+    "c": {
+      "item": "stmwr:improved_cell"
+    },
+    "d": {
+      "item": "stmwr:lightning_fragment"
+    }
+  },
+  "result": {
+    "item": "stmwr:pocket_cell",
+    "count": 1
+  }
+}

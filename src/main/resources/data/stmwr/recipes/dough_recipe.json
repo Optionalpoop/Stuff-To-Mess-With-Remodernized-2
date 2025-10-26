@@ -11,7 +11,7 @@
       "item": "minecraft:wheat"
     },
     "b": {
-      "item": "minecraft:water_bucket"
+      "item": "stmwr:water_jug"
     }
   },
   "result": {

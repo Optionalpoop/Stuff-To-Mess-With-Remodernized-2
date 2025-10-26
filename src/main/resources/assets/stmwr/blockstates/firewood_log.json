@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "stmwr:block/firewood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "stmwr:block/firewood_log"
+    },
+    "axis=z": {
+      "model": "stmwr:block/firewood_log",
+      "x": 90
+    }
+  }
+}

@@ -5,7 +5,8 @@
     "stmwr:frozen_forest",
     "stmwr:frozen_sea",
     "stmwr:icelands",
-    "stmwr:snowy_sands"
+    "stmwr:snowy_sands",
+    "stmwr:firewood_forest"
   ],
   "spawners": {
     "type": "stmwr:hordebeast",

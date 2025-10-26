@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:water_bucket"
+    },
+    "b": {
+      "item": "stmwr:plastic_jug"
+    }
+  },
+  "result": {
+    "item": "stmwr:water_jug",
+    "count": 1
+  }
+}

@@ -1,17 +1,22 @@
 
 package net.mcreator.stmwr.item;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
 
+import net.mcreator.stmwr.procedures.ResistanceProcedure;
 import net.mcreator.stmwr.init.StmwrModItems;
+
+import com.google.common.collect.Iterables;
 
 public abstract class DeadironArmorItem extends ArmorItem {
 	public DeadironArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -67,6 +72,14 @@ public abstract class DeadironArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "stmwr:textures/models/armor/deadiron_layer_1.png";
 		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				ResistanceProcedure.execute(entity);
+			}
+		}
 	}
 
 	public static class Chestplate extends DeadironArmorItem {
@@ -77,6 +90,14 @@ public abstract class DeadironArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "stmwr:textures/models/armor/deadiron_layer_1.png";
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				ResistanceProcedure.execute(entity);
+			}
 		}
 	}
 
@@ -89,6 +110,14 @@ public abstract class DeadironArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "stmwr:textures/models/armor/deadiron_layer_2.png";
 		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				ResistanceProcedure.execute(entity);
+			}
+		}
 	}
 
 	public static class Boots extends DeadironArmorItem {
@@ -99,6 +128,14 @@ public abstract class DeadironArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "stmwr:textures/models/armor/deadiron_layer_1.png";
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				ResistanceProcedure.execute(entity);
+			}
 		}
 	}
 }

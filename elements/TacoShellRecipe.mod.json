@@ -1,91 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToChocolate"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 226,
-          "y": 196
-        }
+        "value": ""
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-41-57.png",
-          "use1Xscale": true,
-          "x": 127,
-          "y": 91
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_taco_shell",
-          "text": {
-            "fixedValue": "TACO SHELL"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 186,
-          "y": 23
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 129,
-          "y": 32
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_dough",
-          "text": {
-            "fixedValue": "Dough"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 171,
-          "y": 43
-        }
+        "value": "CUSTOM:Roller"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": "CUSTOM:Dough"
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:TacoShell"
+    },
+    "name": "taco_shell_recipe",
+    "namespace": "mod"
   }
 }

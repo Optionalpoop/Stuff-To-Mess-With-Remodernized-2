@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:firewood_log_pile",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 1,
+    "salt": 502612132
+  }
+}

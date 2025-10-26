@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:pizza"
+    },
+    {
+      "item": "stmwr:wooden_knife"
+    }
+  ],
+  "result": {
+    "item": "stmwr:pizza_slice",
+    "count": 7
+  }
+}

@@ -30,6 +30,7 @@ public class ItemsPageScreen extends AbstractContainerScreen<ItemsPageMenu> {
 	Button button_vortex_manipulator;
 	Button button_portable_crucible;
 	Button button_portable_oven;
+	Button button_extreme_pocket_cell;
 
 	public ItemsPageScreen(ItemsPageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -137,5 +138,13 @@ public class ItemsPageScreen extends AbstractContainerScreen<ItemsPageMenu> {
 		}).bounds(this.leftPos + 6, this.topPos + 90, 93, 20).build();
 		guistate.put("button:button_portable_oven", button_portable_oven);
 		this.addRenderableWidget(button_portable_oven);
+		button_extreme_pocket_cell = Button.builder(Component.translatable("gui.stmwr.items_page.button_extreme_pocket_cell"), e -> {
+			if (true) {
+				StmwrMod.PACKET_HANDLER.sendToServer(new ItemsPageButtonMessage(8, x, y, z));
+				ItemsPageButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 111, 124, 20).build();
+		guistate.put("button:button_extreme_pocket_cell", button_extreme_pocket_cell);
+		this.addRenderableWidget(button_extreme_pocket_cell);
 	}
 }

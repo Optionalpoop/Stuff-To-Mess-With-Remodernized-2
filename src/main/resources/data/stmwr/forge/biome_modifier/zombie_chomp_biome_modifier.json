@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stmwr:dead_forest",
+    "stmwr:war_torn_mountains"
+  ],
+  "features": "stmwr:zombie_chomp",
+  "step": "vegetal_decoration"
+}

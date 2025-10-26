@@ -31,29 +31,29 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.1,
-    "temperature": 1.4,
+    "temperature": 2.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.4,
-      "max": 0.5009
+      "min": -0.33,
+      "max": 0.0
     },
     "genHumidity": {
-      "min": -0.5015999999999999,
-      "max": 0.5019
-    },
-    "genContinentalness": {
-      "min": 0.295,
+      "min": 0.0,
       "max": 1.0
     },
+    "genContinentalness": {
+      "min": 0.0,
+      "max": 0.5
+    },
     "genErosion": {
-      "min": -0.4993,
-      "max": 0.4989
+      "min": -0.5,
+      "max": 0.0
     },
     "genWeirdness": {
-      "min": -1.0013,
-      "max": 1.0022
+      "min": -1.0,
+      "max": 1.0
     },
     "treesPerChunk": 4,
     "vanillaTreeType": "Savanna trees",

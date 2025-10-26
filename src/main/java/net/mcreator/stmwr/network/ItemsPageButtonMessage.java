@@ -18,6 +18,7 @@ import net.mcreator.stmwr.procedures.ToSoulShardRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToPowercellRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToPortableOvenRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToPortableCrucibleRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToExtremePocketCellRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCategoriesProcedure;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -95,6 +96,10 @@ public class ItemsPageButtonMessage {
 		if (buttonID == 7) {
 
 			ToPortableOvenRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			ToExtremePocketCellRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

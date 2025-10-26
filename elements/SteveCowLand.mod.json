@@ -17,6 +17,12 @@
       },
       {
         "value": "CUSTOM:SnowySands"
+      },
+      {
+        "value": "CUSTOM:FirewoodForest"
+      },
+      {
+        "value": "CUSTOM:SnowyDesert"
       }
     ],
     "worldGenType": "Normal world gen",

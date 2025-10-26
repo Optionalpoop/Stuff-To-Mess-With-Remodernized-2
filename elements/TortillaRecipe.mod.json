@@ -1,91 +1,48 @@
 {
   "_fv": 66,
-  "_type": "gui",
+  "_type": "recipe",
   "definition": {
-    "type": 0,
-    "width": 176,
-    "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
       {
-        "type": "button",
-        "data": {
-          "name": "button_next_page",
-          "text": "Next Page",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ToPizza"
-          },
-          "width": 72,
-          "height": 20,
-          "x": 226,
-          "y": 195
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_tortilla",
-          "text": {
-            "fixedValue": "TORTILLA"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 192,
-          "y": 24
-        }
+        "value": "CUSTOM:Dough"
       },
       {
-        "type": "image",
-        "data": {
-          "image": "screenshot_from_2025-06-12_11-39-51.png",
-          "use1Xscale": true,
-          "x": 126,
-          "y": 91
-        }
+        "value": ""
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_ingredients",
-          "text": {
-            "fixedValue": "Ingredients:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 130,
-          "y": 35
-        }
+        "value": "CUSTOM:Dough"
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_dough",
-          "text": {
-            "fixedValue": "Dough"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 176,
-          "y": 45
-        }
+        "value": "CUSTOM:Roller"
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": ""
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
-    }
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tortilla"
+    },
+    "name": "tortilla_recipe",
+    "namespace": "mod"
   }
 }

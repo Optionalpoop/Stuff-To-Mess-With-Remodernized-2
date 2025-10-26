@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:firewood_forest",
+  "features": "stmwr:sigmari",
+  "step": "vegetal_decoration"
+}

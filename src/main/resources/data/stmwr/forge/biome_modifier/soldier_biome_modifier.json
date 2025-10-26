@@ -2,8 +2,11 @@
   "type": "forge:add_spawns",
   "biomes": [
     "stmwr:ashy_wasteland",
+    "stmwr:burial_grounds",
     "stmwr:dead_forest",
-    "stmwr:nuclear_desert"
+    "stmwr:nuclear_desert",
+    "stmwr:oasis",
+    "stmwr:war_torn_mountains"
   ],
   "spawners": {
     "type": "stmwr:soldier",

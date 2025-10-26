@@ -124,6 +124,9 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
+        "value": "CUSTOM:FirewoodForest"
+      },
+      {
         "value": "CUSTOM:FrostedPeaks"
       },
       {
@@ -136,12 +139,24 @@
         "value": "CUSTOM:Icelands"
       },
       {
+        "value": "CUSTOM:SnowyDesert"
+      },
+      {
         "value": "CUSTOM:SnowySands"
       }
     ],
     "blocksToReplace": [
       {
         "value": "CUSTOM:Snapstone"
+      },
+      {
+        "value": "CUSTOM:Icemite"
+      },
+      {
+        "value": "CUSTOM:Snowrock"
+      },
+      {
+        "value": "CUSTOM:Spor"
       }
     ],
     "generationShape": "UNIFORM",

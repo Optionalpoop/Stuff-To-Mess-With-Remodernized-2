@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stmwr:frosted_peaks",
+    "stmwr:snowy_sands",
+    "stmwr:icelands"
+  ],
+  "features": "stmwr:icedaisy",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "stmwr:block/firewood_planks",
+    "bottom": "stmwr:block/firewood_planks",
+    "top": "stmwr:block/firewood_planks",
+    "side": "stmwr:block/firewood_planks"
+  },
+  "render_type": "solid"
+}

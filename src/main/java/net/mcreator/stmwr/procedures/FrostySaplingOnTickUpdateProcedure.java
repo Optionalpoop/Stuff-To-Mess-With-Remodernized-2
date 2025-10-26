@@ -13,7 +13,8 @@ public class FrostySaplingOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frosted_peaks")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frozen_forest"))
 				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:frozen_sea")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:icelands"))
-				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_sands"))) {
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_sands")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:firewood_forest"))
+				|| world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("stmwr:snowy_desert"))) {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("stmwr", "frostytree"));
 				if (template != null) {

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:cheese"
+    },
+    "b": {
+      "item": "stmwr:tomato"
+    },
+    "c": {
+      "item": "stmwr:pepperoni"
+    },
+    "d": {
+      "item": "stmwr:tortilla"
+    }
+  },
+  "result": {
+    "item": "stmwr:pizza",
+    "count": 1
+  }
+}

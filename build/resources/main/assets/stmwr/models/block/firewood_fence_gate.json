@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "particle": "stmwr:block/firewood_planks",
+    "texture": "stmwr:block/firewood_planks"
+  },
+  "render_type": "solid"
+}

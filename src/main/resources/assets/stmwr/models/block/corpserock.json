@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/corpserock",
+    "up": "stmwr:block/corpserock",
+    "north": "stmwr:block/corpserock",
+    "east": "stmwr:block/corpserock",
+    "south": "stmwr:block/corpserock",
+    "west": "stmwr:block/corpserock",
+    "particle": "stmwr:block/corpserock"
+  },
+  "render_type": "solid"
+}
