@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/candy_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/candy_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/candy_slab_full"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:delicately_paved_pinkstone"
+    }
+  },
+  "result": {
+    "item": "stmwr:delicately_paved_pinkstone_slab",
+    "count": 6
+  }
+}

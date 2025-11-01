@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/gracefulgrassbottom",
+    "up": "stmwr:block/gracefulgrasstop",
+    "north": "stmwr:block/gracefulgrass",
+    "east": "stmwr:block/gracefulgrass",
+    "south": "stmwr:block/gracefulgrass",
+    "west": "stmwr:block/gracefulgrass",
+    "particle": "stmwr:block/gracefulgrassbottom"
+  },
+  "render_type": "solid"
+}

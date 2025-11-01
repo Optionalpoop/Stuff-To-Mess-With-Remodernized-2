@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/memorystone",
+    "up": "stmwr:block/memorystone",
+    "north": "stmwr:block/memorystone",
+    "east": "stmwr:block/memorystone",
+    "south": "stmwr:block/memorystone",
+    "west": "stmwr:block/memorystone",
+    "particle": "stmwr:block/memorystone"
+  },
+  "render_type": "solid"
+}

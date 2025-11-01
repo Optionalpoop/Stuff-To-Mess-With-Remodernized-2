@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SpEcIaLcObBlEdStOnE"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SpEcIaLsToNe"
+    },
+    "name": "sp_ec_ia_ls_to_ne_re_ci_pe",
+    "namespace": "mod"
+  }
+}

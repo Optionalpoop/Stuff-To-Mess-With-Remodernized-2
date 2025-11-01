@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:msn_09",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 1,
+    "salt": 256387206
+  }
+}

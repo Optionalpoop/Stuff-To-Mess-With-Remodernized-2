@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/joyfulgaze",
+    "particle": "stmwr:block/joyfulgaze"
+  },
+  "render_type": "cutout"
+}

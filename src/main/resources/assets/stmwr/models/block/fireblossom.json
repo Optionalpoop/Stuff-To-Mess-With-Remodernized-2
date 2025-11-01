@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/fireblossom",
+    "particle": "stmwr:block/fireblossom"
+  },
+  "render_type": "cutout"
+}

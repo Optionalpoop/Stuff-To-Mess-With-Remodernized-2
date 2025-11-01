@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/crushedmemorystone",
+    "up": "stmwr:block/crushedmemorystone",
+    "north": "stmwr:block/crushedmemorystone",
+    "east": "stmwr:block/crushedmemorystone",
+    "south": "stmwr:block/crushedmemorystone",
+    "west": "stmwr:block/crushedmemorystone",
+    "particle": "stmwr:block/crushedmemorystone"
+  },
+  "render_type": "solid"
+}

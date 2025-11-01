@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/deliciousdirt",
+    "up": "stmwr:block/deliciousdirt",
+    "north": "stmwr:block/deliciousdirt",
+    "east": "stmwr:block/deliciousdirt",
+    "south": "stmwr:block/deliciousdirt",
+    "west": "stmwr:block/deliciousdirt",
+    "particle": "stmwr:block/deliciousdirt"
+  },
+  "render_type": "solid"
+}

@@ -29,5 +29,25 @@ public class StmwrModFuels {
 			event.setBurnTime(43200);
 		else if (itemstack.getItem() == StmwrModItems.URANIUM_FUEL_ROD.get())
 			event.setBurnTime(129600);
+		else if (itemstack.getItem() == StmwrModBlocks.WISHING_TREE_PLANKS.get().asItem())
+			event.setBurnTime(600);
+		else if (itemstack.getItem() == StmwrModBlocks.WISHING_TREE_LOG.get().asItem())
+			event.setBurnTime(600);
+		else if (itemstack.getItem() == StmwrModBlocks.WISHING_TREE_WOOD.get().asItem())
+			event.setBurnTime(1600);
+		else if (itemstack.getItem() == StmwrModBlocks.FIREWOOD_WOOD.get().asItem())
+			event.setBurnTime(3200);
+		else if (itemstack.getItem() == StmwrModBlocks.FIREWOOD_LOG.get().asItem())
+			event.setBurnTime(1600);
+		else if (itemstack.getItem() == StmwrModBlocks.FIREWOOD_PLANKS.get().asItem())
+			event.setBurnTime(1600);
+		else if (itemstack.getItem() == StmwrModBlocks.CANDY_WOOD.get().asItem())
+			event.setBurnTime(1600);
+		else if (itemstack.getItem() == StmwrModBlocks.CANDY_LOG.get().asItem())
+			event.setBurnTime(600);
+		else if (itemstack.getItem() == StmwrModBlocks.CANDY_PLANKS.get().asItem())
+			event.setBurnTime(600);
+		else if (itemstack.getItem() == StmwrModItems.FIREBLOOD.get())
+			event.setBurnTime(1728000);
 	}
 }

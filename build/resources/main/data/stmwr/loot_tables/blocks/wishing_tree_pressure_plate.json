@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stmwr:blocks/wishing_tree_pressure_plate",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stmwr:wishing_tree_pressure_plate"
+        }
+      ]
+    }
+  ]
+}

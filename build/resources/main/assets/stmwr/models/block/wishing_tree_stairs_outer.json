@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "stmwr:block/wishingtree_planks",
+    "bottom": "stmwr:block/wishingtree_planks",
+    "top": "stmwr:block/wishingtree_planks",
+    "side": "stmwr:block/wishingtree_planks"
+  },
+  "render_type": "solid"
+}

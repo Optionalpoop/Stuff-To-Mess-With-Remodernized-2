@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stmwr:smooth_firestone"
+  },
+  "result": "stmwr:smooth_firestone_slab"
+}

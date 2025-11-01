@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/pinkstone",
+    "up": "stmwr:block/pinkstone",
+    "north": "stmwr:block/pinkstone",
+    "east": "stmwr:block/pinkstone",
+    "south": "stmwr:block/pinkstone",
+    "west": "stmwr:block/pinkstone",
+    "particle": "stmwr:block/pinkstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:crushed_memorystone"
+    },
+    {
+      "item": "stmwr:portable_crucible"
+    }
+  ],
+  "result": {
+    "item": "stmwr:memorystone",
+    "count": 1
+  }
+}

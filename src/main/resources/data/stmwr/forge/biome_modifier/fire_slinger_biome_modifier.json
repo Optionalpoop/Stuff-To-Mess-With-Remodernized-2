@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:the_meltingspace",
+  "spawners": {
+    "type": "stmwr:fire_slinger",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

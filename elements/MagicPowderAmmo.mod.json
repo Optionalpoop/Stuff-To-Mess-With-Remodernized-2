@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:MagicPowder"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 11.0,
+    "damage": 2.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "MagicPowderPlayerFinishesUsingItem"
+    }
+  }
+}

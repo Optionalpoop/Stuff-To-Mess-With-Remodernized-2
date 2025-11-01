@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/forgottensand",
+    "up": "stmwr:block/forgottensand",
+    "north": "stmwr:block/forgottensand",
+    "east": "stmwr:block/forgottensand",
+    "south": "stmwr:block/forgottensand",
+    "west": "stmwr:block/forgottensand",
+    "particle": "stmwr:block/forgottensand"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/forgottenglass",
+    "up": "stmwr:block/forgottenglass",
+    "north": "stmwr:block/forgottenglass",
+    "east": "stmwr:block/forgottenglass",
+    "south": "stmwr:block/forgottenglass",
+    "west": "stmwr:block/forgottenglass",
+    "particle": "stmwr:block/forgottenglass"
+  },
+  "render_type": "cutout"
+}

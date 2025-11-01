@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stmwr:block/candy_log_side",
+    "particle": "stmwr:block/candy_log_side"
+  },
+  "render_type": "solid"
+}

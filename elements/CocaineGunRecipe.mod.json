@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:Handgun"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      },
+      {
+        "value": "CUSTOM:MagicPowder"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CocaineGun"
+    },
+    "name": "cocaine_gun_recipe",
+    "namespace": "mod"
+  }
+}

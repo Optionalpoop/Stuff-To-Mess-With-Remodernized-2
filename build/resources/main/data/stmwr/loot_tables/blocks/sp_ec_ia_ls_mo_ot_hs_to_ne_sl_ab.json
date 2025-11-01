@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stmwr:blocks/sp_ec_ia_ls_mo_ot_hs_to_ne_sl_ab",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stmwr:sp_ec_ia_ls_mo_ot_hs_to_ne_sl_ab",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "stmwr:sp_ec_ia_ls_mo_ot_hs_to_ne_sl_ab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

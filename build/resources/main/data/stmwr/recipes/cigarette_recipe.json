@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:magic_powder"
+    },
+    {
+      "item": "stmwr:cigar_base"
+    },
+    {
+      "item": "stmwr:tusk"
+    }
+  ],
+  "result": {
+    "item": "stmwr:cigarette",
+    "count": 1
+  }
+}

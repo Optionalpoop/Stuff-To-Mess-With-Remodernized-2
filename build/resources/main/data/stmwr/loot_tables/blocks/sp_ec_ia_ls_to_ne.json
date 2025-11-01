@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stmwr:blocks/sp_ec_ia_ls_to_ne",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stmwr:sp_ec_ia_lc_ob_bl_ed_st_on_e"
+        }
+      ]
+    }
+  ]
+}

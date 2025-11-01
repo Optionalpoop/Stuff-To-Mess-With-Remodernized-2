@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magic_apple"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "stmwr:scar_in_time"
+    }
+  },
+  "result": {
+    "item": "stmwr:magical_trial_heart",
+    "count": 1
+  }
+}

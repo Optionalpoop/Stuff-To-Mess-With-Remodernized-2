@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/wishing_tree_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/wishing_tree_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/wishing_tree_slab_full"
+    }
+  }
+}

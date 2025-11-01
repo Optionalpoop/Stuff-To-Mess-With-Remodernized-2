@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:firestone"
+    },
+    {
+      "item": "stmwr:portable_crucible"
+    }
+  ],
+  "result": {
+    "item": "stmwr:smooth_firestone",
+    "count": 1
+  }
+}

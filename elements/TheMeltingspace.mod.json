@@ -1,0 +1,133 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "The Meltingspace",
+    "groundBlock": {
+      "value": "CUSTOM:Firegrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Firestone"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:CobbledFirestone"
+    },
+    "airColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -1.0,
+      "max": -0.8
+    },
+    "genHumidity": {
+      "min": 0.1,
+      "max": 0.3
+    },
+    "genContinentalness": {
+      "min": 0.7,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": 0.0,
+      "max": 0.2
+    },
+    "genWeirdness": {
+      "min": 0.2,
+      "max": 0.4
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "FrozenTopLayer",
+      "Fossils"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:FireSlinger"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 30,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:WeaselWorm"
+        },
+        "minGroup": 3,
+        "maxGroup": 9,
+        "weight": 30,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Lavambie"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 40,
+        "spawnType": "ambient"
+      }
+    ]
+  }
+}

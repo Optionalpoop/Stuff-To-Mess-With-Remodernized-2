@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stmwr:blocks/firestone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stmwr:cobbled_firestone"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "stmwr:block/smoothfirestone",
+    "bottom": "stmwr:block/smoothfirestone",
+    "top": "stmwr:block/smoothfirestone",
+    "side": "stmwr:block/smoothfirestone"
+  },
+  "render_type": "solid"
+}

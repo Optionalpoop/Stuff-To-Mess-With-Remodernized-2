@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/delicately_paved_pinkstone_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/delicately_paved_pinkstone_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/delicately_paved_pinkstone_slab_full"
+    }
+  }
+}

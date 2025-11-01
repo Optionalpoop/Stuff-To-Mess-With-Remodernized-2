@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:pinkstone"
+    },
+    {
+      "item": "stmwr:portable_crucible"
+    }
+  ],
+  "result": {
+    "item": "stmwr:super_stone",
+    "count": 1
+  }
+}

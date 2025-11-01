@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magic_powder"
+    },
+    "b": {
+      "item": "stmwr:handgun"
+    }
+  },
+  "result": {
+    "item": "stmwr:cocaine_gun",
+    "count": 1
+  }
+}

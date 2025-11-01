@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:candy_stairs",
+    "stmwr:wishing_tree_stairs",
     "stmwr:firewood_stairs",
     "stmwr:tardis_top_text",
     "stmwr:dead_stairs",

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ba",
+    "b "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:pinkstone"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  }
+}

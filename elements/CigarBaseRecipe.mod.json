@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MysticalPaper"
+      },
+      {
+        "value": "CUSTOM:MysticalPaper"
+      },
+      {
+        "value": "CUSTOM:MysticalPaper"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "CUSTOM:MysticalPaper"
+      },
+      {
+        "value": "CUSTOM:MysticalPaper"
+      },
+      {
+        "value": "CUSTOM:MysticalPaper"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CigarBase"
+    },
+    "name": "cigar_base_recipe",
+    "namespace": "mod"
+  }
+}

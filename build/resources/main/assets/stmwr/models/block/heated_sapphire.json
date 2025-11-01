@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/sapphire",
+    "up": "stmwr:block/sapphire",
+    "north": "stmwr:block/sapphire",
+    "east": "stmwr:block/sapphire",
+    "south": "stmwr:block/sapphire",
+    "west": "stmwr:block/sapphire",
+    "particle": "stmwr:block/sapphire"
+  },
+  "render_type": "solid"
+}

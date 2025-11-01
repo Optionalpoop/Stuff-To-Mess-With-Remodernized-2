@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_meltingspace",
+  "features": "stmwr:fire_gold",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/firedirt",
+    "up": "stmwr:block/firedirt",
+    "north": "stmwr:block/firedirt",
+    "east": "stmwr:block/firedirt",
+    "south": "stmwr:block/firedirt",
+    "west": "stmwr:block/firedirt",
+    "particle": "stmwr:block/firedirt"
+  },
+  "render_type": "solid"
+}

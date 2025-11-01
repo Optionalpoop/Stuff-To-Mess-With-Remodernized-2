@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/candy_log_top",
+    "up": "stmwr:block/candy_log_top",
+    "north": "stmwr:block/candy_log_side",
+    "east": "stmwr:block/candy_log_side",
+    "south": "stmwr:block/candy_log_side",
+    "west": "stmwr:block/candy_log_side",
+    "particle": "stmwr:block/candy_log_top"
+  },
+  "render_type": "solid"
+}

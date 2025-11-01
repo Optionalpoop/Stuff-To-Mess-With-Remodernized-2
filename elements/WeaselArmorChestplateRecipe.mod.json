@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      },
+      {
+        "value": "CUSTOM:WeaselFur"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WeaselArmor.body"
+    },
+    "name": "weasel_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

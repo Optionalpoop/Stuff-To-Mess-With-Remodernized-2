@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/wishingstar",
+    "particle": "stmwr:block/wishingstar"
+  },
+  "render_type": "cutout"
+}

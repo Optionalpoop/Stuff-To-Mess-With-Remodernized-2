@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "stmwr:soft_grass",
+    "stmwr:dark_grass",
+    "stmwr:wishful_grass",
+    "stmwr:burning_grass",
+    "stmwr:borderwater",
     "stmwr:dead_plants",
     "stmwr:frozen_grass",
     "stmwr:irradiated_water"

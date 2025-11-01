@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/specialsmoothstone",
+    "up": "stmwr:block/specialsmoothstone",
+    "north": "stmwr:block/specialsmoothstone",
+    "east": "stmwr:block/specialsmoothstone",
+    "south": "stmwr:block/specialsmoothstone",
+    "west": "stmwr:block/specialsmoothstone",
+    "particle": "stmwr:block/specialsmoothstone"
+  },
+  "render_type": "solid"
+}

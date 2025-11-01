@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/delicatelypavedpinkstone",
+    "up": "stmwr:block/delicatelypavedpinkstone",
+    "north": "stmwr:block/delicatelypavedpinkstone",
+    "east": "stmwr:block/delicatelypavedpinkstone",
+    "south": "stmwr:block/delicatelypavedpinkstone",
+    "west": "stmwr:block/delicatelypavedpinkstone",
+    "particle": "stmwr:block/delicatelypavedpinkstone"
+  },
+  "render_type": "solid"
+}

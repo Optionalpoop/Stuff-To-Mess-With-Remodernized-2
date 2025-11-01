@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Fireblood"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 69.0,
+    "knockback": 6,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/nostalgiadirt",
+    "up": "stmwr:block/nostalgiadirt",
+    "north": "stmwr:block/nostalgiadirt",
+    "east": "stmwr:block/nostalgiadirt",
+    "south": "stmwr:block/nostalgiadirt",
+    "west": "stmwr:block/nostalgiadirt",
+    "particle": "stmwr:block/nostalgiadirt"
+  },
+  "render_type": "solid"
+}

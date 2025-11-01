@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:mystical_paper"
+    },
+    "b": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "stmwr:cigar_base",
+    "count": 1
+  }
+}

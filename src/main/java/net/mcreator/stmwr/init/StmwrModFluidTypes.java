@@ -10,9 +10,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fluids.FluidType;
 
 import net.mcreator.stmwr.fluid.types.IrradiatedWaterFluidType;
+import net.mcreator.stmwr.fluid.types.BorderwaterFluidType;
 import net.mcreator.stmwr.StmwrMod;
 
 public class StmwrModFluidTypes {
 	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, StmwrMod.MODID);
 	public static final RegistryObject<FluidType> IRRADIATED_WATER_TYPE = REGISTRY.register("irradiated_water", () -> new IrradiatedWaterFluidType());
+	public static final RegistryObject<FluidType> BORDERWATER_TYPE = REGISTRY.register("borderwater", () -> new BorderwaterFluidType());
 }

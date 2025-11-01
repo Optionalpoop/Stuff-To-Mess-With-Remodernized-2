@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:wishing_tree_planks"
+    },
+    "b": {
+      "item": "stmwr:delicately_paved_pinkstone_slab"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:grindstone",
+    "count": 1
+  }
+}

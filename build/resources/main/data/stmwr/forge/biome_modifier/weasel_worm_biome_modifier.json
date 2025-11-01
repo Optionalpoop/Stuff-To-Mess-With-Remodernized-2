@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:the_meltingspace",
+  "spawners": {
+    "type": "stmwr:weasel_worm",
+    "weight": 30,
+    "minCount": 3,
+    "maxCount": 9
+  }
+}

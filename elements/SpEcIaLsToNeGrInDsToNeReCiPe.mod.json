@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WishingTreePlanks"
+      },
+      {
+        "value": "CUSTOM:SpEcIaLsMoOtHsToNeSlAb"
+      },
+      {
+        "value": "CUSTOM:WishingTreePlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.GRINDSTONE"
+    },
+    "name": "sp_ec_ia_ls_to_ne_gr_in_ds_to_ne_re_ci_pe",
+    "namespace": "mod"
+  }
+}

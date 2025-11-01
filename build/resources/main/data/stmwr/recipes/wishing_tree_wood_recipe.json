@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:wishing_tree_log"
+    }
+  },
+  "result": {
+    "item": "stmwr:wishing_tree_wood",
+    "count": 3
+  }
+}

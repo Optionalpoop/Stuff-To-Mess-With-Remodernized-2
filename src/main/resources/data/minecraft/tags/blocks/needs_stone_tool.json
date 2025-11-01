@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "stmwr:fire_gold",
+    "stmwr:fire_iron",
+    "stmwr:smooth_memorystone_slab",
+    "stmwr:smooth_firestone_slab",
     "stmwr:corpserock",
     "stmwr:spor",
     "stmwr:snowrock",

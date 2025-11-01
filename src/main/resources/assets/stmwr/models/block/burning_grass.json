@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "stmwr:block/burninggrass",
+    "particle": "stmwr:block/burninggrass"
+  },
+  "render_type": "cutout"
+}

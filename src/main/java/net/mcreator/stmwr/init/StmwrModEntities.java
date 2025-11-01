@@ -16,8 +16,10 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.stmwr.entity.WeaselWormEntity;
 import net.mcreator.stmwr.entity.UndeadSoulEntity;
 import net.mcreator.stmwr.entity.TheTimelessEntity;
+import net.mcreator.stmwr.entity.TheMeatyOneEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
@@ -26,10 +28,13 @@ import net.mcreator.stmwr.entity.SnowShardAmmoEntity;
 import net.mcreator.stmwr.entity.PoisonedSkeletonEntity;
 import net.mcreator.stmwr.entity.PoisonDartAmmoEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
+import net.mcreator.stmwr.entity.PaperBoyEntity;
+import net.mcreator.stmwr.entity.MagicPowderAmmoEntity;
 import net.mcreator.stmwr.entity.LightningWizardEntity;
 import net.mcreator.stmwr.entity.LightningCultistEntity;
 import net.mcreator.stmwr.entity.LightningBlastAmmoEntity;
 import net.mcreator.stmwr.entity.LesserWizardEntity;
+import net.mcreator.stmwr.entity.LavambieEntity;
 import net.mcreator.stmwr.entity.IrradiatedEggAmmoEntity;
 import net.mcreator.stmwr.entity.InfectedPigEntity;
 import net.mcreator.stmwr.entity.InfectedCowEntity;
@@ -37,9 +42,16 @@ import net.mcreator.stmwr.entity.InfectedChickenEntity;
 import net.mcreator.stmwr.entity.HordebeastEntity;
 import net.mcreator.stmwr.entity.HandgunRoundAmmoEntity;
 import net.mcreator.stmwr.entity.GoolingEntity;
+import net.mcreator.stmwr.entity.GoblinEntity;
 import net.mcreator.stmwr.entity.GiantSteveCowEntity;
 import net.mcreator.stmwr.entity.FrombieEntity;
+import net.mcreator.stmwr.entity.FirebloodShotEntity;
+import net.mcreator.stmwr.entity.FireSlingerEntityProjectile;
+import net.mcreator.stmwr.entity.FireSlingerEntity;
+import net.mcreator.stmwr.entity.EmptinessEntity;
+import net.mcreator.stmwr.entity.DreamlingEntity;
 import net.mcreator.stmwr.entity.CrusherEntity;
+import net.mcreator.stmwr.entity.CrazyPersonEntity;
 import net.mcreator.stmwr.entity.CorpsepuppetEntity;
 import net.mcreator.stmwr.entity.CamperEntity;
 import net.mcreator.stmwr.entity.AncientWizardEntity;
@@ -131,6 +143,42 @@ public class StmwrModEntities {
 			EntityType.Builder.<PoisonedSkeletonEntity>of(PoisonedSkeletonEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PoisonedSkeletonEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GoblinEntity>> GOBLIN = register("goblin",
+			EntityType.Builder.<GoblinEntity>of(GoblinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GoblinEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CrazyPersonEntity>> CRAZY_PERSON = register("crazy_person",
+			EntityType.Builder.<CrazyPersonEntity>of(CrazyPersonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrazyPersonEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FirebloodShotEntity>> FIREBLOOD_SHOT = register("fireblood_shot",
+			EntityType.Builder.<FirebloodShotEntity>of(FirebloodShotEntity::new, MobCategory.MISC).setCustomClientFactory(FirebloodShotEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FireSlingerEntity>> FIRE_SLINGER = register("fire_slinger", EntityType.Builder.<FireSlingerEntity>of(FireSlingerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireSlingerEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FireSlingerEntityProjectile>> FIRE_SLINGER_PROJECTILE = register("projectile_fire_slinger", EntityType.Builder.<FireSlingerEntityProjectile>of(FireSlingerEntityProjectile::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(FireSlingerEntityProjectile::new).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<WeaselWormEntity>> WEASEL_WORM = register("weasel_worm",
+			EntityType.Builder.<WeaselWormEntity>of(WeaselWormEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WeaselWormEntity::new)
+
+					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<LavambieEntity>> LAVAMBIE = register("lavambie",
+			EntityType.Builder.<LavambieEntity>of(LavambieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LavambieEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MagicPowderAmmoEntity>> MAGIC_POWDER_AMMO = register("magic_powder_ammo", EntityType.Builder.<MagicPowderAmmoEntity>of(MagicPowderAmmoEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(MagicPowderAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<DreamlingEntity>> DREAMLING = register("dreamling",
+			EntityType.Builder.<DreamlingEntity>of(DreamlingEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DreamlingEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PaperBoyEntity>> PAPER_BOY = register("paper_boy",
+			EntityType.Builder.<PaperBoyEntity>of(PaperBoyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PaperBoyEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TheMeatyOneEntity>> THE_MEATY_ONE = register("the_meaty_one",
+			EntityType.Builder.<TheMeatyOneEntity>of(TheMeatyOneEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(TheMeatyOneEntity::new)
+
+					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<EmptinessEntity>> EMPTINESS = register("emptiness",
+			EntityType.Builder.<EmptinessEntity>of(EmptinessEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EmptinessEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -161,6 +209,15 @@ public class StmwrModEntities {
 			AncientWizardEntity.init();
 			TheTimelessEntity.init();
 			PoisonedSkeletonEntity.init();
+			GoblinEntity.init();
+			CrazyPersonEntity.init();
+			FireSlingerEntity.init();
+			WeaselWormEntity.init();
+			LavambieEntity.init();
+			DreamlingEntity.init();
+			PaperBoyEntity.init();
+			TheMeatyOneEntity.init();
+			EmptinessEntity.init();
 		});
 	}
 
@@ -188,5 +245,14 @@ public class StmwrModEntities {
 		event.put(ANCIENT_WIZARD.get(), AncientWizardEntity.createAttributes().build());
 		event.put(THE_TIMELESS.get(), TheTimelessEntity.createAttributes().build());
 		event.put(POISONED_SKELETON.get(), PoisonedSkeletonEntity.createAttributes().build());
+		event.put(GOBLIN.get(), GoblinEntity.createAttributes().build());
+		event.put(CRAZY_PERSON.get(), CrazyPersonEntity.createAttributes().build());
+		event.put(FIRE_SLINGER.get(), FireSlingerEntity.createAttributes().build());
+		event.put(WEASEL_WORM.get(), WeaselWormEntity.createAttributes().build());
+		event.put(LAVAMBIE.get(), LavambieEntity.createAttributes().build());
+		event.put(DREAMLING.get(), DreamlingEntity.createAttributes().build());
+		event.put(PAPER_BOY.get(), PaperBoyEntity.createAttributes().build());
+		event.put(THE_MEATY_ONE.get(), TheMeatyOneEntity.createAttributes().build());
+		event.put(EMPTINESS.get(), EmptinessEntity.createAttributes().build());
 	}
 }

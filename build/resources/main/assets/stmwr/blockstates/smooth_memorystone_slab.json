@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stmwr:block/smooth_memorystone_slab"
+    },
+    "type=top": {
+      "model": "stmwr:block/smooth_memorystone_slab_top"
+    },
+    "type=double": {
+      "model": "stmwr:block/smooth_memorystone_slab_full"
+    }
+  }
+}

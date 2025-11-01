@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "stmwr:candy_planks"
+    }
+  ],
+  "result": {
+    "item": "stmwr:candy_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/specialcruncheddirt",
+    "up": "stmwr:block/specialcruncheddirt",
+    "north": "stmwr:block/specialcruncheddirt",
+    "east": "stmwr:block/specialcruncheddirt",
+    "south": "stmwr:block/specialcruncheddirt",
+    "west": "stmwr:block/specialcruncheddirt",
+    "particle": "stmwr:block/specialcruncheddirt"
+  },
+  "render_type": "solid"
+}

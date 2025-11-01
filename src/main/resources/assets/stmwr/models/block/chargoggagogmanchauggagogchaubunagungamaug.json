@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/chargoggagogmanchauggagogchaubunagungamaug",
+    "particle": "stmwr:block/chargoggagogmanchauggagogchaubunagungamaug"
+  },
+  "render_type": "cutout"
+}

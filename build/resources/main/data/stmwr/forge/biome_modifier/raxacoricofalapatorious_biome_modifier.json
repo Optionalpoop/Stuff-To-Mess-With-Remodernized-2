@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_chaoticspace",
+  "features": "stmwr:raxacoricofalapatorious",
+  "step": "vegetal_decoration"
+}

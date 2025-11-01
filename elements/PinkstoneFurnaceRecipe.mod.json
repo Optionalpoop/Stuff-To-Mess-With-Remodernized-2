@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      },
+      {
+        "value": "CUSTOM:Pinkstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FURNACE"
+    },
+    "name": "pinkstone_furnace_recipe",
+    "namespace": "mod"
+  }
+}

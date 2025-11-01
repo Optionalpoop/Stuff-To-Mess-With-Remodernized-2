@@ -18,12 +18,15 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.stmwr.fluid.IrradiatedWaterFluid;
+import net.mcreator.stmwr.fluid.BorderwaterFluid;
 import net.mcreator.stmwr.StmwrMod;
 
 public class StmwrModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(ForgeRegistries.FLUIDS, StmwrMod.MODID);
 	public static final RegistryObject<FlowingFluid> IRRADIATED_WATER = REGISTRY.register("irradiated_water", () -> new IrradiatedWaterFluid.Source());
 	public static final RegistryObject<FlowingFluid> FLOWING_IRRADIATED_WATER = REGISTRY.register("flowing_irradiated_water", () -> new IrradiatedWaterFluid.Flowing());
+	public static final RegistryObject<FlowingFluid> BORDERWATER = REGISTRY.register("borderwater", () -> new BorderwaterFluid.Source());
+	public static final RegistryObject<FlowingFluid> FLOWING_BORDERWATER = REGISTRY.register("flowing_borderwater", () -> new BorderwaterFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class FluidsClientSideHandler {
@@ -31,6 +34,8 @@ public class StmwrModFluids {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(IRRADIATED_WATER.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_IRRADIATED_WATER.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(BORDERWATER.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_BORDERWATER.get(), RenderType.translucent());
 		}
 	}
 }

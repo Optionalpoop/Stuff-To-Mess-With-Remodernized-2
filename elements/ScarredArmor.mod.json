@@ -6,9 +6,9 @@
     "textureHelmet": "scarred_head",
     "enableBody": true,
     "textureBody": "scarred_body",
-    "enableLeggings": true,
+    "enableLeggings": false,
     "textureLeggings": "scarred_leggings",
-    "enableBoots": true,
+    "enableBoots": false,
     "textureBoots": "scarred_boots",
     "onHelmetTick": {
       "name": "ScarredArmorHelmetTickEvent"

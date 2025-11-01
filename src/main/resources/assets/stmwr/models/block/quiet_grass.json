@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/quietgrassbottom",
+    "up": "stmwr:block/quietgrasstop",
+    "north": "stmwr:block/quietgrassside",
+    "east": "stmwr:block/quietgrassside",
+    "south": "stmwr:block/quietgrassside",
+    "west": "stmwr:block/quietgrassside",
+    "particle": "stmwr:block/quietgrassbottom"
+  },
+  "render_type": "solid"
+}

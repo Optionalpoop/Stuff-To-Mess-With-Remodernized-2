@@ -1,20 +1,28 @@
 {
   "replace": false,
   "values": [
-    "stmwr:irradiated_cobblestone",
-    "minecraft:grass_block",
-    "minecraft:powder_snow",
-    "minecraft:snow_block",
-    "minecraft:stone",
+    "stmwr:firestone",
+    "stmwr:sp_ec_ia_ls_to_ne",
+    "minecraft:black_concrete",
+    "stmwr:graceful_grass",
+    "stmwr:firegrass",
+    "stmwr:super_stone",
+    "stmwr:memorystone",
+    "stmwr:sp_ec_ia_lg_ra_ss",
+    "stmwr:quiet_grass",
     "minecraft:air",
     "stmwr:dead_grass",
     "stmwr:ash",
     "stmwr:untouched_soil",
+    "stmwr:irradiated_cobblestone",
     "stmwr:irradiated_stone",
     "stmwr:doomsand",
+    "minecraft:grass_block",
     "stmwr:frostice",
+    "minecraft:powder_snow",
     "stmwr:snapstone",
     "stmwr:snowdirt",
-    "stmwr:cold_grass"
+    "stmwr:cold_grass",
+    "minecraft:snow_block"
   ]
 }

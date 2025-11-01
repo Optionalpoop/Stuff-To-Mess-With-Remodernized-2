@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/smoothfirestone",
+    "up": "stmwr:block/smoothfirestone",
+    "north": "stmwr:block/smoothfirestone",
+    "east": "stmwr:block/smoothfirestone",
+    "south": "stmwr:block/smoothfirestone",
+    "west": "stmwr:block/smoothfirestone",
+    "particle": "stmwr:block/smoothfirestone"
+  },
+  "render_type": "solid"
+}

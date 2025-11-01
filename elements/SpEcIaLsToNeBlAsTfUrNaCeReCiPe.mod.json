@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:SpEcIaLsMoOtHsToNe"
+      },
+      {
+        "value": "CUSTOM:SpEcIaLsMoOtHsToNe"
+      },
+      {
+        "value": "CUSTOM:SpEcIaLsMoOtHsToNe"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BLAST_FURNACE"
+    },
+    "name": "sp_ec_ia_ls_to_ne_bl_as_tf_ur_na_ce_re_ci_pe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "stmwr:sp_ec_ia_ls_to_ne"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:snow_block"
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:coarse_dirt"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 9,
+      "height_rand_a": 2,
+      "height_rand_b": 2
+    },
+    "foliage_placer": {
+      "type": "minecraft:acacia_foliage_placer",
+      "radius": 2,
+      "offset": 0
+    },
+    "decorators": [
+      {
+        "type": "stmwr:the_chaoticspace_tree_fruit_decorator"
+      },
+      {
+        "type": "stmwr:the_chaoticspace_tree_trunk_decorator"
+      },
+      {
+        "type": "stmwr:the_chaoticspace_tree_leave_decorator"
+      }
+    ]
+  }
+}

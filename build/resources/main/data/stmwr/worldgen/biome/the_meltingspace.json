@@ -1,0 +1,70 @@
+{
+  "has_precipitation": true,
+  "temperature": 2,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": -10092544,
+    "fog_color": -10092544,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "stmwr:fire_slinger",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "stmwr:weasel_worm",
+        "weight": 30,
+        "minCount": 3,
+        "maxCount": 9
+      },
+      {
+        "type": "stmwr:lavambie",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 6
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

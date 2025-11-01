@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_chaoticspace",
+  "features": "stmwr:sp_ec_ia_ls_to_ne",
+  "step": "underground_ores"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stmwr:block/wishingtree_leaves",
+    "particle": "stmwr:block/wishingtree_leaves"
+  },
+  "render_type": "solid"
+}

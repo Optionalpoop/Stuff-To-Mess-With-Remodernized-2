@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "stmwr:block/specialsmoothstone",
+    "bottom": "stmwr:block/specialsmoothstone",
+    "top": "stmwr:block/specialsmoothstone",
+    "side": "stmwr:block/specialsmoothstone"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "stmwr:candy_planks",
+    "stmwr:candy_log",
+    "stmwr:candy_wood",
+    "stmwr:wishing_tree_planks",
+    "stmwr:wishing_tree_log",
+    "stmwr:wishing_tree_wood",
     "stmwr:firewood_planks",
     "stmwr:firewood_log",
     "stmwr:firewood_wood",

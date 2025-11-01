@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_lovespace",
+  "features": "stmwr:super_stone",
+  "step": "underground_ores"
+}

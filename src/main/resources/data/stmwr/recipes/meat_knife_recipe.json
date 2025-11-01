@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:tusk"
+    },
+    "b": {
+      "item": "stmwr:meat"
+    },
+    "c": {
+      "item": "stmwr:magicite_handle"
+    }
+  },
+  "result": {
+    "item": "stmwr:meat_knife",
+    "count": 1
+  }
+}

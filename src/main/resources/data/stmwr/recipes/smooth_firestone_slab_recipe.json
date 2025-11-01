@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:smooth_firestone"
+    }
+  },
+  "result": {
+    "item": "stmwr:smooth_firestone_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "stmwr:sp_ec_ia_ls_to_ne"
+    }
+  },
+  "result": {
+    "item": "minecraft:stonecutter",
+    "count": 1
+  }
+}

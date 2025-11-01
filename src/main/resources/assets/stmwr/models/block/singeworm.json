@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/singeworm",
+    "particle": "stmwr:block/singeworm"
+  },
+  "render_type": "cutout"
+}

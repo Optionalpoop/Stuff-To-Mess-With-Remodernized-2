@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_wishingspace",
+  "features": "stmwr:forgotten_sand",
+  "step": "underground_ores"
+}

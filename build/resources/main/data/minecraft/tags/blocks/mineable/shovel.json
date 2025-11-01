@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
+    "stmwr:graceful_grass",
+    "stmwr:delicious_dirt",
+    "stmwr:sp_ec_ia_lc_ru_nc_he_dd_ir_t",
+    "stmwr:sp_ec_ia_lg_ra_ss",
+    "stmwr:quiet_grass",
+    "stmwr:nostalgiadirt",
+    "stmwr:forgotten_sand",
+    "stmwr:firegrass",
+    "stmwr:firedirt",
     "stmwr:doomsand",
     "stmwr:dead_grass",
     "stmwr:untouched_soil",

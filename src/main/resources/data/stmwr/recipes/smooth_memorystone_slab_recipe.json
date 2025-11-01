@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:smooth_memorystone"
+    }
+  },
+  "result": {
+    "item": "stmwr:smooth_memorystone_slab",
+    "count": 6
+  }
+}

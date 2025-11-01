@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "stmwr:sp_ec_ia_ls_to_ne"
+  },
+  "result": "stmwr:sp_ec_ia_ls_mo_ot_hs_to_ne"
+}

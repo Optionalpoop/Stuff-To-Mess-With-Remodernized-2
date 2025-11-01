@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/screamer",
+    "particle": "stmwr:block/screamer"
+  },
+  "render_type": "cutout"
+}

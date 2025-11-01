@@ -4,7 +4,7 @@
   "definition": {
     "name": "STMW:R - Wizard World",
     "icon": {
-      "value": "CUSTOM:MagiciteBlock"
+      "value": "CUSTOM:Skin"
     },
     "showSearch": false
   }

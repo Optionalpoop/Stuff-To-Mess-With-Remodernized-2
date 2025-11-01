@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "stmwr:block/candy_planks",
+    "particle": "stmwr:block/candy_planks"
+  },
+  "render_type": "solid"
+}

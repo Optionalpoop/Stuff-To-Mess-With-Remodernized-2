@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stmwr:smooth_memorystone"
+  },
+  "result": "stmwr:smooth_memorystone_slab"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "stmwr:block/candy_planks",
+    "bottom": "stmwr:block/candy_planks",
+    "top": "stmwr:block/candy_planks",
+    "side": "stmwr:block/candy_planks"
+  },
+  "render_type": "solid"
+}

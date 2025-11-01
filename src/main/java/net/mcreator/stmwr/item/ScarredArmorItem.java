@@ -101,26 +101,4 @@ public abstract class ScarredArmorItem extends ArmorItem {
 			}
 		}
 	}
-
-	public static class Leggings extends ScarredArmorItem {
-		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "stmwr:textures/models/armor/scarred_layer_2.png";
-		}
-	}
-
-	public static class Boots extends ScarredArmorItem {
-		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties());
-		}
-
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "stmwr:textures/models/armor/scarred_layer_1.png";
-		}
-	}
 }

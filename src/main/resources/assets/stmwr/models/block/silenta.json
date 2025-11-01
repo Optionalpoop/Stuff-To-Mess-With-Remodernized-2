@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "stmwr:block/silenta",
+    "particle": "stmwr:block/silenta"
+  },
+  "render_type": "cutout"
+}

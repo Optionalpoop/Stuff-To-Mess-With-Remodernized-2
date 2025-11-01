@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/brimstone",
+    "up": "stmwr:block/brimstone",
+    "north": "stmwr:block/brimstone",
+    "east": "stmwr:block/brimstone",
+    "south": "stmwr:block/brimstone",
+    "west": "stmwr:block/brimstone",
+    "particle": "stmwr:block/brimstone"
+  },
+  "render_type": "solid"
+}
