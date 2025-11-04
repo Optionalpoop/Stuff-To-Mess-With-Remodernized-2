@@ -26,10 +26,12 @@ import net.mcreator.stmwr.block.entity.ManufacturingPlantAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.MagiciansWorkbenchBlockEntity;
 import net.mcreator.stmwr.block.entity.KeyAnvilBlockEntity;
 import net.mcreator.stmwr.block.entity.ItemReseacherAccessPointBlockEntity;
+import net.mcreator.stmwr.block.entity.InfinityForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.ImprovedCellBlockEntity;
 import net.mcreator.stmwr.block.entity.HypercellBlockEntity;
 import net.mcreator.stmwr.block.entity.FrozenForgeBlockEntity;
 import net.mcreator.stmwr.block.entity.ForgeBlockEntity;
+import net.mcreator.stmwr.block.entity.EyeforgeBlockEntity;
 import net.mcreator.stmwr.block.entity.DoomforgeAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.DesignerAccessPointBlockEntity;
 import net.mcreator.stmwr.block.entity.ConsumerBlockEntity;
@@ -67,6 +69,8 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> CELL = register("cell", StmwrModBlocks.CELL, CellBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> IMPROVED_CELL = register("improved_cell", StmwrModBlocks.IMPROVED_CELL, ImprovedCellBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> HYPERCELL = register("hypercell", StmwrModBlocks.HYPERCELL, HypercellBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EYEFORGE = register("eyeforge", StmwrModBlocks.EYEFORGE, EyeforgeBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> INFINITY_FORGE = register("infinity_forge", StmwrModBlocks.INFINITY_FORGE, InfinityForgeBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

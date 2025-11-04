@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/dreamymagiciteore",
+    "up": "stmwr:block/dreamymagiciteore",
+    "north": "stmwr:block/dreamymagiciteore",
+    "east": "stmwr:block/dreamymagiciteore",
+    "south": "stmwr:block/dreamymagiciteore",
+    "west": "stmwr:block/dreamymagiciteore",
+    "particle": "stmwr:block/dreamymagiciteore"
+  },
+  "render_type": "solid"
+}

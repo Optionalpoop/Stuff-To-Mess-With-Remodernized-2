@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:dead_grass"
+    },
+    "title": {
+      "translate": "advancements.a_desolate_wasteland.title"
+    },
+    "description": {
+      "translate": "advancements.a_desolate_wasteland.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_desolate_wasteland_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "stmwr:militaria"
+      }
+    }
+  },
+  "parent": "stmwr:slaying_the_beast"
+}

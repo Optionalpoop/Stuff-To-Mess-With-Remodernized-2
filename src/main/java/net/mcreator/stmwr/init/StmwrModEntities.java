@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.WeaselWormEntity;
 import net.mcreator.stmwr.entity.UndeadSoulEntity;
+import net.mcreator.stmwr.entity.TrumpEntity;
 import net.mcreator.stmwr.entity.TheTimelessEntity;
 import net.mcreator.stmwr.entity.TheMeatyOneEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
@@ -25,29 +26,47 @@ import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
 import net.mcreator.stmwr.entity.SnowshotAmmoEntity;
 import net.mcreator.stmwr.entity.SnowShardAmmoEntity;
+import net.mcreator.stmwr.entity.ShadowManEntity;
+import net.mcreator.stmwr.entity.SatanEntity;
 import net.mcreator.stmwr.entity.PoisonedSkeletonEntity;
 import net.mcreator.stmwr.entity.PoisonDartAmmoEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
+import net.mcreator.stmwr.entity.PeacefulChillGuyEntity;
 import net.mcreator.stmwr.entity.PaperBoyEntity;
+import net.mcreator.stmwr.entity.MinionOfFireEntity;
 import net.mcreator.stmwr.entity.MagicPowderAmmoEntity;
+import net.mcreator.stmwr.entity.LovePelletAmmoEntity;
+import net.mcreator.stmwr.entity.LoveMiteEntity;
 import net.mcreator.stmwr.entity.LightningWizardEntity;
 import net.mcreator.stmwr.entity.LightningCultistEntity;
 import net.mcreator.stmwr.entity.LightningBlastAmmoEntity;
 import net.mcreator.stmwr.entity.LesserWizardEntity;
 import net.mcreator.stmwr.entity.LavambieEntity;
 import net.mcreator.stmwr.entity.IrradiatedEggAmmoEntity;
+import net.mcreator.stmwr.entity.InfinititeGolemEntity;
 import net.mcreator.stmwr.entity.InfectedPigEntity;
 import net.mcreator.stmwr.entity.InfectedCowEntity;
 import net.mcreator.stmwr.entity.InfectedChickenEntity;
+import net.mcreator.stmwr.entity.HugEnjoyerEntity;
 import net.mcreator.stmwr.entity.HordebeastEntity;
+import net.mcreator.stmwr.entity.HerobrineEntity;
+import net.mcreator.stmwr.entity.HappyPigEntity;
+import net.mcreator.stmwr.entity.HappyCowEntity;
+import net.mcreator.stmwr.entity.HappyChickenEntity;
 import net.mcreator.stmwr.entity.HandgunRoundAmmoEntity;
 import net.mcreator.stmwr.entity.GoolingEntity;
 import net.mcreator.stmwr.entity.GoblinEntity;
 import net.mcreator.stmwr.entity.GiantSteveCowEntity;
+import net.mcreator.stmwr.entity.GhostEntity;
 import net.mcreator.stmwr.entity.FrombieEntity;
+import net.mcreator.stmwr.entity.ForceOfFireEntity;
+import net.mcreator.stmwr.entity.ForceOfEmotionEntity;
+import net.mcreator.stmwr.entity.ForceOfDreamsEntity;
+import net.mcreator.stmwr.entity.ForceOfChaosEntity;
 import net.mcreator.stmwr.entity.FirebloodShotEntity;
 import net.mcreator.stmwr.entity.FireSlingerEntityProjectile;
 import net.mcreator.stmwr.entity.FireSlingerEntity;
+import net.mcreator.stmwr.entity.FireGuardianEntity;
 import net.mcreator.stmwr.entity.EmptinessEntity;
 import net.mcreator.stmwr.entity.DreamlingEntity;
 import net.mcreator.stmwr.entity.CrusherEntity;
@@ -179,6 +198,64 @@ public class StmwrModEntities {
 			EntityType.Builder.<EmptinessEntity>of(EmptinessEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EmptinessEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ShadowManEntity>> SHADOW_MAN = register("shadow_man", EntityType.Builder.<ShadowManEntity>of(ShadowManEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(256)
+			.setUpdateInterval(3).setCustomClientFactory(ShadowManEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HappyPigEntity>> HAPPY_PIG = register("happy_pig",
+			EntityType.Builder.<HappyPigEntity>of(HappyPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HappyPigEntity::new)
+
+					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<HappyChickenEntity>> HAPPY_CHICKEN = register("happy_chicken",
+			EntityType.Builder.<HappyChickenEntity>of(HappyChickenEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HappyChickenEntity::new)
+
+					.sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<HappyCowEntity>> HAPPY_COW = register("happy_cow",
+			EntityType.Builder.<HappyCowEntity>of(HappyCowEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HappyCowEntity::new)
+
+					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<PeacefulChillGuyEntity>> PEACEFUL_CHILL_GUY = register("peaceful_chill_guy", EntityType.Builder.<PeacefulChillGuyEntity>of(PeacefulChillGuyEntity::new, MobCategory.AMBIENT)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PeacefulChillGuyEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LovePelletAmmoEntity>> LOVE_PELLET_AMMO = register("love_pellet_ammo",
+			EntityType.Builder.<LovePelletAmmoEntity>of(LovePelletAmmoEntity::new, MobCategory.MISC).setCustomClientFactory(LovePelletAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<HugEnjoyerEntity>> HUG_ENJOYER = register("hug_enjoyer",
+			EntityType.Builder.<HugEnjoyerEntity>of(HugEnjoyerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HugEnjoyerEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GhostEntity>> GHOST = register("ghost",
+			EntityType.Builder.<GhostEntity>of(GhostEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhostEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LoveMiteEntity>> LOVE_MITE = register("love_mite",
+			EntityType.Builder.<LoveMiteEntity>of(LoveMiteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LoveMiteEntity::new)
+
+					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<MinionOfFireEntity>> MINION_OF_FIRE = register("minion_of_fire", EntityType.Builder.<MinionOfFireEntity>of(MinionOfFireEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MinionOfFireEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FireGuardianEntity>> FIRE_GUARDIAN = register("fire_guardian", EntityType.Builder.<FireGuardianEntity>of(FireGuardianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireGuardianEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ForceOfEmotionEntity>> FORCE_OF_EMOTION = register("force_of_emotion",
+			EntityType.Builder.<ForceOfEmotionEntity>of(ForceOfEmotionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForceOfEmotionEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ForceOfChaosEntity>> FORCE_OF_CHAOS = register("force_of_chaos", EntityType.Builder.<ForceOfChaosEntity>of(ForceOfChaosEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForceOfChaosEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ForceOfDreamsEntity>> FORCE_OF_DREAMS = register("force_of_dreams",
+			EntityType.Builder.<ForceOfDreamsEntity>of(ForceOfDreamsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForceOfDreamsEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ForceOfFireEntity>> FORCE_OF_FIRE = register("force_of_fire", EntityType.Builder.<ForceOfFireEntity>of(ForceOfFireEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForceOfFireEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SatanEntity>> SATAN = register("satan",
+			EntityType.Builder.<SatanEntity>of(SatanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SatanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TrumpEntity>> TRUMP = register("trump",
+			EntityType.Builder.<TrumpEntity>of(TrumpEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TrumpEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<InfinititeGolemEntity>> INFINITITE_GOLEM = register("infinitite_golem", EntityType.Builder.<InfinititeGolemEntity>of(InfinititeGolemEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(InfinititeGolemEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HerobrineEntity>> HEROBRINE = register("herobrine", EntityType.Builder.<HerobrineEntity>of(HerobrineEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(512)
+			.setUpdateInterval(3).setCustomClientFactory(HerobrineEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -218,6 +295,24 @@ public class StmwrModEntities {
 			PaperBoyEntity.init();
 			TheMeatyOneEntity.init();
 			EmptinessEntity.init();
+			ShadowManEntity.init();
+			HappyPigEntity.init();
+			HappyChickenEntity.init();
+			HappyCowEntity.init();
+			PeacefulChillGuyEntity.init();
+			HugEnjoyerEntity.init();
+			GhostEntity.init();
+			LoveMiteEntity.init();
+			MinionOfFireEntity.init();
+			FireGuardianEntity.init();
+			ForceOfEmotionEntity.init();
+			ForceOfChaosEntity.init();
+			ForceOfDreamsEntity.init();
+			ForceOfFireEntity.init();
+			SatanEntity.init();
+			TrumpEntity.init();
+			InfinititeGolemEntity.init();
+			HerobrineEntity.init();
 		});
 	}
 
@@ -254,5 +349,23 @@ public class StmwrModEntities {
 		event.put(PAPER_BOY.get(), PaperBoyEntity.createAttributes().build());
 		event.put(THE_MEATY_ONE.get(), TheMeatyOneEntity.createAttributes().build());
 		event.put(EMPTINESS.get(), EmptinessEntity.createAttributes().build());
+		event.put(SHADOW_MAN.get(), ShadowManEntity.createAttributes().build());
+		event.put(HAPPY_PIG.get(), HappyPigEntity.createAttributes().build());
+		event.put(HAPPY_CHICKEN.get(), HappyChickenEntity.createAttributes().build());
+		event.put(HAPPY_COW.get(), HappyCowEntity.createAttributes().build());
+		event.put(PEACEFUL_CHILL_GUY.get(), PeacefulChillGuyEntity.createAttributes().build());
+		event.put(HUG_ENJOYER.get(), HugEnjoyerEntity.createAttributes().build());
+		event.put(GHOST.get(), GhostEntity.createAttributes().build());
+		event.put(LOVE_MITE.get(), LoveMiteEntity.createAttributes().build());
+		event.put(MINION_OF_FIRE.get(), MinionOfFireEntity.createAttributes().build());
+		event.put(FIRE_GUARDIAN.get(), FireGuardianEntity.createAttributes().build());
+		event.put(FORCE_OF_EMOTION.get(), ForceOfEmotionEntity.createAttributes().build());
+		event.put(FORCE_OF_CHAOS.get(), ForceOfChaosEntity.createAttributes().build());
+		event.put(FORCE_OF_DREAMS.get(), ForceOfDreamsEntity.createAttributes().build());
+		event.put(FORCE_OF_FIRE.get(), ForceOfFireEntity.createAttributes().build());
+		event.put(SATAN.get(), SatanEntity.createAttributes().build());
+		event.put(TRUMP.get(), TrumpEntity.createAttributes().build());
+		event.put(INFINITITE_GOLEM.get(), InfinititeGolemEntity.createAttributes().build());
+		event.put(HEROBRINE.get(), HerobrineEntity.createAttributes().build());
 	}
 }

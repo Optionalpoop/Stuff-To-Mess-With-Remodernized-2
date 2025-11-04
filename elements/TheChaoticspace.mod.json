@@ -80,21 +80,21 @@
       "FrozenTopLayer"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
     "spawnWoodlandMansion": false,
-    "spawnJungleTemple": false,
-    "spawnDesertPyramid": false,
-    "spawnSwampHut": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnSwampHut": true,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
-    "spawnShipwreck": false,
-    "spawnShipwreckBeached": false,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
-    "spawnNetherBridge": false,
+    "spawnNetherBridge": true,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
@@ -106,7 +106,16 @@
         },
         "minGroup": 1,
         "maxGroup": 4,
-        "weight": 100,
+        "weight": 90,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:ShadowMan"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
         "spawnType": "ambient"
       }
     ]

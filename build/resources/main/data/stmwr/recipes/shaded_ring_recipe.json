@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:pure_soul_shard"
+    },
+    "b": {
+      "item": "stmwr:gold_rod"
+    },
+    "c": {
+      "item": "stmwr:orb_of_horror"
+    }
+  },
+  "result": {
+    "item": "stmwr:shaded_ring",
+    "count": 1
+  }
+}

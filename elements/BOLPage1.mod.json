@@ -111,6 +111,36 @@
           "x": 131,
           "y": 88
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sacrificial_knife",
+          "text": "Sacrificial Knife",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToSacrificalKnifeRecipe"
+          },
+          "width": 114,
+          "height": 20,
+          "x": 131,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_greater_creation_orb",
+          "text": "Greater Creation Orb",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToGreaterCreationOrbRecipe"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 131,
+          "y": 130
+        }
       }
     ],
     "gridSettings": {

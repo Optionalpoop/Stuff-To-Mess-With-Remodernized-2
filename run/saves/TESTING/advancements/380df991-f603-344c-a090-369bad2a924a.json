@@ -9157,5 +9157,118 @@
     },
     "done": true
   },
+  "stmwr:welcome_to_stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "welcome_to_stuff_to_mess_with_remodernized_0": "2025-11-03 20:14:47 -0500"
+    },
+    "done": true
+  },
+  "stmwr:relax": {
+    "criteria": {
+      "relax_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:slaying_the_beast": {
+    "criteria": {
+      "slaying_the_beast_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:your_first_trial": {
+    "criteria": {
+      "your_first_trial_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:you_win": {
+    "criteria": {
+      "you_win_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:magical": {
+    "criteria": {
+      "magical_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:emerald_armor": {
+    "criteria": {
+      "emerald_armor_0": "2025-11-03 20:29:18 -0500",
+      "emerald_armor_1": "2025-11-03 20:29:18 -0500",
+      "emerald_armor_2": "2025-11-03 20:29:18 -0500",
+      "emerald_armor_3": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:waystones_but_worse": {
+    "criteria": {
+      "waystones_but_worse_0": "2025-11-03 20:29:18 -0500",
+      "waystones_but_worse_1": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:wealthy": {
+    "criteria": {
+      "wealthy_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:saving_time": {
+    "criteria": {
+      "saving_time_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:forging_ahead": {
+    "criteria": {
+      "forging_ahead_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:a_godly_material": {
+    "criteria": {
+      "a_godly_material_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:unbeatable": {
+    "criteria": {
+      "unbeatable_3": "2025-11-03 20:29:18 -0500",
+      "unbeatable_2": "2025-11-03 20:29:18 -0500",
+      "unbeatable_4": "2025-11-03 20:29:18 -0500",
+      "unbeatable_1": "2025-11-03 20:29:18 -0500",
+      "unbeatable_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:avatar": {
+    "criteria": {
+      "avatar_3": "2025-11-03 20:29:18 -0500",
+      "avatar_2": "2025-11-03 20:29:18 -0500",
+      "avatar_1": "2025-11-03 20:29:18 -0500",
+      "avatar_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:a_desolate_wasteland": {
+    "criteria": {
+      "a_desolate_wasteland_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:efficient_storage": {
+    "criteria": {
+      "efficient_storage_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
+  "stmwr:pika_chuuu": {
+    "criteria": {
+      "pika_chuuu_0": "2025-11-03 20:29:18 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

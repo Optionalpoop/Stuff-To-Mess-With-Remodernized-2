@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:infinitite_staff",
     "stmwr:skeletal_pickaxe",
     "stmwr:firewood_pickaxe",
     "stmwr:copper_pickaxe",

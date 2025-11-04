@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/infinityforgebottom",
+    "up": "stmwr:block/infinityforgetop",
+    "north": "stmwr:block/infinityforgefront",
+    "east": "stmwr:block/infinityforgeside",
+    "south": "stmwr:block/infinityforgeside",
+    "west": "stmwr:block/infinityforgeside",
+    "particle": "stmwr:block/infinityforgebottom"
+  },
+  "render_type": "solid"
+}

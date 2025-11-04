@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "PikaCHUUU",
+    "achievementDescription": "Get into a fight to a pikachu...",
+    "achievementIcon": {
+      "value": "CUSTOM:Pikachu.spawn_egg"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:YourFirstTrial"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"entity_hurt_player\"><field name=\"sourceentity\">CUSTOM:Pikachu</field><field name=\"blocked\">FALSE</field><value name=\"minDamage\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"maxDamage\"><block type=\"math_number\"><field name=\"NUM\">99999</field></block></value></block></next></block></xml>"
+  }
+}

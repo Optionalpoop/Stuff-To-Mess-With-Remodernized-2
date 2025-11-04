@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_chaoticspace",
+  "features": "stmwr:big_redstone_ore",
+  "step": "underground_ores"
+}

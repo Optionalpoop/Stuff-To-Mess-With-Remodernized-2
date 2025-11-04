@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class CheeseWheelItem extends Item {
 	public CheeseWheelItem() {
-		super(new Item.Properties().stacksTo(8).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f).build()));
+		super(new Item.Properties().stacksTo(8).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(10).saturationMod(0.8f).build()));
 	}
 }

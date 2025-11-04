@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:cold_grass"
+    },
+    "title": {
+      "translate": "advancements.your_first_trial.title"
+    },
+    "description": {
+      "translate": "advancements.your_first_trial.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "your_first_trial_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "stmwr:steve_cow_land"
+      }
+    }
+  },
+  "parent": "stmwr:a_godly_material"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magical_casing"
+    },
+    "b": {
+      "item": "stmwr:greater_creation_orb"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "d": {
+      "tag": "minecraft:anvil"
+    },
+    "e": {
+      "item": "stmwr:shard_of_pain"
+    }
+  },
+  "result": {
+    "item": "stmwr:eyeforge",
+    "count": 1
+  }
+}

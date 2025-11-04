@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "stmwr:eyeforge",
+    "stmwr:stuffed_storum_ore",
+    "stmwr:big_redstone_ore",
+    "stmwr:chaotic_ore",
+    "stmwr:dreamstone_block",
+    "stmwr:dreamstone_ore",
+    "stmwr:dreamy_magicite_ore",
     "stmwr:cell_casing",
     "stmwr:improved_cell",
     "stmwr:kitchen",

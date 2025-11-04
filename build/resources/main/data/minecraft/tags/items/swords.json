@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:infinitite_staff",
+    "stmwr:sacrificial_knife",
+    "stmwr:sword_of_labubu",
     "stmwr:meat_knife",
     "stmwr:skeletal_sword",
     "stmwr:firewood_sword",

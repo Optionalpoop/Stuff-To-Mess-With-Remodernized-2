@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/gatewaybrick",
+    "up": "stmwr:block/gatewaybrick",
+    "north": "stmwr:block/gatewaybrick",
+    "east": "stmwr:block/gatewaybrick",
+    "south": "stmwr:block/gatewaybrick",
+    "west": "stmwr:block/gatewaybrick",
+    "particle": "stmwr:block/gatewaybrick"
+  },
+  "render_type": "solid"
+}

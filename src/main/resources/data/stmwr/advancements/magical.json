@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:wizard_world"
+    },
+    "title": {
+      "translate": "advancements.magical.title"
+    },
+    "description": {
+      "translate": "advancements.magical.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magical_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "stmwr:wizard_world"
+      }
+    }
+  },
+  "parent": "stmwr:saving_time"
+}

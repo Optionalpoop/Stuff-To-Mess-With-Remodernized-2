@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/bigredstoneore",
+    "up": "stmwr:block/bigredstoneore",
+    "north": "stmwr:block/bigredstoneore",
+    "east": "stmwr:block/bigredstoneore",
+    "south": "stmwr:block/bigredstoneore",
+    "west": "stmwr:block/bigredstoneore",
+    "particle": "stmwr:block/bigredstoneore"
+  },
+  "render_type": "solid"
+}

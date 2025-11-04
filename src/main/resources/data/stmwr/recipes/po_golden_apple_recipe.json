@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:love_egg"
+    },
+    {
+      "item": "stmwr:portable_oven"
+    }
+  ],
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 1
+  }
+}

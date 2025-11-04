@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:gateway_brick",
+    "stmwr:heart_crystal",
     "stmwr:fire_gold",
     "stmwr:fire_iron",
     "stmwr:smooth_memorystone_slab",

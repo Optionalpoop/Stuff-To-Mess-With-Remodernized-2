@@ -13,7 +13,8 @@
   "biomes": [
     "stmwr:frozen_forest",
     "stmwr:frosted_peaks",
-    "stmwr:firewood_forest"
+    "stmwr:firewood_forest",
+    "stmwr:the_chaoticspace"
   ],
   "use_expansion_hack": false
 }

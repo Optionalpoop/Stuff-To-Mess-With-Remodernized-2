@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:LoveEgg"
+    },
+    "smokingReturnStack": {
+      "value": "Items.GOLDEN_APPLE#0"
+    },
+    "name": "love_egg_smoking_recipe",
+    "namespace": "mod"
+  }
+}

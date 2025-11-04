@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:the_tower_of_fire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 10,
+    "salt": 1276867769
+  }
+}

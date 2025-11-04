@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_chaoticspace",
+  "features": "stmwr:stuffed_storum_ore",
+  "step": "underground_ores"
+}

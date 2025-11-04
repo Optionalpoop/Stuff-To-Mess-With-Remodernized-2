@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Eye"
+      },
+      {
+        "value": "CUSTOM:HeartCrystalShard"
+      },
+      {
+        "value": "CUSTOM:Eye"
+      },
+      {
+        "value": "CUSTOM:ChaosOrb"
+      },
+      {
+        "value": "CUSTOM:GreaterCreationOrb"
+      },
+      {
+        "value": "CUSTOM:Sapphire"
+      },
+      {
+        "value": "CUSTOM:Eye"
+      },
+      {
+        "value": "CUSTOM:Dreamstone"
+      },
+      {
+        "value": "CUSTOM:Eye"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WizardsEye"
+    },
+    "name": "wizards_eye_recipe",
+    "namespace": "mod"
+  }
+}

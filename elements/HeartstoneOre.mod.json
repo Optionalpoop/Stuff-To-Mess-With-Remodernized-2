@@ -130,6 +130,9 @@
     "blocksToReplace": [
       {
         "value": "Blocks.DEEPSLATE"
+      },
+      {
+        "value": "Blocks.STONE#0"
       }
     ],
     "generationShape": "UNIFORM",

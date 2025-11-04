@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:vortex_manipulator"
+    },
+    "title": {
+      "translate": "advancements.waystones_but_worse.title"
+    },
+    "description": {
+      "translate": "advancements.waystones_but_worse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "waystones_but_worse_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:vortex_manipulator"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "waystones_but_worse_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:warp_brick"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:a_desolate_wasteland"
+}

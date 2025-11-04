@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class TacoItem extends Item {
 	public TacoItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(8).saturationMod(8f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.7f).build()));
 	}
 }

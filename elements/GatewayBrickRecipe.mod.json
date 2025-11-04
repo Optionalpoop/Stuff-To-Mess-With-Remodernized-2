@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HeartCrystalShard"
+      },
+      {
+        "value": "CUSTOM:Dreamstone"
+      },
+      {
+        "value": "CUSTOM:HeartCrystalShard"
+      },
+      {
+        "value": "CUSTOM:ChaosOrb"
+      },
+      {
+        "value": "CUSTOM:TrialBrick"
+      },
+      {
+        "value": "CUSTOM:ChaosOrb"
+      },
+      {
+        "value": "CUSTOM:Sapphire"
+      },
+      {
+        "value": "CUSTOM:Dreamstone"
+      },
+      {
+        "value": "CUSTOM:Sapphire"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GatewayBrick"
+    },
+    "name": "gateway_brick_recipe",
+    "namespace": "mod"
+  }
+}

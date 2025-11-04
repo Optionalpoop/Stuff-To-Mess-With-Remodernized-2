@@ -12,7 +12,7 @@ import net.mcreator.stmwr.procedures.SpeedBoostProcedure;
 
 public class ChocolateItem extends Item {
 	public ChocolateItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(20f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.5f).alwaysEat().build()));
 	}
 
 	@Override

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/stuffedstorumore",
+    "up": "stmwr:block/stuffedstorumore",
+    "north": "stmwr:block/stuffedstorumore",
+    "east": "stmwr:block/stuffedstorumore",
+    "south": "stmwr:block/stuffedstorumore",
+    "west": "stmwr:block/stuffedstorumore",
+    "particle": "stmwr:block/stuffedstorumore"
+  },
+  "render_type": "solid"
+}

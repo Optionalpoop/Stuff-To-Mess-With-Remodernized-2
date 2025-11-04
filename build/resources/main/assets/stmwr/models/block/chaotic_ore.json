@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/chaoticore",
+    "up": "stmwr:block/chaoticore",
+    "north": "stmwr:block/chaoticore",
+    "east": "stmwr:block/chaoticore",
+    "south": "stmwr:block/chaoticore",
+    "west": "stmwr:block/chaoticore",
+    "particle": "stmwr:block/chaoticore"
+  },
+  "render_type": "solid"
+}

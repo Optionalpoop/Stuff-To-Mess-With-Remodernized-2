@@ -17,6 +17,17 @@
         "state": {
           "Name": "stmwr:heartstone_ore"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "stmwr:heartstone_ore"
+        }
       }
     ]
   }

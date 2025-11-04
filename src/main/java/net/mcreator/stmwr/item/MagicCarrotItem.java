@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class MagicCarrotItem extends Item {
 	public MagicCarrotItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(10).saturationMod(2f).build()));
 	}
 }

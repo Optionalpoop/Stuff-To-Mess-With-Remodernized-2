@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:heart_of_the_steve_cow"
+    },
+    "title": {
+      "translate": "advancements.slaying_the_beast.title"
+    },
+    "description": {
+      "translate": "advancements.slaying_the_beast.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slaying_the_beast_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:heart_of_the_steve_cow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:your_first_trial"
+}

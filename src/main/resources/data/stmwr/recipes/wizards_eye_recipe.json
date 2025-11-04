@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:eye"
+    },
+    "b": {
+      "item": "stmwr:heart_crystal_shard"
+    },
+    "c": {
+      "item": "stmwr:chaos_orb"
+    },
+    "d": {
+      "item": "stmwr:greater_creation_orb"
+    },
+    "e": {
+      "item": "stmwr:sapphire"
+    },
+    "f": {
+      "item": "stmwr:dreamstone"
+    }
+  },
+  "result": {
+    "item": "stmwr:wizards_eye",
+    "count": 1
+  }
+}

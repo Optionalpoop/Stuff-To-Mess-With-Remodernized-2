@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:dreamstone"
+    },
+    "b": {
+      "item": "stmwr:magicite_handle"
+    }
+  },
+  "result": {
+    "item": "stmwr:homestone_staff",
+    "count": 1
+  }
+}

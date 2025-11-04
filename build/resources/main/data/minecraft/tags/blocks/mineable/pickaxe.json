@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+    "stmwr:infinity_forge",
+    "stmwr:eyeforge",
+    "stmwr:gateway_brick",
+    "stmwr:heart_crystal",
+    "stmwr:stuffed_storum_ore",
+    "stmwr:big_redstone_ore",
+    "stmwr:chaotic_ore",
+    "stmwr:dreamstone_block",
+    "stmwr:dreamstone_ore",
+    "stmwr:dreamy_magicite_ore",
     "stmwr:fire_gold",
     "stmwr:fire_iron",
     "stmwr:brimstone",

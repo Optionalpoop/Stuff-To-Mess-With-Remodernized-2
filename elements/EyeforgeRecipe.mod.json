@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:GreaterCreationOrb"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Blocks.ANVIL"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:ShardOfPain"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Eyeforge"
+    },
+    "name": "eyeforge_recipe",
+    "namespace": "mod"
+  }
+}

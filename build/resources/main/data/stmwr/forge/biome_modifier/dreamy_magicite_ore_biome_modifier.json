@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:the_wishingspace",
+  "features": "stmwr:dreamy_magicite_ore",
+  "step": "underground_ores"
+}

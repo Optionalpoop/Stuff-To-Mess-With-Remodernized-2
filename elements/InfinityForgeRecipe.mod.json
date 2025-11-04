@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:HerobrinesSoul"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      },
+      {
+        "value": "CUSTOM:MagicalCasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:InfinityForge"
+    },
+    "name": "infinity_forge_recipe",
+    "namespace": "mod"
+  }
+}

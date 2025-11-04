@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:heart_crystal_shard"
+    },
+    "b": {
+      "item": "stmwr:dreamstone"
+    },
+    "c": {
+      "item": "stmwr:chaos_orb"
+    },
+    "d": {
+      "item": "stmwr:trial_brick"
+    },
+    "e": {
+      "item": "stmwr:sapphire"
+    }
+  },
+  "result": {
+    "item": "stmwr:gateway_brick",
+    "count": 1
+  }
+}

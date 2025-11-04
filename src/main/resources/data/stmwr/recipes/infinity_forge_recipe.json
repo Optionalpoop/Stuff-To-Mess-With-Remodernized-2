@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magical_casing"
+    },
+    "b": {
+      "item": "stmwr:herobrines_soul"
+    }
+  },
+  "result": {
+    "item": "stmwr:infinity_forge",
+    "count": 1
+  }
+}

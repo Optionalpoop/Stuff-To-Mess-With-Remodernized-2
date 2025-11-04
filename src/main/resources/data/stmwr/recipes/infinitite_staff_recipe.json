@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:infinitite_ingot"
+    },
+    "b": {
+      "item": "stmwr:magicite_handle"
+    }
+  },
+  "result": {
+    "item": "stmwr:infinitite_staff",
+    "count": 1
+  }
+}

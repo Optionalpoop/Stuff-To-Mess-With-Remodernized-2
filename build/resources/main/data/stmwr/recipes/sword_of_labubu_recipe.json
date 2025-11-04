@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:blade_of_labubu"
+    },
+    "b": {
+      "item": "stmwr:hilt_of_labubu"
+    }
+  },
+  "result": {
+    "item": "stmwr:sword_of_labubu",
+    "count": 1
+  }
+}

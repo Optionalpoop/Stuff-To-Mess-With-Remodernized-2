@@ -12,6 +12,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.stmwr.world.inventory.BOLPage1Menu;
+import net.mcreator.stmwr.procedures.ToSacrificalKnifeRecipeProcedure;
+import net.mcreator.stmwr.procedures.ToGreaterCreationOrbRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToEyeOfTimeRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToEyeOfTheSteveCowRecipeProcedure;
 import net.mcreator.stmwr.procedures.ToCreationOrbRecipeProcedure;
@@ -85,6 +87,14 @@ public class BOLPage1ButtonMessage {
 		if (buttonID == 5) {
 
 			ToEyeOfTimeRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			ToSacrificalKnifeRecipeProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			ToGreaterCreationOrbRecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

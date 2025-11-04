@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/heartcrystal",
+    "up": "stmwr:block/heartcrystal",
+    "north": "stmwr:block/heartcrystal",
+    "east": "stmwr:block/heartcrystal",
+    "south": "stmwr:block/heartcrystal",
+    "west": "stmwr:block/heartcrystal",
+    "particle": "stmwr:block/heartcrystal"
+  },
+  "render_type": "solid"
+}

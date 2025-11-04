@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:the_lovespace",
+  "spawners": {
+    "type": "stmwr:happy_cow",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

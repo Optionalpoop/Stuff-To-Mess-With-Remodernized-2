@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "stmwr:block/parallel_universe_portal_ew"
+    },
+    "axis=x": {
+      "model": "stmwr:block/parallel_universe_portal_ns"
+    }
+  }
+}

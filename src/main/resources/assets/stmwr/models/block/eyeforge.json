@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/eyeforgebottom",
+    "up": "stmwr:block/eyeforgetop",
+    "north": "stmwr:block/eyeforgefront",
+    "east": "stmwr:block/eyeforgeside",
+    "south": "stmwr:block/eyeforgeside",
+    "west": "stmwr:block/eyeforgeside",
+    "particle": "stmwr:block/eyeforgebottom"
+  },
+  "render_type": "solid"
+}

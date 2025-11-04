@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class TortillaItem extends Item {
 	public TortillaItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(2f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.4f).build()));
 	}
 }

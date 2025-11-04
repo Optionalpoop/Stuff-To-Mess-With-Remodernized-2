@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:the_maze_of_the_past",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 5,
+    "salt": 1359665624
+  }
+}

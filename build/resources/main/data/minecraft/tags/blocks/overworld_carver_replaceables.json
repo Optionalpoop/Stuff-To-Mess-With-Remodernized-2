@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:stone",
     "stmwr:firestone",
     "stmwr:sp_ec_ia_ls_to_ne",
     "minecraft:black_concrete",
