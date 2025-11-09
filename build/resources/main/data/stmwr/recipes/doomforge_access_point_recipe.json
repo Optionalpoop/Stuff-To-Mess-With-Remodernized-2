@@ -4,7 +4,7 @@
   "pattern": [
     "aba",
     "cdc",
-    "ebe"
+    "bbb"
   ],
   "key": {
     "a": {
@@ -17,10 +17,7 @@
       "item": "stmwr:uranium_dust"
     },
     "d": {
-      "item": "stmwr:forge"
-    },
-    "e": {
-      "item": "stmwr:ultrite"
+      "item": "minecraft:furnace"
     }
   },
   "result": {

@@ -210,7 +210,7 @@ public class HerobrineEntity extends Monster {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
 		builder = builder.add(Attributes.MAX_HEALTH, 1024);
-		builder = builder.add(Attributes.ARMOR, 100);
+		builder = builder.add(Attributes.ARMOR, 20);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 200);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 128);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 10);

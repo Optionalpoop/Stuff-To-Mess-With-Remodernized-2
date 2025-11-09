@@ -24,19 +24,19 @@
         "value": "CUSTOM:UraniumDust"
       },
       {
-        "value": "CUSTOM:Forge"
+        "value": "Blocks.FURNACE"
       },
       {
         "value": "CUSTOM:UraniumDust"
       },
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "CUSTOM:DeadironCasing"
       },
       {
         "value": "CUSTOM:DeadironCasing"
       },
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "CUSTOM:DeadironCasing"
       }
     ],
     "recipeReturnStack": {

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeadironSpring"
+      },
+      {
+        "value": "CUSTOM:DeadironPlate"
+      },
+      {
+        "value": "CUSTOM:DeadironSpring"
+      },
+      {
+        "value": "CUSTOM:DeadironPlate"
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:DeadironPlate"
+      },
+      {
+        "value": "CUSTOM:DeadironSpring"
+      },
+      {
+        "value": "CUSTOM:DeadironPlate"
+      },
+      {
+        "value": "CUSTOM:DeadironSpring"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ItemReseacherAccessPoint"
+    },
+    "name": "item_researcher_recipe",
+    "namespace": "mod"
+  }
+}

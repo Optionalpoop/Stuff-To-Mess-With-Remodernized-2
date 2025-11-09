@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ucm_plastic"
+    },
+    "b": {
+      "item": "stmwr:magical_casing"
+    },
+    "c": {
+      "item": "stmwr:magicians_soul"
+    }
+  },
+  "result": {
+    "item": "stmwr:soul_manipulator_access_point",
+    "count": 1
+  }
+}

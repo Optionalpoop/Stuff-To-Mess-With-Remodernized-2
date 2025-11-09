@@ -61,6 +61,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.FIREWOOD_SAPLING.get().asItem());
 				tabData.accept(StmwrModBlocks.APPLEVINE.get().asItem());
 				tabData.accept(StmwrModItems.MAGIC_APPLE.get());
+				tabData.accept(StmwrModItems.ZOOM_APPLE.get());
 				tabData.accept(StmwrModItems.BOING_APPLE.get());
 				tabData.accept(StmwrModItems.INFINIBOING_APPLE.get());
 				tabData.accept(StmwrModItems.HEALING_APPLE.get());
@@ -636,7 +637,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.SPEEDSTONE.get().asItem());
 				tabData.accept(StmwrModBlocks.DUPESTONE.get().asItem());
 				tabData.accept(StmwrModItems.EMPTY_TRIAL_KEY.get());
-				tabData.accept(StmwrModItems.ZOOM_APPLE.get());
 				tabData.accept(StmwrModItems.IRON_SPIKE.get());
 				tabData.accept(StmwrModItems.EMERALD_FORGING_HAMMER.get());
 				tabData.accept(StmwrModItems.TOTEM_BASE.get());

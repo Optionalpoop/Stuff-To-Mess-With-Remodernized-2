@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:uranium_fuel_rod"
+    },
+    "b": {
+      "item": "minecraft:furnace"
+    },
+    "c": {
+      "item": "stmwr:deadiron_casing"
+    }
+  },
+  "result": {
+    "item": "stmwr:manufacturing_plant_access_point",
+    "count": 1
+  }
+}

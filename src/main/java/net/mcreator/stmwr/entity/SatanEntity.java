@@ -155,7 +155,7 @@ public class SatanEntity extends Monster implements RangedAttackMob {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 1000);
-		builder = builder.add(Attributes.ARMOR, 100);
+		builder = builder.add(Attributes.ARMOR, 20);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 80);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;

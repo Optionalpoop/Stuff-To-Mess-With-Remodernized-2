@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:deadiron_cog"
+    },
+    "b": {
+      "item": "stmwr:deadiron_plate"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "stmwr:designer_access_point",
+    "count": 1
+  }
+}

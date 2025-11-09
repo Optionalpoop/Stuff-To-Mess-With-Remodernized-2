@@ -131,15 +131,15 @@ public class StmwrModEntities {
 	public static final RegistryObject<EntityType<InfectedChickenEntity>> INFECTED_CHICKEN = register("infected_chicken", EntityType.Builder.<InfectedChickenEntity>of(InfectedChickenEntity::new, MobCategory.CREATURE)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(InfectedChickenEntity::new).fireImmune().sized(0.4f, 0.7f));
 	public static final RegistryObject<EntityType<GoolingEntity>> GOOLING = register("gooling",
-			EntityType.Builder.<GoolingEntity>of(GoolingEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GoolingEntity::new)
+			EntityType.Builder.<GoolingEntity>of(GoolingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GoolingEntity::new)
 
 					.sized(0.4f, 0.3f));
 	public static final RegistryObject<EntityType<SurvivorEntity>> SURVIVOR = register("survivor",
-			EntityType.Builder.<SurvivorEntity>of(SurvivorEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(SurvivorEntity::new)
+			EntityType.Builder.<SurvivorEntity>of(SurvivorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(SurvivorEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SoldierEntity>> SOLDIER = register("soldier",
-			EntityType.Builder.<SoldierEntity>of(SoldierEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(SoldierEntity::new).fireImmune().sized(0.6f, 1.8f));
+			EntityType.Builder.<SoldierEntity>of(SoldierEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(SoldierEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HandgunRoundAmmoEntity>> HANDGUN_ROUND_AMMO = register("handgun_round_ammo", EntityType.Builder.<HandgunRoundAmmoEntity>of(HandgunRoundAmmoEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(HandgunRoundAmmoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<IrradiatedEggAmmoEntity>> IRRADIATED_EGG_AMMO = register("irradiated_egg_ammo", EntityType.Builder.<IrradiatedEggAmmoEntity>of(IrradiatedEggAmmoEntity::new, MobCategory.MISC)

@@ -1,0 +1,27 @@
+{
+  "stmwr:welcome_to_stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "welcome_to_stuff_to_mess_with_remodernized_0": "2025-11-09 17:36:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-09 17:36:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2025-11-09 17:36:12 -0500"
+    },
+    "done": false
+  },
+  "stmwr:a_desolate_wasteland": {
+    "criteria": {
+      "a_desolate_wasteland_0": "2025-11-09 17:40:38 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
